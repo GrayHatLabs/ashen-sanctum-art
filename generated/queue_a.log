@@ -1,0 +1,14 @@
+skeleton skeleton walking, rattling bones, sword and shield raised now ['east', 'south', 'south-east']
+skeleton skeleton walking, rattling bones, sword and shield raised now ['east', 'north-east', 'south', 'south-east']
+skeleton skeleton walking, rattling bones, sword and shield raised now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched skeleton
+done skeleton skeleton walking, rattling bones, sword and shield raised ['east', 'north', 'north-east', 'south', 'south-east']
+requested skeleton skeleton swinging its rusty sword in a fast slash ['south', 'south-east', 'east', 'north-east', 'north'] jobs ['9de4a123-2093-42e4-9e23-e0dab8d5d801', 'd3ad3bc1-9564-40bc-aeac-5df55857fb46', '4013cbd3-45b0-41c7-a0ad-d99b84bc4af1']
+skeleton skeleton swinging its rusty sword in a fast slash now ['south']
+skeleton skeleton swinging its rusty sword in a fast slash now ['south', 'south-east']
+skeleton skeleton swinging its rusty sword in a fast slash now ['east', 'south', 'south-east']
+requested skeleton skeleton swinging its rusty sword in a fast slash ['north-east', 'north'] jobs ['f223d478-0b20-4575-a538-60f0ec80acc7', '53c0e242-7174-4d94-bb6e-1c734886d1a7']
+skeleton skeleton swinging its rusty sword in a fast slash now ['east', 'north-east', 'south', 'south-east']
+skeleton skeleton swinging its rusty sword in a fast slash now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched skeleton
+done skeleton skeleton swinging its rusty sword in a fast slash ['east', 'north', 'north-east', 'south', 'south-east']

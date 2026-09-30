@@ -1,0 +1,126 @@
+{
+  "chars": [
+    {
+      "name": "mage",
+      "file": "mage.png",
+      "cell": [
+        68,
+        70
+      ],
+      "anchor": [
+        23,
+        53
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 10
+        },
+        {
+          "name": "cast",
+          "row": 16,
+          "frames": 6,
+          "fps": 16
+        }
+      ]
+    },
+    {
+      "name": "zombie",
+      "file": "zombie.png",
+      "cell": [
+        44,
+        50
+      ],
+      "anchor": [
+        22,
+        44
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 12
+        }
+      ]
+    },
+    {
+      "name": "skeleton",
+      "file": "skeleton.png",
+      "cell": [
+        51,
+        51
+      ],
+      "anchor": [
+        26,
+        46
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 10
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
+        }
+      ]
+    }
+  ],
+  "tiles": [
+    {
+      "name": "floor_stone1",
+      "file": "floor_stone1.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "floor_stone2",
+      "file": "floor_stone2.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "wall",
+      "file": "wall_stone.png",
+      "anchor": [
+        16,
+        56
+      ]
+    }
+  ]
+}

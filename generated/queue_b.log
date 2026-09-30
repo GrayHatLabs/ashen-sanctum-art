@@ -1,0 +1,8 @@
+requested mage casting a fireball, thrusting the staff forward with one hand ['south-east', 'east', 'north-east', 'north'] jobs ['c424a955-f996-4c0a-832d-3f4cbed8de25', '626e0ed6-2d85-4d74-b007-dcbd0c02eb64', 'e58821cf-02b0-4201-b6ff-d0c89659f857']
+mage casting a fireball, thrusting the staff forward with one hand now ['south', 'south-east']
+mage casting a fireball, thrusting the staff forward with one hand now ['east', 'south', 'south-east']
+mage casting a fireball, thrusting the staff forward with one hand now ['east', 'north-east', 'south', 'south-east']
+requested mage casting a fireball, thrusting the staff forward with one hand ['north'] jobs ['0d676926-2663-4b32-9ced-380928f5085c']
+mage casting a fireball, thrusting the staff forward with one hand now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched mage
+done mage casting a fireball, thrusting the staff forward with one hand ['east', 'north', 'north-east', 'south', 'south-east']

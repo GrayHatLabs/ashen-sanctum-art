@@ -1,0 +1,9 @@
+requested zombie zombie clawing attack, lunging and swiping both arms ['south', 'south-east', 'east', 'north-east', 'north'] jobs ['a8553153-61ed-4bbf-abe0-c87d69ad166d', '41d82bcd-2990-4445-b7ba-613c17824d8f', 'aa7f9c9f-f01c-4131-93c6-ce196cf00978', '268af99f-70b8-42fb-97d3-c7c3b23b7e1b', '28eaf6dd-5eab-426f-83c0-06e3590ac3c4']
+zombie zombie clawing attack, lunging and swiping both arms now ['south']
+zombie zombie clawing attack, lunging and swiping both arms now ['east', 'south']
+zombie zombie clawing attack, lunging and swiping both arms now ['east', 'north-east', 'south']
+zombie zombie clawing attack, lunging and swiping both arms now ['east', 'north', 'north-east', 'south']
+requested zombie zombie clawing attack, lunging and swiping both arms ['south-east'] jobs ['8a971e39-aa7c-4337-8ebf-2192d06a68bd']
+zombie zombie clawing attack, lunging and swiping both arms now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched zombie
+done zombie zombie clawing attack, lunging and swiping both arms ['east', 'north', 'north-east', 'south', 'south-east']

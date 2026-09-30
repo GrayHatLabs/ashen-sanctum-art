@@ -1,0 +1,17 @@
+2026-09-30 12:35:22 floor_stone1 isotile job=2140b38c-0644-401d-a06c-f1c3bd1d62a5 status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 12:35:41 floor_stone2 isotile job=2239062e-b983-493b-9b6e-d10238bf91c7 status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 12:35:55 mage character job=2286316d-c29e-4076-968b-9a7908bd2027 status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 12:35:59 zombie character job=427a9d50-a396-404f-941a-8eb0432b9725 status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 12:36:05 wall_stone isotile job=e75424ab-ebff-4590-b9ff-5dbda811411f status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 12:37:11 skeleton character job=f0f870a4-f206-4e72-83a5-8b19867b5c2e status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 12:42:43 mage animate walking forward, robe swaying, holding staff job=ae34f619-2e62-47d0-b1a8-8b153c206402 status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 12:45:51 mage animate walking forward, robe swaying, holding staff job=44aef766-be93-40b9-87f1-92b2a9616cc0 status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 12:48:01 mage animate walking forward, robe swaying, holding staff job=f9853879-3e74-453b-86c4-d815a7664ee9 status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 12:53:56 mage animate walking forward, robe swaying, holding staff job=88199fe0-788e-4e11-bc3a-a87ca7a8f75a status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 13:56:07 skeleton request skeleton walking, rattling bones, sword and shield raised ['south-east', 'east', 'north-east', 'north'] null
+2026-09-30 14:07:23 zombie request zombie clawing attack, lunging and swiping both arms ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 14:17:09 skeleton request skeleton swinging its rusty sword in a fast slash ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 14:32:38 mage request casting a fireball, thrusting the staff forward with one hand ['south-east', 'east', 'north-east', 'north'] null
+2026-09-30 15:06:13 zombie request zombie clawing attack, lunging and swiping both arms ['south-east'] null
+2026-09-30 15:14:07 skeleton request skeleton swinging its rusty sword in a fast slash ['north-east', 'north'] null
+2026-09-30 15:23:58 mage request casting a fireball, thrusting the staff forward with one hand ['north'] null

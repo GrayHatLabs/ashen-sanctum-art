@@ -35,6 +35,8 @@ CHARS = {
 TRIM = {("zombie", "attack", "north"): 3, ("skeleton", "attack", "south-east"): 3, ("skeleton", "attack", "north-east"): 2}
 FLOORS = ["floor_stone1", "floor_stone2"]
 WALL = "wall_stone"
+ITEMS = ["food_apple", "food_bread", "food_roast"]
+ITEM_SIZE = 14
 WALL_STACK = 3
 
 
@@ -163,6 +165,29 @@ def pack_tiles():
     return tiles
 
 
+def pack_items():
+    items = []
+    for n in ITEMS:
+        p = GEN / n / "image.png"
+        if not p.exists():
+            continue
+        im = load(p)
+        im = im.crop(im.getbbox())
+        # Floor items are small in D2: longest side ITEM_SIZE px, hard alpha edge.
+        f = ITEM_SIZE / max(im.size)
+        if f < 1:
+            im = im.resize((max(1, round(im.width * f)), max(1, round(im.height * f))), Image.LANCZOS)
+            px = im.load()
+            for y in range(im.height):
+                for x in range(im.width):
+                    c = px[x, y]
+                    px[x, y] = (c[0], c[1], c[2], 255) if c[3] > 110 else (0, 0, 0, 0)
+        im.save(OUT / f"{n}.png")
+        items.append({"name": n, "file": f"{n}.png"})
+        print("item", n, im.size)
+    return items
+
+
 def main():
     OUT.mkdir(exist_ok=True)
     chars = []
@@ -170,7 +195,8 @@ def main():
         if (GEN / name / "character.json").exists():
             chars.append(pack_char(name, spec))
     tiles = pack_tiles()
-    (OUT / "manifest.json").write_text(json.dumps({"chars": chars, "tiles": tiles}, indent=2))
+    items = pack_items()
+    (OUT / "manifest.json").write_text(json.dumps({"chars": chars, "tiles": tiles, "items": items}, indent=2))
     print("wrote", OUT / "manifest.json")
 
 

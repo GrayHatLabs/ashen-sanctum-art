@@ -122,5 +122,19 @@
         56
       ]
     }
+  ],
+  "items": [
+    {
+      "name": "food_apple",
+      "file": "food_apple.png"
+    },
+    {
+      "name": "food_bread",
+      "file": "food_bread.png"
+    },
+    {
+      "name": "food_roast",
+      "file": "food_roast.png"
+    }
   ]
 }

@@ -15,3 +15,7 @@
 2026-09-30 15:06:13 zombie request zombie clawing attack, lunging and swiping both arms ['south-east'] null
 2026-09-30 15:14:07 skeleton request skeleton swinging its rusty sword in a fast slash ['north-east', 'north'] null
 2026-09-30 15:23:58 mage request casting a fireball, thrusting the staff forward with one hand ['north'] null
+2026-09-30 16:23:18 food_apple image image.png {"type": "generations", "generations": 1.0}
+2026-09-30 16:23:44 food_bread image image.png {"type": "generations", "generations": 1.0}
+2026-09-30 16:24:08 food_roast image image.png {"type": "generations", "generations": 1.0}
+2026-09-30 16:26:19 food_roast image image.png {"type": "generations", "generations": 1.0}

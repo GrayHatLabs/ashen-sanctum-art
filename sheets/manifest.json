@@ -276,8 +276,8 @@
       "name": "npc_villager",
       "file": "npc_villager.png",
       "cell": [
-        22,
-        53
+        29,
+        61
       ],
       "anchor": [
         11,
@@ -289,6 +289,12 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
         }
       ]
     },
@@ -328,12 +334,12 @@
       "name": "boss_plague",
       "file": "boss_plague.png",
       "cell": [
-        37,
-        81
+        98,
+        108
       ],
       "anchor": [
-        18,
-        74
+        35,
+        82
       ],
       "anims": [
         {
@@ -341,6 +347,18 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 6
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 9
         }
       ]
     },
@@ -348,11 +366,11 @@
       "name": "boss_hex",
       "file": "boss_hex.png",
       "cell": [
-        51,
-        90
+        108,
+        104
       ],
       "anchor": [
-        28,
+        41,
         83
       ],
       "anims": [
@@ -361,6 +379,18 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
         }
       ]
     },

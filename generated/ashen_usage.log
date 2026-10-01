@@ -92,3 +92,6 @@
 2026-10-01 11:17:55 boss_plague request bloated zombie lumbering forward slowly ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-01 11:27:16 boss_plague request bloated zombie slamming both fists down ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-01 11:42:40 boss_hex request lich floating forward, robes trailing ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-01 11:55:04 boss_hex request lich thrusting the skull staff forward and casting a spell ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-01 12:20:52 npc_villager request villager walking calmly ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-01 12:48:32 npc_villager request villager walking calmly ['south-east', 'east', 'north-east', 'north'] null

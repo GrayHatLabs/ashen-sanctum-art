@@ -60,6 +60,8 @@ FIX = {
     ("zombie", "attack", "south"): ("drop", [2, 3]),
     ("zombie", "attack", "north"): ("use", "walk"),
     ("archer", "attack", "east"): ("key", (130, 150, 150)),
+    ("boss_plague", "attack", "south-east"): ("drop", [2]),
+    ("boss_hex", "attack", "east"): ("drop", [3]),
 }
 
 

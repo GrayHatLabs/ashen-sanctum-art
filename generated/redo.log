@@ -110,3 +110,23 @@ requested boss_hex lich floating forward, robes trailing ['south', 'south-east',
 boss_hex lich floating forward, robes trailing now ['south']
 boss_hex lich floating forward, robes trailing now ['south', 'south-east']
 boss_hex lich floating forward, robes trailing now ['east', 'south', 'south-east']
+boss_hex lich floating forward, robes trailing now ['east', 'north-east', 'south', 'south-east']
+boss_hex lich floating forward, robes trailing now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_hex
+done boss_hex lich floating forward, robes trailing
+requested boss_hex lich thrusting the skull staff forward and casting a spell ['south', 'south-east', 'east', 'north-east', 'north']
+boss_hex lich thrusting the skull staff forward and casting a spell now ['south']
+boss_hex lich thrusting the skull staff forward and casting a spell now ['south', 'south-east']
+boss_hex lich thrusting the skull staff forward and casting a spell now ['east', 'south', 'south-east']
+boss_hex lich thrusting the skull staff forward and casting a spell now ['east', 'north-east', 'south', 'south-east']
+boss_hex lich thrusting the skull staff forward and casting a spell now ['east', 'north', 'north-east', 'south', 'south-east']
+FAILED boss_hex lich thrusting the skull staff forward and casting a spell HTTP Error 520: <none>
+requested npc_villager villager walking calmly ['south', 'south-east', 'east', 'north-east', 'north']
+npc_villager villager walking calmly now ['south']
+requested npc_villager villager walking calmly ['south-east', 'east', 'north-east', 'north']
+npc_villager villager walking calmly now ['south', 'south-east']
+npc_villager villager walking calmly now ['east', 'south', 'south-east']
+npc_villager villager walking calmly now ['east', 'north-east', 'south', 'south-east']
+npc_villager villager walking calmly now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched npc_villager
+done npc_villager villager walking calmly

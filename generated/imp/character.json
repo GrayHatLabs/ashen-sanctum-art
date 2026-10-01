@@ -1,0 +1,38 @@
+{
+  "id": "4d2bf884-7b3f-47bb-91f0-671a99a58b05",
+  "name": "small red demon imp with little horns, a crude spe...",
+  "state_name": "Idle",
+  "prompt": "small red demon imp with little horns, a crude spear and a ragged loincloth, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 56,
+    "height": 56
+  },
+  "directions": 8,
+  "created_at": "2026-10-01T01:36:29.553750+00:00",
+  "updated_at": "2026-10-01T01:38:03.672986+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4d2bf884-7b3f-47bb-91f0-671a99a58b05/rotations/south.png?t=1790818683",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4d2bf884-7b3f-47bb-91f0-671a99a58b05/rotations/west.png?t=1790818683",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4d2bf884-7b3f-47bb-91f0-671a99a58b05/rotations/east.png?t=1790818683",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4d2bf884-7b3f-47bb-91f0-671a99a58b05/rotations/north.png?t=1790818683",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4d2bf884-7b3f-47bb-91f0-671a99a58b05/rotations/south-east.png?t=1790818683",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4d2bf884-7b3f-47bb-91f0-671a99a58b05/rotations/north-east.png?t=1790818683",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4d2bf884-7b3f-47bb-91f0-671a99a58b05/rotations/north-west.png?t=1790818683",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4d2bf884-7b3f-47bb-91f0-671a99a58b05/rotations/south-west.png?t=1790818683"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "e6be32d8-cc8f-4934-84a0-1c65efc71ce1",
+  "skeletons": null,
+  "animations": []
+}

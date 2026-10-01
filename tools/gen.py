@@ -4,6 +4,7 @@ python gen.py character <name> "<desc>" <size> [proportions] [template]   (8 dir
 python gen.py animate <name> "<action>" <frames> [dirs]                   (v3, all 8 dirs by default)
 python gen.py isotile <name> "<desc>" [size] [shape] [seed]               (isometric floor/wall tile)
 python gen.py image <name> <outfile> "<desc>" <w> <h> [negative]         (bitforge, transparent bg)
+python gen.py prop <name> "<desc>" <w> <h> [negative]                    (isometric map object)
 python gen.py fetch <name>                                               (free) re-download a character
 python gen.py review <out.png> <png> [png ...]                           (free) 4x contact sheet
 python gen.py spent                                                      (free) generations logged here
@@ -175,6 +176,25 @@ def image(name, outfile, desc, w, h, negative=""):
     print("saved", d_of(name) / outfile)
 
 
+def prop(name, desc, w, h, negative=""):
+    """Isometric map object (bitforge, transparent background, synchronous)."""
+    body = {
+        "description": f"{desc}, {STYLE}",
+        "image_size": {"width": int(w), "height": int(h)},
+        "no_background": True,
+        "isometric": True,
+        "outline": "single color black outline",
+        "shading": "medium shading",
+        "detail": "medium detail",
+        "view": "high top-down",
+        "negative_description": negative or "text, character, person, background, floor tiles",
+    }
+    r = call("POST", "/create-image-bitforge", body)
+    log_charge(f"{name} prop", r.get("usage"))
+    save_b64(r["image"], d_of(name) / "image.png")
+    print("saved", d_of(name) / "image.png")
+
+
 def review(out, *pngs):
     from PIL import Image
     ims = [Image.open(p).convert("RGBA") for p in pngs]
@@ -209,5 +229,5 @@ if __name__ == "__main__":
     if not a:
         sys.exit(__doc__)
     cmds = {"character": character, "animate": animate, "isotile": isotile, "image": image,
-            "fetch": fetch, "review": review, "spent": spent}
+            "fetch": fetch, "review": review, "spent": spent, "prop": prop}
     cmds[a[0]](*a[1:])

@@ -1,0 +1,38 @@
+{
+  "id": "42c16d24-8372-450e-91bb-aecb7badf50b",
+  "name": "undead skeleton archer with a longbow, a quiver of...",
+  "state_name": "Idle",
+  "prompt": "undead skeleton archer with a longbow, a quiver of arrows and a tattered dark hood, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 68,
+    "height": 68
+  },
+  "directions": 8,
+  "created_at": "2026-10-01T01:38:13.960371+00:00",
+  "updated_at": "2026-10-01T01:40:24.392668+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/42c16d24-8372-450e-91bb-aecb7badf50b/rotations/south.png?t=1790818824",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/42c16d24-8372-450e-91bb-aecb7badf50b/rotations/west.png?t=1790818824",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/42c16d24-8372-450e-91bb-aecb7badf50b/rotations/east.png?t=1790818824",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/42c16d24-8372-450e-91bb-aecb7badf50b/rotations/north.png?t=1790818824",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/42c16d24-8372-450e-91bb-aecb7badf50b/rotations/south-east.png?t=1790818824",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/42c16d24-8372-450e-91bb-aecb7badf50b/rotations/north-east.png?t=1790818824",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/42c16d24-8372-450e-91bb-aecb7badf50b/rotations/north-west.png?t=1790818824",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/42c16d24-8372-450e-91bb-aecb7badf50b/rotations/south-west.png?t=1790818824"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "346e53a0-afc0-46a7-ba0c-80380f309a75",
+  "skeletons": null,
+  "animations": []
+}

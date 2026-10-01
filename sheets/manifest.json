@@ -95,6 +95,166 @@
           "fps": 14
         }
       ]
+    },
+    {
+      "name": "wolf",
+      "file": "wolf.png",
+      "cell": [
+        62,
+        51
+      ],
+      "anchor": [
+        31,
+        39
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "imp",
+      "file": "imp.png",
+      "cell": [
+        23,
+        40
+      ],
+      "anchor": [
+        10,
+        36
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "archer",
+      "file": "archer.png",
+      "cell": [
+        32,
+        46
+      ],
+      "anchor": [
+        14,
+        41
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_elder",
+      "file": "npc_elder.png",
+      "cell": [
+        22,
+        49
+      ],
+      "anchor": [
+        11,
+        42
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_merchant",
+      "file": "npc_merchant.png",
+      "cell": [
+        20,
+        46
+      ],
+      "anchor": [
+        10,
+        41
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_healer",
+      "file": "npc_healer.png",
+      "cell": [
+        22,
+        45
+      ],
+      "anchor": [
+        10,
+        40
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_guard",
+      "file": "npc_guard.png",
+      "cell": [
+        27,
+        57
+      ],
+      "anchor": [
+        14,
+        51
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_villager",
+      "file": "npc_villager.png",
+      "cell": [
+        22,
+        48
+      ],
+      "anchor": [
+        11,
+        43
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
     }
   ],
   "tiles": [
@@ -115,11 +275,51 @@
       ]
     },
     {
+      "name": "grass1",
+      "file": "grass1.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "grass2",
+      "file": "grass2.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "dirt1",
+      "file": "dirt1.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "road1",
+      "file": "road1.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
       "name": "wall",
-      "file": "wall_stone.png",
+      "file": "wall_stack.png",
       "anchor": [
         16,
         56
+      ]
+    },
+    {
+      "name": "palisade",
+      "file": "palisade_stack.png",
+      "anchor": [
+        16,
+        40
       ]
     }
   ],
@@ -135,6 +335,74 @@
     {
       "name": "food_roast",
       "file": "food_roast.png"
+    },
+    {
+      "name": "seal",
+      "file": "seal.png"
+    },
+    {
+      "name": "tree_oak",
+      "file": "prop_tree_oak.png"
+    },
+    {
+      "name": "tree_pine",
+      "file": "prop_tree_pine.png"
+    },
+    {
+      "name": "tree_dead",
+      "file": "prop_tree_dead.png"
+    },
+    {
+      "name": "rock1",
+      "file": "prop_rock1.png"
+    },
+    {
+      "name": "bush1",
+      "file": "prop_bush1.png"
+    },
+    {
+      "name": "house1",
+      "file": "prop_house1.png"
+    },
+    {
+      "name": "house2",
+      "file": "prop_house2.png"
+    },
+    {
+      "name": "tent1",
+      "file": "prop_tent1.png"
+    },
+    {
+      "name": "campfire",
+      "file": "prop_campfire.png"
+    },
+    {
+      "name": "well",
+      "file": "prop_well.png"
+    },
+    {
+      "name": "ent_crypt",
+      "file": "prop_ent_crypt.png"
+    },
+    {
+      "name": "ent_warrens",
+      "file": "prop_ent_warrens.png"
+    },
+    {
+      "name": "ent_catacombs",
+      "file": "prop_ent_catacombs.png"
+    },
+    {
+      "name": "ent_sanctum",
+      "file": "prop_ent_sanctum.png"
+    },
+    {
+      "name": "stairs_down",
+      "file": "prop_stairs_down.png"
+    },
+    {
+      "name": "stairs_up",
+      "file": "prop_stairs_up.png"
     }
   ]
 }

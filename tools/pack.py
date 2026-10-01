@@ -30,12 +30,33 @@ CHARS = {
     "skeleton": [("idle", None, 1),
                  ("walk", "skeleton walking, rattling bones, sword and shield raised", 10),
                  ("attack", "skeleton swinging its rusty sword in a fast slash", 14)],
+    "wolf": [("idle", None, 1), ("walk", "wolf running fast, loping gallop", 12), ("attack", "wolf lunging forward and biting", 14)],
+    "imp": [("idle", None, 1), ("walk", "imp scurrying forward hunched over with its spear", 12),
+            ("attack", "imp stabbing forward with its spear", 14)],
+    "archer": [("idle", None, 1), ("walk", "skeleton walking forward holding a bow", 10),
+               ("attack", "skeleton drawing the bow and shooting an arrow", 12)],
+    "npc_elder": [("idle", None, 1)],
+    "npc_merchant": [("idle", None, 1)],
+    "npc_healer": [("idle", None, 1)],
+    "npc_guard": [("idle", None, 1)],
+    "npc_villager": [("idle", None, 1), ("walk", "villager walking calmly", 8)],
+    "boss_bone": [("idle", None, 1), ("walk", "giant skeleton knight walking heavily, greatsword in hand", 8),
+                  ("attack", "giant skeleton knight swinging the greatsword in a wide overhead cleave", 10)],
+    "boss_plague": [("idle", None, 1), ("walk", "bloated zombie lumbering forward slowly", 6),
+                    ("attack", "bloated zombie slamming both fists down", 9)],
+    "boss_hex": [("idle", None, 1), ("walk", "lich floating forward, robes trailing", 8),
+                 ("attack", "lich thrusting the skull staff forward and casting a spell", 10)],
+    "boss_ashking": [("idle", None, 1), ("walk", "demon lich king striding forward, cloak of embers billowing", 8),
+                     ("attack", "demon lich king raising both hands and casting a burst of fire", 10)],
 }
 # Directions where PixelLab drifted mid-animation: keep only the first N frames (then hold).
 TRIM = {("zombie", "attack", "north"): 3, ("skeleton", "attack", "south-east"): 3, ("skeleton", "attack", "north-east"): 2}
-FLOORS = ["floor_stone1", "floor_stone2"]
+FLOORS = ["floor_stone1", "floor_stone2", "grass1", "grass2", "dirt1", "road1"]
 WALL = "wall_stone"
-ITEMS = ["food_apple", "food_bread", "food_roast"]
+ITEMS = ["food_apple", "food_bread", "food_roast", "seal"]
+# Overworld and dungeon props (full size, anchored at the bottom centre).
+PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "house2", "tent1", "campfire", "well",
+         "ent_crypt", "ent_warrens", "ent_catacombs", "ent_sanctum", "stairs_down", "stairs_up"]
 ITEM_SIZE = 14
 WALL_STACK = 3
 
@@ -149,19 +170,21 @@ def pack_tiles():
         im.save(OUT / f"{n}.png")
         # Thin tile: the top face is a 32x16 diamond starting at the top of the bbox.
         tiles.append({"name": n, "file": f"{n}.png", "anchor": [16 - b[0], 8]})
-    p = GEN / WALL / "image.png"
-    if p.exists():
+    for wall_name, src, stack in [("wall", WALL, WALL_STACK), ("palisade", "palisade", 2)]:
+        p = GEN / src / "image.png"
+        if not p.exists():
+            continue
         im = load(p)
         im = im.crop(im.getbbox())
         # Stack blocks: each block's face is (height - 16) tall.
         face = im.height - 16
-        h = im.height + face * (WALL_STACK - 1)
+        h = im.height + face * (stack - 1)
         st = Image.new("RGBA", (im.width, h))
-        for k in range(WALL_STACK):
+        for k in range(stack):
             st.alpha_composite(im, (0, h - im.height - k * face))
-        st.save(OUT / f"{WALL}.png")
-        tiles.append({"name": "wall", "file": f"{WALL}.png", "anchor": [im.width // 2, h - 8]})
-        print("wall", st.size, "face", face * WALL_STACK)
+        st.save(OUT / f"{wall_name}_stack.png")
+        tiles.append({"name": wall_name, "file": f"{wall_name}_stack.png", "anchor": [im.width // 2, h - 8]})
+        print(wall_name, st.size, "face", face * stack)
     return tiles
 
 
@@ -185,6 +208,15 @@ def pack_items():
         im.save(OUT / f"{n}.png")
         items.append({"name": n, "file": f"{n}.png"})
         print("item", n, im.size)
+    for n in PROPS:
+        p = GEN / n / "image.png"
+        if not p.exists():
+            continue
+        im = load(p)
+        im = im.crop(im.getbbox())
+        im.save(OUT / f"prop_{n}.png")
+        items.append({"name": n, "file": f"prop_{n}.png"})
+    print("props", len(PROPS))
     return items
 
 

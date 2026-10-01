@@ -57,3 +57,7 @@
 2026-09-30 20:03:47 boss_hex character job=4f34992d-3b49-4173-9fd7-2fffce0084c8 status=completed {"type": "generations", "generations": 1.0}
 2026-09-30 20:07:04 boss_ashking character job=52550d41-9bde-41f9-8b47-ebc2f83f0f27 status=completed {"type": "generations", "generations": 1.0}
 2026-09-30 20:07:15 wolf request wolf running fast, loping gallop ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 20:13:59 imp request imp scurrying forward hunched over with its spear ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 20:19:13 archer request skeleton walking forward holding a bow ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 20:23:52 archer request skeleton drawing the bow and shooting an arrow ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 20:28:23 wolf request wolf lunging forward and biting ['south', 'south-east', 'east', 'north-east', 'north'] null

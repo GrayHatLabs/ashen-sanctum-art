@@ -35,3 +35,26 @@ character 20729889-aa1c-4260-8a71-d81bcc00fc1d
 fetched boss_ashking
 made boss_ashking
 requested wolf wolf running fast, loping gallop ['south', 'south-east', 'east', 'north-east', 'north']
+wolf wolf running fast, loping gallop now ['east', 'south-east']
+wolf wolf running fast, loping gallop now ['east', 'north-east', 'south', 'south-east']
+wolf wolf running fast, loping gallop now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched wolf
+done wolf wolf running fast, loping gallop
+requested imp imp scurrying forward hunched over with its spear ['south', 'south-east', 'east', 'north-east', 'north']
+imp imp scurrying forward hunched over with its spear now ['south-east']
+imp imp scurrying forward hunched over with its spear now ['east', 'north', 'south', 'south-east']
+imp imp scurrying forward hunched over with its spear now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched imp
+done imp imp scurrying forward hunched over with its spear
+requested archer skeleton walking forward holding a bow ['south', 'south-east', 'east', 'north-east', 'north']
+archer skeleton walking forward holding a bow now ['south-east']
+archer skeleton walking forward holding a bow now ['north', 'south', 'south-east']
+archer skeleton walking forward holding a bow now ['north', 'north-east', 'south', 'south-east']
+archer skeleton walking forward holding a bow now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched archer
+done archer skeleton walking forward holding a bow
+requested archer skeleton drawing the bow and shooting an arrow ['south', 'south-east', 'east', 'north-east', 'north']
+archer skeleton drawing the bow and shooting an arrow now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched archer
+done archer skeleton drawing the bow and shooting an arrow
+requested wolf wolf lunging forward and biting ['south', 'south-east', 'east', 'north-east', 'north']

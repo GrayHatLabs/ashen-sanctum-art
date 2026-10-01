@@ -100,8 +100,8 @@
       "name": "wolf",
       "file": "wolf.png",
       "cell": [
-        62,
-        51
+        72,
+        55
       ],
       "anchor": [
         31,
@@ -113,6 +113,12 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 12
         }
       ]
     },
@@ -120,11 +126,11 @@
       "name": "imp",
       "file": "imp.png",
       "cell": [
-        23,
+        40,
         40
       ],
       "anchor": [
-        10,
+        18,
         36
       ],
       "anims": [
@@ -133,6 +139,12 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 12
         }
       ]
     },
@@ -140,12 +152,12 @@
       "name": "archer",
       "file": "archer.png",
       "cell": [
-        32,
-        46
+        58,
+        48
       ],
       "anchor": [
-        14,
-        41
+        27,
+        43
       ],
       "anims": [
         {
@@ -153,6 +165,18 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 10
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 12
         }
       ]
     },

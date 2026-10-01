@@ -164,7 +164,7 @@
       "name": "archer",
       "file": "archer.png",
       "cell": [
-        60,
+        61,
         64
       ],
       "anchor": [
@@ -179,8 +179,14 @@
           "fps": 1
         },
         {
-          "name": "attack",
+          "name": "walk",
           "row": 8,
+          "frames": 6,
+          "fps": 10
+        },
+        {
+          "name": "attack",
+          "row": 16,
           "frames": 6,
           "fps": 12
         }

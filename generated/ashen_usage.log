@@ -90,3 +90,5 @@
 2026-10-01 10:57:51 zombie request zombie clawing attack, lunging and swiping both arms ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-01 11:08:23 archer request skeleton drawing the bow and shooting an arrow ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-01 11:17:55 boss_plague request bloated zombie lumbering forward slowly ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-01 11:27:16 boss_plague request bloated zombie slamming both fists down ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-01 11:42:40 boss_hex request lich floating forward, robes trailing ['south', 'south-east', 'east', 'north-east', 'north'] null

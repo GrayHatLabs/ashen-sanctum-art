@@ -94,3 +94,19 @@ requested boss_plague bloated zombie lumbering forward slowly ['south', 'south-e
 boss_plague bloated zombie lumbering forward slowly now ['south']
 boss_plague bloated zombie lumbering forward slowly now ['east', 'south']
 boss_plague bloated zombie lumbering forward slowly now ['east', 'south', 'south-east']
+boss_plague bloated zombie lumbering forward slowly now ['east', 'north-east', 'south', 'south-east']
+boss_plague bloated zombie lumbering forward slowly now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_plague
+done boss_plague bloated zombie lumbering forward slowly
+requested boss_plague bloated zombie slamming both fists down ['south', 'south-east', 'east', 'north-east', 'north']
+boss_plague bloated zombie slamming both fists down now ['south']
+boss_plague bloated zombie slamming both fists down now ['south', 'south-east']
+boss_plague bloated zombie slamming both fists down now ['east', 'south', 'south-east']
+boss_plague bloated zombie slamming both fists down now ['east', 'north-east', 'south', 'south-east']
+boss_plague bloated zombie slamming both fists down now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_plague
+done boss_plague bloated zombie slamming both fists down
+requested boss_hex lich floating forward, robes trailing ['south', 'south-east', 'east', 'north-east', 'north']
+boss_hex lich floating forward, robes trailing now ['south']
+boss_hex lich floating forward, robes trailing now ['south', 'south-east']
+boss_hex lich floating forward, robes trailing now ['east', 'south', 'south-east']

@@ -86,3 +86,52 @@ boss_bone giant skeleton knight swinging the greatsword in a wide overhead cleav
 fetched boss_bone
 done boss_bone giant skeleton knight swinging the greatsword in a wide overhead cleave
 requested boss_ashking demon lich king striding forward, cloak of embers billowing ['south', 'south-east', 'east', 'north-east', 'north']
+boss_ashking demon lich king striding forward, cloak of embers billowing now ['south']
+boss_ashking demon lich king striding forward, cloak of embers billowing now ['east', 'south']
+boss_ashking demon lich king striding forward, cloak of embers billowing now ['east', 'south', 'south-east']
+boss_ashking demon lich king striding forward, cloak of embers billowing now ['east', 'north', 'south', 'south-east']
+boss_ashking demon lich king striding forward, cloak of embers billowing now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_ashking
+done boss_ashking demon lich king striding forward, cloak of embers billowing
+requested boss_ashking demon lich king raising both hands and casting a burst of fire ['south', 'south-east', 'east', 'north-east', 'north']
+boss_ashking demon lich king raising both hands and casting a burst of fire now ['south', 'south-east']
+boss_ashking demon lich king raising both hands and casting a burst of fire now ['east', 'south', 'south-east']
+boss_ashking demon lich king raising both hands and casting a burst of fire now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_ashking
+done boss_ashking demon lich king raising both hands and casting a burst of fire
+requested boss_plague bloated zombie lumbering forward slowly ['south', 'south-east', 'east', 'north-east', 'north']
+boss_plague bloated zombie lumbering forward slowly now ['south-east']
+boss_plague bloated zombie lumbering forward slowly now ['south', 'south-east']
+boss_plague bloated zombie lumbering forward slowly now ['north-east', 'south', 'south-east']
+boss_plague bloated zombie lumbering forward slowly now ['east', 'north-east', 'south', 'south-east']
+boss_plague bloated zombie lumbering forward slowly now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_plague
+done boss_plague bloated zombie lumbering forward slowly
+requested boss_plague bloated zombie slamming both fists down ['south', 'south-east', 'east', 'north-east', 'north']
+boss_plague bloated zombie slamming both fists down now ['south']
+boss_plague bloated zombie slamming both fists down now ['east', 'south', 'south-east']
+boss_plague bloated zombie slamming both fists down now ['east', 'north', 'south', 'south-east']
+boss_plague bloated zombie slamming both fists down now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_plague
+done boss_plague bloated zombie slamming both fists down
+requested boss_hex lich floating forward, robes trailing ['south', 'south-east', 'east', 'north-east', 'north']
+boss_hex lich floating forward, robes trailing now ['south']
+boss_hex lich floating forward, robes trailing now ['south', 'south-east']
+boss_hex lich floating forward, robes trailing now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_hex
+done boss_hex lich floating forward, robes trailing
+requested boss_hex lich thrusting the skull staff forward and casting a spell ['south', 'south-east', 'east', 'north-east', 'north']
+boss_hex lich thrusting the skull staff forward and casting a spell now ['south']
+boss_hex lich thrusting the skull staff forward and casting a spell now ['south', 'south-east']
+boss_hex lich thrusting the skull staff forward and casting a spell now ['north-east', 'south', 'south-east']
+boss_hex lich thrusting the skull staff forward and casting a spell now ['east', 'north-east', 'south', 'south-east']
+boss_hex lich thrusting the skull staff forward and casting a spell now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_hex
+done boss_hex lich thrusting the skull staff forward and casting a spell
+requested npc_villager villager walking calmly ['south', 'south-east', 'east', 'north-east', 'north']
+npc_villager villager walking calmly now ['north', 'south-east']
+npc_villager villager walking calmly now ['north', 'south', 'south-east']
+npc_villager villager walking calmly now ['north', 'north-east', 'south', 'south-east']
+npc_villager villager walking calmly now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched npc_villager
+done npc_villager villager walking calmly

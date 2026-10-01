@@ -276,12 +276,12 @@
       "name": "npc_villager",
       "file": "npc_villager.png",
       "cell": [
-        22,
-        48
+        24,
+        50
       ],
       "anchor": [
-        11,
-        43
+        12,
+        44
       ],
       "anims": [
         {
@@ -289,6 +289,12 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
         }
       ]
     },
@@ -328,11 +334,11 @@
       "name": "boss_plague",
       "file": "boss_plague.png",
       "cell": [
-        32,
-        80
+        58,
+        82
       ],
       "anchor": [
-        16,
+        29,
         72
       ],
       "anims": [
@@ -341,6 +347,18 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 6
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 9
         }
       ]
     },
@@ -348,12 +366,12 @@
       "name": "boss_hex",
       "file": "boss_hex.png",
       "cell": [
-        43,
-        76
+        86,
+        83
       ],
       "anchor": [
-        19,
-        70
+        36,
+        74
       ],
       "anims": [
         {
@@ -361,6 +379,18 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
         }
       ]
     },
@@ -368,11 +398,11 @@
       "name": "boss_ashking",
       "file": "boss_ashking.png",
       "cell": [
-        59,
-        116
+        140,
+        141
       ],
       "anchor": [
-        29,
+        52,
         110
       ],
       "anims": [
@@ -381,6 +411,18 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
         }
       ]
     }

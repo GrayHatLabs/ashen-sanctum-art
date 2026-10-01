@@ -65,3 +65,9 @@
 2026-09-30 20:48:42 boss_bone request giant skeleton knight walking heavily, greatsword in hand ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-09-30 21:02:31 boss_bone request giant skeleton knight swinging the greatsword in a wide overhead cleave ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-09-30 21:11:14 boss_ashking request demon lich king striding forward, cloak of embers billowing ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 21:20:24 boss_ashking request demon lich king raising both hands and casting a burst of fire ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 21:27:04 boss_plague request bloated zombie lumbering forward slowly ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 21:34:45 boss_plague request bloated zombie slamming both fists down ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 21:41:22 boss_hex request lich floating forward, robes trailing ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 21:47:01 boss_hex request lich thrusting the skull staff forward and casting a spell ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 21:54:41 npc_villager request villager walking calmly ['south', 'south-east', 'east', 'north-east', 'north'] null

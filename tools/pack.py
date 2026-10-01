@@ -188,6 +188,39 @@ def pack_tiles():
     return tiles
 
 
+# Trees PixelLab drew standing on a pale grey disc: key the disc out of the bottom rows.
+BASE_KEY = {"tree_oak"}
+
+
+def key_base(im):
+    import colorsys
+    px = im.load()
+    for y in range(int(im.height * 0.7), im.height):
+        for x in range(im.width):
+            r, g, b, a = px[x, y]
+            if not a:
+                continue
+            _, l, sat = colorsys.rgb_to_hls(r / 255, g / 255, b / 255)
+            if sat < 0.18 and l > 0.42:
+                px[x, y] = (0, 0, 0, 0)
+    # Drop the now-orphaned outline ring: dark pixels with no lighter opaque neighbour.
+    y0 = int(im.height * 0.7)
+    dark = lambda c: c[3] and sum(c[:3]) < 120
+    for _ in range(2):
+        kill = []
+        for y in range(y0, im.height):
+            for x in range(im.width):
+                if not dark(px[x, y]):
+                    continue
+                near = [px[x + dx, y + dy] for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1))
+                        if 0 <= x + dx < im.width and 0 <= y + dy < im.height]
+                if not any(c[3] and not dark(c) for c in near):
+                    kill.append((x, y))
+        for x, y in kill:
+            px[x, y] = (0, 0, 0, 0)
+    return im.crop(im.getbbox())
+
+
 def pack_items():
     items = []
     for n in ITEMS:
@@ -214,6 +247,8 @@ def pack_items():
             continue
         im = load(p)
         im = im.crop(im.getbbox())
+        if n in BASE_KEY:
+            im = key_base(im)
         im.save(OUT / f"prop_{n}.png")
         items.append({"name": n, "file": f"prop_{n}.png"})
     print("props", len(PROPS))

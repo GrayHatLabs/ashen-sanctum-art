@@ -61,3 +61,7 @@
 2026-09-30 20:19:13 archer request skeleton walking forward holding a bow ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-09-30 20:23:52 archer request skeleton drawing the bow and shooting an arrow ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-09-30 20:28:23 wolf request wolf lunging forward and biting ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 20:34:07 imp request imp stabbing forward with its spear ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 20:48:42 boss_bone request giant skeleton knight walking heavily, greatsword in hand ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 21:02:31 boss_bone request giant skeleton knight swinging the greatsword in a wide overhead cleave ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-09-30 21:11:14 boss_ashking request demon lich king striding forward, cloak of embers billowing ['south', 'south-east', 'east', 'north-east', 'north'] null

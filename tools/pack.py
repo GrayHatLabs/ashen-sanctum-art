@@ -50,7 +50,7 @@ CHARS = {
                      ("attack", "demon lich king raising both hands and casting a burst of fire", 10)],
 }
 # Directions where PixelLab drifted mid-animation: keep only the first N frames (then hold).
-TRIM = {("zombie", "attack", "north"): 3, ("skeleton", "attack", "south-east"): 3, ("skeleton", "attack", "north-east"): 2}
+TRIM = {("zombie", "attack", "north"): 3, ("skeleton", "attack", "south-east"): 3, ("skeleton", "attack", "north-east"): 2, ("boss_bone", "attack", "north"): 3}
 FLOORS = ["floor_stone1", "floor_stone2", "grass1", "grass2", "dirt1", "road1"]
 WALL = "wall_stone"
 ITEMS = ["food_apple", "food_bread", "food_roast", "seal"]

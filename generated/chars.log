@@ -58,3 +58,31 @@ archer skeleton drawing the bow and shooting an arrow now ['east', 'north', 'nor
 fetched archer
 done archer skeleton drawing the bow and shooting an arrow
 requested wolf wolf lunging forward and biting ['south', 'south-east', 'east', 'north-east', 'north']
+wolf wolf lunging forward and biting now ['north-east', 'south']
+wolf wolf lunging forward and biting now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched wolf
+done wolf wolf lunging forward and biting
+requested imp imp stabbing forward with its spear ['south', 'south-east', 'east', 'north-east', 'north']
+imp imp stabbing forward with its spear now ['east', 'south']
+imp imp stabbing forward with its spear now ['east', 'south', 'south-east']
+imp imp stabbing forward with its spear now ['east', 'north-east', 'south', 'south-east']
+imp imp stabbing forward with its spear now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched imp
+done imp imp stabbing forward with its spear
+requested boss_bone giant skeleton knight walking heavily, greatsword in hand ['south', 'south-east', 'east', 'north-east', 'north']
+boss_bone giant skeleton knight walking heavily, greatsword in hand now ['south']
+boss_bone giant skeleton knight walking heavily, greatsword in hand now ['south', 'south-east']
+boss_bone giant skeleton knight walking heavily, greatsword in hand now ['east', 'south', 'south-east']
+boss_bone giant skeleton knight walking heavily, greatsword in hand now ['east', 'north-east', 'south', 'south-east']
+boss_bone giant skeleton knight walking heavily, greatsword in hand now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_bone
+done boss_bone giant skeleton knight walking heavily, greatsword in hand
+requested boss_bone giant skeleton knight swinging the greatsword in a wide overhead cleave ['south', 'south-east', 'east', 'north-east', 'north']
+boss_bone giant skeleton knight swinging the greatsword in a wide overhead cleave now ['south']
+boss_bone giant skeleton knight swinging the greatsword in a wide overhead cleave now ['south', 'south-east']
+boss_bone giant skeleton knight swinging the greatsword in a wide overhead cleave now ['east', 'south', 'south-east']
+boss_bone giant skeleton knight swinging the greatsword in a wide overhead cleave now ['east', 'north-east', 'south', 'south-east']
+boss_bone giant skeleton knight swinging the greatsword in a wide overhead cleave now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_bone
+done boss_bone giant skeleton knight swinging the greatsword in a wide overhead cleave
+requested boss_ashking demon lich king striding forward, cloak of embers billowing ['south', 'south-east', 'east', 'north-east', 'north']

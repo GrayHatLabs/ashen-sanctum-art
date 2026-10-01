@@ -100,7 +100,7 @@
       "name": "wolf",
       "file": "wolf.png",
       "cell": [
-        72,
+        73,
         55
       ],
       "anchor": [
@@ -119,6 +119,12 @@
           "row": 8,
           "frames": 6,
           "fps": 12
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
         }
       ]
     },
@@ -126,11 +132,11 @@
       "name": "imp",
       "file": "imp.png",
       "cell": [
-        40,
+        42,
         40
       ],
       "anchor": [
-        18,
+        19,
         36
       ],
       "anims": [
@@ -145,6 +151,12 @@
           "row": 8,
           "frames": 6,
           "fps": 12
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
         }
       ]
     },
@@ -284,12 +296,12 @@
       "name": "boss_bone",
       "file": "boss_bone.png",
       "cell": [
-        63,
-        85
+        110,
+        113
       ],
       "anchor": [
-        28,
-        78
+        38,
+        87
       ],
       "anims": [
         {
@@ -297,6 +309,18 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
         }
       ]
     },

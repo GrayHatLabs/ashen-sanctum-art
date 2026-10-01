@@ -1,0 +1,96 @@
+character e2805708-3f33-46be-95f8-ea96a83abe46
+fetched goblin
+made goblin
+character 31ea31d4-cebb-4e6d-9328-2c73e45cb9fa
+fetched skeleton
+made skeleton
+character ab917e65-8e9d-480f-891e-15848d46f6b2
+fetched archer
+made archer
+character 39c61a68-7ff8-4987-88cf-f8c5b3182cf9
+fetched zombie
+made zombie
+character 6ddb3d2f-936d-4416-baee-c7d4497e74df
+fetched npc_villager
+made npc_villager
+character 8bf0a3d5-d513-4028-aa57-abe1168d7573
+fetched npc_elder
+made npc_elder
+character 9b2a54c8-5186-41d9-a85c-14c3c25aa2df
+fetched npc_merchant
+made npc_merchant
+character 2352756e-c1aa-4ea0-a25d-1ee18a4fcc0f
+fetched npc_healer
+made npc_healer
+character b439ae0d-3599-40b3-875e-c6503de407ac
+fetched boss_plague
+made boss_plague
+character ee9ae7ad-ba5c-4967-80f7-02103c42d987
+fetched boss_hex
+made boss_hex
+requested goblin goblin running forward hunched over with its dagger ['south', 'south-east', 'east', 'north-east', 'north']
+goblin goblin running forward hunched over with its dagger now ['south']
+goblin goblin running forward hunched over with its dagger now ['east', 'south']
+goblin goblin running forward hunched over with its dagger now ['east', 'north-east', 'south']
+goblin goblin running forward hunched over with its dagger now ['east', 'north-east', 'south', 'south-east']
+goblin goblin running forward hunched over with its dagger now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched goblin
+done goblin goblin running forward hunched over with its dagger
+requested skeleton skeleton walking, rattling bones, sword and shield raised ['south', 'south-east', 'east', 'north-east', 'north']
+skeleton skeleton walking, rattling bones, sword and shield raised now ['south']
+skeleton skeleton walking, rattling bones, sword and shield raised now ['north-east', 'south']
+skeleton skeleton walking, rattling bones, sword and shield raised now ['north-east', 'south', 'south-east']
+skeleton skeleton walking, rattling bones, sword and shield raised now ['east', 'north-east', 'south', 'south-east']
+skeleton skeleton walking, rattling bones, sword and shield raised now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched skeleton
+done skeleton skeleton walking, rattling bones, sword and shield raised
+requested zombie shambling slow zombie walk, arms reaching forward ['south', 'south-east', 'east', 'north-east', 'north']
+zombie shambling slow zombie walk, arms reaching forward now ['south']
+zombie shambling slow zombie walk, arms reaching forward now ['south', 'south-east']
+zombie shambling slow zombie walk, arms reaching forward now ['east', 'south', 'south-east']
+zombie shambling slow zombie walk, arms reaching forward now ['east', 'north-east', 'south', 'south-east']
+zombie shambling slow zombie walk, arms reaching forward now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched zombie
+done zombie shambling slow zombie walk, arms reaching forward
+requested archer skeleton walking forward holding a bow ['south', 'south-east', 'east', 'north-east', 'north']
+archer skeleton walking forward holding a bow now ['south']
+archer skeleton walking forward holding a bow now ['south', 'south-east']
+archer skeleton walking forward holding a bow now ['east', 'south', 'south-east']
+archer skeleton walking forward holding a bow now ['east', 'north-east', 'south', 'south-east']
+archer skeleton walking forward holding a bow now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched archer
+done archer skeleton walking forward holding a bow
+requested goblin goblin lunging forward and stabbing with its dagger ['south', 'south-east', 'east', 'north-east', 'north']
+goblin goblin lunging forward and stabbing with its dagger now ['south']
+goblin goblin lunging forward and stabbing with its dagger now ['north-east', 'south']
+goblin goblin lunging forward and stabbing with its dagger now ['east', 'north-east', 'south', 'south-east']
+goblin goblin lunging forward and stabbing with its dagger now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched goblin
+done goblin goblin lunging forward and stabbing with its dagger
+requested skeleton skeleton swinging its rusty sword in a fast slash ['south', 'south-east', 'east', 'north-east', 'north']
+skeleton skeleton swinging its rusty sword in a fast slash now ['south']
+skeleton skeleton swinging its rusty sword in a fast slash now ['south', 'south-east']
+skeleton skeleton swinging its rusty sword in a fast slash now ['north-east', 'south', 'south-east']
+skeleton skeleton swinging its rusty sword in a fast slash now ['east', 'north-east', 'south', 'south-east']
+skeleton skeleton swinging its rusty sword in a fast slash now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched skeleton
+done skeleton skeleton swinging its rusty sword in a fast slash
+requested zombie zombie clawing attack, lunging and swiping both arms ['south', 'south-east', 'east', 'north-east', 'north']
+zombie zombie clawing attack, lunging and swiping both arms now ['south-east']
+zombie zombie clawing attack, lunging and swiping both arms now ['south', 'south-east']
+zombie zombie clawing attack, lunging and swiping both arms now ['east', 'south', 'south-east']
+zombie zombie clawing attack, lunging and swiping both arms now ['east', 'north-east', 'south', 'south-east']
+zombie zombie clawing attack, lunging and swiping both arms now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched zombie
+done zombie zombie clawing attack, lunging and swiping both arms
+requested archer skeleton drawing the bow and shooting an arrow ['south', 'south-east', 'east', 'north-east', 'north']
+archer skeleton drawing the bow and shooting an arrow now ['south']
+archer skeleton drawing the bow and shooting an arrow now ['north-east', 'south']
+archer skeleton drawing the bow and shooting an arrow now ['east', 'north-east', 'south']
+archer skeleton drawing the bow and shooting an arrow now ['east', 'north-east', 'south', 'south-east']
+archer skeleton drawing the bow and shooting an arrow now ['east', 'north', 'north-east', 'south', 'south-east']
+FAILED archer skeleton drawing the bow and shooting an arrow HTTP Error 520: <none>
+requested boss_plague bloated zombie lumbering forward slowly ['south', 'south-east', 'east', 'north-east', 'north']
+boss_plague bloated zombie lumbering forward slowly now ['south']
+boss_plague bloated zombie lumbering forward slowly now ['east', 'south']
+boss_plague bloated zombie lumbering forward slowly now ['east', 'south', 'south-east']

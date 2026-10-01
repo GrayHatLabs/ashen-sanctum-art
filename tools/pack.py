@@ -31,8 +31,8 @@ CHARS = {
                  ("walk", "skeleton walking, rattling bones, sword and shield raised", 10),
                  ("attack", "skeleton swinging its rusty sword in a fast slash", 14)],
     "wolf": [("idle", None, 1), ("walk", "wolf running fast, loping gallop", 12), ("attack", "wolf lunging forward and biting", 14)],
-    "imp": [("idle", None, 1), ("walk", "imp scurrying forward hunched over with its spear", 12),
-            ("attack", "imp stabbing forward with its spear", 14)],
+    "goblin": [("idle", None, 1), ("walk", "goblin running forward hunched over with its dagger", 12),
+               ("attack", "goblin lunging forward and stabbing with its dagger", 14)],
     "archer": [("idle", None, 1), ("walk", "skeleton walking forward holding a bow", 10),
                ("attack", "skeleton drawing the bow and shooting an arrow", 12)],
     "npc_elder": [("idle", None, 1)],
@@ -50,7 +50,42 @@ CHARS = {
                      ("attack", "demon lich king raising both hands and casting a burst of fire", 10)],
 }
 # Directions where PixelLab drifted mid-animation: keep only the first N frames (then hold).
-TRIM = {("zombie", "attack", "north"): 3, ("skeleton", "attack", "south-east"): 3, ("skeleton", "attack", "north-east"): 2, ("boss_bone", "attack", "north"): 3}
+TRIM = {("boss_bone", "attack", "north"): 3}
+# Frames where PixelLab painted glowing effects onto an attack: (name, anim, dir) ->
+#   ("drop", [frame indices])  replace those frames with the nearest clean one
+#   ("use", "walk")            use another animation's frames for this direction
+#   ("key", (r_max, g_min, b_min))  erase pixels that look like the stray effect colour
+FIX = {
+    ("skeleton", "attack", "north"): ("drop", [0, 1]),
+    ("zombie", "attack", "south"): ("drop", [2, 3]),
+    ("zombie", "attack", "north"): ("use", "walk"),
+    ("archer", "attack", "east"): ("key", (130, 150, 150)),
+}
+
+
+def apply_fix(fix, frames, rows_by_name):
+    kind, arg = fix
+    if kind == "drop":
+        keep = [i for i in range(len(frames)) if i not in arg]
+        return [frames[min(keep, key=lambda k: abs(k - i))] if i in arg else f for i, f in enumerate(frames)]
+    if kind == "use":
+        return rows_by_name.get(arg, frames)
+    if kind == "key":
+        rmax, gmin, bmin = arg
+        out = []
+        for im in frames:
+            im = im.copy()
+            px = im.load()
+            for y in range(im.height):
+                for x in range(im.width):
+                    r, g, b, a = px[x, y]
+                    if a and r < rmax and g > gmin and b > bmin:
+                        px[x, y] = (0, 0, 0, 0)
+            out.append(im)
+        return out
+    return frames
+
+
 FLOORS = ["floor_stone1", "floor_stone2", "grass1", "grass2", "dirt1", "road1"]
 WALL = "wall_stone"
 ITEMS = ["food_apple", "food_bread", "food_roast", "seal"]
@@ -128,6 +163,13 @@ def pack_char(name, spec):
                 per_dir.append([ImageOps.mirror(im) for im in have[MIRROR[dname]]])
             else:
                 per_dir.append([rot[dname]])
+        # Per-direction fixes for glitchy generated frames.
+        walk_rows = {r[0]: r[2] for r in rows}
+        for di, dname in enumerate(DIRS):
+            fix = FIX.get((name, game_name, dname))
+            if fix:
+                src = {k: v[di] for k, v in walk_rows.items()}
+                per_dir[di] = apply_fix(fix, per_dir[di], src)
         n = max(len(f) for f in per_dir)
         per_dir = [(f * n)[:n] if len(f) < n else f for f in per_dir]
         rows.append((game_name, fps, per_dir))

@@ -1,0 +1,10 @@
+archer
+boss_hex
+boss_plague
+goblin
+npc_elder
+npc_healer
+npc_merchant
+npc_villager
+skeleton
+zombie

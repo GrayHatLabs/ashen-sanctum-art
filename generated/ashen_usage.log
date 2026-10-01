@@ -71,3 +71,22 @@
 2026-09-30 21:41:22 boss_hex request lich floating forward, robes trailing ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-09-30 21:47:01 boss_hex request lich thrusting the skull staff forward and casting a spell ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-09-30 21:54:41 npc_villager request villager walking calmly ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-01 09:47:31 goblin character job=d20d3e4e-a0b0-41be-8c7d-cafe76611c31 status=completed {"type": "generations", "generations": 1.0}
+2026-10-01 09:49:36 skeleton character job=0c111df1-908e-41b0-801e-b4948365914f status=completed {"type": "generations", "generations": 1.0}
+2026-10-01 09:50:48 archer character job=35579b34-eb4a-4807-b3d3-19d0c06d032b status=completed {"type": "generations", "generations": 1.0}
+2026-10-01 09:52:29 zombie character job=a9aeb576-cb23-447d-a0da-2472664a2d36 status=completed {"type": "generations", "generations": 1.0}
+2026-10-01 09:53:32 npc_villager character job=7b8283c4-3fdf-4a09-8ddf-3ae6cec2dcaa status=completed {"type": "generations", "generations": 1.0}
+2026-10-01 09:55:08 npc_elder character job=f95edf14-131a-4c0d-9bc1-22101f1ed20f status=completed {"type": "generations", "generations": 1.0}
+2026-10-01 09:56:11 npc_merchant character job=e7918677-b232-4b3e-860c-bec31b66cbd3 status=completed {"type": "generations", "generations": 1.0}
+2026-10-01 09:57:14 npc_healer character job=ece26fa3-f8ae-4452-a5ef-9460e95ffa92 status=completed {"type": "generations", "generations": 1.0}
+2026-10-01 09:59:03 boss_plague character job=2cf8af0d-1985-4769-9c59-80b38e8d2c3d status=completed {"type": "generations", "generations": 1.0}
+2026-10-01 10:00:42 boss_hex character job=ad8c5ae5-71d8-4d8a-8c85-dbdcdd46e8fd status=completed {"type": "generations", "generations": 1.0}
+2026-10-01 10:00:53 goblin request goblin running forward hunched over with its dagger ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-01 10:10:09 skeleton request skeleton walking, rattling bones, sword and shield raised ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-01 10:19:54 zombie request shambling slow zombie walk, arms reaching forward ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-01 10:30:56 archer request skeleton walking forward holding a bow ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-01 10:39:40 goblin request goblin lunging forward and stabbing with its dagger ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-01 10:48:24 skeleton request skeleton swinging its rusty sword in a fast slash ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-01 10:57:51 zombie request zombie clawing attack, lunging and swiping both arms ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-01 11:08:23 archer request skeleton drawing the bow and shooting an arrow ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-01 11:17:55 boss_plague request bloated zombie lumbering forward slowly ['south', 'south-east', 'east', 'north-east', 'north'] null

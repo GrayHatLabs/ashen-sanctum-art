@@ -1,28 +1,28 @@
 {
-  "id": "9584786e-0554-483d-a646-17923ec35c17",
+  "id": "9b2a54c8-5186-41d9-a85c-14c3c25aa2df",
   "name": "stout merchant woman with a leather apron, a coin ...",
   "state_name": "Idle",
-  "prompt": "stout merchant woman with a leather apron, a coin pouch and a red headscarf, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "prompt": "stout merchant woman with a leather apron, a coin pouch and a red headscarf, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
   "size": {
     "width": 68,
     "height": 68
   },
   "directions": 8,
-  "created_at": "2026-10-01T01:43:34.082672+00:00",
-  "updated_at": "2026-10-01T01:47:12.851671+00:00",
+  "created_at": "2026-10-01T15:55:13.943528+00:00",
+  "updated_at": "2026-10-01T15:56:10.644371+00:00",
   "animation_count": 0,
   "template_id": "mannequin",
   "view": "high top-down",
   "status": "completed",
   "rotation_urls": {
-    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9584786e-0554-483d-a646-17923ec35c17/rotations/south.png?t=1790819232",
-    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9584786e-0554-483d-a646-17923ec35c17/rotations/west.png?t=1790819232",
-    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9584786e-0554-483d-a646-17923ec35c17/rotations/east.png?t=1790819232",
-    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9584786e-0554-483d-a646-17923ec35c17/rotations/north.png?t=1790819232",
-    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9584786e-0554-483d-a646-17923ec35c17/rotations/south-east.png?t=1790819232",
-    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9584786e-0554-483d-a646-17923ec35c17/rotations/north-east.png?t=1790819232",
-    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9584786e-0554-483d-a646-17923ec35c17/rotations/north-west.png?t=1790819232",
-    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9584786e-0554-483d-a646-17923ec35c17/rotations/south-west.png?t=1790819232"
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9b2a54c8-5186-41d9-a85c-14c3c25aa2df/rotations/south.png?t=1790870170",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9b2a54c8-5186-41d9-a85c-14c3c25aa2df/rotations/west.png?t=1790870170",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9b2a54c8-5186-41d9-a85c-14c3c25aa2df/rotations/east.png?t=1790870170",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9b2a54c8-5186-41d9-a85c-14c3c25aa2df/rotations/north.png?t=1790870170",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9b2a54c8-5186-41d9-a85c-14c3c25aa2df/rotations/south-east.png?t=1790870170",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9b2a54c8-5186-41d9-a85c-14c3c25aa2df/rotations/north-east.png?t=1790870170",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9b2a54c8-5186-41d9-a85c-14c3c25aa2df/rotations/north-west.png?t=1790870170",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9b2a54c8-5186-41d9-a85c-14c3c25aa2df/rotations/south-west.png?t=1790870170"
   },
   "style_settings": {
     "detail": "medium detail",
@@ -32,7 +32,7 @@
   "guidance": null,
   "ai_freedom": null,
   "tags": [],
-  "group_id": "fff95e9f-6d3e-4b45-bddb-922dc1b43a8d",
+  "group_id": "7b1a3874-3800-4a55-b61e-ee483097d2a5",
   "skeletons": null,
   "animations": []
 }

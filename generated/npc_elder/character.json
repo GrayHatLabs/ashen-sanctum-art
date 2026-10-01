@@ -1,28 +1,28 @@
 {
-  "id": "28ca4b81-30fa-4339-9201-e434bf43c557",
+  "id": "8bf0a3d5-d513-4028-aa57-abe1168d7573",
   "name": "old village elder woman with grey braided hair, a ...",
   "state_name": "Idle",
-  "prompt": "old village elder woman with grey braided hair, a long green shawl and a wooden walking cane, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "prompt": "old village elder woman with grey braided hair, a long green shawl and a wooden walking cane, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
   "size": {
     "width": 68,
     "height": 68
   },
   "directions": 8,
-  "created_at": "2026-10-01T01:40:39.149840+00:00",
-  "updated_at": "2026-10-01T01:43:22.537768+00:00",
+  "created_at": "2026-10-01T15:53:37.676245+00:00",
+  "updated_at": "2026-10-01T15:55:06.828315+00:00",
   "animation_count": 0,
   "template_id": "mannequin",
   "view": "high top-down",
   "status": "completed",
   "rotation_urls": {
-    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/28ca4b81-30fa-4339-9201-e434bf43c557/rotations/south.png?t=1790819002",
-    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/28ca4b81-30fa-4339-9201-e434bf43c557/rotations/west.png?t=1790819002",
-    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/28ca4b81-30fa-4339-9201-e434bf43c557/rotations/east.png?t=1790819002",
-    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/28ca4b81-30fa-4339-9201-e434bf43c557/rotations/north.png?t=1790819002",
-    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/28ca4b81-30fa-4339-9201-e434bf43c557/rotations/south-east.png?t=1790819002",
-    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/28ca4b81-30fa-4339-9201-e434bf43c557/rotations/north-east.png?t=1790819002",
-    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/28ca4b81-30fa-4339-9201-e434bf43c557/rotations/north-west.png?t=1790819002",
-    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/28ca4b81-30fa-4339-9201-e434bf43c557/rotations/south-west.png?t=1790819002"
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8bf0a3d5-d513-4028-aa57-abe1168d7573/rotations/south.png?t=1790870106",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8bf0a3d5-d513-4028-aa57-abe1168d7573/rotations/west.png?t=1790870106",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8bf0a3d5-d513-4028-aa57-abe1168d7573/rotations/east.png?t=1790870106",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8bf0a3d5-d513-4028-aa57-abe1168d7573/rotations/north.png?t=1790870106",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8bf0a3d5-d513-4028-aa57-abe1168d7573/rotations/south-east.png?t=1790870106",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8bf0a3d5-d513-4028-aa57-abe1168d7573/rotations/north-east.png?t=1790870106",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8bf0a3d5-d513-4028-aa57-abe1168d7573/rotations/north-west.png?t=1790870106",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8bf0a3d5-d513-4028-aa57-abe1168d7573/rotations/south-west.png?t=1790870106"
   },
   "style_settings": {
     "detail": "medium detail",
@@ -32,7 +32,7 @@
   "guidance": null,
   "ai_freedom": null,
   "tags": [],
-  "group_id": "c3fee72c-c426-44f5-854e-427551bf8336",
+  "group_id": "2e2228b4-7c95-4c20-b019-d5ab6853266a",
   "skeletons": null,
   "animations": []
 }

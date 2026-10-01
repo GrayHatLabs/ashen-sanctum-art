@@ -36,12 +36,12 @@
       "name": "zombie",
       "file": "zombie.png",
       "cell": [
-        44,
-        50
+        54,
+        66
       ],
       "anchor": [
-        22,
-        44
+        17,
+        50
       ],
       "anims": [
         {
@@ -68,12 +68,12 @@
       "name": "skeleton",
       "file": "skeleton.png",
       "cell": [
-        51,
-        51
+        76,
+        68
       ],
       "anchor": [
-        26,
-        46
+        28,
+        51
       ],
       "anims": [
         {
@@ -129,15 +129,15 @@
       ]
     },
     {
-      "name": "imp",
-      "file": "imp.png",
+      "name": "goblin",
+      "file": "goblin.png",
       "cell": [
-        42,
-        40
+        59,
+        63
       ],
       "anchor": [
-        19,
-        36
+        18,
+        47
       ],
       "anims": [
         {
@@ -164,12 +164,12 @@
       "name": "archer",
       "file": "archer.png",
       "cell": [
-        58,
-        48
+        60,
+        64
       ],
       "anchor": [
-        27,
-        43
+        24,
+        47
       ],
       "anims": [
         {
@@ -179,14 +179,8 @@
           "fps": 1
         },
         {
-          "name": "walk",
-          "row": 8,
-          "frames": 6,
-          "fps": 10
-        },
-        {
           "name": "attack",
-          "row": 16,
+          "row": 8,
           "frames": 6,
           "fps": 12
         }
@@ -196,12 +190,12 @@
       "name": "npc_elder",
       "file": "npc_elder.png",
       "cell": [
-        22,
-        49
+        26,
+        47
       ],
       "anchor": [
-        11,
-        42
+        13,
+        41
       ],
       "anims": [
         {
@@ -217,11 +211,11 @@
       "file": "npc_merchant.png",
       "cell": [
         20,
-        46
+        48
       ],
       "anchor": [
         10,
-        41
+        44
       ],
       "anims": [
         {
@@ -236,12 +230,12 @@
       "name": "npc_healer",
       "file": "npc_healer.png",
       "cell": [
-        22,
-        45
+        24,
+        49
       ],
       "anchor": [
-        10,
-        40
+        12,
+        42
       ],
       "anims": [
         {
@@ -276,12 +270,12 @@
       "name": "npc_villager",
       "file": "npc_villager.png",
       "cell": [
-        24,
-        50
+        22,
+        53
       ],
       "anchor": [
-        12,
-        44
+        11,
+        47
       ],
       "anims": [
         {
@@ -289,12 +283,6 @@
           "row": 0,
           "frames": 1,
           "fps": 1
-        },
-        {
-          "name": "walk",
-          "row": 8,
-          "frames": 6,
-          "fps": 8
         }
       ]
     },
@@ -334,43 +322,11 @@
       "name": "boss_plague",
       "file": "boss_plague.png",
       "cell": [
-        58,
-        82
+        37,
+        81
       ],
       "anchor": [
-        29,
-        72
-      ],
-      "anims": [
-        {
-          "name": "idle",
-          "row": 0,
-          "frames": 1,
-          "fps": 1
-        },
-        {
-          "name": "walk",
-          "row": 8,
-          "frames": 6,
-          "fps": 6
-        },
-        {
-          "name": "attack",
-          "row": 16,
-          "frames": 6,
-          "fps": 9
-        }
-      ]
-    },
-    {
-      "name": "boss_hex",
-      "file": "boss_hex.png",
-      "cell": [
-        86,
-        83
-      ],
-      "anchor": [
-        36,
+        18,
         74
       ],
       "anims": [
@@ -379,18 +335,26 @@
           "row": 0,
           "frames": 1,
           "fps": 1
-        },
+        }
+      ]
+    },
+    {
+      "name": "boss_hex",
+      "file": "boss_hex.png",
+      "cell": [
+        51,
+        90
+      ],
+      "anchor": [
+        28,
+        83
+      ],
+      "anims": [
         {
-          "name": "walk",
-          "row": 8,
-          "frames": 6,
-          "fps": 8
-        },
-        {
-          "name": "attack",
-          "row": 16,
-          "frames": 6,
-          "fps": 10
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
         }
       ]
     },

@@ -1,0 +1,38 @@
+{
+  "id": "20729889-aa1c-4260-8a71-d81bcc00fc1d",
+  "name": "the Ash King, a towering demonic lich king with a ...",
+  "state_name": "Idle",
+  "prompt": "the Ash King, a towering demonic lich king with a crown of black horns, burning ember eyes, cracked charcoal skin and a cloak of ash and embers, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 136,
+    "height": 136
+  },
+  "directions": 8,
+  "created_at": "2026-10-01T02:03:55.021046+00:00",
+  "updated_at": "2026-10-01T02:06:58.375760+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/20729889-aa1c-4260-8a71-d81bcc00fc1d/rotations/south.png?t=1790820418",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/20729889-aa1c-4260-8a71-d81bcc00fc1d/rotations/west.png?t=1790820418",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/20729889-aa1c-4260-8a71-d81bcc00fc1d/rotations/east.png?t=1790820418",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/20729889-aa1c-4260-8a71-d81bcc00fc1d/rotations/north.png?t=1790820418",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/20729889-aa1c-4260-8a71-d81bcc00fc1d/rotations/south-east.png?t=1790820418",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/20729889-aa1c-4260-8a71-d81bcc00fc1d/rotations/north-east.png?t=1790820418",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/20729889-aa1c-4260-8a71-d81bcc00fc1d/rotations/north-west.png?t=1790820418",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/20729889-aa1c-4260-8a71-d81bcc00fc1d/rotations/south-west.png?t=1790820418"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "54483e36-bc00-4591-94df-9ad4d1bac26b",
+  "skeletons": null,
+  "animations": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "fa974c6a-86cc-4d34-bf85-c6d22de3b5ea",
+  "name": "huge armored skeleton warden knight with a massive...",
+  "state_name": "Idle",
+  "prompt": "huge armored skeleton warden knight with a massive bone greatsword and a horned helm, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 112,
+    "height": 112
+  },
+  "directions": 8,
+  "created_at": "2026-10-01T01:56:10.856342+00:00",
+  "updated_at": "2026-10-01T01:59:09.394482+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/fa974c6a-86cc-4d34-bf85-c6d22de3b5ea/rotations/south.png?t=1790819949",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/fa974c6a-86cc-4d34-bf85-c6d22de3b5ea/rotations/west.png?t=1790819949",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/fa974c6a-86cc-4d34-bf85-c6d22de3b5ea/rotations/east.png?t=1790819949",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/fa974c6a-86cc-4d34-bf85-c6d22de3b5ea/rotations/north.png?t=1790819949",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/fa974c6a-86cc-4d34-bf85-c6d22de3b5ea/rotations/south-east.png?t=1790819949",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/fa974c6a-86cc-4d34-bf85-c6d22de3b5ea/rotations/north-east.png?t=1790819949",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/fa974c6a-86cc-4d34-bf85-c6d22de3b5ea/rotations/north-west.png?t=1790819949",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/fa974c6a-86cc-4d34-bf85-c6d22de3b5ea/rotations/south-west.png?t=1790819949"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "b3217cde-7568-43c4-afda-b4fdf129e660",
+  "skeletons": null,
+  "animations": []
+}

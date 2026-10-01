@@ -23,3 +23,15 @@ character 92761d16-c446-4ff0-8125-8a01c37b12de
 fetched npc_villager
 made npc_villager
 character fa974c6a-86cc-4d34-bf85-c6d22de3b5ea
+fetched boss_bone
+made boss_bone
+character c4d6f024-502c-4289-a25e-8dfdf20c668d
+fetched boss_plague
+made boss_plague
+character f5bf4517-e150-47f6-b347-50cfc75bb0b8
+fetched boss_hex
+made boss_hex
+character 20729889-aa1c-4260-8a71-d81bcc00fc1d
+fetched boss_ashking
+made boss_ashking
+requested wolf wolf running fast, loping gallop ['south', 'south-east', 'east', 'north-east', 'north']

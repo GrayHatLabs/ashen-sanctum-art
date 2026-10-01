@@ -255,6 +255,86 @@
           "fps": 1
         }
       ]
+    },
+    {
+      "name": "boss_bone",
+      "file": "boss_bone.png",
+      "cell": [
+        63,
+        85
+      ],
+      "anchor": [
+        28,
+        78
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_plague",
+      "file": "boss_plague.png",
+      "cell": [
+        32,
+        80
+      ],
+      "anchor": [
+        16,
+        72
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_hex",
+      "file": "boss_hex.png",
+      "cell": [
+        43,
+        76
+      ],
+      "anchor": [
+        19,
+        70
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_ashking",
+      "file": "boss_ashking.png",
+      "cell": [
+        59,
+        116
+      ],
+      "anchor": [
+        29,
+        110
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
     }
   ],
   "tiles": [

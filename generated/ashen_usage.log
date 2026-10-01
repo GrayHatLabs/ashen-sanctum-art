@@ -52,3 +52,8 @@
 2026-09-30 19:53:22 palisade isotile job=b7b8ddb0-7223-4387-b5f5-0d040847f07e status=completed {"type": "generations", "generations": 1.0}
 2026-09-30 19:53:56 npc_guard character job=be44e81a-d526-4ae0-91b2-959984aa8b4e status=completed {"type": "generations", "generations": 1.0}
 2026-09-30 19:56:05 npc_villager character job=90759d49-d11a-4386-8a66-71aefb1fae12 status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 19:59:14 boss_bone character job=791c5880-c9fa-4cc4-a7a0-1fc0ecdfc2d2 status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 20:01:39 boss_plague character job=3ac25c5c-e804-4dd8-8c67-5befa6aa9342 status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 20:03:47 boss_hex character job=4f34992d-3b49-4173-9fd7-2fffce0084c8 status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 20:07:04 boss_ashking character job=52550d41-9bde-41f9-8b47-ebc2f83f0f27 status=completed {"type": "generations", "generations": 1.0}
+2026-09-30 20:07:15 wolf request wolf running fast, loping gallop ['south', 'south-east', 'east', 'north-east', 'north'] null

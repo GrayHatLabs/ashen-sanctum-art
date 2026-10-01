@@ -1,0 +1,38 @@
+{
+  "id": "f5bf4517-e150-47f6-b347-50cfc75bb0b8",
+  "name": "skeletal lich sorcerer in tattered purple robes ho...",
+  "state_name": "Idle",
+  "prompt": "skeletal lich sorcerer in tattered purple robes holding a staff topped with a glowing violet skull, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 104,
+    "height": 104
+  },
+  "directions": 8,
+  "created_at": "2026-10-01T02:01:49.610787+00:00",
+  "updated_at": "2026-10-01T02:03:25.679344+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/f5bf4517-e150-47f6-b347-50cfc75bb0b8/rotations/south.png?t=1790820205",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/f5bf4517-e150-47f6-b347-50cfc75bb0b8/rotations/west.png?t=1790820205",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/f5bf4517-e150-47f6-b347-50cfc75bb0b8/rotations/east.png?t=1790820205",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/f5bf4517-e150-47f6-b347-50cfc75bb0b8/rotations/north.png?t=1790820205",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/f5bf4517-e150-47f6-b347-50cfc75bb0b8/rotations/south-east.png?t=1790820205",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/f5bf4517-e150-47f6-b347-50cfc75bb0b8/rotations/north-east.png?t=1790820205",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/f5bf4517-e150-47f6-b347-50cfc75bb0b8/rotations/north-west.png?t=1790820205",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/f5bf4517-e150-47f6-b347-50cfc75bb0b8/rotations/south-west.png?t=1790820205"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "96194618-bfbf-4f4b-adba-e6b9b8b44735",
+  "skeletons": null,
+  "animations": []
+}

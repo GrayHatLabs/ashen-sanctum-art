@@ -1,0 +1,38 @@
+{
+  "id": "c4d6f024-502c-4289-a25e-8dfdf20c668d",
+  "name": "enormous bloated rotting plague zombie with green ...",
+  "state_name": "Idle",
+  "prompt": "enormous bloated rotting plague zombie with green boils, dripping slime and huge fists, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 112,
+    "height": 112
+  },
+  "directions": 8,
+  "created_at": "2026-10-01T01:59:19.982724+00:00",
+  "updated_at": "2026-10-01T02:01:28.895207+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c4d6f024-502c-4289-a25e-8dfdf20c668d/rotations/south.png?t=1790820088",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c4d6f024-502c-4289-a25e-8dfdf20c668d/rotations/west.png?t=1790820088",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c4d6f024-502c-4289-a25e-8dfdf20c668d/rotations/east.png?t=1790820088",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c4d6f024-502c-4289-a25e-8dfdf20c668d/rotations/north.png?t=1790820088",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c4d6f024-502c-4289-a25e-8dfdf20c668d/rotations/south-east.png?t=1790820088",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c4d6f024-502c-4289-a25e-8dfdf20c668d/rotations/north-east.png?t=1790820088",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c4d6f024-502c-4289-a25e-8dfdf20c668d/rotations/north-west.png?t=1790820088",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c4d6f024-502c-4289-a25e-8dfdf20c668d/rotations/south-west.png?t=1790820088"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "71ce00ee-d975-42ab-9342-da32b3337565",
+  "skeletons": null,
+  "animations": []
+}

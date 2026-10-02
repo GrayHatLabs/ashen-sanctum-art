@@ -95,6 +95,8 @@ ITEMS = ["food_apple", "food_bread", "food_roast", "seal"]
 PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "house2", "tent1", "campfire", "well",
          "ent_crypt", "ent_warrens", "ent_catacombs", "ent_sanctum", "stairs_down", "stairs_up"]
 ITEM_SIZE = 14
+# Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
+ICON_SIZE = 24
 WALL_STACK = 3
 
 
@@ -285,6 +287,23 @@ def pack_items():
         im.save(OUT / f"{n}.png")
         items.append({"name": n, "file": f"{n}.png"})
         print("item", n, im.size)
+    import items_art
+    for n, _ in items_art.ICONS:
+        p = GEN / n / "image.png"
+        if not p.exists():
+            continue
+        im = load(p)
+        im = im.crop(im.getbbox())
+        f = ICON_SIZE / max(im.size)
+        im = im.resize((max(1, round(im.width * f)), max(1, round(im.height * f))), Image.LANCZOS)
+        px = im.load()
+        for y in range(im.height):
+            for x in range(im.width):
+                c = px[x, y]
+                px[x, y] = (c[0], c[1], c[2], 255) if c[3] > 110 else (0, 0, 0, 0)
+        im.save(OUT / f"{n}.png")
+        items.append({"name": n, "file": f"{n}.png"})
+    print("icons", len(items_art.ICONS))
     for n in PROPS:
         p = GEN / n / "image.png"
         if not p.exists():

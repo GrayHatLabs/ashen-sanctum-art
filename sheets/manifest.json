@@ -511,6 +511,82 @@
       "file": "seal.png"
     },
     {
+      "name": "icon_staff_gnarled",
+      "file": "icon_staff_gnarled.png"
+    },
+    {
+      "name": "icon_staff_ash",
+      "file": "icon_staff_ash.png"
+    },
+    {
+      "name": "icon_staff_runed",
+      "file": "icon_staff_runed.png"
+    },
+    {
+      "name": "icon_staff_ember",
+      "file": "icon_staff_ember.png"
+    },
+    {
+      "name": "icon_helm_hood",
+      "file": "icon_helm_hood.png"
+    },
+    {
+      "name": "icon_helm_circlet",
+      "file": "icon_helm_circlet.png"
+    },
+    {
+      "name": "icon_helm_horned",
+      "file": "icon_helm_horned.png"
+    },
+    {
+      "name": "icon_helm_crown",
+      "file": "icon_helm_crown.png"
+    },
+    {
+      "name": "icon_armor_robe",
+      "file": "icon_armor_robe.png"
+    },
+    {
+      "name": "icon_armor_leather",
+      "file": "icon_armor_leather.png"
+    },
+    {
+      "name": "icon_armor_chain",
+      "file": "icon_armor_chain.png"
+    },
+    {
+      "name": "icon_gloves_cloth",
+      "file": "icon_gloves_cloth.png"
+    },
+    {
+      "name": "icon_gloves_leather",
+      "file": "icon_gloves_leather.png"
+    },
+    {
+      "name": "icon_boots_cloth",
+      "file": "icon_boots_cloth.png"
+    },
+    {
+      "name": "icon_boots_heavy",
+      "file": "icon_boots_heavy.png"
+    },
+    {
+      "name": "icon_belt_sash",
+      "file": "icon_belt_sash.png"
+    },
+    {
+      "name": "icon_belt_leather",
+      "file": "icon_belt_leather.png"
+    },
+    {
+      "name": "icon_ring",
+      "file": "icon_ring.png"
+    },
+    {
+      "name": "icon_amulet",
+      "file": "icon_amulet.png"
+    },
+    {
       "name": "tree_oak",
       "file": "prop_tree_oak.png"
     },

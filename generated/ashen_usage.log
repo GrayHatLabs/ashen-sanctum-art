@@ -95,3 +95,26 @@
 2026-10-01 11:55:04 boss_hex request lich thrusting the skull staff forward and casting a spell ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-01 12:20:52 npc_villager request villager walking calmly ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-01 12:48:32 npc_villager request villager walking calmly ['south-east', 'east', 'north-east', 'north'] null
+2026-10-01 23:09:18 icon_staff_gnarled icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:09:41 icon_armor_robe icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:10:22 icon_armor_robe icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:10:49 icon_staff_ash icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:11:12 icon_staff_runed icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:11:33 icon_staff_ember icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:11:53 icon_helm_hood icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:12:12 icon_helm_circlet icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:12:55 icon_helm_horned icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:13:22 icon_helm_crown icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:13:56 icon_armor_leather icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:14:13 icon_armor_chain icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:15:15 icon_gloves_cloth icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:15:36 icon_gloves_leather icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:15:56 icon_boots_cloth icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:16:16 icon_boots_heavy icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:16:45 icon_belt_sash icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:17:11 icon_belt_leather icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:17:32 icon_ring icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:17:53 icon_amulet icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:19:04 icon_helm_circlet icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:19:48 icon_gloves_leather icon {"type": "generations", "generations": 1.0}
+2026-10-01 23:20:09 icon_belt_leather icon {"type": "generations", "generations": 1.0}

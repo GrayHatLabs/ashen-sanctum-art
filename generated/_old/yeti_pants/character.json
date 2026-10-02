@@ -1,0 +1,38 @@
+{
+  "id": "1bf73f42-353e-4b17-ba21-b874f1f6c88e",
+  "name": "hulking white-furred yeti with long powerful arms ...",
+  "state_name": "Idle",
+  "prompt": "hulking white-furred yeti with long powerful arms and a blue-grey face, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 80,
+    "height": 80
+  },
+  "directions": 8,
+  "created_at": "2026-10-02T16:52:54.486662+00:00",
+  "updated_at": "2026-10-02T16:53:59.869401+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1bf73f42-353e-4b17-ba21-b874f1f6c88e/rotations/south.png?t=1790960039",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1bf73f42-353e-4b17-ba21-b874f1f6c88e/rotations/west.png?t=1790960039",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1bf73f42-353e-4b17-ba21-b874f1f6c88e/rotations/east.png?t=1790960039",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1bf73f42-353e-4b17-ba21-b874f1f6c88e/rotations/north.png?t=1790960039",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1bf73f42-353e-4b17-ba21-b874f1f6c88e/rotations/south-east.png?t=1790960039",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1bf73f42-353e-4b17-ba21-b874f1f6c88e/rotations/north-east.png?t=1790960039",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1bf73f42-353e-4b17-ba21-b874f1f6c88e/rotations/north-west.png?t=1790960039",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1bf73f42-353e-4b17-ba21-b874f1f6c88e/rotations/south-west.png?t=1790960039"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "82ac3f6d-9223-4e1f-a031-1ce55d86d486",
+  "skeletons": null,
+  "animations": []
+}

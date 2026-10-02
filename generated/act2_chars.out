@@ -83,3 +83,134 @@ have yeti
 character 4bc0f189-3151-449a-bec1-e20260a05011
 fetched ice_troll
 made ice_troll
+character 9f3d1a5c-1cd5-406e-8905-ce5da9f9ec47
+fetched ice_wraith
+made ice_wraith
+character 5224b8c5-1ca1-4a28-ac75-33adb60d2ece
+fetched npc_captain
+made npc_captain
+character cd095022-cdf5-4aea-b68d-065cc250362b
+fetched npc_trader
+made npc_trader
+character 4ac6a3a9-0853-4bff-a4db-1940f959613f
+fetched npc_seer
+made npc_seer
+character 82e7e3ca-2ae4-4d58-ba83-c344f3dcc6b5
+fetched npc_fisher
+made npc_fisher
+character 33b2abe6-7de8-43ee-9b8d-702185c6616a
+fetched boss_giant
+made boss_giant
+character 9ff6be2f-2667-4256-b06a-c9dde542e568
+fetched boss_yeti
+made boss_yeti
+character c6a3c217-f61e-4515-9382-a4e9fd9d7fbb
+fetched boss_witch
+made boss_witch
+character 9d58fc32-3244-45d4-8e22-8afdac7c71ab
+fetched boss_dragon
+made boss_dragon
+requested frost_wolf wolf running fast, loping gallop ['south', 'south-east', 'east', 'north-east', 'north']
+frost_wolf wolf running fast, loping gallop now ['south']
+frost_wolf wolf running fast, loping gallop now ['south', 'south-east']
+frost_wolf wolf running fast, loping gallop now ['north', 'south', 'south-east']
+frost_wolf wolf running fast, loping gallop now ['east', 'north', 'south', 'south-east']
+frost_wolf wolf running fast, loping gallop now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched frost_wolf
+done frost_wolf wolf running fast, loping gallop
+requested frost_wolf wolf lunging forward and biting ['south', 'south-east', 'east', 'north-east', 'north']
+frost_wolf wolf lunging forward and biting now ['south']
+frost_wolf wolf lunging forward and biting now ['east', 'north', 'south', 'south-east']
+frost_wolf wolf lunging forward and biting now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched frost_wolf
+done frost_wolf wolf lunging forward and biting
+requested raider barbarian walking forward with the axe ready ['south', 'south-east', 'east', 'north-east', 'north']
+raider barbarian walking forward with the axe ready now ['south']
+raider barbarian walking forward with the axe ready now ['east', 'south']
+raider barbarian walking forward with the axe ready now ['east', 'south', 'south-east']
+raider barbarian walking forward with the axe ready now ['east', 'north-east', 'south', 'south-east']
+raider barbarian walking forward with the axe ready now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched raider
+done raider barbarian walking forward with the axe ready
+requested raider barbarian swinging the axe in a fast overhead chop ['south', 'south-east', 'east', 'north-east', 'north']
+raider barbarian swinging the axe in a fast overhead chop now ['south']
+raider barbarian swinging the axe in a fast overhead chop now ['north-east', 'south', 'south-east']
+raider barbarian swinging the axe in a fast overhead chop now ['north', 'north-east', 'south', 'south-east']
+raider barbarian swinging the axe in a fast overhead chop now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched raider
+done raider barbarian swinging the axe in a fast overhead chop
+requested yeti yeti lumbering forward on two legs, arms swinging ['south', 'south-east', 'east', 'north-east', 'north']
+yeti yeti lumbering forward on two legs, arms swinging now ['south']
+yeti yeti lumbering forward on two legs, arms swinging now ['south', 'south-east']
+yeti yeti lumbering forward on two legs, arms swinging now ['north-east', 'south', 'south-east']
+yeti yeti lumbering forward on two legs, arms swinging now ['east', 'north-east', 'south', 'south-east']
+yeti yeti lumbering forward on two legs, arms swinging now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched yeti
+done yeti yeti lumbering forward on two legs, arms swinging
+requested yeti yeti smashing both fists down ['south', 'south-east', 'east', 'north-east', 'north']
+yeti yeti smashing both fists down now ['south-east']
+yeti yeti smashing both fists down now ['south', 'south-east']
+yeti yeti smashing both fists down now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched yeti
+done yeti yeti smashing both fists down
+requested ice_troll troll loping forward hunched over ['south', 'south-east', 'east', 'north-east', 'north']
+ice_troll troll loping forward hunched over now ['south']
+ice_troll troll loping forward hunched over now ['north-east', 'south', 'south-east']
+ice_troll troll loping forward hunched over now ['east', 'north-east', 'south', 'south-east']
+ice_troll troll loping forward hunched over now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched ice_troll
+done ice_troll troll loping forward hunched over
+requested ice_troll troll slashing with its long claws ['south', 'south-east', 'east', 'north-east', 'north']
+ice_troll troll slashing with its long claws now ['south']
+ice_troll troll slashing with its long claws now ['east', 'south']
+ice_troll troll slashing with its long claws now ['east', 'south', 'south-east']
+ice_troll troll slashing with its long claws now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched ice_troll
+done ice_troll troll slashing with its long claws
+requested ice_wraith wraith gliding forward, robes trailing ['south', 'south-east', 'east', 'north-east', 'north']
+ice_wraith wraith gliding forward, robes trailing now ['south', 'south-east']
+ice_wraith wraith gliding forward, robes trailing now ['north', 'north-east', 'south', 'south-east']
+ice_wraith wraith gliding forward, robes trailing now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched ice_wraith
+done ice_wraith wraith gliding forward, robes trailing
+requested ice_wraith wraith lunging forward and raking with its claws ['south', 'south-east', 'east', 'north-east', 'north']
+ice_wraith wraith lunging forward and raking with its claws now ['south']
+ice_wraith wraith lunging forward and raking with its claws now ['south', 'south-east']
+ice_wraith wraith lunging forward and raking with its claws now ['east', 'south', 'south-east']
+ice_wraith wraith lunging forward and raking with its claws now ['east', 'north-east', 'south', 'south-east']
+ice_wraith wraith lunging forward and raking with its claws now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched ice_wraith
+done ice_wraith wraith lunging forward and raking with its claws
+requested boss_dragon dragon walking forward on four legs, wings folded ['south', 'south-east', 'east', 'north-east', 'north']
+boss_dragon dragon walking forward on four legs, wings folded now ['south-east']
+boss_dragon dragon walking forward on four legs, wings folded now ['east', 'north-east', 'south', 'south-east']
+boss_dragon dragon walking forward on four legs, wings folded now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_dragon
+done boss_dragon dragon walking forward on four legs, wings folded
+requested boss_dragon dragon rearing its head back and breathing a blast of frost ['south', 'south-east', 'east', 'north-east', 'north']
+boss_dragon dragon rearing its head back and breathing a blast of frost now ['south']
+boss_dragon dragon rearing its head back and breathing a blast of frost now ['east', 'south', 'south-east']
+boss_dragon dragon rearing its head back and breathing a blast of frost now ['east', 'north-east', 'south', 'south-east']
+boss_dragon dragon rearing its head back and breathing a blast of frost now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_dragon
+done boss_dragon dragon rearing its head back and breathing a blast of frost
+requested boss_giant giant walking heavily forward, maul in hand ['south', 'south-east', 'east', 'north-east', 'north']
+boss_giant giant walking heavily forward, maul in hand now ['south-east']
+boss_giant giant walking heavily forward, maul in hand now ['south', 'south-east']
+boss_giant giant walking heavily forward, maul in hand now ['east', 'south', 'south-east']
+boss_giant giant walking heavily forward, maul in hand now ['east', 'north-east', 'south', 'south-east']
+boss_giant giant walking heavily forward, maul in hand now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_giant
+done boss_giant giant walking heavily forward, maul in hand
+requested boss_giant giant slamming the maul down onto the ground ['south', 'south-east', 'east', 'north-east', 'north']
+boss_giant giant slamming the maul down onto the ground now ['east']
+boss_giant giant slamming the maul down onto the ground now ['east', 'south']
+boss_giant giant slamming the maul down onto the ground now ['east', 'south', 'south-east']
+boss_giant giant slamming the maul down onto the ground now ['east', 'north-east', 'south', 'south-east']
+boss_giant giant slamming the maul down onto the ground now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_giant
+done boss_giant giant slamming the maul down onto the ground
+requested boss_yeti giant yeti lumbering forward ['south', 'south-east', 'east', 'north-east', 'north']
+boss_yeti giant yeti lumbering forward now ['south']
+boss_yeti giant yeti lumbering forward now ['north-east', 'south']
+boss_yeti giant yeti lumbering forward now ['east', 'north', 'north-east', 'south']

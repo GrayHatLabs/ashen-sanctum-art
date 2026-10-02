@@ -425,6 +425,350 @@
           "fps": 10
         }
       ]
+    },
+    {
+      "name": "frost_wolf",
+      "file": "frost_wolf.png",
+      "cell": [
+        65,
+        56
+      ],
+      "anchor": [
+        28,
+        39
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 12
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
+        }
+      ]
+    },
+    {
+      "name": "raider",
+      "file": "raider.png",
+      "cell": [
+        63,
+        66
+      ],
+      "anchor": [
+        26,
+        49
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 10
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
+        }
+      ]
+    },
+    {
+      "name": "yeti",
+      "file": "yeti.png",
+      "cell": [
+        73,
+        76
+      ],
+      "anchor": [
+        27,
+        56
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 11
+        }
+      ]
+    },
+    {
+      "name": "ice_troll",
+      "file": "ice_troll.png",
+      "cell": [
+        72,
+        78
+      ],
+      "anchor": [
+        26,
+        60
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 11
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
+        }
+      ]
+    },
+    {
+      "name": "ice_wraith",
+      "file": "ice_wraith.png",
+      "cell": [
+        60,
+        65
+      ],
+      "anchor": [
+        22,
+        48
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 9
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 12
+        }
+      ]
+    },
+    {
+      "name": "npc_captain",
+      "file": "npc_captain.png",
+      "cell": [
+        31,
+        47
+      ],
+      "anchor": [
+        15,
+        42
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_trader",
+      "file": "npc_trader.png",
+      "cell": [
+        24,
+        50
+      ],
+      "anchor": [
+        12,
+        45
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_seer",
+      "file": "npc_seer.png",
+      "cell": [
+        24,
+        54
+      ],
+      "anchor": [
+        12,
+        50
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_fisher",
+      "file": "npc_fisher.png",
+      "cell": [
+        27,
+        53
+      ],
+      "anchor": [
+        13,
+        47
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_giant",
+      "file": "boss_giant.png",
+      "cell": [
+        108,
+        129
+      ],
+      "anchor": [
+        32,
+        105
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 9
+        }
+      ]
+    },
+    {
+      "name": "boss_yeti",
+      "file": "boss_yeti.png",
+      "cell": [
+        45,
+        90
+      ],
+      "anchor": [
+        23,
+        82
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_witch",
+      "file": "boss_witch.png",
+      "cell": [
+        41,
+        88
+      ],
+      "anchor": [
+        20,
+        83
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_dragon",
+      "file": "boss_dragon.png",
+      "cell": [
+        180,
+        164
+      ],
+      "anchor": [
+        90,
+        143
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 9
+        }
+      ]
     }
   ],
   "tiles": [

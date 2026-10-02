@@ -21,7 +21,7 @@ HEADS = "small head, realistic adult body proportions, long legs"
 CHARS = [
     ("frost_wolf", "lean white-furred winter wolf with icy blue eyes and frost crusted on its fur", 48, "none", "dog"),
     ("raider", f"northern barbarian raider in heavy furs and a horned iron helm holding a hand axe, {HEADS}", 48, "heroic", ""),
-    ("yeti", f"hulking white-furred yeti with long powerful arms and a blue-grey face, {HEADS}", 56, "heroic", ""),
+    ("yeti", f"hulking yeti beast covered head to toe in shaggy white fur, furry legs and feet, no clothes, long powerful arms and a blue-grey face, {HEADS}", 56, "heroic", ""),
     ("ice_troll", f"gaunt pale blue ice troll with long clawed arms and icicles growing on its back, {HEADS}", 52, "heroic", ""),
     ("ice_wraith", f"floating translucent pale blue wraith in tattered frosty robes with long clawed hands, {HEADS}", 48, "heroic", ""),
     ("npc_captain", f"stern northern woman captain in fur-lined chainmail with a long blonde braid and a sheathed sword, {HEADS}", 48, "realistic_female", ""),

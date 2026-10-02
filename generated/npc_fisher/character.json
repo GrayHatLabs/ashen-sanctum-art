@@ -1,0 +1,38 @@
+{
+  "id": "82e7e3ca-2ae4-4d58-ba83-c344f3dcc6b5",
+  "name": "townsman ice fisherman in a thick wool coat and a ...",
+  "state_name": "Idle",
+  "prompt": "townsman ice fisherman in a thick wool coat and a knit cap carrying a fishing spear, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 68,
+    "height": 68
+  },
+  "directions": 8,
+  "created_at": "2026-10-02T17:03:22.652627+00:00",
+  "updated_at": "2026-10-02T17:04:35.846247+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/82e7e3ca-2ae4-4d58-ba83-c344f3dcc6b5/rotations/south.png?t=1790960675",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/82e7e3ca-2ae4-4d58-ba83-c344f3dcc6b5/rotations/west.png?t=1790960675",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/82e7e3ca-2ae4-4d58-ba83-c344f3dcc6b5/rotations/east.png?t=1790960675",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/82e7e3ca-2ae4-4d58-ba83-c344f3dcc6b5/rotations/north.png?t=1790960675",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/82e7e3ca-2ae4-4d58-ba83-c344f3dcc6b5/rotations/south-east.png?t=1790960675",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/82e7e3ca-2ae4-4d58-ba83-c344f3dcc6b5/rotations/north-east.png?t=1790960675",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/82e7e3ca-2ae4-4d58-ba83-c344f3dcc6b5/rotations/north-west.png?t=1790960675",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/82e7e3ca-2ae4-4d58-ba83-c344f3dcc6b5/rotations/south-west.png?t=1790960675"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "28d4a65c-fa61-43ed-8f7d-9c51107e508b",
+  "skeletons": null,
+  "animations": []
+}

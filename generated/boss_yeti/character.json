@@ -1,0 +1,38 @@
+{
+  "id": "9ff6be2f-2667-4256-b06a-c9dde542e568",
+  "name": "enormous ancient yeti matriarch with frost-crusted...",
+  "state_name": "Idle",
+  "prompt": "enormous ancient yeti matriarch with frost-crusted white fur and great curved ram horns, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 112,
+    "height": 112
+  },
+  "directions": 8,
+  "created_at": "2026-10-02T17:07:26.714776+00:00",
+  "updated_at": "2026-10-02T17:09:04.725463+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9ff6be2f-2667-4256-b06a-c9dde542e568/rotations/south.png?t=1790960944",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9ff6be2f-2667-4256-b06a-c9dde542e568/rotations/west.png?t=1790960944",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9ff6be2f-2667-4256-b06a-c9dde542e568/rotations/east.png?t=1790960944",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9ff6be2f-2667-4256-b06a-c9dde542e568/rotations/north.png?t=1790960944",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9ff6be2f-2667-4256-b06a-c9dde542e568/rotations/south-east.png?t=1790960944",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9ff6be2f-2667-4256-b06a-c9dde542e568/rotations/north-east.png?t=1790960944",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9ff6be2f-2667-4256-b06a-c9dde542e568/rotations/north-west.png?t=1790960944",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9ff6be2f-2667-4256-b06a-c9dde542e568/rotations/south-west.png?t=1790960944"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "a3f0841f-c6d7-4b6f-b5c3-61d448590513",
+  "skeletons": null,
+  "animations": []
+}

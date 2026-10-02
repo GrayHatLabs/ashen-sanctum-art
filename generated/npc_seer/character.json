@@ -1,0 +1,38 @@
+{
+  "id": "4ac6a3a9-0853-4bff-a4db-1940f959613f",
+  "name": "old northern seer woman in grey furs with bone cha...",
+  "state_name": "Idle",
+  "prompt": "old northern seer woman in grey furs with bone charms and a gnarled staff, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 68,
+    "height": 68
+  },
+  "directions": 8,
+  "created_at": "2026-10-02T17:01:51.582390+00:00",
+  "updated_at": "2026-10-02T17:03:11.297681+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4ac6a3a9-0853-4bff-a4db-1940f959613f/rotations/south.png?t=1790960591",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4ac6a3a9-0853-4bff-a4db-1940f959613f/rotations/west.png?t=1790960591",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4ac6a3a9-0853-4bff-a4db-1940f959613f/rotations/east.png?t=1790960591",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4ac6a3a9-0853-4bff-a4db-1940f959613f/rotations/north.png?t=1790960591",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4ac6a3a9-0853-4bff-a4db-1940f959613f/rotations/south-east.png?t=1790960591",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4ac6a3a9-0853-4bff-a4db-1940f959613f/rotations/north-east.png?t=1790960591",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4ac6a3a9-0853-4bff-a4db-1940f959613f/rotations/north-west.png?t=1790960591",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4ac6a3a9-0853-4bff-a4db-1940f959613f/rotations/south-west.png?t=1790960591"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "4fbef524-78c2-47c2-a417-ec7a04b25cfe",
+  "skeletons": null,
+  "animations": []
+}

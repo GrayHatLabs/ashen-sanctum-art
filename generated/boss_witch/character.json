@@ -1,0 +1,38 @@
+{
+  "id": "c6a3c217-f61e-4515-9382-a4e9fd9d7fbb",
+  "name": "tall pale ice witch sorceress in a flowing gown of...",
+  "state_name": "Idle",
+  "prompt": "tall pale ice witch sorceress in a flowing gown of frost with an icicle crown and a crystal staff, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 104,
+    "height": 104
+  },
+  "directions": 8,
+  "created_at": "2026-10-02T17:09:18.719298+00:00",
+  "updated_at": "2026-10-02T17:16:06.717711+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c6a3c217-f61e-4515-9382-a4e9fd9d7fbb/rotations/south.png?t=1790961366",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c6a3c217-f61e-4515-9382-a4e9fd9d7fbb/rotations/west.png?t=1790961366",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c6a3c217-f61e-4515-9382-a4e9fd9d7fbb/rotations/east.png?t=1790961366",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c6a3c217-f61e-4515-9382-a4e9fd9d7fbb/rotations/north.png?t=1790961366",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c6a3c217-f61e-4515-9382-a4e9fd9d7fbb/rotations/south-east.png?t=1790961366",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c6a3c217-f61e-4515-9382-a4e9fd9d7fbb/rotations/north-east.png?t=1790961366",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c6a3c217-f61e-4515-9382-a4e9fd9d7fbb/rotations/north-west.png?t=1790961366",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/c6a3c217-f61e-4515-9382-a4e9fd9d7fbb/rotations/south-west.png?t=1790961366"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "77c4bf83-8bab-428a-9820-6920af3915a1",
+  "skeletons": null,
+  "animations": []
+}

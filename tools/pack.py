@@ -48,6 +48,24 @@ CHARS = {
                  ("attack", "lich thrusting the skull staff forward and casting a spell", 10)],
     "boss_ashking": [("idle", None, 1), ("walk", "demon lich king striding forward, cloak of embers billowing", 8),
                      ("attack", "demon lich king raising both hands and casting a burst of fire", 10)],
+    # ---- Act 2 (tools/act2_art.py) ----
+    "frost_wolf": [("idle", None, 1), ("walk", "wolf running fast, loping gallop", 12), ("attack", "wolf lunging forward and biting", 14)],
+    "raider": [("idle", None, 1), ("walk", "barbarian walking forward with the axe ready", 10),
+               ("attack", "barbarian swinging the axe in a fast overhead chop", 14)],
+    "yeti": [("idle", None, 1), ("walk", "yeti lumbering forward on two legs, arms swinging", 8), ("attack", "yeti smashing both fists down", 11)],
+    "ice_troll": [("idle", None, 1), ("walk", "troll loping forward hunched over", 11), ("attack", "troll slashing with its long claws", 14)],
+    "ice_wraith": [("idle", None, 1), ("walk", "wraith gliding forward, robes trailing", 9),
+                   ("attack", "wraith lunging forward and raking with its claws", 12)],
+    "npc_captain": [("idle", None, 1)],
+    "npc_trader": [("idle", None, 1)],
+    "npc_seer": [("idle", None, 1)],
+    "npc_fisher": [("idle", None, 1)],
+    "boss_giant": [("idle", None, 1), ("walk", "giant walking heavily forward, maul in hand", 7),
+                   ("attack", "giant slamming the maul down onto the ground", 9)],
+    "boss_yeti": [("idle", None, 1)],
+    "boss_witch": [("idle", None, 1)],
+    "boss_dragon": [("idle", None, 1), ("walk", "dragon walking forward on four legs, wings folded", 7),
+                    ("attack", "dragon rearing its head back and breathing a blast of frost", 9)],
 }
 # Directions where PixelLab drifted mid-animation: keep only the first N frames (then hold).
 TRIM = {("boss_bone", "attack", "north"): 3}
@@ -56,6 +74,12 @@ TRIM = {("boss_bone", "attack", "north"): 3}
 #   ("use", "walk")            use another animation's frames for this direction
 #   ("key", (r_max, g_min, b_min))  erase pixels that look like the stray effect colour
 FIX = {
+    # Act 2: the ice troll's attack paints glowing frost rings over frames 2-4.
+    ("ice_troll", "attack", "south"): ("drop", [2, 3, 4]),
+    ("ice_troll", "attack", "south-east"): ("drop", [2, 3, 4]),
+    ("ice_troll", "attack", "east"): ("drop", [2, 3, 4]),
+    ("ice_troll", "attack", "north-east"): ("drop", [2, 3, 4]),
+    ("ice_troll", "attack", "north"): ("drop", [2, 3, 4]),
     ("skeleton", "attack", "north"): ("drop", [0, 1]),
     ("zombie", "attack", "south"): ("drop", [2, 3]),
     ("zombie", "attack", "north"): ("use", "walk"),

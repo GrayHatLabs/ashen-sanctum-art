@@ -31,7 +31,7 @@ CHARS = [
     ("boss_giant", f"towering frost giant overseer with blue skin, a white braided beard, iron armor and a huge ice-crusted maul, {HEADS}", 88, "heroic", ""),
     ("boss_yeti", f"enormous ancient yeti matriarch with frost-crusted white fur and great curved ram horns, {HEADS}", 80, "heroic", ""),
     ("boss_witch", f"tall pale ice witch sorceress in a flowing gown of frost with an icicle crown and a crystal staff, {HEADS}", 72, "heroic", ""),
-    ("boss_dragon", "ancient white dragon wyrm with pale icy scales, frost-rimmed spread wings, a long neck and a horned head, on four legs", 128, "none", ""),
+    ("boss_dragon", "massive bulky white dragon on four thick legs, broad armored chest, huge frost-rimmed bat wings half spread above its back, spiked spine, horned head, thick long tail, pale icy scales, quadruped beast", 128, "none", "bear"),
 ]
 
 # Regular monsters first, then bosses, then town extras.
@@ -46,8 +46,8 @@ ANIMS = [
     ("ice_troll", "troll slashing with its long claws", 6),
     ("ice_wraith", "wraith gliding forward, robes trailing", 6),
     ("ice_wraith", "wraith lunging forward and raking with its claws", 6),
-    ("boss_dragon", "dragon walking forward on four legs, wings folded", 6),
-    ("boss_dragon", "dragon rearing its head back and breathing a blast of frost", 6),
+    ("boss_dragon", "dragon prowling forward on all four legs, wings folded", 6),
+    ("boss_dragon", "dragon lowering its head and breathing a blast of frost, staying on all four legs", 6),
     ("boss_giant", "giant walking heavily forward, maul in hand", 6),
     ("boss_giant", "giant slamming the maul down onto the ground", 6),
     ("boss_yeti", "giant yeti lumbering forward", 6),

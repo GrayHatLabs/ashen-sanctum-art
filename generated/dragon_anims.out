@@ -1,0 +1,12 @@
+requested boss_dragon dragon prowling forward on all four legs, wings folded ['south', 'south-east', 'east', 'north-east', 'north']
+boss_dragon dragon prowling forward on all four legs, wings folded now ['east', 'south']
+boss_dragon dragon prowling forward on all four legs, wings folded now ['east', 'north-east', 'south', 'south-east']
+boss_dragon dragon prowling forward on all four legs, wings folded now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_dragon
+done boss_dragon dragon prowling forward on all four legs, wings folded
+requested boss_dragon dragon lowering its head and breathing a blast of frost, staying on all four legs ['south', 'south-east', 'east', 'north-east', 'north']
+boss_dragon dragon lowering its head and breathing a blast of frost, staying on all four legs now ['east', 'north-east', 'south', 'south-east']
+boss_dragon dragon lowering its head and breathing a blast of frost, staying on all four legs now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_dragon
+done boss_dragon dragon lowering its head and breathing a blast of frost, staying on all four legs
+dragon anims done

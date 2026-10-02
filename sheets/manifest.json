@@ -742,12 +742,12 @@
       "name": "boss_dragon",
       "file": "boss_dragon.png",
       "cell": [
-        180,
-        164
+        164,
+        152
       ],
       "anchor": [
-        90,
-        143
+        80,
+        134
       ],
       "anims": [
         {

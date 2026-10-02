@@ -167,3 +167,9 @@
 2026-10-02 12:30:51 boss_giant request giant walking heavily forward, maul in hand ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-02 12:41:55 boss_giant request giant slamming the maul down onto the ground ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-02 12:50:11 boss_yeti request giant yeti lumbering forward ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-02 16:09:41 dragon_q character job=4ec2efdd-892b-40f1-b78c-e902da9f0906 status=completed {"type": "generations", "generations": 1.0}
+2026-10-02 16:13:08 dragon_q2 character job=37ce3425-3dd2-418c-a193-7e6f2214cf56 status=completed {"type": "generations", "generations": 1.0}
+2026-10-02 16:20:02 dragon_q3 character job=3b9e4743-edc6-4120-ba59-7521f2dc8ab1 status=completed {"type": "generations", "generations": 1.0}
+2026-10-02 16:27:04 dragon_q4 character job=53ddf8ea-3141-4f03-bfa5-87c86dac135f status=completed {"type": "generations", "generations": 1.0}
+2026-10-02 16:27:49 boss_dragon request dragon prowling forward on all four legs, wings folded ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-02 16:31:50 boss_dragon request dragon lowering its head and breathing a blast of frost, staying on all four legs ['south', 'south-east', 'east', 'north-east', 'north'] null

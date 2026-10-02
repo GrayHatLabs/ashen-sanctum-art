@@ -64,11 +64,11 @@ CHARS = {
                    ("attack", "giant slamming the maul down onto the ground", 9)],
     "boss_yeti": [("idle", None, 1)],
     "boss_witch": [("idle", None, 1)],
-    "boss_dragon": [("idle", None, 1), ("walk", "dragon walking forward on four legs, wings folded", 7),
-                    ("attack", "dragon rearing its head back and breathing a blast of frost", 9)],
+    "boss_dragon": [("idle", None, 1), ("walk", "dragon prowling forward on all four legs, wings folded", 7),
+                    ("attack", "dragon lowering its head and breathing a blast of frost, staying on all four legs", 9)],
 }
 # Directions where PixelLab drifted mid-animation: keep only the first N frames (then hold).
-TRIM = {("boss_bone", "attack", "north"): 3}
+TRIM = {("boss_bone", "attack", "north"): 3, ("boss_dragon", "attack", "north"): 2}
 # Frames where PixelLab painted glowing effects onto an attack: (name, anim, dir) ->
 #   ("drop", [frame indices])  replace those frames with the nearest clean one
 #   ("use", "walk")            use another animation's frames for this direction

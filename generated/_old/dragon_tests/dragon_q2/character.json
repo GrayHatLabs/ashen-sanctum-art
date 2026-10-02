@@ -1,0 +1,38 @@
+{
+  "id": "1574feab-468f-420b-91b4-d4ef1d024e3d",
+  "name": "huge ancient white dragon walking on four thick le...",
+  "state_name": "Idle",
+  "prompt": "huge ancient white dragon walking on four thick legs, heavy muscular quadruped body low to the ground like a crocodile, large frost-rimmed bat wings folded on its back, spiked spine, long neck, horned head, long tail, pale icy scales, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 180,
+    "height": 180
+  },
+  "directions": 8,
+  "created_at": "2026-10-02T22:10:01.296841+00:00",
+  "updated_at": "2026-10-02T22:13:04.718443+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1574feab-468f-420b-91b4-d4ef1d024e3d/rotations/south.png?t=1790979184",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1574feab-468f-420b-91b4-d4ef1d024e3d/rotations/west.png?t=1790979184",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1574feab-468f-420b-91b4-d4ef1d024e3d/rotations/east.png?t=1790979184",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1574feab-468f-420b-91b4-d4ef1d024e3d/rotations/north.png?t=1790979184",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1574feab-468f-420b-91b4-d4ef1d024e3d/rotations/south-east.png?t=1790979184",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1574feab-468f-420b-91b4-d4ef1d024e3d/rotations/north-east.png?t=1790979184",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1574feab-468f-420b-91b4-d4ef1d024e3d/rotations/north-west.png?t=1790979184",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1574feab-468f-420b-91b4-d4ef1d024e3d/rotations/south-west.png?t=1790979184"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "43e45e65-26ed-4032-990e-0affdbc2b6f3",
+  "skeletons": null,
+  "animations": []
+}

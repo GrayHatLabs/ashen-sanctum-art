@@ -88,12 +88,15 @@ def apply_fix(fix, frames, rows_by_name):
     return frames
 
 
-FLOORS = ["floor_stone1", "floor_stone2", "grass1", "grass2", "dirt1", "road1"]
+FLOORS = ["floor_stone1", "floor_stone2", "grass1", "grass2", "dirt1", "road1",
+          "snow1", "snow2", "snow_road", "lake_ice", "ice_floor1", "ice_floor2"]
 WALL = "wall_stone"
 ITEMS = ["food_apple", "food_bread", "food_roast", "seal"]
 # Overworld and dungeon props (full size, anchored at the bottom centre).
 PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "house2", "tent1", "campfire", "well",
-         "ent_crypt", "ent_warrens", "ent_catacombs", "ent_sanctum", "stairs_down", "stairs_up"]
+         "ent_crypt", "ent_warrens", "ent_catacombs", "ent_sanctum", "stairs_down", "stairs_up",
+         "tree_snowpine", "tree_snowdead", "rock_snow", "ice_crystal", "longhouse1", "longhouse2", "stall_furs",
+         "ent_mines", "ent_caves", "ent_temple", "ent_glacier", "pass_gate"]
 ITEM_SIZE = 14
 # Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
 ICON_SIZE = 24
@@ -204,6 +207,30 @@ def pack_char(name, spec):
     return {"name": name, "file": f"{name}.png", "cell": [cw, ch], "anchor": list(anchor), "anims": meta}
 
 
+# Light ground tiles whose black outline draws a grid across the map: outline pixels are
+# replaced by their lighter neighbours.
+SOFT_TILES = {"snow1", "snow2", "lake_ice"}
+
+
+def soften(im):
+    px = im.load()
+    lum = lambda c: 0.3 * c[0] + 0.59 * c[1] + 0.11 * c[2]
+    for _ in range(2):
+        fix = []
+        for y in range(im.height):
+            for x in range(im.width):
+                c = px[x, y]
+                if c[3] and lum(c) < 95:
+                    near = [px[x + dx, y + dy] for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1), (1, 1), (-1, -1))
+                            if 0 <= x + dx < im.width and 0 <= y + dy < im.height]
+                    light = [q for q in near if q[3] and lum(q) >= 95]
+                    if light:
+                        fix.append((x, y, tuple(sum(q[i] for q in light) // len(light) for i in range(3)) + (255,)))
+        for x, y, c in fix:
+            px[x, y] = c
+    return im
+
+
 def pack_tiles():
     tiles = []
     for n in FLOORS:
@@ -213,10 +240,29 @@ def pack_tiles():
         im = load(p)
         b = im.getbbox()
         im = im.crop(b)
+        if n in SOFT_TILES:
+            im = soften(im)
+        if n == "snow_road":
+            # Trampled snow: lift the dark mud cracks toward a pale grey-brown.
+            px = im.load()
+            for y in range(im.height):
+                for x in range(im.width):
+                    c = px[x, y]
+                    l = 0.3 * c[0] + 0.59 * c[1] + 0.11 * c[2]
+                    if c[3] and l < 150:
+                        k = 0.75 if l < 90 else 0.45
+                        px[x, y] = tuple(int(c[i] * (1 - k) + (168, 160, 150)[i] * k) for i in range(3)) + (255,)
         im.save(OUT / f"{n}.png")
-        # Thin tile: the top face is a 32x16 diamond starting at the top of the bbox.
-        tiles.append({"name": n, "file": f"{n}.png", "anchor": [16 - b[0], 8]})
-    for wall_name, src, stack in [("wall", WALL, WALL_STACK), ("palisade", "palisade", 2)]:
+        # Thin tile: anchor on the diamond's widest row (its middle). Drifts or tufts can poke
+        # above the diamond, so the top of the bbox isn't always the top of the face.
+        px = im.load()
+        mid = 8
+        for y in range(im.height if n in SOFT_TILES or n == "snow_road" else 0):
+            if sum(1 for x in range(im.width) if px[x, y][3]) >= im.width * 0.9:
+                mid = y
+                break
+        tiles.append({"name": n, "file": f"{n}.png", "anchor": [16 - b[0], mid]})
+    for wall_name, src, stack in [("wall", WALL, WALL_STACK), ("palisade", "palisade", 2), ("ice_wall", "ice_wall", WALL_STACK), ("palisade_snow", "palisade_snow", 2)]:
         p = GEN / src / "image.png"
         if not p.exists():
             continue

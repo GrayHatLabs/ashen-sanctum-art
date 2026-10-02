@@ -1,0 +1,38 @@
+{
+  "id": "959184fb-b396-4343-859a-789f4ef0bedf",
+  "name": "northern barbarian raider in heavy furs and a horn...",
+  "state_name": "Idle",
+  "prompt": "northern barbarian raider in heavy furs and a horned iron helm holding a hand axe, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 68,
+    "height": 68
+  },
+  "directions": 8,
+  "created_at": "2026-10-02T16:51:45.509942+00:00",
+  "updated_at": "2026-10-02T16:52:43.564473+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/959184fb-b396-4343-859a-789f4ef0bedf/rotations/south.png?t=1790959963",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/959184fb-b396-4343-859a-789f4ef0bedf/rotations/west.png?t=1790959963",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/959184fb-b396-4343-859a-789f4ef0bedf/rotations/east.png?t=1790959963",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/959184fb-b396-4343-859a-789f4ef0bedf/rotations/north.png?t=1790959963",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/959184fb-b396-4343-859a-789f4ef0bedf/rotations/south-east.png?t=1790959963",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/959184fb-b396-4343-859a-789f4ef0bedf/rotations/north-east.png?t=1790959963",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/959184fb-b396-4343-859a-789f4ef0bedf/rotations/north-west.png?t=1790959963",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/959184fb-b396-4343-859a-789f4ef0bedf/rotations/south-west.png?t=1790959963"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "718123d9-5d72-4a4c-8397-9248ae0e59fd",
+  "skeletons": null,
+  "animations": []
+}

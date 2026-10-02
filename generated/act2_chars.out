@@ -1,0 +1,85 @@
+character b8e78d25-f625-4e09-bd96-0e80bb0796c4
+fetched frost_wolf
+made frost_wolf
+character 959184fb-b396-4343-859a-789f4ef0bedf
+fetched raider
+made raider
+character 1bf73f42-353e-4b17-ba21-b874f1f6c88e
+Traceback (most recent call last):
+  File "C:\Python314\Lib\urllib\request.py", line 1320, in do_open
+    h.request(req.get_method(), req.selector, req.data, headers,
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+              encode_chunked=req.has_header('Transfer-encoding'))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\http\client.py", line 1386, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\http\client.py", line 1432, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\http\client.py", line 1381, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\http\client.py", line 1141, in _send_output
+    self.send(msg)
+    ~~~~~~~~~^^^^^
+  File "C:\Python314\Lib\http\client.py", line 1085, in send
+    self.connect()
+    ~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\client.py", line 1520, in connect
+    super().connect()
+    ~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\http\client.py", line 1051, in connect
+    self.sock = self._create_connection(
+                ~~~~~~~~~~~~~~~~~~~~~~~^
+        (self.host,self.port), self.timeout, self.source_address)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\socket.py", line 874, in create_connection
+    raise exceptions[0]
+  File "C:\Python314\Lib\socket.py", line 859, in create_connection
+    sock.connect(sa)
+    ~~~~~~~~~~~~^^^^
+TimeoutError: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\projects\AshenSanctum-art\tools\act2_art.py", line 114, in <module>
+    if __name__ == "__main__":
+        ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\AshenSanctum-art\tools\act2_art.py", line 99, in chars
+    continue
+  File "D:\projects\AshenSanctum-art\tools\world_art.py", line 153, in retry
+    return fn(*args)
+  File "D:\projects\AshenSanctum-art\tools\gen.py", line 107, in character
+    wait(r["background_job_id"], f"{name} character")
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\projects\AshenSanctum-art\tools\gen.py", line 50, in wait
+    j = pixellab.call("GET", f"/background-jobs/{job_id}")
+  File "D:\projects\AshenSanctum-art\tools\pixellab.py", line 50, in call
+    with urllib.request.urlopen(req, timeout=180) as r:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\urllib\request.py", line 187, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\urllib\request.py", line 487, in open
+    response = self._open(req, data)
+  File "C:\Python314\Lib\urllib\request.py", line 504, in _open
+    result = self._call_chain(self.handle_open, protocol, protocol +
+                              '_open', req)
+  File "C:\Python314\Lib\urllib\request.py", line 464, in _call_chain
+    result = func(*args)
+  File "C:\Python314\Lib\urllib\request.py", line 1368, in https_open
+    return self.do_open(http.client.HTTPSConnection, req,
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        context=self._context)
+                        ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\urllib\request.py", line 1323, in do_open
+    raise URLError(err)
+urllib.error.URLError: <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond>
+have frost_wolf
+have raider
+have yeti
+character 4bc0f189-3151-449a-bec1-e20260a05011
+fetched ice_troll
+made ice_troll

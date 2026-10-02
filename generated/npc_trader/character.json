@@ -1,0 +1,38 @@
+{
+  "id": "cd095022-cdf5-4aea-b68d-065cc250362b",
+  "name": "burly bearded fur trader in a heavy bear-fur coat ...",
+  "state_name": "Idle",
+  "prompt": "burly bearded fur trader in a heavy bear-fur coat and a fur hat, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 68,
+    "height": 68
+  },
+  "directions": 8,
+  "created_at": "2026-10-02T17:00:42.285311+00:00",
+  "updated_at": "2026-10-02T17:01:42.736958+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd095022-cdf5-4aea-b68d-065cc250362b/rotations/south.png?t=1790960502",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd095022-cdf5-4aea-b68d-065cc250362b/rotations/west.png?t=1790960502",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd095022-cdf5-4aea-b68d-065cc250362b/rotations/east.png?t=1790960502",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd095022-cdf5-4aea-b68d-065cc250362b/rotations/north.png?t=1790960502",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd095022-cdf5-4aea-b68d-065cc250362b/rotations/south-east.png?t=1790960502",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd095022-cdf5-4aea-b68d-065cc250362b/rotations/north-east.png?t=1790960502",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd095022-cdf5-4aea-b68d-065cc250362b/rotations/north-west.png?t=1790960502",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd095022-cdf5-4aea-b68d-065cc250362b/rotations/south-west.png?t=1790960502"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "56625586-7b31-4b89-b1af-613a4e205533",
+  "skeletons": null,
+  "animations": []
+}

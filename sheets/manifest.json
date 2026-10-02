@@ -477,6 +477,54 @@
       ]
     },
     {
+      "name": "snow1",
+      "file": "snow1.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "snow2",
+      "file": "snow2.png",
+      "anchor": [
+        16,
+        13
+      ]
+    },
+    {
+      "name": "snow_road",
+      "file": "snow_road.png",
+      "anchor": [
+        16,
+        7
+      ]
+    },
+    {
+      "name": "lake_ice",
+      "file": "lake_ice.png",
+      "anchor": [
+        16,
+        5
+      ]
+    },
+    {
+      "name": "ice_floor1",
+      "file": "ice_floor1.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "ice_floor2",
+      "file": "ice_floor2.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
       "name": "wall",
       "file": "wall_stack.png",
       "anchor": [
@@ -487,6 +535,22 @@
     {
       "name": "palisade",
       "file": "palisade_stack.png",
+      "anchor": [
+        16,
+        40
+      ]
+    },
+    {
+      "name": "ice_wall",
+      "file": "ice_wall_stack.png",
+      "anchor": [
+        16,
+        56
+      ]
+    },
+    {
+      "name": "palisade_snow",
+      "file": "palisade_snow_stack.png",
       "anchor": [
         16,
         40
@@ -649,6 +713,54 @@
     {
       "name": "stairs_up",
       "file": "prop_stairs_up.png"
+    },
+    {
+      "name": "tree_snowpine",
+      "file": "prop_tree_snowpine.png"
+    },
+    {
+      "name": "tree_snowdead",
+      "file": "prop_tree_snowdead.png"
+    },
+    {
+      "name": "rock_snow",
+      "file": "prop_rock_snow.png"
+    },
+    {
+      "name": "ice_crystal",
+      "file": "prop_ice_crystal.png"
+    },
+    {
+      "name": "longhouse1",
+      "file": "prop_longhouse1.png"
+    },
+    {
+      "name": "longhouse2",
+      "file": "prop_longhouse2.png"
+    },
+    {
+      "name": "stall_furs",
+      "file": "prop_stall_furs.png"
+    },
+    {
+      "name": "ent_mines",
+      "file": "prop_ent_mines.png"
+    },
+    {
+      "name": "ent_caves",
+      "file": "prop_ent_caves.png"
+    },
+    {
+      "name": "ent_temple",
+      "file": "prop_ent_temple.png"
+    },
+    {
+      "name": "ent_glacier",
+      "file": "prop_ent_glacier.png"
+    },
+    {
+      "name": "pass_gate",
+      "file": "prop_pass_gate.png"
     }
   ]
 }

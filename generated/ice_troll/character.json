@@ -1,0 +1,38 @@
+{
+  "id": "4bc0f189-3151-449a-bec1-e20260a05011",
+  "name": "gaunt pale blue ice troll with long clawed arms an...",
+  "state_name": "Idle",
+  "prompt": "gaunt pale blue ice troll with long clawed arms and icicles growing on its back, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 76,
+    "height": 76
+  },
+  "directions": 8,
+  "created_at": "2026-10-02T16:56:14.405015+00:00",
+  "updated_at": "2026-10-02T16:57:20.713489+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4bc0f189-3151-449a-bec1-e20260a05011/rotations/south.png?t=1790960240",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4bc0f189-3151-449a-bec1-e20260a05011/rotations/west.png?t=1790960240",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4bc0f189-3151-449a-bec1-e20260a05011/rotations/east.png?t=1790960240",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4bc0f189-3151-449a-bec1-e20260a05011/rotations/north.png?t=1790960240",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4bc0f189-3151-449a-bec1-e20260a05011/rotations/south-east.png?t=1790960240",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4bc0f189-3151-449a-bec1-e20260a05011/rotations/north-east.png?t=1790960240",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4bc0f189-3151-449a-bec1-e20260a05011/rotations/north-west.png?t=1790960240",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4bc0f189-3151-449a-bec1-e20260a05011/rotations/south-west.png?t=1790960240"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "fb493ffa-5dd5-431d-bc76-f25947c0e253",
+  "skeletons": null,
+  "animations": []
+}

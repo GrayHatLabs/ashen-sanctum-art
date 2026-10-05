@@ -49,7 +49,7 @@ ANIMS = [
     ("boss_vardak", "vampire count walking forward with a sweep of his coat", 6),
     ("boss_vardak", "vampire count thrusting his hand forward and casting blood magic", 6),
     ("boss_vardak_bat", "giant bat flapping its wings and flying forward", 6),
-    ("boss_vardak_bat", "giant bat diving forward to bite", 6),
+    ("boss_vardak_bat", "giant bat swooping forward with fangs bared", 6),
     ("boss_ossric", "skeleton lord walking forward with the spear", 6),
     ("boss_ossric", "skeleton lord thrusting the bone spear", 6),
     ("boss_grimhilde", "lich gliding forward, gown trailing", 6),

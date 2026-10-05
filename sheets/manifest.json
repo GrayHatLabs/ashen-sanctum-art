@@ -877,6 +877,352 @@
       ]
     },
     {
+      "name": "ghoul",
+      "file": "ghoul.png",
+      "cell": [
+        65,
+        67
+      ],
+      "anchor": [
+        24,
+        52
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 10
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
+        }
+      ]
+    },
+    {
+      "name": "werewolf",
+      "file": "werewolf.png",
+      "cell": [
+        84,
+        79
+      ],
+      "anchor": [
+        30,
+        61
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 11
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
+        }
+      ]
+    },
+    {
+      "name": "banshee",
+      "file": "banshee.png",
+      "cell": [
+        64,
+        67
+      ],
+      "anchor": [
+        24,
+        51
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 11
+        }
+      ]
+    },
+    {
+      "name": "wisp",
+      "file": "wisp.png",
+      "cell": [
+        16,
+        38
+      ],
+      "anchor": [
+        8,
+        33
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "cultist",
+      "file": "cultist.png",
+      "cell": [
+        62,
+        67
+      ],
+      "anchor": [
+        20,
+        49
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 10
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 11
+        }
+      ]
+    },
+    {
+      "name": "npc_hunter",
+      "file": "npc_hunter.png",
+      "cell": [
+        32,
+        50
+      ],
+      "anchor": [
+        16,
+        45
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_widow",
+      "file": "npc_widow.png",
+      "cell": [
+        24,
+        47
+      ],
+      "anchor": [
+        13,
+        42
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_priest",
+      "file": "npc_priest.png",
+      "cell": [
+        24,
+        48
+      ],
+      "anchor": [
+        12,
+        42
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_peasant",
+      "file": "npc_peasant.png",
+      "cell": [
+        22,
+        48
+      ],
+      "anchor": [
+        11,
+        42
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_ossric",
+      "file": "boss_ossric.png",
+      "cell": [
+        47,
+        89
+      ],
+      "anchor": [
+        22,
+        83
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_grimhilde",
+      "file": "boss_grimhilde.png",
+      "cell": [
+        40,
+        93
+      ],
+      "anchor": [
+        20,
+        86
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_malgrave",
+      "file": "boss_malgrave.png",
+      "cell": [
+        58,
+        82
+      ],
+      "anchor": [
+        30,
+        74
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_vardak",
+      "file": "boss_vardak.png",
+      "cell": [
+        130,
+        107
+      ],
+      "anchor": [
+        51,
+        82
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
+      "name": "boss_vardak_bat",
+      "file": "boss_vardak_bat.png",
+      "cell": [
+        118,
+        110
+      ],
+      "anchor": [
+        59,
+        101
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
       "name": "boss_dragon",
       "file": "boss_dragon.png",
       "cell": [

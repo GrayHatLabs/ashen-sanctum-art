@@ -98,7 +98,7 @@ def safe(fn, *args, tries=6):
     for k in range(tries):
         try:
             return fn(*args)
-        except Exception as e:  # noqa: BLE001
+        except (Exception, SystemExit) as e:  # noqa: BLE001 (gen.py exits on HTTP errors)
             print("retry", fn.__name__, args[0], k, str(e)[:120], flush=True)
             time.sleep(30 * (k + 1))
     print("FAILED", fn.__name__, args[0], flush=True)

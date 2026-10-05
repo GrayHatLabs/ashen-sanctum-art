@@ -379,7 +379,7 @@ def pack_items():
     # Class-select portraits (tools/vampire_art.py): full size; a flat grey background is keyed out.
     # Cleaned-up versions (tools/portrait_fix.py); originals live in reference/portraits_original/.
     for n, src in [("portrait_vampire", "portrait_fix/vampire_s450.png"), ("portrait_sorceress", "portrait_fix/sorceress_s300.png"),
-                   ("portrait_inventor", "portrait_fix/inventor_s300.png")]:
+                   ("portrait_inventor", "inventor/portrait_v3_220.png")]:
         p = GEN / src
         if not p.exists():
             continue

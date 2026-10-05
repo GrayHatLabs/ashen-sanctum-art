@@ -21,12 +21,14 @@ HEADS = "small head, realistic adult body proportions, long legs"
 MOOD = "gothic steampunk clockwork city, brass and copper, soot black, verdigris green"
 
 CHARS = [
-    ("cog_hound", "a brass clockwork hound with exposed gears, gear-tooth jaws and glowing orange eyes, steam venting from its back", 48, "none", "dog"),
+    ("brass_scarab", "a large clockwork scarab beetle with a domed brass shell, exposed gears and pistons for legs, glowing orange eyes and sharp copper mandibles, insect not a dog", 44, "none", ""),
     ("inquisitor", f"a gothic clockwork automaton monk in a hooded soot-black iron robe swinging a smoking brass censer, {HEADS}", 52, "heroic", ""),
     ("gearwraith", "a ghostly pale blue spirit trapped inside a floating cage-like brass frame of gears", 48, "none", ""),
     ("spring_jack", f"a spindly tall thin clockwork man with spring legs, long blade fingers and a grinning brass mask, {HEADS}", 52, "heroic", ""),
     ("boiler_brute", "a hulking iron golem with a glowing furnace belly, thick riveted arms and smokestacks on its shoulders", 64, "heroic", ""),
-    ("ordinal", "a floating geometric brass drone shaped like a cube with a single glowing blue eye and small gear wings", 36, "none", ""),
+    ("ordinal", "a floating brass cube with a small clock face on each side, held aloft by a spinning gyroscope ring around it, no face, no limbs", 36, "none", ""),
+    ("ordinal_prism", "a floating brass lattice pyramid with a glowing blue lens crystal inside and turning gears at its corners, no face, no limbs", 40, "none", ""),
+    ("ordinal_marshal", "a floating brass armillary sphere cage with orbiting rings, a swinging pendulum beneath and a small iron banner, no face, no limbs", 52, "none", ""),
     ("npc_tally", f"a gentle clockwork servant automaton with a porcelain face, brass body and a small glowing heart in its chest, {HEADS}", 48, "heroic", ""),
     ("npc_vesper", f"a steampunk woman tinkerer with goggles on her top hat, leather apron and a satchel of tools, {HEADS}", 48, "realistic_female", ""),
     ("npc_oiler", f"an old human mechanic monk in grey robes holding an oil can and a wrench, {HEADS}", 48, "realistic_male", ""),
@@ -39,8 +41,8 @@ CHARS = [
 ]
 
 ANIMS = [
-    ("cog_hound", "mechanical hound running fast, gears turning", 6),
-    ("cog_hound", "mechanical hound lunging forward and biting", 6),
+    ("brass_scarab", "clockwork beetle scuttling forward fast on its piston legs", 6),
+    ("brass_scarab", "clockwork beetle lunging forward and snapping its mandibles", 6),
     ("inquisitor", "automaton monk walking forward swinging the censer", 6),
     ("inquisitor", "automaton monk swinging the censer forward in a burst of steam", 6),
     ("gearwraith", "caged ghost floating forward", 6),

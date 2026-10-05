@@ -402,9 +402,18 @@ def pack_items():
                 seen.add((x, y))
                 px[x, y] = (0, 0, 0, 0)
                 q.extend([(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)])
+        # Themed backgrounds (tools/portrait_bg.py) behind the keyed figure, a little darker so she stands out.
+        bg_src = {"portrait_sorceress": "portrait_bg/sorceress.png", "portrait_inventor": "portrait_bg/inventor.png"}.get(n)
+        if bg_src and (GEN / bg_src).exists() and flat:
+            bg = load(GEN / bg_src).resize(im.size)
+            dark = Image.new("RGBA", im.size, (8, 6, 10, 70))
+            bg.alpha_composite(dark)
+            bg.alpha_composite(im)
+            im = bg
+            im.save(Path(__file__).resolve().parent.parent / "reference" / "portraits_clean" / f"{n.split('_')[1]}_portrait_bg.png")
         im.save(OUT / f"{n}.png")
         items.append({"name": n, "file": f"{n}.png"})
-        print("portrait", n, im.size, "keyed" if flat else "")
+        print("portrait", n, im.size, "keyed" if flat else "", "+bg" if bg_src and flat else "")
     # Title screen background (tools/title_art.py), full size.
     p = GEN / "title" / "title_bg.png"
     if p.exists():

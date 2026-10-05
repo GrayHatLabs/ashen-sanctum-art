@@ -204,3 +204,6 @@
 2026-10-05 13:14:39 vampire request casting a blood spell, thrusting one clawed hand forward ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-05 13:18:08 vampire request slashing forward with long clawed fingers ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-05 13:31:08 title background {"type": "generations", "generations": 1.0}
+2026-10-05 13:42:45 portrait bg sorceress {"type": "generations", "generations": 1.0}
+2026-10-05 13:43:12 portrait bg inventor {"type": "generations", "generations": 1.0}
+2026-10-05 13:43:56 portrait bg inventor 2 {"type": "generations", "generations": 1.0}

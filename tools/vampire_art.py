@@ -52,6 +52,42 @@ def sprite():
     gen.character("vampire", f"{SPRITE}, {HEADS}", 48, "realistic_female", "")
 
 
+ANIMS = [
+    ("vampire", "walking gracefully forward, cape flowing behind her", 6),
+    ("vampire", "casting a blood spell, thrusting one clawed hand forward", 6),
+    ("vampire", "slashing forward with long clawed fingers", 6),
+]
+
+
+def anims():
+    import act2_art
+    import world_art
+    for name, action, frames in ANIMS:
+        act2_art.safe(world_art.run_anim, name, action, frames)
+    print("vampire anims done", flush=True)
+
+
+def sorceress_portrait():
+    body = {
+        "description": (
+            "cartoon illustration of a fire sorceress in a long dark red hooded robe with gold trim holding a wooden staff "
+            "with a burning ember, flames swirling around her hand, standing in a burning ruined sanctum at night, "
+            "rich red and orange palette, bold outlines, cel shading, small head, realistic adult proportions"
+        ),
+        "image_size": {"width": 140, "height": 200},
+        "no_background": False,
+        "outline": "single color black outline",
+        "shading": "flat shading",
+        "detail": "highly detailed",
+        "view": "side",
+        "negative_description": "text, watermark, multiple characters, chibi, big head, nudity",
+    }
+    r = gen.call("POST", "/create-image-bitforge", body)
+    gen.log_charge("sorceress portrait", r.get("usage"))
+    gen.save_b64(r["image"], gen.d_of("vampire") / "portrait_sorceress.png")
+    print("saved sorceress portrait", flush=True)
+
+
 def review():
     d = gen.GEN / "vampire"
     ps = [d / "portrait.png"] + [d / f"rotation_urls_{k}.png" for k in ["south", "south-east", "east", "north-east", "north"]]
@@ -59,4 +95,4 @@ def review():
 
 
 if __name__ == "__main__":
-    {"portrait": portrait, "sprite": sprite, "review": review}[sys.argv[1]]()
+    {"portrait": portrait, "sprite": sprite, "anims": anims, "sorceress": sorceress_portrait, "review": review}[sys.argv[1]]()

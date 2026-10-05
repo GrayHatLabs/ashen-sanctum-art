@@ -769,6 +769,26 @@
       ]
     },
     {
+      "name": "vampire",
+      "file": "vampire.png",
+      "cell": [
+        30,
+        49
+      ],
+      "anchor": [
+        15,
+        43
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
       "name": "boss_dragon",
       "file": "boss_dragon.png",
       "cell": [
@@ -947,6 +967,14 @@
     {
       "name": "seal",
       "file": "seal.png"
+    },
+    {
+      "name": "portrait_vampire",
+      "file": "portrait_vampire.png"
+    },
+    {
+      "name": "portrait_sorceress",
+      "file": "portrait_sorceress.png"
     },
     {
       "name": "icon_staff_gnarled",

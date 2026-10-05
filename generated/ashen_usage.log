@@ -182,3 +182,5 @@
 2026-10-05 12:40:31 vampire portrait {"type": "generations", "generations": 1.0}
 2026-10-05 12:41:47 vampire character job=d3236124-1e48-42b3-aa89-e592bbb5c233 status=completed {"type": "generations", "generations": 1.0}
 2026-10-05 12:42:25 vampire portrait {"type": "generations", "generations": 1.0}
+2026-10-05 12:44:43 sorceress portrait {"type": "generations", "generations": 1.0}
+2026-10-05 12:44:49 vampire request walking gracefully forward, cape flowing behind her ['south', 'south-east', 'east', 'north-east', 'north'] null

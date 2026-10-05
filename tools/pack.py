@@ -66,6 +66,7 @@ CHARS = {
                   ("attack", "giant yeti roaring and swiping with both arms", 10)],
     "boss_witch": [("idle", None, 1), ("walk", "ice witch gliding forward, gown trailing", 8),
                    ("attack", "ice witch raising the crystal staff and casting a spell", 10)],
+    "vampire": [("idle", None, 1)],
     "boss_dragon": [("idle", None, 1), ("walk", "dragon prowling forward on all four legs, wings folded", 7),
                     ("attack", "dragon lowering its head and breathing a blast of frost, staying on all four legs", 9)],
 }
@@ -368,6 +369,33 @@ def pack_items():
         im.save(OUT / f"{n}.png")
         items.append({"name": n, "file": f"{n}.png"})
         print("item", n, im.size)
+    # Class-select portraits (tools/vampire_art.py): full size; a flat grey background is keyed out.
+    for n, src in [("portrait_vampire", "vampire/portrait.png"), ("portrait_sorceress", "vampire/portrait_sorceress.png")]:
+        p = GEN / src
+        if not p.exists():
+            continue
+        im = load(p)
+        px = im.load()
+        bg = px[0, 0]
+        flat = all(abs(px[x, y][i] - bg[i]) < 6 for x, y in [(0, 0), (im.width - 1, 0), (0, im.height - 1), (im.width - 1, im.height - 1)] for i in range(3))
+        if flat:
+            # Flood fill from the corners so grey inside the figure stays.
+            from collections import deque
+            seen = set()
+            q = deque([(0, 0), (im.width - 1, 0), (0, im.height - 1), (im.width - 1, im.height - 1)])
+            while q:
+                x, y = q.popleft()
+                if (x, y) in seen or not (0 <= x < im.width and 0 <= y < im.height):
+                    continue
+                c = px[x, y]
+                if c[3] == 0 or max(abs(c[i] - bg[i]) for i in range(3)) > 10:
+                    continue
+                seen.add((x, y))
+                px[x, y] = (0, 0, 0, 0)
+                q.extend([(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)])
+        im.save(OUT / f"{n}.png")
+        items.append({"name": n, "file": f"{n}.png"})
+        print("portrait", n, im.size, "keyed" if flat else "")
     import items_art
     for n, _ in items_art.ICONS:
         p = GEN / n / "image.png"

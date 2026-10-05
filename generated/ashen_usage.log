@@ -173,3 +173,7 @@
 2026-10-02 16:27:04 dragon_q4 character job=53ddf8ea-3141-4f03-bfa5-87c86dac135f status=completed {"type": "generations", "generations": 1.0}
 2026-10-02 16:27:49 boss_dragon request dragon prowling forward on all four legs, wings folded ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-02 16:31:50 boss_dragon request dragon lowering its head and breathing a blast of frost, staying on all four legs ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 10:19:52 boss_yeti request giant yeti roaring and swiping with both arms ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 10:24:18 boss_witch request ice witch gliding forward, gown trailing ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 10:27:39 boss_witch request ice witch raising the crystal staff and casting a spell ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 10:33:57 npc_fisher request townsman walking calmly ['south', 'south-east', 'east', 'north-east', 'north'] null

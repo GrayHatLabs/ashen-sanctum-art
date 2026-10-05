@@ -1,0 +1,64 @@
+have frost_wolf
+have raider
+have yeti
+have ice_troll
+have ice_wraith
+have npc_captain
+have npc_trader
+have npc_seer
+have npc_fisher
+have boss_giant
+have boss_yeti
+have boss_witch
+have boss_dragon
+fetched frost_wolf
+done frost_wolf wolf running fast, loping gallop
+fetched frost_wolf
+done frost_wolf wolf lunging forward and biting
+fetched raider
+done raider barbarian walking forward with the axe ready
+fetched raider
+done raider barbarian swinging the axe in a fast overhead chop
+fetched yeti
+done yeti yeti lumbering forward on two legs, arms swinging
+fetched yeti
+done yeti yeti smashing both fists down
+fetched ice_troll
+done ice_troll troll loping forward hunched over
+fetched ice_troll
+done ice_troll troll slashing with its long claws
+fetched ice_wraith
+done ice_wraith wraith gliding forward, robes trailing
+fetched ice_wraith
+done ice_wraith wraith lunging forward and raking with its claws
+fetched boss_dragon
+done boss_dragon dragon prowling forward on all four legs, wings folded
+fetched boss_dragon
+done boss_dragon dragon lowering its head and breathing a blast of frost, staying on all four legs
+retry run_anim boss_giant 0 HTTP Error 520: <none>
+fetched boss_giant
+done boss_giant giant walking heavily forward, maul in hand
+fetched boss_giant
+done boss_giant giant slamming the maul down onto the ground
+fetched boss_yeti
+done boss_yeti giant yeti lumbering forward
+requested boss_yeti giant yeti roaring and swiping with both arms ['south', 'south-east', 'east', 'north-east', 'north']
+retry run_anim boss_yeti 0 <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a
+retry run_anim boss_yeti 1 <urlopen error [Errno 11001] getaddrinfo failed>
+fetched boss_yeti
+done boss_yeti giant yeti roaring and swiping with both arms
+requested boss_witch ice witch gliding forward, gown trailing ['south', 'south-east', 'east', 'north-east', 'north']
+boss_witch ice witch gliding forward, gown trailing now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_witch
+done boss_witch ice witch gliding forward, gown trailing
+requested boss_witch ice witch raising the crystal staff and casting a spell ['south', 'south-east', 'east', 'north-east', 'north']
+boss_witch ice witch raising the crystal staff and casting a spell now ['east', 'north', 'north-east', 'south-east']
+boss_witch ice witch raising the crystal staff and casting a spell now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_witch
+done boss_witch ice witch raising the crystal staff and casting a spell
+requested npc_fisher townsman walking calmly ['south', 'south-east', 'east', 'north-east', 'north']
+npc_fisher townsman walking calmly now ['east', 'north', 'north-east', 'south-east']
+npc_fisher townsman walking calmly now ['east', 'north', 'north-east', 'south', 'south-east']
+retry run_anim npc_fisher 0 [WinError 10054] An existing connection was forcibly closed by the remote host
+fetched npc_fisher
+done npc_fisher townsman walking calmly

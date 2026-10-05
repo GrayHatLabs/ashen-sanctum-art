@@ -650,12 +650,12 @@
       "name": "npc_fisher",
       "file": "npc_fisher.png",
       "cell": [
-        27,
-        53
+        36,
+        64
       ],
       "anchor": [
         13,
-        47
+        48
       ],
       "anims": [
         {
@@ -663,6 +663,12 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
         }
       ]
     },
@@ -702,11 +708,11 @@
       "name": "boss_yeti",
       "file": "boss_yeti.png",
       "cell": [
-        45,
-        90
+        94,
+        107
       ],
       "anchor": [
-        23,
+        37,
         82
       ],
       "anims": [
@@ -715,6 +721,18 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
         }
       ]
     },
@@ -722,11 +740,11 @@
       "name": "boss_witch",
       "file": "boss_witch.png",
       "cell": [
-        41,
-        88
+        114,
+        104
       ],
       "anchor": [
-        20,
+        43,
         83
       ],
       "anims": [
@@ -735,6 +753,18 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
         }
       ]
     },

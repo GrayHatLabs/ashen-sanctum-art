@@ -59,16 +59,27 @@ CHARS = {
     "npc_captain": [("idle", None, 1)],
     "npc_trader": [("idle", None, 1)],
     "npc_seer": [("idle", None, 1)],
-    "npc_fisher": [("idle", None, 1)],
+    "npc_fisher": [("idle", None, 1), ("walk", "townsman walking calmly", 8)],
     "boss_giant": [("idle", None, 1), ("walk", "giant walking heavily forward, maul in hand", 7),
                    ("attack", "giant slamming the maul down onto the ground", 9)],
-    "boss_yeti": [("idle", None, 1)],
-    "boss_witch": [("idle", None, 1)],
+    "boss_yeti": [("idle", None, 1), ("walk", "giant yeti lumbering forward", 7),
+                  ("attack", "giant yeti roaring and swiping with both arms", 10)],
+    "boss_witch": [("idle", None, 1), ("walk", "ice witch gliding forward, gown trailing", 8),
+                   ("attack", "ice witch raising the crystal staff and casting a spell", 10)],
     "boss_dragon": [("idle", None, 1), ("walk", "dragon prowling forward on all four legs, wings folded", 7),
                     ("attack", "dragon lowering its head and breathing a blast of frost, staying on all four legs", 9)],
 }
 # Directions where PixelLab drifted mid-animation: keep only the first N frames (then hold).
-TRIM = {("boss_bone", "attack", "north"): 3, ("boss_dragon", "attack", "north"): 2}
+TRIM = {
+    ("boss_bone", "attack", "north"): 3,
+    ("boss_dragon", "attack", "north"): 2,
+    # The Rime Witch tips over and flies flat in the second half of her walk.
+    ("boss_witch", "walk", "south"): 3,
+    ("boss_witch", "walk", "south-east"): 3,
+    ("boss_witch", "walk", "east"): 3,
+    # The Yeti Matriarch shrinks as she walks toward the camera.
+    ("boss_yeti", "walk", "south"): 2,
+}
 # Frames where PixelLab painted glowing effects onto an attack: (name, anim, dir) ->
 #   ("drop", [frame indices])  replace those frames with the nearest clean one
 #   ("use", "walk")            use another animation's frames for this direction

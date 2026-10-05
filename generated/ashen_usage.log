@@ -186,3 +186,10 @@
 2026-10-05 12:44:49 vampire request walking gracefully forward, cape flowing behind her ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-05 12:58:50 inventor portrait {"type": "generations", "generations": 1.0}
 2026-10-05 12:59:55 inventor character job=c9bee36d-bc09-45cf-8ec9-f389a38ab1a2 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 13:03:13 inventor character job=f94dd1b2-8300-4342-990d-63cc3ceb3284 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 13:04:45 portrait fix vampire 300 {"type": "generations", "generations": 1.0}
+2026-10-05 13:05:03 portrait fix vampire 200 {"type": "generations", "generations": 1.0}
+2026-10-05 13:05:32 portrait fix sorceress 300 {"type": "generations", "generations": 1.0}
+2026-10-05 13:06:03 portrait fix sorceress 200 {"type": "generations", "generations": 1.0}
+2026-10-05 13:06:38 portrait fix inventor 300 {"type": "generations", "generations": 1.0}
+2026-10-05 13:07:00 portrait fix inventor 200 {"type": "generations", "generations": 1.0}

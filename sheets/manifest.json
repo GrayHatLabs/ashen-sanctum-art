@@ -977,6 +977,10 @@
       "file": "portrait_sorceress.png"
     },
     {
+      "name": "portrait_inventor",
+      "file": "portrait_inventor.png"
+    },
+    {
       "name": "icon_staff_gnarled",
       "file": "icon_staff_gnarled.png"
     },

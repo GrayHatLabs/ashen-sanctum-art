@@ -13,9 +13,9 @@ import gen  # noqa: E402
 
 HEADS = "small head, realistic adult body proportions, long legs"
 SPRITE = (
-    "steampunk woman inventor with long dark auburn curly hair, a small tilted black top hat with brass goggles, "
-    "brown leather corset over a black blouse, long black and oxblood bustle skirt, black lace-up boots, "
-    "one mechanical brass clockwork arm, holding an ornate brass ray pistol"
+    "steampunk woman inventor wearing a long floor-length black and oxblood Victorian bustle dress that covers her legs, "
+    "with a brown leather corset over it, long dark auburn curly hair, a small tilted black top hat with brass goggles, "
+    "one mechanical brass clockwork arm holding an ornate brass ray pistol, no trousers"
 )
 
 ANIMS = [

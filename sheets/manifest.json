@@ -1047,6 +1047,54 @@
       ]
     },
     {
+      "name": "brass_plate1",
+      "file": "brass_plate1.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "brass_plate2",
+      "file": "brass_plate2.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "grate_glow",
+      "file": "grate_glow.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "conveyor_road",
+      "file": "conveyor_road.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "verdigris_floor",
+      "file": "verdigris_floor.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "clock_floor",
+      "file": "clock_floor.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
       "name": "wall",
       "file": "wall_stack.png",
       "anchor": [
@@ -1092,6 +1140,22 @@
       "anchor": [
         16,
         56
+      ]
+    },
+    {
+      "name": "fence_iron",
+      "file": "fence_iron_stack.png",
+      "anchor": [
+        16,
+        40
+      ]
+    },
+    {
+      "name": "brass_wall",
+      "file": "brass_wall_stack.png",
+      "anchor": [
+        16,
+        53
       ]
     }
   ],
@@ -1383,6 +1447,62 @@
     {
       "name": "pass_mist",
       "file": "prop_pass_mist.png"
+    },
+    {
+      "name": "gear_tower",
+      "file": "prop_gear_tower.png"
+    },
+    {
+      "name": "steam_pipes",
+      "file": "prop_steam_pipes.png"
+    },
+    {
+      "name": "steam_vent",
+      "file": "prop_steam_vent.png"
+    },
+    {
+      "name": "gas_lamp",
+      "file": "prop_gas_lamp.png"
+    },
+    {
+      "name": "cog_pile",
+      "file": "prop_cog_pile.png"
+    },
+    {
+      "name": "workshop1",
+      "file": "prop_workshop1.png"
+    },
+    {
+      "name": "workshop2",
+      "file": "prop_workshop2.png"
+    },
+    {
+      "name": "clock_tower",
+      "file": "prop_clock_tower.png"
+    },
+    {
+      "name": "pendulum",
+      "file": "prop_pendulum.png"
+    },
+    {
+      "name": "ent_foundry",
+      "file": "prop_ent_foundry.png"
+    },
+    {
+      "name": "ent_choir",
+      "file": "prop_ent_choir.png"
+    },
+    {
+      "name": "ent_archive",
+      "file": "prop_ent_archive.png"
+    },
+    {
+      "name": "ent_clock",
+      "file": "prop_ent_clock.png"
+    },
+    {
+      "name": "gear_gate",
+      "file": "prop_gear_gate.png"
     }
   ]
 }

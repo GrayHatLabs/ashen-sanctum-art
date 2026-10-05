@@ -138,7 +138,8 @@ def apply_fix(fix, frames, rows_by_name):
 
 FLOORS = ["floor_stone1", "floor_stone2", "grass1", "grass2", "dirt1", "road1",
           "snow1", "snow2", "snow_road", "lake_ice", "ice_floor1", "ice_floor2",
-          "mist_earth1", "mist_earth2", "mist_moss", "mist_road", "castle_floor"]
+          "mist_earth1", "mist_earth2", "mist_moss", "mist_road", "castle_floor",
+          "brass_plate1", "brass_plate2", "grate_glow", "conveyor_road", "verdigris_floor", "clock_floor"]
 WALL = "wall_stone"
 ITEMS = ["food_apple", "food_bread", "food_roast", "seal"]
 # Overworld and dungeon props (full size, anchored at the bottom centre).
@@ -148,7 +149,9 @@ PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "hous
          "ent_mines", "ent_caves", "ent_temple", "ent_glacier", "pass_gate",
          "gadget_turret", "gadget_spider", "gadget_airship", "gadget_bomb",
          "tree_twisted", "tree_mistpine", "glow_shrooms", "gravestone", "cottage_mist", "cottage_mist2", "gallows",
-         "merchant_cart", "ent_chapel", "ent_gallows", "ent_barrow", "ent_castle", "pass_mist"]
+         "merchant_cart", "ent_chapel", "ent_gallows", "ent_barrow", "ent_castle", "pass_mist",
+         "gear_tower", "steam_pipes", "steam_vent", "gas_lamp", "cog_pile", "workshop1", "workshop2", "clock_tower",
+         "pendulum", "ent_foundry", "ent_choir", "ent_archive", "ent_clock", "gear_gate"]
 ITEM_SIZE = 14
 # Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
 ICON_SIZE = 24
@@ -266,7 +269,11 @@ SOFT_TILES = {"snow1", "snow2", "lake_ice"}
 # as dim blue-grey earth (the moss keeps its glow, just quieter). name -> (target rgb, pull, contrast)
 TONE_TILES = {"mist_earth1": ((58, 68, 78), 0.55, 0.45), "mist_earth2": ((54, 64, 72), 0.55, 0.45),
               "mist_road": ((74, 68, 60), 0.5, 0.5), "mist_moss": ((66, 78, 72), 0.72, 0.4),
-              "castle_floor": ((70, 40, 46), 0.45, 0.5)}
+              "castle_floor": ((70, 40, 46), 0.45, 0.5),
+              # Act 4: quiet sooty brass and iron, so monsters and effects read on top.
+              "brass_plate1": ((78, 62, 40), 0.6, 0.3), "brass_plate2": ((70, 58, 42), 0.6, 0.3),
+              "verdigris_floor": ((52, 80, 70), 0.6, 0.3), "conveyor_road": ((44, 42, 44), 0.55, 0.4),
+              "clock_floor": ((34, 32, 38), 0.55, 0.35), "grate_glow": ((70, 40, 24), 0.55, 0.35)}
 
 
 def tone(im, target, pull, contrast):
@@ -338,7 +345,8 @@ def pack_tiles():
                 break
         tiles.append({"name": n, "file": f"{n}.png", "anchor": [16 - b[0], mid]})
     for wall_name, src, stack in [("wall", WALL, WALL_STACK), ("palisade", "palisade", 2), ("ice_wall", "ice_wall", WALL_STACK), ("palisade_snow", "palisade_snow", 2),
-                                  ("palisade_mist", "palisade_mist", 2), ("castle_wall", "castle_wall", WALL_STACK)]:
+                                  ("palisade_mist", "palisade_mist", 2), ("castle_wall", "castle_wall", WALL_STACK),
+                                  ("fence_iron", "fence_iron", 2), ("brass_wall", "brass_wall", WALL_STACK)]:
         p = GEN / src / "image.png"
         if not p.exists():
             continue

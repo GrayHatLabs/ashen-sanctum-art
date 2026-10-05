@@ -177,3 +177,8 @@
 2026-10-05 10:24:18 boss_witch request ice witch gliding forward, gown trailing ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-05 10:27:39 boss_witch request ice witch raising the crystal staff and casting a spell ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-05 10:33:57 npc_fisher request townsman walking calmly ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 12:38:48 vampire portrait {"type": "generations", "generations": 1.0}
+2026-10-05 12:39:49 vampire character job=4c7e16bd-e662-4346-bdcd-020fadc13129 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 12:40:31 vampire portrait {"type": "generations", "generations": 1.0}
+2026-10-05 12:41:47 vampire character job=d3236124-1e48-42b3-aa89-e592bbb5c233 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 12:42:25 vampire portrait {"type": "generations", "generations": 1.0}

@@ -1,0 +1,38 @@
+{
+  "id": "9e58d4a8-9a66-4e40-8c21-317d54303d62",
+  "name": "elegant goth vampire noblewoman wearing a long flo...",
+  "state_name": "Idle",
+  "prompt": "elegant goth vampire noblewoman wearing a long floor-length plum velvet gown that covers her legs, a black cape with a tall red-lined collar, very long voluminous black hair with a purple streak, pale skin, red eyes, black choker, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 68,
+    "height": 68
+  },
+  "directions": 8,
+  "created_at": "2026-10-05T18:40:32.946125+00:00",
+  "updated_at": "2026-10-05T18:41:42.352324+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9e58d4a8-9a66-4e40-8c21-317d54303d62/rotations/south.png?t=1791225702",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9e58d4a8-9a66-4e40-8c21-317d54303d62/rotations/west.png?t=1791225702",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9e58d4a8-9a66-4e40-8c21-317d54303d62/rotations/east.png?t=1791225702",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9e58d4a8-9a66-4e40-8c21-317d54303d62/rotations/north.png?t=1791225702",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9e58d4a8-9a66-4e40-8c21-317d54303d62/rotations/south-east.png?t=1791225702",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9e58d4a8-9a66-4e40-8c21-317d54303d62/rotations/north-east.png?t=1791225702",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9e58d4a8-9a66-4e40-8c21-317d54303d62/rotations/north-west.png?t=1791225702",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/9e58d4a8-9a66-4e40-8c21-317d54303d62/rotations/south-west.png?t=1791225702"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "a87bb12a-2614-4ef4-bf32-a4c7e1357f5b",
+  "skeletons": null,
+  "animations": []
+}

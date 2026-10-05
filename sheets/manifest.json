@@ -772,12 +772,12 @@
       "name": "inventor",
       "file": "inventor.png",
       "cell": [
-        34,
-        56
+        58,
+        59
       ],
       "anchor": [
-        13,
-        46
+        23,
+        49
       ],
       "anims": [
         {
@@ -791,6 +791,18 @@
           "row": 8,
           "frames": 6,
           "fps": 10
+        },
+        {
+          "name": "cast",
+          "row": 16,
+          "frames": 6,
+          "fps": 16
+        },
+        {
+          "name": "throw",
+          "row": 24,
+          "frames": 6,
+          "fps": 14
         }
       ]
     },
@@ -798,12 +810,12 @@
       "name": "steam_suit",
       "file": "steam_suit.png",
       "cell": [
-        37,
-        70
+        90,
+        87
       ],
       "anchor": [
-        18,
-        64
+        33,
+        69
       ],
       "anims": [
         {
@@ -811,6 +823,18 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "cast",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
         }
       ]
     },

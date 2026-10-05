@@ -378,7 +378,7 @@ def pack_items():
         print("item", n, im.size)
     # Class-select portraits (tools/vampire_art.py): full size; a flat grey background is keyed out.
     # Cleaned-up versions (tools/portrait_fix.py); originals live in reference/portraits_original/.
-    for n, src in [("portrait_vampire", "portrait_fix/vampire_s450.png"), ("portrait_sorceress", "portrait_fix/sorceress_s300.png"),
+    for n, src in [("portrait_vampire", "portrait_fix/vampire_face_a.png"), ("portrait_sorceress", "portrait_fix/sorceress_s300.png"),
                    ("portrait_inventor", "inventor/portrait_v3_220.png")]:
         p = GEN / src
         if not p.exists():
@@ -386,7 +386,7 @@ def pack_items():
         im = load(p)
         px = im.load()
         bg = px[0, 0]
-        flat = all(abs(px[x, y][i] - bg[i]) < 6 for x, y in [(0, 0), (im.width - 1, 0), (0, im.height - 1), (im.width - 1, im.height - 1)] for i in range(3))
+        flat = all(abs(px[x, y][i] - bg[i]) < 14 for x, y in [(0, 0), (im.width - 1, 0), (0, im.height - 1), (im.width - 1, im.height - 1)] for i in range(3))
         if flat:
             # Flood fill from the corners so grey inside the figure stays.
             from collections import deque
@@ -397,7 +397,7 @@ def pack_items():
                 if (x, y) in seen or not (0 <= x < im.width and 0 <= y < im.height):
                     continue
                 c = px[x, y]
-                if c[3] == 0 or max(abs(c[i] - bg[i]) for i in range(3)) > 10:
+                if c[3] == 0 or max(abs(c[i] - bg[i]) for i in range(3)) > 16:
                     continue
                 seen.add((x, y))
                 px[x, y] = (0, 0, 0, 0)
@@ -405,6 +405,11 @@ def pack_items():
         im.save(OUT / f"{n}.png")
         items.append({"name": n, "file": f"{n}.png"})
         print("portrait", n, im.size, "keyed" if flat else "")
+    # Title screen background (tools/title_art.py), full size.
+    p = GEN / "title" / "title_bg.png"
+    if p.exists():
+        load(p).save(OUT / "title_bg.png")
+        items.append({"name": "title_bg", "file": "title_bg.png"})
     import items_art
     for n, _ in items_art.ICONS:
         p = GEN / n / "image.png"

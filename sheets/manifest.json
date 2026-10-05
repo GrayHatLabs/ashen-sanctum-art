@@ -999,6 +999,10 @@
       "file": "portrait_inventor.png"
     },
     {
+      "name": "title_bg",
+      "file": "title_bg.png"
+    },
+    {
       "name": "icon_staff_gnarled",
       "file": "icon_staff_gnarled.png"
     },

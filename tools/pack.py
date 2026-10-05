@@ -265,7 +265,7 @@ SOFT_TILES = {"snow1", "snow2", "lake_ice"}
 # Act 3 ground: pull toward a target colour and flatten the contrast so the forest floor reads
 # as dim blue-grey earth (the moss keeps its glow, just quieter). name -> (target rgb, pull, contrast)
 TONE_TILES = {"mist_earth1": ((58, 68, 78), 0.55, 0.45), "mist_earth2": ((54, 64, 72), 0.55, 0.45),
-              "mist_road": ((74, 68, 60), 0.5, 0.5), "mist_moss": ((50, 150, 70), 0.35, 0.55),
+              "mist_road": ((74, 68, 60), 0.5, 0.5), "mist_moss": ((66, 78, 72), 0.72, 0.4),
               "castle_floor": ((70, 40, 46), 0.45, 0.5)}
 
 

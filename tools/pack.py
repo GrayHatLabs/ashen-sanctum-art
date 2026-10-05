@@ -66,7 +66,9 @@ CHARS = {
                   ("attack", "giant yeti roaring and swiping with both arms", 10)],
     "boss_witch": [("idle", None, 1), ("walk", "ice witch gliding forward, gown trailing", 8),
                    ("attack", "ice witch raising the crystal staff and casting a spell", 10)],
-    "vampire": [("idle", None, 1)],
+    "vampire": [("idle", None, 1), ("walk", "walking gracefully forward, cape flowing behind her", 10),
+                ("cast", "casting a blood spell, thrusting one clawed hand forward", 16),
+                ("attack", "slashing forward with long clawed fingers", 18)],
     "boss_dragon": [("idle", None, 1), ("walk", "dragon prowling forward on all four legs, wings folded", 7),
                     ("attack", "dragon lowering its head and breathing a blast of frost, staying on all four legs", 9)],
 }
@@ -86,6 +88,11 @@ TRIM = {
 #   ("use", "walk")            use another animation's frames for this direction
 #   ("key", (r_max, g_min, b_min))  erase pixels that look like the stray effect colour
 FIX = {
+    # The vampire: a red-silhouette frame in the south cast, a cyan flash and a floating cape in the claw slash.
+    ("vampire", "cast", "south"): ("drop", [2]),
+    ("vampire", "attack", "south-east"): ("drop", [1]),
+    ("vampire", "attack", "east"): ("use", "cast"),
+    ("vampire", "attack", "north"): ("drop", [1, 2]),
     # Act 2: the ice troll's attack paints glowing frost rings over frames 2-4.
     ("ice_troll", "attack", "south"): ("drop", [2, 3, 4]),
     ("ice_troll", "attack", "south-east"): ("drop", [2, 3, 4]),

@@ -2,3 +2,22 @@ saved sorceress portrait
 requested vampire walking gracefully forward, cape flowing behind her ['south', 'south-east', 'east', 'north-east', 'north']
 vampire walking gracefully forward, cape flowing behind her now ['east', 'south']
 vampire walking gracefully forward, cape flowing behind her now ['east', 'south', 'south-east']
+requested vampire walking gracefully forward, cape flowing behind her ['north-east', 'north']
+vampire walking gracefully forward, cape flowing behind her now ['east', 'north-east', 'south', 'south-east']
+vampire walking gracefully forward, cape flowing behind her now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched vampire
+done vampire walking gracefully forward, cape flowing behind her
+requested vampire casting a blood spell, thrusting one clawed hand forward ['south', 'south-east', 'east', 'north-east', 'north']
+vampire casting a blood spell, thrusting one clawed hand forward now ['east', 'north', 'south', 'south-east']
+vampire casting a blood spell, thrusting one clawed hand forward now ['east', 'north', 'north-east', 'south', 'south-east']
+retry run_anim vampire 0 HTTP Error 520: <none>
+fetched vampire
+done vampire casting a blood spell, thrusting one clawed hand forward
+requested vampire slashing forward with long clawed fingers ['south', 'south-east', 'east', 'north-east', 'north']
+vampire slashing forward with long clawed fingers now ['south']
+vampire slashing forward with long clawed fingers now ['north', 'south', 'south-east']
+vampire slashing forward with long clawed fingers now ['north', 'north-east', 'south', 'south-east']
+vampire slashing forward with long clawed fingers now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched vampire
+done vampire slashing forward with long clawed fingers
+vampire anims done

@@ -772,12 +772,12 @@
       "name": "vampire",
       "file": "vampire.png",
       "cell": [
-        30,
-        49
+        63,
+        61
       ],
       "anchor": [
-        15,
-        43
+        26,
+        46
       ],
       "anims": [
         {
@@ -785,6 +785,24 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 10
+        },
+        {
+          "name": "cast",
+          "row": 16,
+          "frames": 6,
+          "fps": 16
+        },
+        {
+          "name": "attack",
+          "row": 24,
+          "frames": 6,
+          "fps": 18
         }
       ]
     },

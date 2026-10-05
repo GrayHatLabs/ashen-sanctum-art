@@ -1,0 +1,14 @@
+saved D:\projects\AshenSanctum-art\generated\gadget_turret\image.png
+saved D:\projects\AshenSanctum-art\generated\gadget_spider\image.png
+saved D:\projects\AshenSanctum-art\generated\gadget_airship\image.png
+saved D:\projects\AshenSanctum-art\generated\gadget_bomb\image.png
+character b654379e-d514-4179-9bbb-4e82f6ca32c5
+fetched steam_suit
+gadgets done
+requested inventor walking confidently forward, skirt swaying ['south', 'south-east', 'east', 'north-east', 'north']
+inventor walking confidently forward, skirt swaying now ['east', 'north', 'south', 'south-east']
+inventor walking confidently forward, skirt swaying now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched inventor
+done inventor walking confidently forward, skirt swaying
+requested inventor aiming the brass ray pistol forward and firing ['south', 'south-east', 'east', 'north-east', 'north']
+inventor aiming the brass ray pistol forward and firing now ['north']

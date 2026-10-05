@@ -66,6 +66,8 @@ CHARS = {
                   ("attack", "giant yeti roaring and swiping with both arms", 10)],
     "boss_witch": [("idle", None, 1), ("walk", "ice witch gliding forward, gown trailing", 8),
                    ("attack", "ice witch raising the crystal staff and casting a spell", 10)],
+    "inventor": [("idle", None, 1), ("walk", "walking confidently forward, skirt swaying", 10)],
+    "steam_suit": [("idle", None, 1)],
     "vampire": [("idle", None, 1), ("walk", "walking gracefully forward, cape flowing behind her", 10),
                 ("cast", "casting a blood spell, thrusting one clawed hand forward", 16),
                 ("attack", "slashing forward with long clawed fingers", 18)],
@@ -139,7 +141,8 @@ ITEMS = ["food_apple", "food_bread", "food_roast", "seal"]
 PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "house2", "tent1", "campfire", "well",
          "ent_crypt", "ent_warrens", "ent_catacombs", "ent_sanctum", "stairs_down", "stairs_up",
          "tree_snowpine", "tree_snowdead", "rock_snow", "ice_crystal", "longhouse1", "longhouse2", "stall_furs",
-         "ent_mines", "ent_caves", "ent_temple", "ent_glacier", "pass_gate"]
+         "ent_mines", "ent_caves", "ent_temple", "ent_glacier", "pass_gate",
+         "gadget_turret", "gadget_spider", "gadget_airship", "gadget_bomb"]
 ITEM_SIZE = 14
 # Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
 ICON_SIZE = 24

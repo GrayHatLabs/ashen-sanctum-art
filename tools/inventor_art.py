@@ -81,10 +81,36 @@ def sprite():
     gen.character("inventor", f"{SPRITE}, {HEADS}", 48, "realistic_female", "")
 
 
+# Gadgets: isometric props (bitforge): name, description, w, h
+GADGETS = [
+    ("gadget_turret", "a small brass steampunk sentry turret on a tripod with a glowing teal aether lens and gears", 40, 40),
+    ("gadget_spider", "a clockwork brass mechanical spider with eight jointed legs, glowing teal eyes and exposed gears", 40, 32),
+    ("gadget_airship", "a small brass steampunk airship with a balloon, propellers and bomb racks, seen from above", 64, 40),
+    ("gadget_bomb", "a round brass clockwork bomb with a ticking dial and a short lit fuse", 20, 20),
+]
+SUIT_ANIMS = [
+    ("steam_suit", "heavy mech suit stomping forward, steam venting from its back", 6),
+    ("steam_suit", "heavy mech suit firing its arm cannon forward with a blast of steam", 6),
+]
+
+
+def gadgets():
+    import act2_art
+    for name, desc, w, h in GADGETS:
+        if not (gen.GEN / name / "image.png").exists():
+            act2_art.safe(gen.prop, name, desc, w, h, "text, person, character, background, floor tiles, platform")
+    if not (gen.GEN / "steam_suit" / "rotation_urls_south.png").exists():
+        act2_art.safe(gen.character, "steam_suit",
+                      "a walking steampunk mech suit of riveted brass and iron with a glass cockpit where a woman with auburn hair "
+                      "and a top hat sits, a big steam cannon arm, pipes venting steam, small head, realistic proportions",
+                      64, "heroic", "")
+    print("gadgets done", flush=True)
+
+
 def anims():
     import act2_art
     import world_art
-    for name, action, frames in ANIMS:
+    for name, action, frames in ANIMS + SUIT_ANIMS:
         act2_art.safe(world_art.run_anim, name, action, frames)
     print("inventor anims done", flush=True)
 
@@ -96,4 +122,4 @@ def review():
 
 
 if __name__ == "__main__":
-    {"portrait": portrait, "portrait2": lambda: [portrait_v2(t) for t in "abc"], "sprite": sprite, "anims": anims, "review": review}[sys.argv[1]]()
+    {"gadgets": gadgets, "portrait": portrait, "portrait2": lambda: [portrait_v2(t) for t in "abc"], "sprite": sprite, "anims": anims, "review": review}[sys.argv[1]]()

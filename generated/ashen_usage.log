@@ -207,3 +207,11 @@
 2026-10-05 13:42:45 portrait bg sorceress {"type": "generations", "generations": 1.0}
 2026-10-05 13:43:12 portrait bg inventor {"type": "generations", "generations": 1.0}
 2026-10-05 13:43:56 portrait bg inventor 2 {"type": "generations", "generations": 1.0}
+2026-10-05 14:04:03 gadget_turret prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:04:33 gadget_spider prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:04:56 gadget_airship prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:05:15 gadget_bomb prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:06:37 steam_suit character job=cb6bb854-6cbb-4f69-a679-022db2aecd38 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:06:49 inventor request walking confidently forward, skirt swaying ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 14:09:51 inventor request aiming the brass ray pistol forward and firing ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 14:13:01 inventor request throwing a small brass bomb forward with the mechanical arm ['south', 'south-east', 'east', 'north-east', 'north'] null

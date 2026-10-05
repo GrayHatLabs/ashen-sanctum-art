@@ -769,6 +769,52 @@
       ]
     },
     {
+      "name": "inventor",
+      "file": "inventor.png",
+      "cell": [
+        34,
+        56
+      ],
+      "anchor": [
+        13,
+        46
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
+      "name": "steam_suit",
+      "file": "steam_suit.png",
+      "cell": [
+        37,
+        70
+      ],
+      "anchor": [
+        18,
+        64
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
       "name": "vampire",
       "file": "vampire.png",
       "cell": [
@@ -1189,6 +1235,22 @@
     {
       "name": "pass_gate",
       "file": "prop_pass_gate.png"
+    },
+    {
+      "name": "gadget_turret",
+      "file": "prop_gadget_turret.png"
+    },
+    {
+      "name": "gadget_spider",
+      "file": "prop_gadget_spider.png"
+    },
+    {
+      "name": "gadget_airship",
+      "file": "prop_gadget_airship.png"
+    },
+    {
+      "name": "gadget_bomb",
+      "file": "prop_gadget_bomb.png"
     }
   ]
 }

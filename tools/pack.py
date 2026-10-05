@@ -137,7 +137,8 @@ def apply_fix(fix, frames, rows_by_name):
 
 
 FLOORS = ["floor_stone1", "floor_stone2", "grass1", "grass2", "dirt1", "road1",
-          "snow1", "snow2", "snow_road", "lake_ice", "ice_floor1", "ice_floor2"]
+          "snow1", "snow2", "snow_road", "lake_ice", "ice_floor1", "ice_floor2",
+          "mist_earth1", "mist_earth2", "mist_moss", "mist_road", "castle_floor"]
 WALL = "wall_stone"
 ITEMS = ["food_apple", "food_bread", "food_roast", "seal"]
 # Overworld and dungeon props (full size, anchored at the bottom centre).
@@ -145,7 +146,9 @@ PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "hous
          "ent_crypt", "ent_warrens", "ent_catacombs", "ent_sanctum", "stairs_down", "stairs_up",
          "tree_snowpine", "tree_snowdead", "rock_snow", "ice_crystal", "longhouse1", "longhouse2", "stall_furs",
          "ent_mines", "ent_caves", "ent_temple", "ent_glacier", "pass_gate",
-         "gadget_turret", "gadget_spider", "gadget_airship", "gadget_bomb"]
+         "gadget_turret", "gadget_spider", "gadget_airship", "gadget_bomb",
+         "tree_twisted", "tree_mistpine", "glow_shrooms", "gravestone", "cottage_mist", "cottage_mist2", "gallows",
+         "merchant_cart", "ent_chapel", "ent_gallows", "ent_barrow", "ent_castle", "pass_mist"]
 ITEM_SIZE = 14
 # Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
 ICON_SIZE = 24
@@ -259,6 +262,27 @@ def pack_char(name, spec):
 # Light ground tiles whose black outline draws a grid across the map: outline pixels are
 # replaced by their lighter neighbours.
 SOFT_TILES = {"snow1", "snow2", "lake_ice"}
+# Act 3 ground: pull toward a target colour and flatten the contrast so the forest floor reads
+# as dim blue-grey earth (the moss keeps its glow, just quieter). name -> (target rgb, pull, contrast)
+TONE_TILES = {"mist_earth1": ((58, 68, 78), 0.55, 0.45), "mist_earth2": ((54, 64, 72), 0.55, 0.45),
+              "mist_road": ((74, 68, 60), 0.5, 0.5), "mist_moss": ((50, 150, 70), 0.35, 0.55),
+              "castle_floor": ((70, 40, 46), 0.45, 0.5)}
+
+
+def tone(im, target, pull, contrast):
+    """Flatten contrast around the tile's mean colour, then pull the result toward `target`."""
+    px = im.load()
+    cs = [px[x, y] for y in range(im.height) for x in range(im.width) if px[x, y][3]]
+    mean = [sum(c[i] for c in cs) / len(cs) for i in range(3)]
+    for y in range(im.height):
+        for x in range(im.width):
+            c = px[x, y]
+            if c[3]:
+                v = [(mean[i] + (c[i] - mean[i]) * contrast) * (1 - pull) + target[i] * pull for i in range(3)]
+                px[x, y] = tuple(max(0, min(255, int(k))) for k in v) + (255,)
+    return im
+
+
 
 
 def soften(im):
@@ -291,6 +315,8 @@ def pack_tiles():
         im = im.crop(b)
         if n in SOFT_TILES:
             im = soften(im)
+        if n in TONE_TILES:
+            im = tone(im, *TONE_TILES[n])
         if n == "snow_road":
             # Trampled snow: lift the dark mud cracks toward a pale grey-brown.
             px = im.load()
@@ -306,12 +332,13 @@ def pack_tiles():
         # above the diamond, so the top of the bbox isn't always the top of the face.
         px = im.load()
         mid = 8
-        for y in range(im.height if n in SOFT_TILES or n == "snow_road" else 0):
+        for y in range(im.height if n in SOFT_TILES or n in ("snow_road", "mist_road", "mist_moss") else 0):
             if sum(1 for x in range(im.width) if px[x, y][3]) >= im.width * 0.9:
                 mid = y
                 break
         tiles.append({"name": n, "file": f"{n}.png", "anchor": [16 - b[0], mid]})
-    for wall_name, src, stack in [("wall", WALL, WALL_STACK), ("palisade", "palisade", 2), ("ice_wall", "ice_wall", WALL_STACK), ("palisade_snow", "palisade_snow", 2)]:
+    for wall_name, src, stack in [("wall", WALL, WALL_STACK), ("palisade", "palisade", 2), ("ice_wall", "ice_wall", WALL_STACK), ("palisade_snow", "palisade_snow", 2),
+                                  ("palisade_mist", "palisade_mist", 2), ("castle_wall", "castle_wall", WALL_STACK)]:
         p = GEN / src / "image.png"
         if not p.exists():
             continue

@@ -1007,6 +1007,46 @@
       ]
     },
     {
+      "name": "mist_earth1",
+      "file": "mist_earth1.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "mist_earth2",
+      "file": "mist_earth2.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "mist_moss",
+      "file": "mist_moss.png",
+      "anchor": [
+        16,
+        7
+      ]
+    },
+    {
+      "name": "mist_road",
+      "file": "mist_road.png",
+      "anchor": [
+        16,
+        0
+      ]
+    },
+    {
+      "name": "castle_floor",
+      "file": "castle_floor.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
       "name": "wall",
       "file": "wall_stack.png",
       "anchor": [
@@ -1036,6 +1076,22 @@
       "anchor": [
         16,
         40
+      ]
+    },
+    {
+      "name": "palisade_mist",
+      "file": "palisade_mist_stack.png",
+      "anchor": [
+        16,
+        40
+      ]
+    },
+    {
+      "name": "castle_wall",
+      "file": "castle_wall_stack.png",
+      "anchor": [
+        16,
+        56
       ]
     }
   ],
@@ -1275,6 +1331,58 @@
     {
       "name": "gadget_bomb",
       "file": "prop_gadget_bomb.png"
+    },
+    {
+      "name": "tree_twisted",
+      "file": "prop_tree_twisted.png"
+    },
+    {
+      "name": "tree_mistpine",
+      "file": "prop_tree_mistpine.png"
+    },
+    {
+      "name": "glow_shrooms",
+      "file": "prop_glow_shrooms.png"
+    },
+    {
+      "name": "gravestone",
+      "file": "prop_gravestone.png"
+    },
+    {
+      "name": "cottage_mist",
+      "file": "prop_cottage_mist.png"
+    },
+    {
+      "name": "cottage_mist2",
+      "file": "prop_cottage_mist2.png"
+    },
+    {
+      "name": "gallows",
+      "file": "prop_gallows.png"
+    },
+    {
+      "name": "merchant_cart",
+      "file": "prop_merchant_cart.png"
+    },
+    {
+      "name": "ent_chapel",
+      "file": "prop_ent_chapel.png"
+    },
+    {
+      "name": "ent_gallows",
+      "file": "prop_ent_gallows.png"
+    },
+    {
+      "name": "ent_barrow",
+      "file": "prop_ent_barrow.png"
+    },
+    {
+      "name": "ent_castle",
+      "file": "prop_ent_castle.png"
+    },
+    {
+      "name": "pass_mist",
+      "file": "prop_pass_mist.png"
     }
   ]
 }

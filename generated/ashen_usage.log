@@ -193,3 +193,11 @@
 2026-10-05 13:06:03 portrait fix sorceress 200 {"type": "generations", "generations": 1.0}
 2026-10-05 13:06:38 portrait fix inventor 300 {"type": "generations", "generations": 1.0}
 2026-10-05 13:07:00 portrait fix inventor 200 {"type": "generations", "generations": 1.0}
+2026-10-05 13:10:33 portrait fix vampire 380 {"type": "generations", "generations": 1.0}
+2026-10-05 13:10:58 portrait fix vampire 450 {"type": "generations", "generations": 1.0}
+2026-10-05 13:11:33 inventor portrait v2 a {"type": "generations", "generations": 1.0}
+2026-10-05 13:11:54 inventor portrait v2 b {"type": "generations", "generations": 1.0}
+2026-10-05 13:12:06 vampire request walking gracefully forward, cape flowing behind her ['north-east', 'north'] null
+2026-10-05 13:12:12 inventor portrait v2 c {"type": "generations", "generations": 1.0}
+2026-10-05 13:12:48 inventor portrait v3 300 {"type": "generations", "generations": 1.0}
+2026-10-05 13:13:06 inventor portrait v3 220 {"type": "generations", "generations": 1.0}

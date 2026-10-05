@@ -50,6 +50,33 @@ def portrait():
     print("saved portrait", flush=True)
 
 
+def portrait_v2(tag):
+    """A cleaner redo: simple clear pose, one character, the arm and pistol readable."""
+    body = {
+        "description": (
+            "cartoon character design portrait of one glamorous steampunk woman inventor standing in a confident three-quarter pose, "
+            "left hand on her hip, right arm is a brass clockwork mechanical arm with visible gears raised holding an ornate brass "
+            "ray pistol pointed upward, clever smirk, long dark auburn hair in loose curls, small tilted black top hat with brass "
+            "goggles with teal lenses, black lace choker with a brass gear, brown leather corset with brass buckles over a black "
+            "ruffled blouse, long black and oxblood bustle skirt, black lace-up boots, foggy Victorian city with airships and "
+            "copper pipes behind her, warm brass and teal palette, bold clean outlines, cel shading, "
+            "anatomically correct, exactly two arms, exactly two legs, five fingers"
+        ),
+        "image_size": {"width": 140, "height": 200},
+        "no_background": False,
+        "outline": "single color black outline",
+        "shading": "flat shading",
+        "detail": "highly detailed",
+        "view": "side",
+        "negative_description": "text, watermark, multiple characters, chibi, big head, nudity, exposed chest, extra limbs, "
+                                "extra legs, extra arms, duplicated limbs, deformed hands, plain grey background",
+    }
+    r = gen.call("POST", "/create-image-bitforge", body)
+    gen.log_charge(f"inventor portrait v2 {tag}", r.get("usage"))
+    gen.save_b64(r["image"], gen.d_of("inventor") / f"portrait_v2_{tag}.png")
+    print("saved portrait v2", tag, flush=True)
+
+
 def sprite():
     gen.character("inventor", f"{SPRITE}, {HEADS}", 48, "realistic_female", "")
 
@@ -69,4 +96,4 @@ def review():
 
 
 if __name__ == "__main__":
-    {"portrait": portrait, "sprite": sprite, "anims": anims, "review": review}[sys.argv[1]]()
+    {"portrait": portrait, "portrait2": lambda: [portrait_v2(t) for t in "abc"], "sprite": sprite, "anims": anims, "review": review}[sys.argv[1]]()

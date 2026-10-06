@@ -880,12 +880,12 @@
       "name": "reaper",
       "file": "reaper.png",
       "cell": [
-        36,
-        56
+        70,
+        73
       ],
       "anchor": [
-        15,
-        54
+        26,
+        61
       ],
       "anims": [
         {
@@ -893,6 +893,30 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
+        },
+        {
+          "name": "cast",
+          "row": 24,
+          "frames": 6,
+          "fps": 12
+        },
+        {
+          "name": "spin",
+          "row": 32,
+          "frames": 6,
+          "fps": 14
         }
       ]
     },

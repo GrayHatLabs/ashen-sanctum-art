@@ -880,11 +880,11 @@
       "name": "valkyrie",
       "file": "valkyrie.png",
       "cell": [
-        84,
+        92,
         81
       ],
       "anchor": [
-        36,
+        38,
         67
       ],
       "anims": [
@@ -917,6 +917,12 @@
           "row": 32,
           "frames": 6,
           "fps": 14
+        },
+        {
+          "name": "throw",
+          "row": 40,
+          "frames": 6,
+          "fps": 14
         }
       ]
     },
@@ -945,14 +951,20 @@
           "fps": 9
         },
         {
-          "name": "chop",
+          "name": "attack",
           "row": 16,
+          "frames": 6,
+          "fps": 14
+        },
+        {
+          "name": "chop",
+          "row": 24,
           "frames": 6,
           "fps": 12
         },
         {
           "name": "whirl",
-          "row": 24,
+          "row": 32,
           "frames": 6,
           "fps": 14
         }
@@ -962,12 +974,12 @@
       "name": "reaper",
       "file": "reaper.png",
       "cell": [
-        70,
-        73
+        39,
+        58
       ],
       "anchor": [
-        26,
-        61
+        17,
+        56
       ],
       "anims": [
         {
@@ -975,24 +987,6 @@
           "row": 0,
           "frames": 1,
           "fps": 1
-        },
-        {
-          "name": "attack",
-          "row": 8,
-          "frames": 6,
-          "fps": 14
-        },
-        {
-          "name": "cast",
-          "row": 16,
-          "frames": 6,
-          "fps": 12
-        },
-        {
-          "name": "spin",
-          "row": 24,
-          "frames": 6,
-          "fps": 14
         }
       ]
     },

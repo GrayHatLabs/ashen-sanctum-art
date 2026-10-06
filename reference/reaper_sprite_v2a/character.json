@@ -1,0 +1,38 @@
+{
+  "id": "8b35238a-18f0-4b31-a840-e98a83f46f19",
+  "name": "gothic reaper woman with very long flowing silver-...",
+  "state_name": "Idle",
+  "prompt": "gothic reaper woman with very long flowing silver-grey hair, no hood, pale face, amber eyes, black corset, long black skirt and long black cloak covered in glowing blue runes, holding a huge black scythe with glowing blue runes and a small blue spirit lantern under the blade, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 80,
+    "height": 80
+  },
+  "directions": 8,
+  "created_at": "2026-10-06T03:37:32.019114+00:00",
+  "updated_at": "2026-10-06T03:38:26.204990+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8b35238a-18f0-4b31-a840-e98a83f46f19/rotations/south.png?t=1791257906",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8b35238a-18f0-4b31-a840-e98a83f46f19/rotations/west.png?t=1791257906",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8b35238a-18f0-4b31-a840-e98a83f46f19/rotations/east.png?t=1791257906",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8b35238a-18f0-4b31-a840-e98a83f46f19/rotations/north.png?t=1791257906",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8b35238a-18f0-4b31-a840-e98a83f46f19/rotations/south-east.png?t=1791257906",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8b35238a-18f0-4b31-a840-e98a83f46f19/rotations/north-east.png?t=1791257906",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8b35238a-18f0-4b31-a840-e98a83f46f19/rotations/north-west.png?t=1791257906",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/8b35238a-18f0-4b31-a840-e98a83f46f19/rotations/south-west.png?t=1791257906"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "68f1e2e2-14a7-4327-9282-b2596f707848",
+  "skeletons": null,
+  "animations": []
+}

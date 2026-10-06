@@ -27,9 +27,12 @@ LOOK = (
     "old keys, scroll tubes, hourglasses and chained books"
 )
 SCYTHE = "an enormous rune scythe with a black wood shaft and a curved nearly black blade engraved with glowing blue-white runes, a small iron lantern with a pale blue spirit flame hanging under the blade"
+# v2 (the user): no hood, her long silver-grey hair instead, and glowing blue runes on her outfit.
+# (v1, hooded, is in reference/reaper_sprite_v1.)
 SPRITE = (
-    "gothic reaper woman in a deep black hood and long black cloak trailing smoke, very long silver-grey hair, pale face, "
-    f"black corset and long black skirt, keys and hourglasses on her belt, holding {SCYTHE}, {PALETTE}"
+    "gothic reaper woman with very long flowing silver-grey hair, no hood, pale face, black gown and long black cloak "
+    "decorated with bright glowing cyan blue rune symbols down the front, on the sleeves and along the hem, holding a huge "
+    "black scythe with glowing blue runes"
 )
 
 ANIMS = [

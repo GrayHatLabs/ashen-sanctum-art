@@ -122,6 +122,11 @@ CHARS = {
     "dire_wolf": [("idle", None, 1), ("walk", "dire wolf running fast, loping gallop", 12),
                   ("attack", "dire wolf lunging forward and biting", 14)],
     # ---- the Druid (tools/druid_art.py) ----
+    # The Inquisitor (tools/inquisitor_art.py); her iron halo is painted on by tools/inquisitor_halo.py.
+    "inquisitor_hero": [("idle", None, 1), ("walk", "walking forward, censer on its chain swinging at her side", 9),
+                        ("attack", "swinging the spiked censer on its long chain forward like a flail", 14),
+                        ("cast", "pointing one hand forward to burn a glowing sigil, censer hanging", 12),
+                        ("spin", "spinning in place swinging the censer on its chain around her body", 14)],
     "druid": [("idle", None, 1), ("walk", "walking forward calmly with the thorn staff, skirt trailing", 9),
               ("cast", "raising the thorn staff and casting glowing green plague magic", 12),
               ("summon", "kneeling and pressing one hand to the ground to summon creatures", 10)],
@@ -292,6 +297,11 @@ def char_frames(name):
             if frames:
                 out.setdefault(key, {})[dd["direction"]] = frames
     rot = {k: load(d / f"rotation_urls_{k}.png") for k in DIRS if (d / f"rotation_urls_{k}.png").exists()}
+    if name == "inquisitor_hero":
+        # The user's iron halo (spikes with an arching band) and more iron, on every frame.
+        from inquisitor_halo import fix_frame
+        out = {k: {dd: [fix_frame(f) for f in fs] for dd, fs in v.items()} for k, v in out.items()}
+        rot = {k: fix_frame(v) for k, v in rot.items()}
     return out, rot
 
 
@@ -514,7 +524,9 @@ def pack_items():
                    ("portrait_inventor", "inventor/portrait_v3_220.png"),
                    # The user's picks (tools/class_portraits_v2.py and the guided redraws, 2026-10-05).
                    ("portrait_valkyrie", "valkyrie/full_h.png"), ("portrait_berserker", "berserker/b2guide_s450.png"),
-                   ("portrait_reaper", "reaper/scythe2_s550.png"), ("portrait_druid", "druid/full_b.png")]:
+                   ("portrait_reaper", "reaper/scythe2_s550.png"), ("portrait_druid", "druid/full_b.png"),
+                   # Built from her sprite, then redrawn and touched up (tools/inquisitor_portrait.py, 2026-10-06).
+                   ("portrait_inquisitor", "inquisitor_hero/p4_final.png")]:
         p = GEN / src
         if not p.exists():
             continue
@@ -540,7 +552,8 @@ def pack_items():
         # Themed backgrounds (tools/portrait_bg.py) behind the keyed figure, a little darker so she stands out.
         bg_src = {"portrait_sorceress": "portrait_bg/sorceress.png", "portrait_inventor": "portrait_bg/inventor.png",
                   "portrait_valkyrie": "portrait_bg/valkyrie.png", "portrait_berserker": "portrait_bg/berserker.png",
-                  "portrait_reaper": "portrait_bg/reaper.png", "portrait_druid": "portrait_bg/druid.png"}.get(n)
+                  "portrait_reaper": "portrait_bg/reaper.png", "portrait_druid": "portrait_bg/druid.png",
+                  "portrait_inquisitor": "portrait_bg/inquisitor.png"}.get(n)
         if bg_src and (GEN / bg_src).exists() and flat:
             bg = load(GEN / bg_src).resize(im.size)
             dark = Image.new("RGBA", im.size, (8, 6, 10, 70))

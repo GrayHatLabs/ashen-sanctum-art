@@ -1553,6 +1553,50 @@
       ]
     },
     {
+      "name": "inquisitor_hero",
+      "file": "inquisitor_hero.png",
+      "cell": [
+        96,
+        77
+      ],
+      "anchor": [
+        39,
+        62
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 9
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
+        },
+        {
+          "name": "cast",
+          "row": 24,
+          "frames": 6,
+          "fps": 12
+        },
+        {
+          "name": "spin",
+          "row": 32,
+          "frames": 6,
+          "fps": 14
+        }
+      ]
+    },
+    {
       "name": "druid",
       "file": "druid.png",
       "cell": [
@@ -2499,6 +2543,10 @@
     {
       "name": "portrait_druid",
       "file": "portrait_druid.png"
+    },
+    {
+      "name": "portrait_inquisitor",
+      "file": "portrait_inquisitor.png"
     },
     {
       "name": "title_bg",

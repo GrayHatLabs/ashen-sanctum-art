@@ -463,3 +463,27 @@
 2026-10-06 11:38:34 icon_gem_ruby icon {"type": "generations", "generations": 1.0}
 2026-10-06 12:44:28 clock crow {"type": "generations", "generations": 1.0}
 2026-10-06 12:45:00 clock crow {"type": "generations", "generations": 1.0}
+2026-10-06 14:40:24 inquisitor full a {"type": "generations", "generations": 1.0}
+2026-10-06 14:40:47 inquisitor full b {"type": "generations", "generations": 1.0}
+2026-10-06 14:43:28 inquisitor full c {"type": "generations", "generations": 1.0}
+2026-10-06 14:43:51 portrait bg inquisitor {"type": "generations", "generations": 1.0}
+2026-10-06 14:45:19 inquisitor_hero character job=4aae2961-31f3-4a03-9000-0e8d51e32cc1 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 14:45:46 inquisitor_hero request walking forward, censer on its chain swinging at her side ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 14:48:20 inquisitor_hero request swinging the spiked censer on its long chain forward like a flail ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 14:51:24 inquisitor_hero request pointing one hand forward to burn a glowing sigil, censer hanging ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 14:54:31 inquisitor full a {"type": "generations", "generations": 1.0}
+2026-10-06 14:54:49 inquisitor full b {"type": "generations", "generations": 1.0}
+2026-10-06 14:55:09 inquisitor full c {"type": "generations", "generations": 1.0}
+2026-10-06 14:55:57 portrait bg inquisitor {"type": "generations", "generations": 1.0}
+2026-10-06 14:57:25 inquisitor_hero character job=84097938-bd73-4eb0-8c4f-b5fd2377f27e status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 15:02:18 inquisitor_hero request walking forward, censer on its chain swinging at her side ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 15:04:33 inquisitor portrait p3 400 {"type": "generations", "generations": 1.0}
+2026-10-06 15:05:17 inquisitor_hero request swinging the spiked censer on its long chain forward like a flail ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 15:05:17 inquisitor portrait p3 500 {"type": "generations", "generations": 1.0}
+2026-10-06 15:05:34 inquisitor portrait p3 600 {"type": "generations", "generations": 1.0}
+2026-10-06 15:08:23 inquisitor_hero request pointing one hand forward to burn a glowing sigil, censer hanging ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 15:11:04 inquisitor_hero request spinning in place swinging the censer on its chain around her body ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 15:38:21 inquisitor_hero request spinning in place swinging the censer on its chain around her body ['south-east'] null
+2026-10-06 15:49:09 inquisitor portrait p4 450 {"type": "generations", "generations": 1.0}
+2026-10-06 15:49:27 inquisitor portrait p4 550 {"type": "generations", "generations": 1.0}
+2026-10-06 15:49:47 inquisitor portrait p4 650 {"type": "generations", "generations": 1.0}

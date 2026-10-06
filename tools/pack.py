@@ -447,7 +447,7 @@ def pack_items():
                    ("portrait_inventor", "inventor/portrait_v3_220.png"),
                    # The user's picks (tools/class_portraits_v2.py and the guided redraws, 2026-10-05).
                    ("portrait_valkyrie", "valkyrie/full_h.png"), ("portrait_berserker", "berserker/b2guide_s450.png"),
-                   ("portrait_reaper", "reaper/scythe2_s550.png")]:
+                   ("portrait_reaper", "reaper/face_s700.png")]:
         p = GEN / src
         if not p.exists():
             continue

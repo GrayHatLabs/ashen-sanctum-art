@@ -525,8 +525,9 @@ def pack_items():
                    # The user's picks (tools/class_portraits_v2.py and the guided redraws, 2026-10-05).
                    ("portrait_valkyrie", "valkyrie/full_h.png"), ("portrait_berserker", "berserker/b2guide_s450.png"),
                    ("portrait_reaper", "reaper/scythe2_s550.png"), ("portrait_druid", "druid/full_b.png"),
-                   # Built from her sprite, then redrawn and touched up (tools/inquisitor_portrait.py, 2026-10-06).
-                   ("portrait_inquisitor", "inquisitor_hero/p4_final.png")]:
+                   # The user's pick: 5B's build with a golden spiked halo, gold chains and the censer
+                   # (tools/inquisitor_portrait.py guide7 / redraw7, strength 540, specks cleaned).
+                   ("portrait_inquisitor", "inquisitor_hero/p7_final.png")]:
         p = GEN / src
         if not p.exists():
             continue

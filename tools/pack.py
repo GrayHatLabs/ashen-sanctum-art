@@ -74,6 +74,11 @@ CHARS = {
     "vampire": [("idle", None, 1), ("walk", "walking gracefully forward, cape flowing behind her", 10),
                 ("cast", "casting a blood spell, thrusting one clawed hand forward", 16),
                 ("attack", "slashing forward with long clawed fingers", 18)],
+    # ---- the Reaper (tools/reaper_art.py) ----
+    "reaper": [("idle", None, 1), ("walk", "gliding forward, cloak trailing, scythe held upright", 8),
+               ("attack", "sweeping the great scythe in a wide horizontal arc", 14),
+               ("cast", "raising one hand to cast spectral blue rune magic, scythe in the other hand", 12),
+               ("spin", "spinning in a full circle with the scythe held out", 14)],
     # ---- Act 3 (tools/act3_art.py) ----
     "ghoul": [("idle", None, 1), ("walk", "ghoul loping forward hunched over", 10), ("attack", "ghoul slashing with both claws", 14)],
     "werewolf": [("idle", None, 1), ("walk", "werewolf running forward on two legs", 11), ("attack", "werewolf slashing with its claws", 14)],
@@ -447,7 +452,7 @@ def pack_items():
                    ("portrait_inventor", "inventor/portrait_v3_220.png"),
                    # The user's picks (tools/class_portraits_v2.py and the guided redraws, 2026-10-05).
                    ("portrait_valkyrie", "valkyrie/full_h.png"), ("portrait_berserker", "berserker/b2guide_s450.png"),
-                   ("portrait_reaper", "reaper/face_s700.png")]:
+                   ("portrait_reaper", "reaper/scythe2_s550.png")]:
         p = GEN / src
         if not p.exists():
             continue

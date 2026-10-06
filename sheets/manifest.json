@@ -877,6 +877,26 @@
       ]
     },
     {
+      "name": "reaper",
+      "file": "reaper.png",
+      "cell": [
+        36,
+        56
+      ],
+      "anchor": [
+        15,
+        54
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
       "name": "ghoul",
       "file": "ghoul.png",
       "cell": [

@@ -877,6 +877,460 @@
       ]
     },
     {
+      "name": "brass_scarab",
+      "file": "brass_scarab.png",
+      "cell": [
+        29,
+        48
+      ],
+      "anchor": [
+        13,
+        41
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 12
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
+        }
+      ]
+    },
+    {
+      "name": "inquisitor",
+      "file": "inquisitor.png",
+      "cell": [
+        92,
+        78
+      ],
+      "anchor": [
+        36,
+        58
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 9
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 11
+        }
+      ]
+    },
+    {
+      "name": "gearwraith",
+      "file": "gearwraith.png",
+      "cell": [
+        37,
+        62
+      ],
+      "anchor": [
+        13,
+        48
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 9
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 12
+        }
+      ]
+    },
+    {
+      "name": "spring_jack",
+      "file": "spring_jack.png",
+      "cell": [
+        80,
+        75
+      ],
+      "anchor": [
+        30,
+        57
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 12
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
+        }
+      ]
+    },
+    {
+      "name": "boiler_brute",
+      "file": "boiler_brute.png",
+      "cell": [
+        83,
+        88
+      ],
+      "anchor": [
+        31,
+        69
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
+      "name": "ordinal",
+      "file": "ordinal.png",
+      "cell": [
+        22,
+        22
+      ],
+      "anchor": [
+        11,
+        20
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "ordinal_prism",
+      "file": "ordinal_prism.png",
+      "cell": [
+        21,
+        24
+      ],
+      "anchor": [
+        10,
+        22
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "ordinal_marshal",
+      "file": "ordinal_marshal.png",
+      "cell": [
+        32,
+        52
+      ],
+      "anchor": [
+        16,
+        50
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_tally",
+      "file": "npc_tally.png",
+      "cell": [
+        22,
+        53
+      ],
+      "anchor": [
+        11,
+        48
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_vesper",
+      "file": "npc_vesper.png",
+      "cell": [
+        22,
+        51
+      ],
+      "anchor": [
+        11,
+        45
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_oiler",
+      "file": "npc_oiler.png",
+      "cell": [
+        22,
+        47
+      ],
+      "anchor": [
+        11,
+        42
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_servant",
+      "file": "npc_servant.png",
+      "cell": [
+        36,
+        64
+      ],
+      "anchor": [
+        11,
+        48
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        }
+      ]
+    },
+    {
+      "name": "boss_forgemother",
+      "file": "boss_forgemother.png",
+      "cell": [
+        107,
+        114
+      ],
+      "anchor": [
+        39,
+        90
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
+      "name": "boss_cantor",
+      "file": "boss_cantor.png",
+      "cell": [
+        53,
+        104
+      ],
+      "anchor": [
+        26,
+        97
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_archivist",
+      "file": "boss_archivist.png",
+      "cell": [
+        124,
+        121
+      ],
+      "anchor": [
+        46,
+        97
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
+      "name": "boss_clockmaker",
+      "file": "boss_clockmaker.png",
+      "cell": [
+        92,
+        122
+      ],
+      "anchor": [
+        30,
+        96
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 9
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 12
+        }
+      ]
+    },
+    {
+      "name": "boss_clockmaker_engine",
+      "file": "boss_clockmaker_engine.png",
+      "cell": [
+        131,
+        131
+      ],
+      "anchor": [
+        70,
+        118
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 9
+        }
+      ]
+    },
+    {
       "name": "valkyrie",
       "file": "valkyrie.png",
       "cell": [
@@ -923,6 +1377,72 @@
           "row": 40,
           "frames": 6,
           "fps": 14
+        },
+        {
+          "name": "cast",
+          "row": 48,
+          "frames": 6,
+          "fps": 12
+        }
+      ]
+    },
+    {
+      "name": "frost_raven",
+      "file": "frost_raven.png",
+      "cell": [
+        16,
+        31
+      ],
+      "anchor": [
+        8,
+        27
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "valkyrie_horse",
+      "file": "valkyrie_horse.png",
+      "cell": [
+        92,
+        94
+      ],
+      "anchor": [
+        44,
+        76
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "einherjar",
+      "file": "einherjar.png",
+      "cell": [
+        30,
+        51
+      ],
+      "anchor": [
+        16,
+        45
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
         }
       ]
     },
@@ -930,11 +1450,11 @@
       "name": "berserker",
       "file": "berserker.png",
       "cell": [
-        92,
+        94,
         78
       ],
       "anchor": [
-        38,
+        39,
         59
       ],
       "anims": [
@@ -967,19 +1487,31 @@
           "row": 32,
           "frames": 6,
           "fps": 14
+        },
+        {
+          "name": "throw",
+          "row": 40,
+          "frames": 6,
+          "fps": 14
+        },
+        {
+          "name": "cast",
+          "row": 48,
+          "frames": 6,
+          "fps": 10
         }
       ]
     },
     {
-      "name": "reaper",
-      "file": "reaper.png",
+      "name": "dire_wolf",
+      "file": "dire_wolf.png",
       "cell": [
-        39,
-        58
+        76,
+        65
       ],
       "anchor": [
-        17,
-        56
+        37,
+        54
       ],
       "anims": [
         {
@@ -987,6 +1519,38 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "reaper",
+      "file": "reaper.png",
+      "cell": [
+        72,
+        72
+      ],
+      "anchor": [
+        25,
+        60
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
         }
       ]
     },

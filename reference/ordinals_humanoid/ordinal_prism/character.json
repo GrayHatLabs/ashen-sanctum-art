@@ -1,0 +1,38 @@
+{
+  "id": "11f25f87-0049-403b-8c65-e3bcb5549d75",
+  "name": "a floating brass lattice pyramid with a glowing bl...",
+  "state_name": "Idle",
+  "prompt": "a floating brass lattice pyramid with a glowing blue lens crystal inside and turning gears at its corners, no face, no limbs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 56,
+    "height": 56
+  },
+  "directions": 8,
+  "created_at": "2026-10-06T02:04:39.327274+00:00",
+  "updated_at": "2026-10-06T02:06:00.366428+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/11f25f87-0049-403b-8c65-e3bcb5549d75/rotations/south.png?t=1791252360",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/11f25f87-0049-403b-8c65-e3bcb5549d75/rotations/west.png?t=1791252360",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/11f25f87-0049-403b-8c65-e3bcb5549d75/rotations/east.png?t=1791252360",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/11f25f87-0049-403b-8c65-e3bcb5549d75/rotations/north.png?t=1791252360",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/11f25f87-0049-403b-8c65-e3bcb5549d75/rotations/south-east.png?t=1791252360",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/11f25f87-0049-403b-8c65-e3bcb5549d75/rotations/north-east.png?t=1791252360",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/11f25f87-0049-403b-8c65-e3bcb5549d75/rotations/north-west.png?t=1791252360",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/11f25f87-0049-403b-8c65-e3bcb5549d75/rotations/south-west.png?t=1791252360"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "9f513ffd-851e-4b69-9d72-6fddfcf6261b",
+  "skeletons": null,
+  "animations": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "853170ac-5170-4a71-8f9b-b7382e0efa9f",
+  "name": "a floating brass armillary sphere cage with orbiti...",
+  "state_name": "Idle",
+  "prompt": "a floating brass armillary sphere cage with orbiting rings, a swinging pendulum beneath and a small iron banner, no face, no limbs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 76,
+    "height": 76
+  },
+  "directions": 8,
+  "created_at": "2026-10-06T02:06:11.531966+00:00",
+  "updated_at": "2026-10-06T02:08:51.019649+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/853170ac-5170-4a71-8f9b-b7382e0efa9f/rotations/south.png?t=1791252531",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/853170ac-5170-4a71-8f9b-b7382e0efa9f/rotations/west.png?t=1791252531",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/853170ac-5170-4a71-8f9b-b7382e0efa9f/rotations/east.png?t=1791252531",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/853170ac-5170-4a71-8f9b-b7382e0efa9f/rotations/north.png?t=1791252531",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/853170ac-5170-4a71-8f9b-b7382e0efa9f/rotations/south-east.png?t=1791252531",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/853170ac-5170-4a71-8f9b-b7382e0efa9f/rotations/north-east.png?t=1791252531",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/853170ac-5170-4a71-8f9b-b7382e0efa9f/rotations/north-west.png?t=1791252531",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/853170ac-5170-4a71-8f9b-b7382e0efa9f/rotations/south-west.png?t=1791252531"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "823e34f3-9662-4dc4-94a3-56704ebef4fd",
+  "skeletons": null,
+  "animations": []
+}

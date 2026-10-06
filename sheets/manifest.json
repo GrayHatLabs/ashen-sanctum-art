@@ -1390,12 +1390,12 @@
       "name": "frost_raven",
       "file": "frost_raven.png",
       "cell": [
-        16,
-        31
+        36,
+        35
       ],
       "anchor": [
-        8,
-        27
+        18,
+        31
       ],
       "anims": [
         {
@@ -1403,6 +1403,12 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 12
         }
       ]
     },
@@ -1410,8 +1416,8 @@
       "name": "valkyrie_horse",
       "file": "valkyrie_horse.png",
       "cell": [
-        92,
-        94
+        107,
+        117
       ],
       "anchor": [
         44,
@@ -1423,6 +1429,12 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 14
         }
       ]
     },
@@ -1430,12 +1442,12 @@
       "name": "einherjar",
       "file": "einherjar.png",
       "cell": [
-        30,
-        51
+        47,
+        65
       ],
       "anchor": [
         16,
-        45
+        48
       ],
       "anims": [
         {
@@ -1443,6 +1455,12 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 9
         }
       ]
     },
@@ -1506,8 +1524,8 @@
       "name": "dire_wolf",
       "file": "dire_wolf.png",
       "cell": [
-        76,
-        65
+        93,
+        77
       ],
       "anchor": [
         37,
@@ -1519,6 +1537,18 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 12
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
         }
       ]
     },
@@ -1526,12 +1556,12 @@
       "name": "reaper",
       "file": "reaper.png",
       "cell": [
-        72,
-        72
+        74,
+        77
       ],
       "anchor": [
-        25,
-        60
+        26,
+        64
       ],
       "anims": [
         {
@@ -1551,6 +1581,12 @@
           "row": 16,
           "frames": 6,
           "fps": 14
+        },
+        {
+          "name": "cast",
+          "row": 24,
+          "frames": 6,
+          "fps": 12
         }
       ]
     },

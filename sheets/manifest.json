@@ -1088,12 +1088,12 @@
       "name": "npc_peasant",
       "file": "npc_peasant.png",
       "cell": [
-        22,
-        48
+        44,
+        60
       ],
       "anchor": [
-        11,
-        42
+        18,
+        46
       ],
       "anims": [
         {
@@ -1101,6 +1101,12 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
         }
       ]
     },
@@ -1108,12 +1114,12 @@
       "name": "boss_ossric",
       "file": "boss_ossric.png",
       "cell": [
-        47,
-        89
+        122,
+        108
       ],
       "anchor": [
-        22,
-        83
+        45,
+        87
       ],
       "anims": [
         {
@@ -1121,6 +1127,18 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
         }
       ]
     },
@@ -1128,11 +1146,11 @@
       "name": "boss_grimhilde",
       "file": "boss_grimhilde.png",
       "cell": [
-        40,
-        93
+        104,
+        110
       ],
       "anchor": [
-        20,
+        37,
         86
       ],
       "anims": [
@@ -1141,6 +1159,18 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
         }
       ]
     },
@@ -1148,12 +1178,12 @@
       "name": "boss_malgrave",
       "file": "boss_malgrave.png",
       "cell": [
-        58,
-        82
+        100,
+        108
       ],
       "anchor": [
-        30,
-        74
+        37,
+        84
       ],
       "anims": [
         {
@@ -1161,6 +1191,18 @@
           "row": 0,
           "frames": 1,
           "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
         }
       ]
     },
@@ -1200,12 +1242,12 @@
       "name": "boss_vardak_bat",
       "file": "boss_vardak_bat.png",
       "cell": [
-        118,
-        110
+        124,
+        114
       ],
       "anchor": [
-        59,
-        101
+        62,
+        105
       ],
       "anims": [
         {
@@ -1219,6 +1261,12 @@
           "row": 8,
           "frames": 6,
           "fps": 10
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 11
         }
       ]
     },

@@ -84,18 +84,25 @@ CHARS = {
     "npc_hunter": [("idle", None, 1)],
     "npc_widow": [("idle", None, 1)],
     "npc_priest": [("idle", None, 1)],
-    "npc_peasant": [("idle", None, 1)],
-    "boss_ossric": [("idle", None, 1)],
-    "boss_grimhilde": [("idle", None, 1)],
-    "boss_malgrave": [("idle", None, 1)],
+    "npc_peasant": [("idle", None, 1), ("walk", "peasant walking nervously", 8)],
+    "boss_ossric": [("idle", None, 1), ("walk", "skeleton lord walking forward with the spear", 8),
+                    ("attack", "skeleton lord thrusting the bone spear", 10)],
+    "boss_grimhilde": [("idle", None, 1), ("walk", "lich gliding forward, gown trailing", 8),
+                       ("attack", "lich raising both hands and casting green fire", 10)],
+    "boss_malgrave": [("idle", None, 1), ("walk", "death knight marching forward with shield raised", 8),
+                      ("attack", "death knight swinging the long sword", 10)],
     "boss_vardak": [("idle", None, 1), ("walk", "vampire count walking forward with a sweep of his coat", 8),
                     ("attack", "vampire count thrusting his hand forward and casting blood magic", 10)],
-    "boss_vardak_bat": [("idle", None, 1), ("walk", "giant bat flapping its wings and flying forward", 10)],
+    "boss_vardak_bat": [("idle", None, 1), ("walk", "giant bat flapping its wings and flying forward", 10),
+                        ("attack", "giant bat swooping forward with fangs bared", 11)],
     "boss_dragon": [("idle", None, 1), ("walk", "dragon prowling forward on all four legs, wings folded", 7),
                     ("attack", "dragon lowering its head and breathing a blast of frost, staying on all four legs", 9)],
 }
 # Directions where PixelLab drifted mid-animation: keep only the first N frames (then hold).
 TRIM = {
+    # Duchess Grimhilde's glide tips into a flat dive at the end (east, and the south-east crouch).
+    ("boss_grimhilde", "walk", "east"): 3,
+    ("boss_grimhilde", "walk", "south-east"): 3,
     ("boss_bone", "attack", "north"): 3,
     ("boss_dragon", "attack", "north"): 2,
     # The Rime Witch tips over and flies flat in the second half of her walk.

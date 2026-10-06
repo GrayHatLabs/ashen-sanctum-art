@@ -1533,6 +1533,32 @@
       ]
     },
     {
+      "name": "druid",
+      "file": "druid.png",
+      "cell": [
+        49,
+        69
+      ],
+      "anchor": [
+        21,
+        56
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 9
+        }
+      ]
+    },
+    {
       "name": "reaper",
       "file": "reaper.png",
       "cell": [
@@ -2293,6 +2319,10 @@
     {
       "name": "portrait_reaper",
       "file": "portrait_reaper.png"
+    },
+    {
+      "name": "portrait_druid",
+      "file": "portrait_druid.png"
     },
     {
       "name": "title_bg",

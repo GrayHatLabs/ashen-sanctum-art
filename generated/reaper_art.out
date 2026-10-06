@@ -1,0 +1,28 @@
+requested reaper walking calmly forward with steady steps, holding the scythe still and upright at her side, no swinging ['south', 'south-east', 'east', 'north-east', 'north']
+reaper walking calmly forward with steady steps, holding the scythe still and upright at her side, no swinging now ['south']
+reaper walking calmly forward with steady steps, holding the scythe still and upright at her side, no swinging now ['south', 'south-east']
+requested reaper walking calmly forward with steady steps, holding the scythe still and upright at her side, no swinging ['east', 'north-east', 'north']
+reaper walking calmly forward with steady steps, holding the scythe still and upright at her side, no swinging now ['north-east', 'south', 'south-east']
+reaper walking calmly forward with steady steps, holding the scythe still and upright at her side, no swinging now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched reaper
+done reaper walking calmly forward with steady steps, holding the scythe still and upright at her side, no swinging
+requested reaper sweeping the great scythe in a wide horizontal arc ['south', 'south-east', 'east', 'north-east', 'north']
+reaper sweeping the great scythe in a wide horizontal arc now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched reaper
+done reaper sweeping the great scythe in a wide horizontal arc
+requested reaper raising one hand to cast spectral blue rune magic, scythe in the other hand ['south', 'south-east', 'east', 'north-east', 'north']
+reaper raising one hand to cast spectral blue rune magic, scythe in the other hand now ['south']
+retry run_anim reaper 0 <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a
+requested reaper raising one hand to cast spectral blue rune magic, scythe in the other hand ['south-east', 'east', 'north-east', 'north']
+reaper raising one hand to cast spectral blue rune magic, scythe in the other hand now ['north-east', 'south', 'south-east']
+reaper raising one hand to cast spectral blue rune magic, scythe in the other hand now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched reaper
+done reaper raising one hand to cast spectral blue rune magic, scythe in the other hand
+requested reaper spinning in a full circle with the scythe held out ['south', 'south-east', 'east', 'north-east', 'north']
+reaper spinning in a full circle with the scythe held out now ['south', 'south-east']
+requested reaper spinning in a full circle with the scythe held out ['east', 'north-east', 'north']
+reaper spinning in a full circle with the scythe held out now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched reaper
+done reaper spinning in a full circle with the scythe held out
+reaper anims done
+REAPER ANIMS DONE

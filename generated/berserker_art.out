@@ -1,0 +1,64 @@
+character 81f9f887-3472-456d-bf85-327595ca2318
+fetched berserker
+sprite done
+requested berserker striding forward with the giant axe over her shoulder ['south', 'south-east', 'east', 'north-east', 'north']
+berserker striding forward with the giant axe over her shoulder now ['east', 'north', 'north-east', 'south-east']
+berserker striding forward with the giant axe over her shoulder now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched berserker
+done berserker striding forward with the giant axe over her shoulder
+requested berserker swinging the giant axe in a wide horizontal cleave ['south', 'south-east', 'east', 'north-east', 'north']
+berserker swinging the giant axe in a wide horizontal cleave now ['north-east', 'south']
+berserker swinging the giant axe in a wide horizontal cleave now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched berserker
+done berserker swinging the giant axe in a wide horizontal cleave
+requested berserker raising the giant axe high and chopping straight down ['south', 'south-east', 'east', 'north-east', 'north']
+berserker raising the giant axe high and chopping straight down now ['east', 'south']
+berserker raising the giant axe high and chopping straight down now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched berserker
+done berserker raising the giant axe high and chopping straight down
+requested berserker spinning around in a full circle with the axe held out ['south', 'south-east', 'east', 'north-east', 'north']
+berserker spinning around in a full circle with the axe held out now ['south']
+berserker spinning around in a full circle with the axe held out now ['north', 'north-east', 'south', 'south-east']
+berserker spinning around in a full circle with the axe held out now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched berserker
+done berserker spinning around in a full circle with the axe held out
+requested berserker hurling the giant axe forward with both hands ['south', 'south-east', 'east', 'north-east', 'north']
+berserker hurling the giant axe forward with both hands now ['south']
+berserker hurling the giant axe forward with both hands now ['south', 'south-east']
+berserker hurling the giant axe forward with both hands now ['east', 'south', 'south-east']
+requested berserker hurling the giant axe forward with both hands ['north-east', 'north']
+berserker hurling the giant axe forward with both hands now ['east', 'north-east', 'south', 'south-east']
+berserker hurling the giant axe forward with both hands now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched berserker
+done berserker hurling the giant axe forward with both hands
+requested berserker throwing her head back and roaring a war cry, axe raised ['south', 'south-east', 'east', 'north-east', 'north']
+berserker throwing her head back and roaring a war cry, axe raised now ['east', 'north-east', 'south', 'south-east']
+berserker throwing her head back and roaring a war cry, axe raised now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched berserker
+done berserker throwing her head back and roaring a war cry, axe raised
+berserker anims done
+character 038023c7-9cd7-4c27-b47e-066e3b6e2928
+fetched dire_wolf
+requested dire_wolf dire wolf running fast, loping gallop ['south', 'south-east', 'east', 'north-east', 'north']
+dire_wolf dire wolf running fast, loping gallop now ['east']
+dire_wolf dire wolf running fast, loping gallop now ['east', 'south']
+dire_wolf dire wolf running fast, loping gallop now ['east', 'north-east', 'south', 'south-east']
+retry run_anim dire_wolf 0 <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a
+requested dire_wolf dire wolf running fast, loping gallop ['north']
+dire_wolf dire wolf running fast, loping gallop now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched dire_wolf
+done dire_wolf dire wolf running fast, loping gallop
+requested dire_wolf dire wolf lunging forward and biting ['south', 'south-east', 'east', 'north-east', 'north']
+dire_wolf dire wolf lunging forward and biting now ['east', 'south']
+dire_wolf dire wolf lunging forward and biting now ['east', 'north-east', 'south', 'south-east']
+dire_wolf dire wolf lunging forward and biting now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched dire_wolf
+done dire_wolf dire wolf lunging forward and biting
+requested dire_wolf dire wolf raising its head and howling ['south', 'south-east', 'east', 'north-east', 'north']
+dire_wolf dire wolf raising its head and howling now ['east', 'north-east', 'south-east']
+dire_wolf dire wolf raising its head and howling now ['east', 'north-east', 'south', 'south-east']
+dire_wolf dire wolf raising its head and howling now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched dire_wolf
+done dire_wolf dire wolf raising its head and howling
+berserker extras done
+BERSERKER DONE

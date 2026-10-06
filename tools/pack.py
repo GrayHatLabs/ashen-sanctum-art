@@ -141,6 +141,11 @@ CHARS = {
                 ("attack", "cultist raising the glowing tome and casting a spell", 11)],
     "npc_hunter": [("idle", None, 1)],
     "npc_widow": [("idle", None, 1)],
+    # Jewelers, one per town (tools/jeweler_art.py).
+    "npc_jeweler0": [("idle", None, 1)],
+    "npc_jeweler1": [("idle", None, 1)],
+    "npc_jeweler2": [("idle", None, 1)],
+    "npc_jeweler3": [("idle", None, 1)],
     "npc_priest": [("idle", None, 1)],
     "npc_peasant": [("idle", None, 1), ("walk", "peasant walking nervously", 8)],
     "boss_ossric": [("idle", None, 1), ("walk", "skeleton lord walking forward with the spear", 8),

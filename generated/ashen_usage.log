@@ -215,3 +215,249 @@
 2026-10-05 14:06:49 inventor request walking confidently forward, skirt swaying ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-05 14:09:51 inventor request aiming the brass ray pistol forward and firing ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-05 14:13:01 inventor request throwing a small brass bomb forward with the mechanical arm ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 14:16:19 steam_suit request heavy mech suit stomping forward, steam venting from its back ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 14:16:45 mist_earth1 isotile job=9e3e574c-10b1-451a-ab13-08dd87537363 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:17:29 mist_earth2 isotile job=6a9f6518-92bb-4f47-bcec-c9350e1d81c9 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:18:05 mist_moss isotile job=5234b3eb-ba5d-4f52-8f97-8784c83bf46b status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:18:30 mist_road isotile job=f57a4e72-1ee7-4c00-928f-63c934907324 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:18:50 castle_floor isotile job=fd19930c-e2a2-4ee1-8151-f2c918f70b42 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:18:55 steam_suit request heavy mech suit firing its arm cannon forward with a blast of steam ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 14:19:32 castle_wall isotile job=896ef568-b2eb-4ed0-bd62-8a38b18eab4b status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:20:14 palisade_mist isotile job=98e7359f-b19a-49c2-a0ba-5766f0b6bff8 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:20:35 tree_twisted prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:20:58 tree_mistpine prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:21:24 glow_shrooms prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:21:52 gravestone prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:22:34 cottage_mist prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:23:02 cottage_mist2 prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:23:32 gallows prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:24:02 merchant_cart prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:24:30 ent_chapel prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:25:23 ent_gallows prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:26:34 ent_barrow prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:27:00 ent_castle prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:27:22 pass_mist prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:28:27 ghoul character job=6197218a-eb01-4a41-beb6-32f87a6eebc1 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:30:01 werewolf character job=75a055c9-45d4-48a6-af41-33e22887708e status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:31:11 banshee character job=4dd991cd-0b97-464d-afea-2df69b5fe534 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:32:15 wisp character job=c6c27e3b-9b39-416a-8051-466eef93ae4e status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:33:31 cultist character job=0fcbeb1c-a837-4cbd-8a20-ce64d34cbe5a status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:34:29 npc_hunter character job=dc59231e-6037-4f79-b2db-12f1661f5002 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:35:44 npc_widow character job=df087002-7e87-42bb-99de-796585013178 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:37:04 npc_priest character job=f86b33f9-09ef-40d4-b8b7-014e7672c9d7 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:38:14 npc_peasant character job=d2a4fd7c-ee9e-4974-b04f-0a35c4901be0 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:40:03 boss_ossric character job=51825b08-5511-4c57-b928-3e5dcb7d5c1c status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:41:51 boss_grimhilde character job=d41f6bfd-74ce-4574-929c-ed2e81b905b3 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:43:22 tree_twisted prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:43:38 tree_mistpine prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:44:23 tree_spooky_a prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:44:38 tree_spooky_b prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:45:01 boss_malgrave character job=10f43981-5e76-425a-ad44-238518068edf status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:45:04 tree_spooky_c prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:45:23 tree_spooky_d prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:46:52 boss_vardak character job=a0a31e49-f598-41b1-90dd-881d972e439c status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:48:21 brass_plate1 isotile job=15d2a19f-b0ad-474a-8325-ef4eef78bd0d status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:48:40 brass_plate2 isotile job=cdca1ae5-8ffe-490b-813e-8523937fca59 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:49:00 grate_glow isotile job=48b46488-5b5b-465f-8d03-a6785688e989 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:49:30 conveyor_road isotile job=49658ed9-fe5c-4752-adeb-c5769bfa43ff status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:49:55 verdigris_floor isotile job=eba7ce10-8560-4d90-a359-d532e2a57029 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:50:31 clock_floor isotile job=33a1e3b5-0899-48af-b962-5dcf7ac0f44a status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:50:53 boss_vardak_bat character job=4da01533-1689-4d76-aeae-00f97a9fa991 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:51:02 brass_wall isotile job=ac39f0ed-1537-4463-b41a-e6895b73761f status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:51:07 ghoul request ghoul loping forward hunched over ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 14:51:26 fence_iron isotile job=788c9b2a-1ad5-482c-a8b0-a161946b1a68 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 14:51:44 gear_tower prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:52:09 steam_pipes prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:52:57 steam_vent prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:53:17 gas_lamp prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:53:45 cog_pile prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:53:59 workshop1 prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:54:09 ghoul request ghoul slashing with both claws ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 14:54:37 workshop2 prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:55:17 clock_tower prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:55:39 pendulum prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:56:12 ent_foundry prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:56:42 ent_choir prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:57:14 ent_archive prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:57:49 werewolf request werewolf running forward on two legs ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 14:58:33 ent_clock prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:58:54 gear_gate prop {"type": "generations", "generations": 1.0}
+2026-10-05 14:59:56 gear_tower prop {"type": "generations", "generations": 1.0}
+2026-10-05 15:00:22 steam_pipes prop {"type": "generations", "generations": 1.0}
+2026-10-05 15:00:48 ent_archive prop {"type": "generations", "generations": 1.0}
+2026-10-05 15:00:57 werewolf request werewolf slashing with its claws ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 15:01:24 gear_gate prop {"type": "generations", "generations": 1.0}
+2026-10-05 15:04:01 banshee request ghost floating forward, robes drifting ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 15:06:59 banshee request ghost leaning forward and screaming ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 15:11:16 cultist request cultist walking forward holding the tome ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 15:38:27 cultist request cultist walking forward holding the tome ['south-east', 'east', 'north-east', 'north'] null
+2026-10-05 15:41:00 cultist request cultist raising the glowing tome and casting a spell ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 15:43:34 boss_vardak request vampire count walking forward with a sweep of his coat ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 15:47:03 boss_vardak request vampire count thrusting his hand forward and casting blood magic ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 15:50:26 boss_vardak_bat request giant bat flapping its wings and flying forward ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 18:17:56 valkyrie portrait a {"type": "generations", "generations": 1.0}
+2026-10-05 18:18:47 valkyrie portrait b {"type": "generations", "generations": 1.0}
+2026-10-05 18:19:08 valkyrie portrait c {"type": "generations", "generations": 1.0}
+2026-10-05 18:19:30 portrait bg valkyrie {"type": "generations", "generations": 1.0}
+2026-10-05 18:19:53 berserker portrait a {"type": "generations", "generations": 1.0}
+2026-10-05 18:20:12 berserker portrait b {"type": "generations", "generations": 1.0}
+2026-10-05 18:20:32 berserker portrait c {"type": "generations", "generations": 1.0}
+2026-10-05 18:21:12 reaper portrait a {"type": "generations", "generations": 1.0}
+2026-10-05 18:21:32 reaper portrait b {"type": "generations", "generations": 1.0}
+2026-10-05 18:21:55 reaper portrait c {"type": "generations", "generations": 1.0}
+2026-10-05 18:22:34 portrait bg berserker {"type": "generations", "generations": 1.0}
+2026-10-05 18:23:02 portrait bg reaper {"type": "generations", "generations": 1.0}
+2026-10-05 18:23:59 valkyrie full d {"type": "generations", "generations": 1.0}
+2026-10-05 18:24:22 valkyrie full e {"type": "generations", "generations": 1.0}
+2026-10-05 18:24:38 valkyrie full f {"type": "generations", "generations": 1.0}
+2026-10-05 18:24:53 berserker full d {"type": "generations", "generations": 1.0}
+2026-10-05 18:25:14 berserker full e {"type": "generations", "generations": 1.0}
+2026-10-05 18:25:56 berserker full f {"type": "generations", "generations": 1.0}
+2026-10-05 18:26:42 reaper full d {"type": "generations", "generations": 1.0}
+2026-10-05 18:27:02 reaper full e {"type": "generations", "generations": 1.0}
+2026-10-05 18:28:01 reaper full f {"type": "generations", "generations": 1.0}
+2026-10-05 18:28:44 valkyrie full g {"type": "generations", "generations": 1.0}
+2026-10-05 18:28:59 valkyrie full h {"type": "generations", "generations": 1.0}
+2026-10-05 18:29:30 valkyrie full i {"type": "generations", "generations": 1.0}
+2026-10-05 18:29:58 berserker full g {"type": "generations", "generations": 1.0}
+2026-10-05 18:30:15 berserker full h {"type": "generations", "generations": 1.0}
+2026-10-05 18:30:39 boss_vardak_bat request giant bat swooping forward with fangs bared ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 18:30:46 berserker full i {"type": "generations", "generations": 1.0}
+2026-10-05 18:31:16 reaper full g {"type": "generations", "generations": 1.0}
+2026-10-05 18:31:45 reaper full h {"type": "generations", "generations": 1.0}
+2026-10-05 18:32:15 reaper full i {"type": "generations", "generations": 1.0}
+2026-10-05 18:33:11 berserker full j {"type": "generations", "generations": 1.0}
+2026-10-05 18:33:29 berserker full k {"type": "generations", "generations": 1.0}
+2026-10-05 18:33:57 berserker full l {"type": "generations", "generations": 1.0}
+2026-10-05 18:34:22 boss_ossric request skeleton lord walking forward with the spear ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 18:36:39 reaper scythe 250 {"type": "generations", "generations": 1.0}
+2026-10-05 18:37:06 reaper scythe 350 {"type": "generations", "generations": 1.0}
+2026-10-05 18:37:27 reaper scythe 450 {"type": "generations", "generations": 1.0}
+2026-10-05 18:38:07 reaper scythe2 550 {"type": "generations", "generations": 1.0}
+2026-10-05 18:38:39 reaper scythe2 700 {"type": "generations", "generations": 1.0}
+2026-10-05 18:38:58 reaper scythe2 850 {"type": "generations", "generations": 1.0}
+2026-10-05 18:39:52 berserker b2fix 300 {"type": "generations", "generations": 1.0}
+2026-10-05 18:40:08 berserker b2fix 400 {"type": "generations", "generations": 1.0}
+2026-10-05 18:40:27 berserker b2fix 500 {"type": "generations", "generations": 1.0}
+2026-10-05 18:41:16 berserker b2guide 450 {"type": "generations", "generations": 1.0}
+2026-10-05 18:41:35 berserker b2guide 600 {"type": "generations", "generations": 1.0}
+2026-10-05 18:42:03 berserker b2guide 750 {"type": "generations", "generations": 1.0}
+2026-10-05 19:02:35 boss_ossric request skeleton lord walking forward with the spear ['north-east', 'north'] null
+2026-10-05 19:06:15 boss_ossric request skeleton lord thrusting the bone spear ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 19:10:27 boss_grimhilde request lich gliding forward, gown trailing ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 19:13:06 boss_grimhilde request lich raising both hands and casting green fire ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 19:16:16 boss_malgrave request death knight marching forward with shield raised ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 19:19:29 boss_malgrave request death knight swinging the long sword ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 19:47:49 boss_malgrave request death knight swinging the long sword ['north-east'] null
+2026-10-05 19:50:02 npc_peasant request peasant walking nervously ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 19:54:33 brass_scarab character job=7d3d139e-b6c6-44b0-9e67-9ff51a1ffa15 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 19:55:44 inquisitor character job=50257b33-1f8d-424a-92c6-6fee08ae62b2 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 19:57:07 gearwraith character job=63d27c03-02f1-4de7-ba12-701f7ba8b20d status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 19:58:18 spring_jack character job=f57b76a1-8b2c-4d0c-9ca6-413e0d1d2db2 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 20:03:30 boiler_brute character job=7da42c57-c98b-47c3-9318-881b85d73830 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 20:04:32 ordinal character job=a9304172-be8a-47f5-ac22-30892c565f6e status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 20:06:04 ordinal_prism character job=358808b3-4ddb-499e-be31-0180b5221a62 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 20:08:56 ordinal_marshal character job=3bd5b8de-9a5f-4975-8fc1-b5a63566292e status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 20:10:47 npc_tally character job=3022cdfa-3a26-4c72-a6d3-de7c11a8279e status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 20:12:29 npc_vesper character job=e9aca27b-f72f-44d7-bf45-caf628aea388 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 20:13:40 npc_oiler character job=6a49b0ed-d015-4d9b-87ea-2160a9a862d3 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 20:15:23 npc_servant character job=01e6ead5-82fd-4322-aea4-275809e7e0b7 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 20:39:32 reaper face 600 {"type": "generations", "generations": 1.0}
+2026-10-05 20:40:00 reaper face 700 {"type": "generations", "generations": 1.0}
+2026-10-05 20:40:27 reaper face 800 {"type": "generations", "generations": 1.0}
+2026-10-05 20:42:22 reaper character job=e2df17f8-cf7a-4330-b068-9c881a20c510 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 20:42:31 reaper request gliding forward, cloak trailing, scythe held upright ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 20:45:00 reaper request sweeping the great scythe in a wide horizontal arc ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 20:47:33 reaper request raising one hand to cast spectral blue rune magic, scythe in the other hand ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 20:50:10 reaper request spinning in a full circle with the scythe held out ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:23:56 valkyrie character job=3970308d-e0ed-464d-877c-cf9d56fc66db status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 21:24:08 valkyrie request walking forward with purpose, spear held upright, fur mantle swaying ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:25:02 boss_cantor character job=2852a916-3df2-499e-9b0b-1b7909fd71f8 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 21:25:09 berserker character job=ff5974d9-7c3c-44c9-84b3-e53ebb407d25 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 21:25:21 berserker request striding forward with the giant axe over her shoulder ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:26:36 valkyrie request thrusting the long spear forward in a fast lunge ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:27:50 berserker request swinging the giant axe in a wide horizontal cleave ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:28:36 valkyrie request sweeping the long spear in a wide horizontal arc ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:29:09 boss_archivist character job=db2bfb0d-26e6-41c3-8079-9346f4fe38e9 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 21:30:23 berserker request raising the giant axe high and chopping straight down ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:31:12 valkyrie request spinning around in a full circle whirling the spear ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:31:21 boss_clockmaker character job=d1672f4f-ddb0-4762-9543-bac59018ef58 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 21:32:59 berserker request spinning around in a full circle with the axe held out ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:33:53 valkyrie request throwing the spear forward like a javelin ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:35:15 boss_clockmaker_engine character job=06cc2bfa-4839-42a6-990b-6ec096695a55 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 21:35:26 brass_scarab request clockwork beetle scuttling forward fast on its piston legs ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:35:40 berserker request hurling the giant axe forward with both hands ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:36:07 reaper request walking calmly forward with steady steps, holding the scythe still and upright at her side, no swinging ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:36:36 valkyrie request raising one hand to summon swirling frost magic ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:38:28 brass_scarab request clockwork beetle lunging forward and snapping its mandibles ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:38:29 reaper character job=91a59981-d354-4046-bf0d-4b3452d37793 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 21:40:11 reaper character job=562abc8e-aab1-40b1-becf-58b430d9349f status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 21:41:06 inquisitor request automaton monk walking forward swinging the censer ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:41:11 reaper request walking calmly forward with steady steps, holding the scythe still and upright at her side, no swinging ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:43:39 inquisitor request automaton monk swinging the censer forward in a burst of steam ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:46:43 gearwraith request caged ghost floating forward ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:49:43 gearwraith request caged ghost lunging forward and shrieking ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:53:23 spring_jack request spring-legged automaton sprinting forward in long bounds ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:55:21 spring_jack request spring-legged automaton slashing with blade fingers ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 21:58:25 boiler_brute request iron golem stomping forward heavily ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:00:54 boiler_brute request iron golem smashing both fists down ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:03:10 berserker request hurling the giant axe forward with both hands ['north-east', 'north'] null
+2026-10-05 22:04:01 boss_forgemother request molten brass matriarch striding forward ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:04:05 valkyrie request raising one hand to summon swirling frost magic ['east', 'north-east', 'north'] null
+2026-10-05 22:05:58 berserker request throwing her head back and roaring a war cry, axe raised ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:07:04 boss_forgemother request molten brass matriarch hurling molten slag ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:07:41 frost_raven character job=a66ce48c-b2a2-4331-bd99-a2c616eaacbe status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 22:07:54 reaper request walking calmly forward with steady steps, holding the scythe still and upright at her side, no swinging ['east', 'north-east', 'north'] null
+2026-10-05 22:09:40 boss_archivist request many-armed librarian gliding forward ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:10:25 reaper request sweeping the great scythe in a wide horizontal arc ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:10:39 valkyrie_horse character job=d1bbc589-b3be-417e-a67f-e5085e7fe017 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 22:11:07 dire_wolf character job=313f611a-6dba-4825-bb45-0c07f4fa9c7f status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 22:11:16 dire_wolf request dire wolf running fast, loping gallop ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:12:08 boss_archivist request many-armed librarian casting a spell with punch cards ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:12:14 einherjar character job=370e7a35-b4a1-4920-9a0e-c95191eece87 status=completed {"type": "generations", "generations": 1.0}
+2026-10-05 22:12:24 frost_raven request raven flying forward flapping its wings ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:12:47 reaper request raising one hand to cast spectral blue rune magic, scythe in the other hand ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:14:49 boss_clockmaker request clockmaker striding forward, coat flowing ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:17:47 boss_clockmaker request clockmaker slashing with the clock-hand blade ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:20:48 boss_clockmaker_engine request clockwork colossus walking forward heavily ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:24:43 boss_clockmaker_engine request clockwork colossus slamming its pendulum arm down ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:28:14 npc_servant request clockwork butler walking stiffly ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:33:29 ordinal prop {"type": "generations", "generations": 1.0}
+2026-10-05 22:35:07 ordinal_prism prop {"type": "generations", "generations": 1.0}
+2026-10-05 22:35:31 ordinal_marshal prop {"type": "generations", "generations": 1.0}
+2026-10-05 22:49:50 reaper request raising one hand to cast spectral blue rune magic, scythe in the other hand ['south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:49:50 frost_raven request raven flying forward flapping its wings ['north'] null
+2026-10-05 22:49:52 dire_wolf request dire wolf running fast, loping gallop ['north'] null
+2026-10-05 22:52:21 dire_wolf request dire wolf lunging forward and biting ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:52:24 valkyrie_horse request warhorse galloping forward at full charge, rider leveling the spear ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:52:47 reaper request spinning in a full circle with the scythe held out ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:55:17 dire_wolf request dire wolf raising its head and howling ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:55:25 einherjar request ghost warrior walking forward with shield raised ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 22:58:21 einherjar request ghost warrior swinging the axe ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-05 23:20:13 reaper request spinning in a full circle with the scythe held out ['east', 'north-east', 'north'] null
+2026-10-06 09:07:31 druid full a {"type": "generations", "generations": 1.0}
+2026-10-06 09:07:55 druid full b {"type": "generations", "generations": 1.0}
+2026-10-06 09:08:40 druid full c {"type": "generations", "generations": 1.0}
+2026-10-06 09:09:12 portrait bg druid {"type": "generations", "generations": 1.0}
+2026-10-06 09:10:35 druid character job=1cd61843-e856-4ce9-97d3-308681772989 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 09:10:58 druid request walking forward calmly with the thorn staff, skirt trailing ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 09:13:23 druid request raising the thorn staff and casting glowing green plague magic ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 09:16:42 druid request kneeling and pressing one hand to the ground to summon creatures ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 09:21:31 moss_wolf character job=a7f8114d-3d95-4108-85d8-b235069f148d status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 09:23:50 thorn_warden character job=5a678e05-a17c-4c67-8291-c0d4f4ab38a5 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 09:24:08 moss_wolf request wolf running fast, loping gallop ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 09:27:19 moss_wolf request wolf lunging forward and biting ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 09:30:27 thorn_warden request tree guardian walking forward heavily ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 09:33:08 thorn_warden request tree guardian smashing down with its root arm ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 11:26:33 icon_gem_ruby icon {"type": "generations", "generations": 1.0}
+2026-10-06 11:26:58 icon_gem_sapphire icon {"type": "generations", "generations": 1.0}
+2026-10-06 11:27:20 icon_gem_topaz icon {"type": "generations", "generations": 1.0}
+2026-10-06 11:27:39 icon_gem_emerald icon {"type": "generations", "generations": 1.0}
+2026-10-06 11:28:07 icon_gem_amethyst icon {"type": "generations", "generations": 1.0}
+2026-10-06 11:29:12 icon_gem_diamond icon {"type": "generations", "generations": 1.0}
+2026-10-06 11:29:39 icon_gem_skull icon {"type": "generations", "generations": 1.0}
+2026-10-06 11:30:44 npc_jeweler0 character job=aa1e2233-631c-4375-9df7-b19a82e2d778 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 11:33:11 npc_jeweler1 character job=dabe69ec-5a54-40b5-8ca6-c4e9e75097d1 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 11:35:13 npc_jeweler2 character job=07a5d8b8-8406-48b7-937b-2dbcddf78e5b status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 11:36:23 npc_jeweler3 character job=5fd26b72-11c3-4f3c-b964-a858fa3bc2e2 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 11:38:34 icon_gem_ruby icon {"type": "generations", "generations": 1.0}

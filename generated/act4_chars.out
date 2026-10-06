@@ -1,0 +1,135 @@
+have brass_scarab
+have inquisitor
+have gearwraith
+have spring_jack
+have boiler_brute
+have ordinal
+have ordinal_prism
+have ordinal_marshal
+have npc_tally
+have npc_vesper
+have npc_oiler
+have npc_servant
+fetched boss_forgemother
+fetched boss_forgemother
+character ffeeef93-433a-4243-a7dd-5baaf8f4197c
+fetched boss_cantor
+made boss_cantor
+character 7ed8f420-5c2b-42f4-beff-0028a64c28f6
+fetched boss_archivist
+made boss_archivist
+character bae3bc60-c69f-4367-8034-edf3cff04458
+fetched boss_clockmaker
+made boss_clockmaker
+character 70a94274-96d4-4669-914c-c72aba47917f
+fetched boss_clockmaker_engine
+made boss_clockmaker_engine
+requested brass_scarab clockwork beetle scuttling forward fast on its piston legs ['south', 'south-east', 'east', 'north-east', 'north']
+brass_scarab clockwork beetle scuttling forward fast on its piston legs now ['north']
+brass_scarab clockwork beetle scuttling forward fast on its piston legs now ['east', 'north', 'north-east']
+brass_scarab clockwork beetle scuttling forward fast on its piston legs now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched brass_scarab
+done brass_scarab clockwork beetle scuttling forward fast on its piston legs
+requested brass_scarab clockwork beetle lunging forward and snapping its mandibles ['south', 'south-east', 'east', 'north-east', 'north']
+brass_scarab clockwork beetle lunging forward and snapping its mandibles now ['east', 'north', 'north-east', 'south-east']
+brass_scarab clockwork beetle lunging forward and snapping its mandibles now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched brass_scarab
+done brass_scarab clockwork beetle lunging forward and snapping its mandibles
+requested inquisitor automaton monk walking forward swinging the censer ['south', 'south-east', 'east', 'north-east', 'north']
+inquisitor automaton monk walking forward swinging the censer now ['south']
+inquisitor automaton monk walking forward swinging the censer now ['south', 'south-east']
+inquisitor automaton monk walking forward swinging the censer now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched inquisitor
+done inquisitor automaton monk walking forward swinging the censer
+requested inquisitor automaton monk swinging the censer forward in a burst of steam ['south', 'south-east', 'east', 'north-east', 'north']
+inquisitor automaton monk swinging the censer forward in a burst of steam now ['east']
+inquisitor automaton monk swinging the censer forward in a burst of steam now ['east', 'north-east', 'south-east']
+inquisitor automaton monk swinging the censer forward in a burst of steam now ['east', 'north-east', 'south', 'south-east']
+inquisitor automaton monk swinging the censer forward in a burst of steam now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched inquisitor
+done inquisitor automaton monk swinging the censer forward in a burst of steam
+requested gearwraith caged ghost floating forward ['south', 'south-east', 'east', 'north-east', 'north']
+gearwraith caged ghost floating forward now ['north', 'south']
+gearwraith caged ghost floating forward now ['east', 'north', 'south', 'south-east']
+gearwraith caged ghost floating forward now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched gearwraith
+done gearwraith caged ghost floating forward
+requested gearwraith caged ghost lunging forward and shrieking ['south', 'south-east', 'east', 'north-east', 'north']
+gearwraith caged ghost lunging forward and shrieking now ['north-east', 'south']
+gearwraith caged ghost lunging forward and shrieking now ['north', 'north-east', 'south', 'south-east']
+gearwraith caged ghost lunging forward and shrieking now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched gearwraith
+done gearwraith caged ghost lunging forward and shrieking
+requested spring_jack spring-legged automaton sprinting forward in long bounds ['south', 'south-east', 'east', 'north-east', 'north']
+spring_jack spring-legged automaton sprinting forward in long bounds now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched spring_jack
+done spring_jack spring-legged automaton sprinting forward in long bounds
+requested spring_jack spring-legged automaton slashing with blade fingers ['south', 'south-east', 'east', 'north-east', 'north']
+spring_jack spring-legged automaton slashing with blade fingers now ['north-east', 'south']
+spring_jack spring-legged automaton slashing with blade fingers now ['east', 'north-east', 'south', 'south-east']
+spring_jack spring-legged automaton slashing with blade fingers now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched spring_jack
+done spring_jack spring-legged automaton slashing with blade fingers
+requested boiler_brute iron golem stomping forward heavily ['south', 'south-east', 'east', 'north-east', 'north']
+boiler_brute iron golem stomping forward heavily now ['north-east', 'south', 'south-east']
+boiler_brute iron golem stomping forward heavily now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boiler_brute
+done boiler_brute iron golem stomping forward heavily
+requested boiler_brute iron golem smashing both fists down ['south', 'south-east', 'east', 'north-east', 'north']
+boiler_brute iron golem smashing both fists down now ['north', 'south-east']
+boiler_brute iron golem smashing both fists down now ['east', 'north', 'north-east', 'south-east']
+boiler_brute iron golem smashing both fists down now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boiler_brute
+done boiler_brute iron golem smashing both fists down
+requested boss_forgemother molten brass matriarch striding forward ['south', 'south-east', 'east', 'north-east', 'north']
+boss_forgemother molten brass matriarch striding forward now ['east', 'north-east', 'south', 'south-east']
+boss_forgemother molten brass matriarch striding forward now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_forgemother
+done boss_forgemother molten brass matriarch striding forward
+requested boss_forgemother molten brass matriarch hurling molten slag ['south', 'south-east', 'east', 'north-east', 'north']
+boss_forgemother molten brass matriarch hurling molten slag now ['south']
+boss_forgemother molten brass matriarch hurling molten slag now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_forgemother
+done boss_forgemother molten brass matriarch hurling molten slag
+requested boss_archivist many-armed librarian gliding forward ['south', 'south-east', 'east', 'north-east', 'north']
+boss_archivist many-armed librarian gliding forward now ['north-east', 'south-east']
+boss_archivist many-armed librarian gliding forward now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_archivist
+done boss_archivist many-armed librarian gliding forward
+requested boss_archivist many-armed librarian casting a spell with punch cards ['south', 'south-east', 'east', 'north-east', 'north']
+boss_archivist many-armed librarian casting a spell with punch cards now ['north', 'south', 'south-east']
+boss_archivist many-armed librarian casting a spell with punch cards now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_archivist
+done boss_archivist many-armed librarian casting a spell with punch cards
+requested boss_clockmaker clockmaker striding forward, coat flowing ['south', 'south-east', 'east', 'north-east', 'north']
+boss_clockmaker clockmaker striding forward, coat flowing now ['east', 'south']
+boss_clockmaker clockmaker striding forward, coat flowing now ['east', 'north-east', 'south', 'south-east']
+boss_clockmaker clockmaker striding forward, coat flowing now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_clockmaker
+done boss_clockmaker clockmaker striding forward, coat flowing
+requested boss_clockmaker clockmaker slashing with the clock-hand blade ['south', 'south-east', 'east', 'north-east', 'north']
+boss_clockmaker clockmaker slashing with the clock-hand blade now ['east', 'north', 'south', 'south-east']
+boss_clockmaker clockmaker slashing with the clock-hand blade now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_clockmaker
+done boss_clockmaker clockmaker slashing with the clock-hand blade
+requested boss_clockmaker_engine clockwork colossus walking forward heavily ['south', 'south-east', 'east', 'north-east', 'north']
+boss_clockmaker_engine clockwork colossus walking forward heavily now ['east', 'south']
+boss_clockmaker_engine clockwork colossus walking forward heavily now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_clockmaker_engine
+done boss_clockmaker_engine clockwork colossus walking forward heavily
+retry run_anim boss_clockmaker_engine 0 <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a
+requested boss_clockmaker_engine clockwork colossus slamming its pendulum arm down ['south', 'south-east', 'east', 'north-east', 'north']
+boss_clockmaker_engine clockwork colossus slamming its pendulum arm down now ['east', 'south-east']
+boss_clockmaker_engine clockwork colossus slamming its pendulum arm down now ['east', 'north-east', 'south', 'south-east']
+boss_clockmaker_engine clockwork colossus slamming its pendulum arm down now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_clockmaker_engine
+done boss_clockmaker_engine clockwork colossus slamming its pendulum arm down
+requested npc_servant clockwork butler walking stiffly ['south', 'south-east', 'east', 'north-east', 'north']
+npc_servant clockwork butler walking stiffly now ['south']
+npc_servant clockwork butler walking stiffly now ['east', 'north-east', 'south']
+npc_servant clockwork butler walking stiffly now ['east', 'north-east', 'south', 'south-east']
+npc_servant clockwork butler walking stiffly now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched npc_servant
+done npc_servant clockwork butler walking stiffly
+act4 chars done
+ACT4 DONE

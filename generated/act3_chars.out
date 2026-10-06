@@ -1,0 +1,90 @@
+have ghoul
+have werewolf
+have banshee
+have wisp
+have cultist
+have npc_hunter
+have npc_widow
+have npc_priest
+have npc_peasant
+have boss_ossric
+have boss_grimhilde
+have boss_malgrave
+have boss_vardak
+have boss_vardak_bat
+fetched ghoul
+done ghoul ghoul loping forward hunched over
+fetched ghoul
+done ghoul ghoul slashing with both claws
+fetched werewolf
+done werewolf werewolf running forward on two legs
+fetched werewolf
+done werewolf werewolf slashing with its claws
+fetched banshee
+done banshee ghost floating forward, robes drifting
+fetched banshee
+done banshee ghost leaning forward and screaming
+fetched cultist
+done cultist cultist walking forward holding the tome
+fetched cultist
+done cultist cultist raising the glowing tome and casting a spell
+fetched boss_vardak
+done boss_vardak vampire count walking forward with a sweep of his coat
+fetched boss_vardak
+done boss_vardak vampire count thrusting his hand forward and casting blood magic
+fetched boss_vardak_bat
+done boss_vardak_bat giant bat flapping its wings and flying forward
+requested boss_vardak_bat giant bat swooping forward with fangs bared ['south', 'south-east', 'east', 'north-east', 'north']
+boss_vardak_bat giant bat swooping forward with fangs bared now ['north', 'south-east']
+boss_vardak_bat giant bat swooping forward with fangs bared now ['east', 'north', 'south-east']
+boss_vardak_bat giant bat swooping forward with fangs bared now ['east', 'north', 'north-east', 'south-east']
+boss_vardak_bat giant bat swooping forward with fangs bared now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_vardak_bat
+done boss_vardak_bat giant bat swooping forward with fangs bared
+requested boss_ossric skeleton lord walking forward with the spear ['south', 'south-east', 'east', 'north-east', 'north']
+boss_ossric skeleton lord walking forward with the spear now ['east']
+boss_ossric skeleton lord walking forward with the spear now ['east', 'south', 'south-east']
+requested boss_ossric skeleton lord walking forward with the spear ['north-east', 'north']
+boss_ossric skeleton lord walking forward with the spear now ['east', 'north', 'south', 'south-east']
+boss_ossric skeleton lord walking forward with the spear now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_ossric
+done boss_ossric skeleton lord walking forward with the spear
+requested boss_ossric skeleton lord thrusting the bone spear ['south', 'south-east', 'east', 'north-east', 'north']
+boss_ossric skeleton lord thrusting the bone spear now ['east']
+boss_ossric skeleton lord thrusting the bone spear now ['east', 'north', 'south', 'south-east']
+boss_ossric skeleton lord thrusting the bone spear now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_ossric
+done boss_ossric skeleton lord thrusting the bone spear
+requested boss_grimhilde lich gliding forward, gown trailing ['south', 'south-east', 'east', 'north-east', 'north']
+boss_grimhilde lich gliding forward, gown trailing now ['east', 'north-east']
+boss_grimhilde lich gliding forward, gown trailing now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_grimhilde
+done boss_grimhilde lich gliding forward, gown trailing
+requested boss_grimhilde lich raising both hands and casting green fire ['south', 'south-east', 'east', 'north-east', 'north']
+boss_grimhilde lich raising both hands and casting green fire now ['east', 'north-east']
+boss_grimhilde lich raising both hands and casting green fire now ['east', 'north-east', 'south', 'south-east']
+boss_grimhilde lich raising both hands and casting green fire now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_grimhilde
+done boss_grimhilde lich raising both hands and casting green fire
+requested boss_malgrave death knight marching forward with shield raised ['south', 'south-east', 'east', 'north-east', 'north']
+boss_malgrave death knight marching forward with shield raised now ['east', 'north-east']
+boss_malgrave death knight marching forward with shield raised now ['east', 'north', 'north-east', 'south']
+boss_malgrave death knight marching forward with shield raised now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_malgrave
+done boss_malgrave death knight marching forward with shield raised
+requested boss_malgrave death knight swinging the long sword ['south', 'south-east', 'east', 'north-east', 'north']
+boss_malgrave death knight swinging the long sword now ['south']
+boss_malgrave death knight swinging the long sword now ['north', 'south']
+boss_malgrave death knight swinging the long sword now ['east', 'north', 'south']
+boss_malgrave death knight swinging the long sword now ['east', 'north', 'south', 'south-east']
+requested boss_malgrave death knight swinging the long sword ['north-east']
+boss_malgrave death knight swinging the long sword now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_malgrave
+done boss_malgrave death knight swinging the long sword
+requested npc_peasant peasant walking nervously ['south', 'south-east', 'east', 'north-east', 'north']
+npc_peasant peasant walking nervously now ['north-east']
+npc_peasant peasant walking nervously now ['east', 'north', 'north-east']
+npc_peasant peasant walking nervously now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched npc_peasant
+done npc_peasant peasant walking nervously
+act3 chars done

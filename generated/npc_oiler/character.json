@@ -1,0 +1,38 @@
+{
+  "id": "cd707537-4474-4aa0-87d4-e8dc3fbb193f",
+  "name": "an old human mechanic monk in grey robes holding a...",
+  "state_name": "Idle",
+  "prompt": "an old human mechanic monk in grey robes holding an oil can and a wrench, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 68,
+    "height": 68
+  },
+  "directions": 8,
+  "created_at": "2026-10-06T02:12:35.773975+00:00",
+  "updated_at": "2026-10-06T02:13:35.349604+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd707537-4474-4aa0-87d4-e8dc3fbb193f/rotations/south.png?t=1791252815",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd707537-4474-4aa0-87d4-e8dc3fbb193f/rotations/west.png?t=1791252815",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd707537-4474-4aa0-87d4-e8dc3fbb193f/rotations/east.png?t=1791252815",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd707537-4474-4aa0-87d4-e8dc3fbb193f/rotations/north.png?t=1791252815",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd707537-4474-4aa0-87d4-e8dc3fbb193f/rotations/south-east.png?t=1791252815",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd707537-4474-4aa0-87d4-e8dc3fbb193f/rotations/north-east.png?t=1791252815",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd707537-4474-4aa0-87d4-e8dc3fbb193f/rotations/north-west.png?t=1791252815",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/cd707537-4474-4aa0-87d4-e8dc3fbb193f/rotations/south-west.png?t=1791252815"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "1f6e3658-1cca-48bb-ada0-1132e84bb3e4",
+  "skeletons": null,
+  "animations": []
+}

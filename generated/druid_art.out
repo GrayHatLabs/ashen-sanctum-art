@@ -1,0 +1,46 @@
+requested druid walking forward calmly with the thorn staff, skirt trailing ['south', 'south-east', 'east', 'north-east', 'north']
+druid walking forward calmly with the thorn staff, skirt trailing now ['east', 'north', 'north-east', 'south']
+druid walking forward calmly with the thorn staff, skirt trailing now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched druid
+done druid walking forward calmly with the thorn staff, skirt trailing
+requested druid raising the thorn staff and casting glowing green plague magic ['south', 'south-east', 'east', 'north-east', 'north']
+druid raising the thorn staff and casting glowing green plague magic now ['south']
+druid raising the thorn staff and casting glowing green plague magic now ['east', 'north-east', 'south', 'south-east']
+druid raising the thorn staff and casting glowing green plague magic now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched druid
+done druid raising the thorn staff and casting glowing green plague magic
+requested druid kneeling and pressing one hand to the ground to summon creatures ['south', 'south-east', 'east', 'north-east', 'north']
+druid kneeling and pressing one hand to the ground to summon creatures now ['east', 'north-east', 'south-east']
+druid kneeling and pressing one hand to the ground to summon creatures now ['east', 'north-east', 'south', 'south-east']
+druid kneeling and pressing one hand to the ground to summon creatures now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched druid
+done druid kneeling and pressing one hand to the ground to summon creatures
+druid anims done
+character 71091ea2-2596-4361-a376-9be98cf90b78
+fetched moss_wolf
+character 5e5b14b8-48b4-4259-8047-428321c4916a
+fetched thorn_warden
+requested moss_wolf wolf running fast, loping gallop ['south', 'south-east', 'east', 'north-east', 'north']
+moss_wolf wolf running fast, loping gallop now ['north', 'north-east', 'south', 'south-east']
+moss_wolf wolf running fast, loping gallop now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched moss_wolf
+done moss_wolf wolf running fast, loping gallop
+requested moss_wolf wolf lunging forward and biting ['south', 'south-east', 'east', 'north-east', 'north']
+moss_wolf wolf lunging forward and biting now ['north', 'north-east', 'south']
+moss_wolf wolf lunging forward and biting now ['east', 'north', 'north-east', 'south']
+moss_wolf wolf lunging forward and biting now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched moss_wolf
+done moss_wolf wolf lunging forward and biting
+requested thorn_warden tree guardian walking forward heavily ['south', 'south-east', 'east', 'north-east', 'north']
+thorn_warden tree guardian walking forward heavily now ['east', 'north']
+thorn_warden tree guardian walking forward heavily now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched thorn_warden
+done thorn_warden tree guardian walking forward heavily
+requested thorn_warden tree guardian smashing down with its root arm ['south', 'south-east', 'east', 'north-east', 'north']
+thorn_warden tree guardian smashing down with its root arm now ['east', 'south', 'south-east']
+thorn_warden tree guardian smashing down with its root arm now ['east', 'north', 'south', 'south-east']
+thorn_warden tree guardian smashing down with its root arm now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched thorn_warden
+done thorn_warden tree guardian smashing down with its root arm
+druid extras done
+DRUID ART DONE

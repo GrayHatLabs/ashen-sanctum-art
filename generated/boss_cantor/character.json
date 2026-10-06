@@ -1,0 +1,38 @@
+{
+  "id": "ffeeef93-433a-4243-a7dd-5baaf8f4197c",
+  "name": "a giant cathedral pipe organ walking on six brass ...",
+  "state_name": "Idle",
+  "prompt": "a giant cathedral pipe organ walking on six brass spider legs, glowing stained glass and steam, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 136,
+    "height": 136
+  },
+  "directions": 8,
+  "created_at": "2026-10-06T03:23:03.632486+00:00",
+  "updated_at": "2026-10-06T03:24:57.502784+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/ffeeef93-433a-4243-a7dd-5baaf8f4197c/rotations/south.png?t=1791257097",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/ffeeef93-433a-4243-a7dd-5baaf8f4197c/rotations/west.png?t=1791257097",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/ffeeef93-433a-4243-a7dd-5baaf8f4197c/rotations/east.png?t=1791257097",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/ffeeef93-433a-4243-a7dd-5baaf8f4197c/rotations/north.png?t=1791257097",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/ffeeef93-433a-4243-a7dd-5baaf8f4197c/rotations/south-east.png?t=1791257097",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/ffeeef93-433a-4243-a7dd-5baaf8f4197c/rotations/north-east.png?t=1791257097",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/ffeeef93-433a-4243-a7dd-5baaf8f4197c/rotations/north-west.png?t=1791257097",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/ffeeef93-433a-4243-a7dd-5baaf8f4197c/rotations/south-west.png?t=1791257097"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "37252fae-828b-48a8-8d94-196711e8df78",
+  "skeletons": null,
+  "animations": []
+}

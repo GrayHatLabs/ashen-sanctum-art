@@ -12,3 +12,23 @@ fetched inventor
 done inventor walking confidently forward, skirt swaying
 requested inventor aiming the brass ray pistol forward and firing ['south', 'south-east', 'east', 'north-east', 'north']
 inventor aiming the brass ray pistol forward and firing now ['north']
+inventor aiming the brass ray pistol forward and firing now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched inventor
+done inventor aiming the brass ray pistol forward and firing
+requested inventor throwing a small brass bomb forward with the mechanical arm ['south', 'south-east', 'east', 'north-east', 'north']
+inventor throwing a small brass bomb forward with the mechanical arm now ['east', 'north-east', 'south-east']
+inventor throwing a small brass bomb forward with the mechanical arm now ['east', 'north-east', 'south', 'south-east']
+inventor throwing a small brass bomb forward with the mechanical arm now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched inventor
+done inventor throwing a small brass bomb forward with the mechanical arm
+requested steam_suit heavy mech suit stomping forward, steam venting from its back ['south', 'south-east', 'east', 'north-east', 'north']
+steam_suit heavy mech suit stomping forward, steam venting from its back now ['north-east', 'south']
+steam_suit heavy mech suit stomping forward, steam venting from its back now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched steam_suit
+done steam_suit heavy mech suit stomping forward, steam venting from its back
+requested steam_suit heavy mech suit firing its arm cannon forward with a blast of steam ['south', 'south-east', 'east', 'north-east', 'north']
+steam_suit heavy mech suit firing its arm cannon forward with a blast of steam now ['north-east', 'south-east']
+steam_suit heavy mech suit firing its arm cannon forward with a blast of steam now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched steam_suit
+done steam_suit heavy mech suit firing its arm cannon forward with a blast of steam
+inventor anims done

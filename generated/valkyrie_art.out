@@ -1,0 +1,73 @@
+character c5f72341-73d6-4ad8-8f1d-f5b25fa0543a
+fetched valkyrie
+sprite done
+requested valkyrie walking forward with purpose, spear held upright, fur mantle swaying ['south', 'south-east', 'east', 'north-east', 'north']
+valkyrie walking forward with purpose, spear held upright, fur mantle swaying now ['east', 'north-east']
+valkyrie walking forward with purpose, spear held upright, fur mantle swaying now ['east', 'north-east', 'south', 'south-east']
+valkyrie walking forward with purpose, spear held upright, fur mantle swaying now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched valkyrie
+done valkyrie walking forward with purpose, spear held upright, fur mantle swaying
+requested valkyrie thrusting the long spear forward in a fast lunge ['south', 'south-east', 'east', 'north-east', 'north']
+valkyrie thrusting the long spear forward in a fast lunge now ['south-east']
+valkyrie thrusting the long spear forward in a fast lunge now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched valkyrie
+done valkyrie thrusting the long spear forward in a fast lunge
+requested valkyrie sweeping the long spear in a wide horizontal arc ['south', 'south-east', 'east', 'north-east', 'north']
+valkyrie sweeping the long spear in a wide horizontal arc now ['north', 'south']
+valkyrie sweeping the long spear in a wide horizontal arc now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched valkyrie
+done valkyrie sweeping the long spear in a wide horizontal arc
+requested valkyrie spinning around in a full circle whirling the spear ['south', 'south-east', 'east', 'north-east', 'north']
+valkyrie spinning around in a full circle whirling the spear now ['east', 'north-east', 'south']
+valkyrie spinning around in a full circle whirling the spear now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched valkyrie
+done valkyrie spinning around in a full circle whirling the spear
+requested valkyrie throwing the spear forward like a javelin ['south', 'south-east', 'east', 'north-east', 'north']
+valkyrie throwing the spear forward like a javelin now ['east', 'north', 'south-east']
+valkyrie throwing the spear forward like a javelin now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched valkyrie
+done valkyrie throwing the spear forward like a javelin
+requested valkyrie raising one hand to summon swirling frost magic ['south', 'south-east', 'east', 'north-east', 'north']
+valkyrie raising one hand to summon swirling frost magic now ['south', 'south-east']
+requested valkyrie raising one hand to summon swirling frost magic ['east', 'north-east', 'north']
+valkyrie raising one hand to summon swirling frost magic now ['north-east', 'south', 'south-east']
+valkyrie raising one hand to summon swirling frost magic now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched valkyrie
+done valkyrie raising one hand to summon swirling frost magic
+valkyrie anims done
+character 569077de-c071-4f5e-a671-a84322e250ed
+fetched frost_raven
+character e9f989d6-5eef-4460-b019-6f0bdd81ccf5
+fetched valkyrie_horse
+character ee5dba0c-dadf-4a2d-9615-da13f85c0804
+fetched einherjar
+requested frost_raven raven flying forward flapping its wings ['south', 'south-east', 'east', 'north-east', 'north']
+frost_raven raven flying forward flapping its wings now ['east', 'south']
+frost_raven raven flying forward flapping its wings now ['east', 'south', 'south-east']
+frost_raven raven flying forward flapping its wings now ['east', 'north-east', 'south', 'south-east']
+retry run_anim frost_raven 0 <urlopen error [WinError 10060] A connection attempt failed because the connected party did not properly respond after a
+requested frost_raven raven flying forward flapping its wings ['north']
+frost_raven raven flying forward flapping its wings now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched frost_raven
+done frost_raven raven flying forward flapping its wings
+requested valkyrie_horse warhorse galloping forward at full charge, rider leveling the spear ['south', 'south-east', 'east', 'north-east', 'north']
+valkyrie_horse warhorse galloping forward at full charge, rider leveling the spear now ['east']
+valkyrie_horse warhorse galloping forward at full charge, rider leveling the spear now ['east', 'north', 'south', 'south-east']
+valkyrie_horse warhorse galloping forward at full charge, rider leveling the spear now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched valkyrie_horse
+done valkyrie_horse warhorse galloping forward at full charge, rider leveling the spear
+requested einherjar ghost warrior walking forward with shield raised ['south', 'south-east', 'east', 'north-east', 'north']
+einherjar ghost warrior walking forward with shield raised now ['south']
+einherjar ghost warrior walking forward with shield raised now ['south', 'south-east']
+einherjar ghost warrior walking forward with shield raised now ['north-east', 'south', 'south-east']
+einherjar ghost warrior walking forward with shield raised now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched einherjar
+done einherjar ghost warrior walking forward with shield raised
+requested einherjar ghost warrior swinging the axe ['south', 'south-east', 'east', 'north-east', 'north']
+einherjar ghost warrior swinging the axe now ['north-east', 'south']
+einherjar ghost warrior swinging the axe now ['north', 'north-east', 'south']
+einherjar ghost warrior swinging the axe now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched einherjar
+done einherjar ghost warrior swinging the axe
+valkyrie extras done
+VALKYRIE DONE

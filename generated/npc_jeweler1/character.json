@@ -1,0 +1,38 @@
+{
+  "id": "843e07f2-02be-46b1-806a-eeeb90c866ac",
+  "name": "a sturdy northern woman gem cutter with blonde bra...",
+  "state_name": "Idle",
+  "prompt": "a sturdy northern woman gem cutter with blonde braids, a grey fur cloak over a blue tunic, a leather apron and a small hammer, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 68,
+    "height": 68
+  },
+  "directions": 8,
+  "created_at": "2026-10-06T17:30:52.339386+00:00",
+  "updated_at": "2026-10-06T17:33:09.071948+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/843e07f2-02be-46b1-806a-eeeb90c866ac/rotations/south.png?t=1791307989",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/843e07f2-02be-46b1-806a-eeeb90c866ac/rotations/west.png?t=1791307989",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/843e07f2-02be-46b1-806a-eeeb90c866ac/rotations/east.png?t=1791307989",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/843e07f2-02be-46b1-806a-eeeb90c866ac/rotations/north.png?t=1791307989",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/843e07f2-02be-46b1-806a-eeeb90c866ac/rotations/south-east.png?t=1791307989",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/843e07f2-02be-46b1-806a-eeeb90c866ac/rotations/north-east.png?t=1791307989",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/843e07f2-02be-46b1-806a-eeeb90c866ac/rotations/north-west.png?t=1791307989",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/843e07f2-02be-46b1-806a-eeeb90c866ac/rotations/south-west.png?t=1791307989"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "cdf85566-400c-481f-b2e2-a14a010a5056",
+  "skeletons": null,
+  "animations": []
+}

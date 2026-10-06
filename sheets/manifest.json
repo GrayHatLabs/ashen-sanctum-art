@@ -1867,6 +1867,86 @@
       ]
     },
     {
+      "name": "npc_jeweler0",
+      "file": "npc_jeweler0.png",
+      "cell": [
+        24,
+        52
+      ],
+      "anchor": [
+        12,
+        46
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_jeweler1",
+      "file": "npc_jeweler1.png",
+      "cell": [
+        20,
+        47
+      ],
+      "anchor": [
+        10,
+        42
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_jeweler2",
+      "file": "npc_jeweler2.png",
+      "cell": [
+        24,
+        53
+      ],
+      "anchor": [
+        12,
+        48
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_jeweler3",
+      "file": "npc_jeweler3.png",
+      "cell": [
+        22,
+        53
+      ],
+      "anchor": [
+        11,
+        47
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
       "name": "npc_priest",
       "file": "npc_priest.png",
       "cell": [
@@ -2479,6 +2559,34 @@
     {
       "name": "icon_amulet",
       "file": "icon_amulet.png"
+    },
+    {
+      "name": "icon_gem_ruby",
+      "file": "icon_gem_ruby.png"
+    },
+    {
+      "name": "icon_gem_sapphire",
+      "file": "icon_gem_sapphire.png"
+    },
+    {
+      "name": "icon_gem_topaz",
+      "file": "icon_gem_topaz.png"
+    },
+    {
+      "name": "icon_gem_emerald",
+      "file": "icon_gem_emerald.png"
+    },
+    {
+      "name": "icon_gem_amethyst",
+      "file": "icon_gem_amethyst.png"
+    },
+    {
+      "name": "icon_gem_diamond",
+      "file": "icon_gem_diamond.png"
+    },
+    {
+      "name": "icon_gem_skull",
+      "file": "icon_gem_skull.png"
     },
     {
       "name": "tree_oak",

@@ -33,6 +33,14 @@ ICONS = [
     ("icon_belt_leather", "a coiled brown leather belt strap with a square bronze buckle"),
     ("icon_ring", "a single gold ring with a red gem"),
     ("icon_amulet", "a bronze amulet pendant on a chain with an orange gem"),
+    # Gems (the game scales them by grade).
+    ("icon_gem_ruby", "one loose faceted cut red ruby gemstone on its own, no handle, no stick, sparkling"),
+    ("icon_gem_sapphire", "one faceted cut deep blue sapphire gemstone, sparkling"),
+    ("icon_gem_topaz", "one faceted cut golden yellow topaz gemstone, sparkling"),
+    ("icon_gem_emerald", "one faceted cut green emerald gemstone, sparkling"),
+    ("icon_gem_amethyst", "one faceted cut purple amethyst gemstone, sparkling"),
+    ("icon_gem_diamond", "one faceted cut clear white diamond gemstone, sparkling"),
+    ("icon_gem_skull", "one tiny polished ivory human skull carved like a jewel"),
 ]
 
 

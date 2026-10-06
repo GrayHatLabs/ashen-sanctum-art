@@ -33,7 +33,8 @@ SPRITE = (
 )
 
 ANIMS = [
-    ("reaper", "gliding forward, cloak trailing, scythe held upright", 6),
+    # (The first walk, "gliding forward ... scythe held upright", swung the scythe overhead in every direction.)
+    ("reaper", "walking calmly forward with steady steps, holding the scythe still and upright at her side, no swinging", 6),
     ("reaper", "sweeping the great scythe in a wide horizontal arc", 6),
     ("reaper", "raising one hand to cast spectral blue rune magic, scythe in the other hand", 6),
     ("reaper", "spinning in a full circle with the scythe held out", 6),

@@ -106,7 +106,8 @@ CHARS = {
                  ("whirl", "spinning around in a full circle whirling the spear", 14),
                  ("throw", "throwing the spear forward like a javelin", 14),
                  ("cast", "raising one hand to summon swirling frost magic", 12)],
-    "frost_raven": [("idle", None, 1), ("walk", "raven flying forward flapping its wings", 12)],
+    # (frost_raven came out as a raven-headed person: the character endpoint only draws humanoids. The game draws
+    #  her raven in code, so it isn't packed.)
     "valkyrie_horse": [("idle", None, 1), ("walk", "warhorse galloping forward at full charge, rider leveling the spear", 14)],
     "einherjar": [("idle", None, 1), ("walk", "ghost warrior walking forward with shield raised", 9),
                   ("attack", "ghost warrior swinging the axe", 12)],

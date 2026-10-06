@@ -1387,32 +1387,6 @@
       ]
     },
     {
-      "name": "frost_raven",
-      "file": "frost_raven.png",
-      "cell": [
-        36,
-        35
-      ],
-      "anchor": [
-        18,
-        31
-      ],
-      "anims": [
-        {
-          "name": "idle",
-          "row": 0,
-          "frames": 1,
-          "fps": 1
-        },
-        {
-          "name": "walk",
-          "row": 8,
-          "frames": 6,
-          "fps": 12
-        }
-      ]
-    },
-    {
       "name": "valkyrie_horse",
       "file": "valkyrie_horse.png",
       "cell": [
@@ -1442,11 +1416,11 @@
       "name": "einherjar",
       "file": "einherjar.png",
       "cell": [
-        47,
+        64,
         65
       ],
       "anchor": [
-        16,
+        24,
         48
       ],
       "anims": [
@@ -1461,6 +1435,12 @@
           "row": 8,
           "frames": 6,
           "fps": 9
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 12
         }
       ]
     },

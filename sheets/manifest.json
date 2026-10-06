@@ -1535,6 +1535,18 @@
       "file": "portrait_inventor.png"
     },
     {
+      "name": "portrait_valkyrie",
+      "file": "portrait_valkyrie.png"
+    },
+    {
+      "name": "portrait_berserker",
+      "file": "portrait_berserker.png"
+    },
+    {
+      "name": "portrait_reaper",
+      "file": "portrait_reaper.png"
+    },
+    {
       "name": "title_bg",
       "file": "title_bg.png"
     },

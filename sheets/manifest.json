@@ -1097,6 +1097,26 @@
       ]
     },
     {
+      "name": "clock_crow",
+      "file": "clock_crow.png",
+      "cell": [
+        22,
+        18
+      ],
+      "anchor": [
+        11,
+        16
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
       "name": "npc_tally",
       "file": "npc_tally.png",
       "cell": [

@@ -86,6 +86,7 @@ CHARS = {
     "ordinal": [("idle", None, 1)],
     "ordinal_prism": [("idle", None, 1)],
     "ordinal_marshal": [("idle", None, 1)],
+    "clock_crow": [("idle", None, 1)],  # tools/crow_art.py (bitforge, mirrored)
     "npc_tally": [("idle", None, 1)],
     "npc_vesper": [("idle", None, 1)],
     "npc_oiler": [("idle", None, 1)],

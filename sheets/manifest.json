@@ -1536,11 +1536,11 @@
       "name": "druid",
       "file": "druid.png",
       "cell": [
-        49,
+        67,
         69
       ],
       "anchor": [
-        21,
+        31,
         56
       ],
       "anims": [
@@ -1553,6 +1553,82 @@
         {
           "name": "walk",
           "row": 8,
+          "frames": 6,
+          "fps": 9
+        },
+        {
+          "name": "cast",
+          "row": 16,
+          "frames": 6,
+          "fps": 12
+        },
+        {
+          "name": "summon",
+          "row": 24,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
+      "name": "moss_wolf",
+      "file": "moss_wolf.png",
+      "cell": [
+        87,
+        71
+      ],
+      "anchor": [
+        37,
+        47
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 12
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
+        }
+      ]
+    },
+    {
+      "name": "thorn_warden",
+      "file": "thorn_warden.png",
+      "cell": [
+        128,
+        130
+      ],
+      "anchor": [
+        57,
+        103
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
           "frames": 6,
           "fps": 9
         }

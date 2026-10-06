@@ -151,6 +151,9 @@ CHARS = {
 }
 # Directions where PixelLab drifted mid-animation: keep only the first N frames (then hold).
 TRIM = {
+    # The Reaper's walk: going north she lifts the scythe overhead; north-east trails a stray swing arc.
+    ("reaper", "walk", "north"): 3,
+    ("reaper", "walk", "north-east"): 1,
     # Duchess Grimhilde's glide tips into a flat dive at the end (east, and the south-east crouch).
     ("boss_grimhilde", "walk", "east"): 3,
     ("boss_grimhilde", "walk", "south-east"): 3,

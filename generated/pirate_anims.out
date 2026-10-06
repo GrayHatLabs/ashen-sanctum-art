@@ -1,0 +1,18 @@
+requested inventor walking confidently forward, tattered coat swaying ['south', 'south-east', 'east', 'north-east', 'north']
+inventor walking confidently forward, tattered coat swaying now ['east', 'north-east', 'south']
+inventor walking confidently forward, tattered coat swaying now ['east', 'north', 'north-east', 'south']
+inventor walking confidently forward, tattered coat swaying now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched inventor
+done inventor walking confidently forward, tattered coat swaying
+requested inventor aiming the brass flintlock pistol forward and firing ['south', 'south-east', 'east', 'north-east', 'north']
+inventor aiming the brass flintlock pistol forward and firing now ['east', 'north', 'north-east']
+inventor aiming the brass flintlock pistol forward and firing now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched inventor
+done inventor aiming the brass flintlock pistol forward and firing
+requested inventor throwing a small brass bomb forward with the mechanical arm ['south', 'south-east', 'east', 'north-east', 'north']
+inventor throwing a small brass bomb forward with the mechanical arm now ['south', 'south-east']
+inventor throwing a small brass bomb forward with the mechanical arm now ['east', 'north', 'south', 'south-east']
+inventor throwing a small brass bomb forward with the mechanical arm now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched inventor
+done inventor throwing a small brass bomb forward with the mechanical arm
+pirate anims done

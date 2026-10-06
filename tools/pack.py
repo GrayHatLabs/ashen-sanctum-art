@@ -66,8 +66,9 @@ CHARS = {
                   ("attack", "giant yeti roaring and swiping with both arms", 10)],
     "boss_witch": [("idle", None, 1), ("walk", "ice witch gliding forward, gown trailing", 8),
                    ("attack", "ice witch raising the crystal staff and casting a spell", 10)],
-    "inventor": [("idle", None, 1), ("walk", "walking confidently forward, skirt swaying", 10),
-                 ("cast", "aiming the brass ray pistol forward and firing", 16),
+    # The Sky Pirate (the Inventor redesigned, tools/pirate_art.py; the old art is in generated/_old/inventor_v1).
+    "inventor": [("idle", None, 1), ("walk", "walking confidently forward, tattered coat swaying", 10),
+                 ("cast", "aiming the brass flintlock pistol forward and firing", 16),
                  ("throw", "throwing a small brass bomb forward with the mechanical arm", 14)],
     "steam_suit": [("idle", None, 1), ("walk", "heavy mech suit stomping forward, steam venting from its back", 8),
                    ("cast", "heavy mech suit firing its arm cannon forward with a blast of steam", 14)],
@@ -123,7 +124,7 @@ CHARS = {
                   ("attack", "dire wolf lunging forward and biting", 14)],
     # ---- the Druid (tools/druid_art.py) ----
     # The Inquisitor (tools/inquisitor_art.py); her iron halo is painted on by tools/inquisitor_halo.py.
-    "inquisitor_hero": [("idle", None, 1), ("walk", "walking forward, censer on its chain swinging at her side", 9),
+    "inquisitor_hero": [("idle", None, 1), ("walk", "walking forward with long clear strides, legs stepping one after the other, long coat parting around her moving legs, censer swinging at her side", 9),
                         ("attack", "swinging the spiked censer on its long chain forward like a flail", 14),
                         ("cast", "pointing one hand forward to burn a glowing sigil, censer hanging", 12),
                         ("spin", "spinning in place swinging the censer on its chain around her body", 14)],

@@ -94,6 +94,18 @@ def anims():
     print("inquisitor anims done", flush=True)
 
 
+# Take 2 of the walk (the user: "her legs just float, she doesn't walk" walking down the screen): the long
+# coat hid the legs, so ask for clear strides with the coat parting.
+WALK2 = ("inquisitor_hero", "walking forward with long clear strides, legs stepping one after the other, long coat parting "
+         "around her moving legs, censer swinging at her side", 6)
+
+
+def walk2():
+    import world_art
+    act2_art.safe(world_art.run_anim, *WALK2)
+    print("walk2 done", flush=True)
+
+
 def review():
     d = gen.GEN / "inquisitor_hero"
     ps = [d / f"full_{t}.png" for t in "abc"] + [gen.GEN / "portrait_bg" / "inquisitor.png"]
@@ -102,4 +114,4 @@ def review():
 
 
 if __name__ == "__main__":
-    {"portrait": portrait, "sprite": sprite, "anims": anims, "review": review}[sys.argv[1]]()
+    {"portrait": portrait, "sprite": sprite, "anims": anims, "review": review, "walk2": walk2}[sys.argv[1]]()

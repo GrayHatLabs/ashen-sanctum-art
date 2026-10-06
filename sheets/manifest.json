@@ -772,12 +772,12 @@
       "name": "inventor",
       "file": "inventor.png",
       "cell": [
-        58,
-        59
+        72,
+        58
       ],
       "anchor": [
-        23,
-        49
+        32,
+        47
       ],
       "anims": [
         {
@@ -1557,7 +1557,7 @@
       "file": "inquisitor_hero.png",
       "cell": [
         96,
-        77
+        76
       ],
       "anchor": [
         39,

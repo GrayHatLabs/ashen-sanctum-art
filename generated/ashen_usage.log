@@ -493,3 +493,19 @@
 2026-10-06 17:23:25 inquisitor portrait p7 380 {"type": "generations", "generations": 1.0}
 2026-10-06 17:24:07 inquisitor portrait p7 460 {"type": "generations", "generations": 1.0}
 2026-10-06 17:24:40 inquisitor portrait p7 540 {"type": "generations", "generations": 1.0}
+2026-10-06 17:31:04 pirate full a {"type": "generations", "generations": 1.0}
+2026-10-06 17:31:23 pirate full b {"type": "generations", "generations": 1.0}
+2026-10-06 17:31:52 pirate full c {"type": "generations", "generations": 1.0}
+2026-10-06 17:32:16 portrait bg pirate {"type": "generations", "generations": 1.0}
+2026-10-06 17:33:26 inventor character job=cc43db47-d9bb-4445-a324-bb6ea877350a status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 17:42:35 inventor request walking confidently forward, tattered coat swaying ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 17:43:52 pirate portrait 420 {"type": "generations", "generations": 1.0}
+2026-10-06 17:44:21 pirate portrait 500 {"type": "generations", "generations": 1.0}
+2026-10-06 17:44:49 pirate portrait 580 {"type": "generations", "generations": 1.0}
+2026-10-06 17:45:18 portrait bg pirate v2 {"type": "generations", "generations": 1.0}
+2026-10-06 17:45:34 inventor request aiming the brass flintlock pistol forward and firing ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 17:46:14 pirate portrait take2 480 {"type": "generations", "generations": 1.0}
+2026-10-06 17:46:35 pirate portrait take2 560 {"type": "generations", "generations": 1.0}
+2026-10-06 17:47:08 pirate portrait take2 640 {"type": "generations", "generations": 1.0}
+2026-10-06 17:47:55 inquisitor_hero request walking forward with long clear strides, legs stepping one after the other, long coat parting around her moving legs, censer swinging at her side ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 17:48:06 inventor request throwing a small brass bomb forward with the mechanical arm ['south', 'south-east', 'east', 'north-east', 'north'] null

@@ -141,5 +141,15 @@ def review():
     gen.review(gen.GEN / "inquisitor_review.png", *[p for p in ps if p.exists()])
 
 
+# The whip (the user, 2026-10-06: "longer, more of a whipping action"; docs/INQUISITOR_WHIP_PLAN.md in the game repo).
+WHIP_ATTACK = ("inquisitor_hero", "drawing her arm back over her shoulder then lashing it far forward with the whole arm "
+               "fully extended, cracking the censer on its chain out ahead of her like a whip, gown flaring", 6)
+
+
+def whip_attack():
+    import world_art
+    act2_art.safe(world_art.run_anim, *WHIP_ATTACK)
+
+
 if __name__ == "__main__":
-    {"portrait": portrait, "sprite": sprite, "anims": anims, "review": review, "walk2": walk2, "sprite3": sprite_v3, "anims3": anims_v3}[sys.argv[1]]()
+    {"whip": whip_attack, "portrait": portrait, "sprite": sprite, "anims": anims, "review": review, "walk2": walk2, "sprite3": sprite_v3, "anims3": anims_v3}[sys.argv[1]]()

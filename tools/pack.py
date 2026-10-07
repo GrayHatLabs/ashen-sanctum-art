@@ -181,6 +181,9 @@ PICK = {
 }
 # A different animation for one direction (a one-direction retake; tools/walk_fix.py ONE_DIR).
 ALT = {
+    ("valkyrie", "walk", "south"): "walking straight toward the viewer with clear strides, holding one short spear low in her right "
+                           "hand with the spearhead pointing down at the ground, a single spearhead at the bottom end only, "
+                           "the top end of the shaft is a plain wooden butt, the spear does not rise above her waist",
     ("valkyrie", "walk", "south-east"): "walking diagonally forward with clear long strides, holding one spear low in her right "
                                         "hand pointing down and forward, a single spearhead at the front end only, the spear "
                                         "does not cross behind her body",
@@ -365,12 +368,30 @@ def char_frames(name):
         from pirate_hair import fix_frame as hair
         out = {k: {dd: [hair(f) for f in fs] for dd, fs in v.items()} for k, v in out.items()}
         rot = {k: hair(v) for k, v in rot.items()}
+    if name == "valkyrie":
+        # The user: absolutely no red on the Valkyrie. The south walk retake tipped her spear's butt in red; turn red
+        # pixels near the top of the figure (above her face) to the shaft's dark wood.
+        out = {k: {dd: [no_red_top(f) for f in fs] for dd, fs in v.items()} for k, v in out.items()}
     if name == "inquisitor_hero":
         # The user's iron halo (spikes with an arching band) and more iron, on every frame.
         from inquisitor_halo import fix_frame
         out = {k: {dd: [fix_frame(f) for f in fs] for dd, fs in v.items()} for k, v in out.items()}
         rot = {k: fix_frame(v) for k, v in rot.items()}
     return out, rot
+
+
+def no_red_top(im, rows=14):
+    box = im.getbbox()
+    if not box:
+        return im
+    im = im.copy()
+    px = im.load()
+    for y in range(box[1], min(box[1] + rows, im.height)):
+        for x in range(im.width):
+            r, g, b, a = px[x, y]
+            if a and r > 80 and r > g * 1.6 and r > b * 1.6:
+                px[x, y] = (52, 44, 40, a)
+    return im
 
 
 def walk_fix_druid_walk():

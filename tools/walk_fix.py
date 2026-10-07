@@ -43,6 +43,9 @@ WALKS2 = {
 # One direction only (the user, 2026-10-06: the valkyrie's diagonal walk). Walking down-right her spear passed
 # behind her with a head showing at both ends, and her legs barely strode. pack.py's ALT uses this for that direction.
 ONE_DIR = {
+    ("valkyrie", "south"): "walking straight toward the viewer with clear strides, holding one short spear low in her right "
+                           "hand with the spearhead pointing down at the ground, a single spearhead at the bottom end only, "
+                           "the top end of the shaft is a plain wooden butt, the spear does not rise above her waist",
     ("valkyrie", "south-east"): "walking diagonally forward with clear long strides, holding one spear low in her right hand "
                                 "pointing down and forward, a single spearhead at the front end only, the spear does not "
                                 "cross behind her body",

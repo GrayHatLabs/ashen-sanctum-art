@@ -37,6 +37,34 @@ ANIMS = [
 ]
 
 
+# v3 (the user, 2026-10-06: "a walking gown like the image instead of the leather pants"): the robed look of
+# her OpenAI portrait and sprite test. The halo is still painted on by tools/inquisitor_halo.py.
+SPRITE_V3 = (
+    "tall slender gothic inquisitor woman in a long flowing black hooded gown that reaches the ground, pale face, ash-blonde "
+    "hair under the hood, gold chains crossed over her chest and wrapped around her waist, a golden spiked halo behind her "
+    "head, holding a golden censer hanging on a chain glowing with holy fire, no trousers, no armor plates"
+)
+ANIMS_V3 = [
+    ("inquisitor_hero", "walking forward, long gown swaying with each step, feet stepping out under the hem, censer swinging", 6),
+    ("inquisitor_hero", "swinging the golden censer on its long chain forward like a flail", 6),
+    ("inquisitor_hero", "pointing one hand forward to burn a glowing sigil, censer hanging", 6),
+    ("inquisitor_hero", "spinning in place swinging the censer on its chain around her body, gown flaring", 6),
+]
+
+
+def sprite_v3():
+    if not (gen.GEN / "inquisitor_hero" / "rotation_urls_south.png").exists():
+        act2_art.safe(gen.character, "inquisitor_hero", f"{SPRITE_V3}, {HEADS}", 56, "realistic_female", "")
+    print("sprite v3 done", flush=True)
+
+
+def anims_v3():
+    import world_art
+    for name, action, frames in ANIMS_V3:
+        act2_art.safe(world_art.run_anim, name, action, frames)
+    print("inquisitor v3 anims done", flush=True)
+
+
 def portrait():
     d = gen.d_of("inquisitor_hero")
     for tag in "abc":
@@ -114,4 +142,4 @@ def review():
 
 
 if __name__ == "__main__":
-    {"portrait": portrait, "sprite": sprite, "anims": anims, "review": review, "walk2": walk2}[sys.argv[1]]()
+    {"portrait": portrait, "sprite": sprite, "anims": anims, "review": review, "walk2": walk2, "sprite3": sprite_v3, "anims3": anims_v3}[sys.argv[1]]()

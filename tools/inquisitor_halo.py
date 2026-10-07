@@ -20,11 +20,12 @@ BAND_HI = (168, 138, 78, 255)
 
 
 def _gold(p):
-    return p[3] > 0 and p[0] > 140 and p[1] > 100 and p[2] < 120 and p[0] > p[2] + 60
+    return p[3] > 0 and p[0] > 140 and p[1] > 100 and p[2] < 120 and p[0] > p[2] + 60 and p[2] < p[0] * 0.58
 
 
 def _goldish(p):
-    return p[3] > 0 and p[0] > p[2] + 40 and p[1] > p[2] + 15 and p[0] > 90
+    # Gold has very little blue for its red; skin has much more (so faces are left alone).
+    return p[3] > 0 and p[0] > p[2] + 40 and p[1] > p[2] + 15 and p[0] > 90 and p[2] < p[0] * 0.58
 
 
 def fix_frame(im, head_rows=26):

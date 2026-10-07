@@ -510,3 +510,9 @@
 2026-10-06 17:47:55 inquisitor_hero request walking forward with long clear strides, legs stepping one after the other, long coat parting around her moving legs, censer swinging at her side ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-06 17:48:06 inventor request throwing a small brass bomb forward with the mechanical arm ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-06 18:16:55 portrait bg vampire {"type": "generations", "generations": 1.0}
+2026-10-06 18:35:18 reaper request walking forward calmly holding the huge scythe upright in one hand, the long handle always in her hand and the blade always above her shoulder, the same grip in every step ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 18:35:28 inquisitor_hero character job=0456a1e6-5ac0-4508-b9bc-9aaddf9e402f status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 18:36:40 inquisitor_hero request walking forward, long gown swaying with each step, feet stepping out under the hem, censer swinging ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 18:39:08 berserker request striding forward with the giant axe resting on her right shoulder held by the haft in both hands, the axe stays on her shoulder the whole time, one axe only ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 18:40:42 inquisitor_hero request swinging the golden censer on its long chain forward like a flail ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 18:41:27 valkyrie request walking forward holding the long spear upright at her side, the spear point always up, the same grip in every step ['south', 'south-east', 'east', 'north-east', 'north'] null

@@ -521,14 +521,12 @@ def pack_items():
         print("item", n, im.size)
     # Class-select portraits (tools/vampire_art.py): full size; a flat grey background is keyed out.
     # Cleaned-up versions (tools/portrait_fix.py); originals live in reference/portraits_original/.
-    for n, src in [("portrait_vampire", "portrait_fix/vampire_face_a.png"), ("portrait_sorceress", "portrait_fix/sorceress_s300.png"),
-                   ("portrait_inventor", "inventor/portrait_v3_220.png"),
-                   # The user's picks (tools/class_portraits_v2.py and the guided redraws, 2026-10-05).
-                   ("portrait_valkyrie", "valkyrie/full_h.png"), ("portrait_berserker", "berserker/b2guide_s450.png"),
-                   ("portrait_reaper", "reaper/scythe2_s550.png"), ("portrait_druid", "druid/full_b.png"),
-                   # The user's pick: 5B's build with a golden spiked halo, gold chains and the censer
-                   # (tools/inquisitor_portrait.py guide7 / redraw7, strength 540, specks cleaned).
-                   ("portrait_inquisitor", "inquisitor_hero/p7_final.png")]:
+    # OpenAI portraits turned to pixel art (tools/oai_portraits.py, 2026-10-06; the user's picks). The previous
+    # portraits are kept in reference/portraits_v1/ (and their sources in generated/).
+    for n, src in [("portrait_vampire", "oai/final/vampire.png"), ("portrait_sorceress", "oai/final/sorceress.png"),
+                   ("portrait_inventor", "oai/final/inventor.png"), ("portrait_valkyrie", "oai/final/valkyrie.png"),
+                   ("portrait_berserker", "oai/final/berserker.png"), ("portrait_reaper", "oai/final/reaper.png"),
+                   ("portrait_druid", "oai/final/druid.png"), ("portrait_inquisitor", "oai/final/inquisitor.png")]:
         p = GEN / src
         if not p.exists():
             continue
@@ -552,7 +550,7 @@ def pack_items():
                 px[x, y] = (0, 0, 0, 0)
                 q.extend([(x + 1, y), (x - 1, y), (x, y + 1), (x, y - 1)])
         # Themed backgrounds (tools/portrait_bg.py) behind the keyed figure, a little darker so she stands out.
-        bg_src = {"portrait_sorceress": "portrait_bg/sorceress.png", "portrait_inventor": "portrait_bg/inventor.png",
+        bg_src = {"portrait_vampire": "portrait_bg/vampire.png", "portrait_sorceress": "portrait_bg/sorceress.png", "portrait_inventor": "portrait_bg/pirate.png",
                   "portrait_valkyrie": "portrait_bg/valkyrie.png", "portrait_berserker": "portrait_bg/berserker.png",
                   "portrait_reaper": "portrait_bg/reaper.png", "portrait_druid": "portrait_bg/druid.png",
                   "portrait_inquisitor": "portrait_bg/inquisitor.png"}.get(n)

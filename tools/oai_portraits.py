@@ -49,7 +49,8 @@ HEROES = {
                 "ruffled blouse; a long tattered black and crimson coat with gold trim; her right forearm is brass clockwork with "
                 "visible gears and rivets, and that mechanical hand holds an ornate brass flintlock pistol raised beside her shoulder; "
                 "her other hand rests on a cutlass hilt at her hip; brass lanterns and gears hang on chains from her belt; thigh-high "
-                "laced black boots with skull buckles.",
+                "laced black boots with skull buckles. Colour: add a little earthy red (rust and oxblood) to warm the browns: "
+                "the coat's lining and tattered hem, a sash at her waist, the hat feathers and the trim.",
     "valkyrie": "A dark nordic frost valkyrie warrior queen: very long ash-black hair fading to icy silver-blue at the ends with "
                 "braids, a silver crown, glowing glacier-blue eyes, a blackened-steel breastplate with glowing blue runes, a black fur "
                 "mantle on one shoulder, a layered black and midnight-blue battle skirt, dark steel knee-high boots, holding upright an "
@@ -110,6 +111,49 @@ def generate(prompt):
                 continue
             sys.exit(f"HTTP {e.code}: {msg}")
     sys.exit("gave up")
+
+
+def edit(image_path, prompt):
+    """Edits an existing image (gpt-image-1 /images/edits, multipart) and returns PNG bytes."""
+    boundary = "----ashen" + str(int(time.time() * 1000))
+    parts = []
+
+    crlf = "\r\n"
+
+    def field(name, value):
+        parts.append(f'--{boundary}{crlf}Content-Disposition: form-data; name="{name}"{crlf}{crlf}{value}{crlf}'.encode())
+
+    field("model", "gpt-image-1")
+    field("prompt", prompt)
+    field("size", "1024x1536")
+    field("quality", "high")
+    field("background", "transparent")
+    data = Path(image_path).read_bytes()
+    head = f'--{boundary}{crlf}Content-Disposition: form-data; name="image[]"; filename="in.png"{crlf}Content-Type: image/png{crlf}{crlf}'
+    parts.append(head.encode() + data + crlf.encode())
+    parts.append(f"--{boundary}--{crlf}".encode())
+    req = urllib.request.Request("https://api.openai.com/v1/images/edits", data=b"".join(parts), method="POST",
+                                 headers={"Authorization": f"Bearer {api_key()}", "Content-Type": f"multipart/form-data; boundary={boundary}"})
+    try:
+        with urllib.request.urlopen(req, timeout=300) as r:
+            out = json.loads(r.read())
+    except urllib.error.HTTPError as e:
+        sys.exit(f"HTTP {e.code}: {e.read().decode(errors='replace')[:300]}")
+    return base64.b64decode(out["data"][0]["b64_json"]), out.get("usage")
+
+
+def recolor(hero, src_n, note):
+    """A new option: raw image <src_n> kept as it is, with the colour change asked for."""
+    n = len(list(RAW.glob(f"{hero}_*.png")))
+    prompt = ("Keep this exact image: the same character, pose, face, outfit, details, framing and pixel art style. "
+              f"Only change the colour: {note} Keep the background transparent.")
+    png, usage = edit(RAW / f"{hero}_{src_n}.png", prompt)
+    (RAW / f"{hero}_{n}.png").write_bytes(png)
+    with (OUT / "usage.log").open("a") as f:
+        f.write(f"{time.strftime('%Y-%m-%d %H:%M:%S')} {hero}_{n} edit of {src_n} {json.dumps(usage)}\n")
+    pixelize(Image.open(RAW / f"{hero}_{n}.png")).save(OUT / f"{hero}_{n}.png")
+    print("saved", hero, n, "(edit of", src_n, ")", flush=True)
+    review(hero)
 
 
 def pixelize(raw: Image.Image) -> Image.Image:
@@ -181,6 +225,8 @@ if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "gen":
         gen(sys.argv[2], int(sys.argv[3]) if len(sys.argv) > 3 else 2)
+    elif cmd == "recolor":
+        recolor(sys.argv[2], int(sys.argv[3]), sys.argv[4])
     elif cmd == "pixel":
         pixel(sys.argv[2])
     elif cmd == "review":

@@ -104,7 +104,8 @@ CHARS = {
     # ---- Act 5: the Drowned Deep (tools/act5_art.py) ----
     "drowned_sailor": [("idle", None, 1), ("walk", "drowned zombie shambling forward", 7), ("attack", "drowned zombie slashing with its cutlass", 11)],
     "merrow": [("idle", None, 1), ("walk", "fish-folk warrior running forward hunched", 11), ("attack", "fish-folk warrior lunging forward with the spear", 13)],
-    "anglerlurk": [("idle", None, 1), ("walk", "anglerfish monster crawling forward", 8), ("attack", "anglerfish monster lunging and snapping its jaws", 13)],
+    # A single image since 2026-10-07 (tools/sky_objects_art.py anglerlurk, via OpenAI): the generator stood it on legs.
+    "anglerlurk": [("idle", None, 1)],
     "jelly_drift": [("idle", None, 1), ("walk", "jellyfish floating forward, tentacles trailing", 7), ("attack", "jellyfish crackling with electricity", 12)],
     "shellguard": [("idle", None, 1), ("walk", "crab knight scuttling sideways forward", 9), ("attack", "crab knight smashing down with its big claw", 11)],
     "siren": [("idle", None, 1), ("walk", "siren walking forward gracefully", 8), ("attack", "siren singing with arms spread, magic notes", 10)],
@@ -117,6 +118,23 @@ CHARS = {
     "boss_nacre": [("idle", None, 1), ("walk", "siren queen gliding forward", 8), ("attack", "siren queen singing a spell, arms raised", 10)],
     "boss_angler": [("idle", None, 1), ("walk", "giant anglerfish crawling forward", 7), ("attack", "giant anglerfish lunging with jaws wide", 11)],
     "boss_leviathan": [("idle", None, 1), ("walk", "sea serpent rearing and swaying", 7), ("attack", "sea serpent striking down with open jaws", 10)],
+    # ---- Act 6: the Shattered Heavens (tools/act6_art.py; the ophanim, the Ophan Prime and the thunderbird are
+    # single images from tools/sky_objects_art.py, like the Ordinals) ----
+    "fallen_seraph": [("idle", None, 1), ("walk", "fallen angel walking forward, broken wing dragging", 8), ("attack", "fallen angel diving forward and thrusting the spear of light", 13)],
+    "ophanim": [("idle", None, 1)],
+    "storm_drake": [("idle", None, 1), ("walk", "storm drake running forward on all four legs", 11), ("attack", "storm drake breathing lightning, staying on all four legs", 11)],
+    "ash_harpy": [("idle", None, 1), ("walk", "harpy running forward, wings spread", 12), ("attack", "harpy slashing with its talons", 14)],
+    "gilded_sentinel": [("idle", None, 1), ("walk", "stone angel statue walking forward heavily", 6), ("attack", "stone angel statue slamming its great sword down", 9)],
+    "sun_zealot": [("idle", None, 1), ("walk", "sun cultist walking forward", 8), ("attack", "sun cultist raising the burning staff to cast", 10)],
+    "thunderbird": [("idle", None, 1)],
+    "npc_seraphine": [("idle", None, 1)],
+    "npc_bram": [("idle", None, 1)],
+    "npc_aurel": [("idle", None, 1)],
+    "npc_deckhand": [("idle", None, 1), ("walk", "deckhand walking forward", 8)],
+    "boss_vael": [("idle", None, 1), ("walk", "fallen archangel striding forward, wings spread", 8), ("attack", "fallen archangel thrusting the burning spear", 11)],
+    "boss_tempest": [("idle", None, 1), ("walk", "dragon prowling forward on all four legs, wings folded", 7), ("attack", "dragon lowering its head and breathing lightning, staying on all four legs", 9)],
+    "boss_ophan": [("idle", None, 1)],
+    "boss_solanthos": [("idle", None, 1), ("walk", "burnt-out sun god striding forward, embers falling", 7), ("attack", "burnt-out sun god raising both arms and unleashing a solar flare", 10)],
     # ---- the Valkyrie (tools/valkyrie_art.py) ----
     "valkyrie": [("idle", None, 1), ("walk", "walking forward with steady strides, holding the spear low at her side exactly as in her standing pose, the spear does not lift or turn, legs stepping", 9),
                  ("attack", "thrusting the long spear forward in a fast lunge", 16),
@@ -310,7 +328,8 @@ FLOORS = ["floor_stone1", "floor_stone2", "grass1", "grass2", "dirt1", "road1",
           "snow1", "snow2", "snow_road", "lake_ice", "ice_floor1", "ice_floor2",
           "mist_earth1", "mist_earth2", "mist_moss", "mist_road", "castle_floor",
           "brass_plate1", "brass_plate2", "grate_glow", "conveyor_road", "verdigris_floor", "clock_floor",
-          "sea_sand1", "sea_sand2", "coral_floor", "wreck_deck", "sanctum_floor"]
+          "sea_sand1", "sea_sand2", "coral_floor", "wreck_deck", "sanctum_floor",
+          "cloud_marble1", "cloud_marble2", "sky_grass", "chain_bridge", "choir_floor", "zenith_floor"]
 WALL = "wall_stone"
 ITEMS = ["food_apple", "food_bread", "food_roast", "seal"]
 # Overworld and dungeon props (full size, anchored at the bottom centre).
@@ -329,7 +348,10 @@ PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "hous
          # Act 5 (tools/act5_art.py); the anchor never came out right, so the game doesn't use it.
          "kelp1", "coral1", "coral2", "wreck_hull", "whale_bones", "stilt_house1", "stilt_house2", "shell_lamp",
          "diving_bell", "ent_wreck", "ent_cathedral", "ent_trench", "ent_drowned", "leviathan_coil",
-         "brk_crate_4", "brk_barrel_4", "brk_urn_4"]
+         "brk_crate_4", "brk_barrel_4", "brk_urn_4",
+         # Act 6 (tools/act6_art.py).
+         "angel_statue", "halo_arch", "sky_lamp", "cloud_tree", "marble_ruin", "sky_house1", "sky_house2", "airship_dock",
+         "light_stair", "ent_brokenchoir", "ent_spire", "ent_wheel", "ent_zenith", "brk_crate_5", "brk_barrel_5", "brk_urn_5"]
 ITEM_SIZE = 14
 # Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
 ICON_SIZE = 24
@@ -511,7 +533,10 @@ TONE_TILES = {"mist_earth1": ((58, 68, 78), 0.55, 0.45), "mist_earth2": ((54, 64
               # Act 5: dim blue-grey sea floor, so the glow of the sea life and the flood read on top.
               "sea_sand1": ((40, 62, 70), 0.55, 0.4), "sea_sand2": ((36, 58, 66), 0.55, 0.4),
               "coral_floor": ((54, 56, 66), 0.45, 0.45), "wreck_deck": ((62, 46, 36), 0.5, 0.4),
-              "sanctum_floor": ((70, 90, 92), 0.55, 0.4)}
+              "sanctum_floor": ((70, 90, 92), 0.55, 0.4),
+              # Act 6: soft pale marble and grass in the sun; the bridge planks pulled to brown wood.
+              "cloud_marble1": ((214, 204, 188), 0.4, 0.5), "cloud_marble2": ((206, 196, 180), 0.4, 0.5),
+              "sky_grass": ((176, 160, 104), 0.45, 0.5), "chain_bridge": ((112, 84, 56), 0.6, 0.55)}
 
 
 def tone(im, target, pull, contrast):
@@ -585,7 +610,8 @@ def pack_tiles():
     for wall_name, src, stack in [("wall", WALL, WALL_STACK), ("palisade", "palisade", 2), ("ice_wall", "ice_wall", WALL_STACK), ("palisade_snow", "palisade_snow", 2),
                                   ("palisade_mist", "palisade_mist", 2), ("castle_wall", "castle_wall", WALL_STACK),
                                   ("fence_iron", "fence_iron", 2), ("brass_wall", "brass_wall", WALL_STACK),
-                                  ("coral_wall", "coral_wall", WALL_STACK), ("sanctum_wall", "sanctum_wall", WALL_STACK)]:
+                                  ("coral_wall", "coral_wall", WALL_STACK), ("sanctum_wall", "sanctum_wall", WALL_STACK),
+                                  ("marble_wall", "marble_wall", WALL_STACK), ("storm_wall", "storm_wall", WALL_STACK)]:
         p = GEN / src / "image.png"
         if not p.exists():
             continue

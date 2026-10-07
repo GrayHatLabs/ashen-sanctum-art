@@ -135,6 +135,9 @@ CHARS = {
     "boss_tempest": [("idle", None, 1), ("walk", "dragon prowling forward on all four legs, wings folded", 7), ("attack", "dragon lowering its head and breathing lightning, staying on all four legs", 9)],
     "boss_ophan": [("idle", None, 1)],
     "boss_solanthos": [("idle", None, 1), ("walk", "burnt-out sun god striding forward, embers falling", 7), ("attack", "burnt-out sun god raising both arms and unleashing a solar flare", 10)],
+    # ---- the endgame (tools/endgame_art.py): the Rekindling brazier (a single image) and the Riftwarden ----
+    "brazier_rekindle": [("idle", None, 1)],
+    "npc_riftwarden": [("idle", None, 1)],
     # ---- the Valkyrie (tools/valkyrie_art.py) ----
     "valkyrie": [("idle", None, 1), ("walk", "walking forward with steady strides, holding the spear low at her side exactly as in her standing pose, the spear does not lift or turn, legs stepping", 9),
                  ("attack", "thrusting the long spear forward in a fast lunge", 16),

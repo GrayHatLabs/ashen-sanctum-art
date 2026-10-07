@@ -742,3 +742,6 @@
 2026-10-07 14:48:18 boss_solanthos request burnt-out sun god striding forward, embers falling ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-07 14:51:16 boss_solanthos request burnt-out sun god raising both arms and unleashing a solar flare ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-07 14:54:31 npc_deckhand request deckhand walking forward ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-07 16:06:41 brazier_rekindle prop {"type": "generations", "generations": 1.0}
+2026-10-07 16:07:29 rift_portal prop {"type": "generations", "generations": 1.0}
+2026-10-07 16:08:51 npc_riftwarden character job=0840c251-7034-4d61-95be-db27588997b9 status=completed {"type": "generations", "generations": 1.0}

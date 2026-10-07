@@ -2179,6 +2179,46 @@
       ]
     },
     {
+      "name": "brazier_rekindle",
+      "file": "brazier_rekindle.png",
+      "cell": [
+        30,
+        78
+      ],
+      "anchor": [
+        15,
+        76
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_riftwarden",
+      "file": "npc_riftwarden.png",
+      "cell": [
+        32,
+        52
+      ],
+      "anchor": [
+        16,
+        46
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
       "name": "valkyrie",
       "file": "valkyrie.png",
       "cell": [

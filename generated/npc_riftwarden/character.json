@@ -1,0 +1,38 @@
+{
+  "id": "b557da8e-6651-40f9-bf16-595ebe0997e0",
+  "name": "a tall hooded warden in a long coat of charcoal gr...",
+  "state_name": "Idle",
+  "prompt": "a tall hooded warden in a long coat of charcoal grey and ember orange, a lantern full of swirling ash in one hand, a key ring of black iron keys at her belt, calm glowing eyes, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 76,
+    "height": 76
+  },
+  "directions": 8,
+  "created_at": "2026-10-07T22:07:31.101656+00:00",
+  "updated_at": "2026-10-07T22:08:41.887540+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/b557da8e-6651-40f9-bf16-595ebe0997e0/rotations/south.png?t=1791410921",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/b557da8e-6651-40f9-bf16-595ebe0997e0/rotations/west.png?t=1791410921",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/b557da8e-6651-40f9-bf16-595ebe0997e0/rotations/east.png?t=1791410921",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/b557da8e-6651-40f9-bf16-595ebe0997e0/rotations/north.png?t=1791410921",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/b557da8e-6651-40f9-bf16-595ebe0997e0/rotations/south-east.png?t=1791410921",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/b557da8e-6651-40f9-bf16-595ebe0997e0/rotations/north-east.png?t=1791410921",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/b557da8e-6651-40f9-bf16-595ebe0997e0/rotations/north-west.png?t=1791410921",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/b557da8e-6651-40f9-bf16-595ebe0997e0/rotations/south-west.png?t=1791410921"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "b2126183-24a9-4d46-a713-6d34353a82da",
+  "skeletons": null,
+  "animations": []
+}

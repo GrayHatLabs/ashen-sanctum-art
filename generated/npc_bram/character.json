@@ -1,0 +1,38 @@
+{
+  "id": "6fd62db5-2aa7-4280-93c4-0ab1aadb6ce1",
+  "name": "an old sky-pirate quartermaster man with a white b...",
+  "state_name": "Idle",
+  "prompt": "an old sky-pirate quartermaster man with a white beard, a long blue coat, brass goggles and a peg leg, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 68,
+    "height": 68
+  },
+  "directions": 8,
+  "created_at": "2026-10-07T18:25:31.783244+00:00",
+  "updated_at": "2026-10-07T18:27:21.140779+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/6fd62db5-2aa7-4280-93c4-0ab1aadb6ce1/rotations/south.png?t=1791397641",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/6fd62db5-2aa7-4280-93c4-0ab1aadb6ce1/rotations/west.png?t=1791397641",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/6fd62db5-2aa7-4280-93c4-0ab1aadb6ce1/rotations/east.png?t=1791397641",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/6fd62db5-2aa7-4280-93c4-0ab1aadb6ce1/rotations/north.png?t=1791397641",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/6fd62db5-2aa7-4280-93c4-0ab1aadb6ce1/rotations/south-east.png?t=1791397641",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/6fd62db5-2aa7-4280-93c4-0ab1aadb6ce1/rotations/north-east.png?t=1791397641",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/6fd62db5-2aa7-4280-93c4-0ab1aadb6ce1/rotations/north-west.png?t=1791397641",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/6fd62db5-2aa7-4280-93c4-0ab1aadb6ce1/rotations/south-west.png?t=1791397641"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "e63d8148-fde2-4d06-b808-18dda687c552",
+  "skeletons": null,
+  "animations": []
+}

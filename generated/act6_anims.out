@@ -1,0 +1,109 @@
+have fallen_seraph
+have storm_drake
+have ash_harpy
+have gilded_sentinel
+have sun_zealot
+have npc_seraphine
+have npc_bram
+have npc_aurel
+have npc_deckhand
+have boss_vael
+have boss_tempest
+have boss_solanthos
+act6 characters done
+requested fallen_seraph fallen angel walking forward, broken wing dragging ['south', 'south-east', 'east', 'north-east', 'north']
+fallen_seraph fallen angel walking forward, broken wing dragging now ['south']
+fallen_seraph fallen angel walking forward, broken wing dragging now ['east', 'south', 'south-east']
+fallen_seraph fallen angel walking forward, broken wing dragging now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched fallen_seraph
+done fallen_seraph fallen angel walking forward, broken wing dragging
+requested fallen_seraph fallen angel diving forward and thrusting the spear of light ['south', 'south-east', 'east', 'north-east', 'north']
+fallen_seraph fallen angel diving forward and thrusting the spear of light now ['east']
+fallen_seraph fallen angel diving forward and thrusting the spear of light now ['east', 'south']
+fallen_seraph fallen angel diving forward and thrusting the spear of light now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched fallen_seraph
+done fallen_seraph fallen angel diving forward and thrusting the spear of light
+requested storm_drake storm drake running forward on all four legs ['south', 'south-east', 'east', 'north-east', 'north']
+storm_drake storm drake running forward on all four legs now ['south']
+storm_drake storm drake running forward on all four legs now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched storm_drake
+done storm_drake storm drake running forward on all four legs
+requested storm_drake storm drake breathing lightning, staying on all four legs ['south', 'south-east', 'east', 'north-east', 'north']
+storm_drake storm drake breathing lightning, staying on all four legs now ['south', 'south-east']
+storm_drake storm drake breathing lightning, staying on all four legs now ['north', 'south', 'south-east']
+storm_drake storm drake breathing lightning, staying on all four legs now ['east', 'north', 'south', 'south-east']
+storm_drake storm drake breathing lightning, staying on all four legs now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched storm_drake
+done storm_drake storm drake breathing lightning, staying on all four legs
+requested ash_harpy harpy running forward, wings spread ['south', 'south-east', 'east', 'north-east', 'north']
+ash_harpy harpy running forward, wings spread now ['east', 'south-east']
+ash_harpy harpy running forward, wings spread now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched ash_harpy
+done ash_harpy harpy running forward, wings spread
+requested ash_harpy harpy slashing with its talons ['south', 'south-east', 'east', 'north-east', 'north']
+ash_harpy harpy slashing with its talons now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched ash_harpy
+done ash_harpy harpy slashing with its talons
+requested gilded_sentinel stone angel statue walking forward heavily ['south', 'south-east', 'east', 'north-east', 'north']
+gilded_sentinel stone angel statue walking forward heavily now ['east', 'north-east', 'south-east']
+gilded_sentinel stone angel statue walking forward heavily now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched gilded_sentinel
+done gilded_sentinel stone angel statue walking forward heavily
+requested gilded_sentinel stone angel statue slamming its great sword down ['south', 'south-east', 'east', 'north-east', 'north']
+gilded_sentinel stone angel statue slamming its great sword down now ['east', 'north', 'north-east', 'south']
+gilded_sentinel stone angel statue slamming its great sword down now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched gilded_sentinel
+done gilded_sentinel stone angel statue slamming its great sword down
+requested sun_zealot sun cultist walking forward ['south', 'south-east', 'east', 'north-east', 'north']
+sun_zealot sun cultist walking forward now ['south']
+sun_zealot sun cultist walking forward now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched sun_zealot
+done sun_zealot sun cultist walking forward
+requested sun_zealot sun cultist raising the burning staff to cast ['south', 'south-east', 'east', 'north-east', 'north']
+sun_zealot sun cultist raising the burning staff to cast now ['east', 'south']
+sun_zealot sun cultist raising the burning staff to cast now ['east', 'north-east', 'south', 'south-east']
+requested sun_zealot sun cultist raising the burning staff to cast ['north']
+sun_zealot sun cultist raising the burning staff to cast now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched sun_zealot
+done sun_zealot sun cultist raising the burning staff to cast
+requested boss_vael fallen archangel striding forward, wings spread ['south', 'south-east', 'east', 'north-east', 'north']
+boss_vael fallen archangel striding forward, wings spread now ['east', 'north-east', 'south-east']
+boss_vael fallen archangel striding forward, wings spread now ['east', 'north-east', 'south', 'south-east']
+boss_vael fallen archangel striding forward, wings spread now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_vael
+done boss_vael fallen archangel striding forward, wings spread
+requested boss_vael fallen archangel thrusting the burning spear ['south', 'south-east', 'east', 'north-east', 'north']
+boss_vael fallen archangel thrusting the burning spear now ['south']
+boss_vael fallen archangel thrusting the burning spear now ['east', 'north', 'south', 'south-east']
+boss_vael fallen archangel thrusting the burning spear now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_vael
+done boss_vael fallen archangel thrusting the burning spear
+requested boss_tempest dragon prowling forward on all four legs, wings folded ['south', 'south-east', 'east', 'north-east', 'north']
+boss_tempest dragon prowling forward on all four legs, wings folded now ['east', 'north-east', 'south', 'south-east']
+boss_tempest dragon prowling forward on all four legs, wings folded now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_tempest
+done boss_tempest dragon prowling forward on all four legs, wings folded
+requested boss_tempest dragon lowering its head and breathing lightning, staying on all four legs ['south', 'south-east', 'east', 'north-east', 'north']
+boss_tempest dragon lowering its head and breathing lightning, staying on all four legs now ['east', 'north', 'south', 'south-east']
+boss_tempest dragon lowering its head and breathing lightning, staying on all four legs now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_tempest
+done boss_tempest dragon lowering its head and breathing lightning, staying on all four legs
+requested boss_solanthos burnt-out sun god striding forward, embers falling ['south', 'south-east', 'east', 'north-east', 'north']
+boss_solanthos burnt-out sun god striding forward, embers falling now ['east', 'north-east', 'south-east']
+boss_solanthos burnt-out sun god striding forward, embers falling now ['east', 'north-east', 'south', 'south-east']
+boss_solanthos burnt-out sun god striding forward, embers falling now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_solanthos
+done boss_solanthos burnt-out sun god striding forward, embers falling
+requested boss_solanthos burnt-out sun god raising both arms and unleashing a solar flare ['south', 'south-east', 'east', 'north-east', 'north']
+boss_solanthos burnt-out sun god raising both arms and unleashing a solar flare now ['north-east', 'south-east']
+boss_solanthos burnt-out sun god raising both arms and unleashing a solar flare now ['east', 'north', 'north-east', 'south-east']
+boss_solanthos burnt-out sun god raising both arms and unleashing a solar flare now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_solanthos
+done boss_solanthos burnt-out sun god raising both arms and unleashing a solar flare
+requested npc_deckhand deckhand walking forward ['south', 'south-east', 'east', 'north-east', 'north']
+npc_deckhand deckhand walking forward now ['east', 'north', 'north-east']
+npc_deckhand deckhand walking forward now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched npc_deckhand
+done npc_deckhand deckhand walking forward
+act6 chars done
+DONE

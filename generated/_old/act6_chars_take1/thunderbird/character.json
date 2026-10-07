@@ -1,0 +1,38 @@
+{
+  "id": "2acd2ecc-22a0-4a38-97a8-7323d2b18d2b",
+  "name": "a huge eagle-like thunderbird with dark storm-blue...",
+  "state_name": "Idle",
+  "prompt": "a huge eagle-like thunderbird with dark storm-blue feathers, lightning crackling between its wingtips, glowing white eyes, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 92,
+    "height": 92
+  },
+  "directions": 8,
+  "created_at": "2026-10-07T18:21:41.436257+00:00",
+  "updated_at": "2026-10-07T18:22:51.225408+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2acd2ecc-22a0-4a38-97a8-7323d2b18d2b/rotations/south.png?t=1791397371",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2acd2ecc-22a0-4a38-97a8-7323d2b18d2b/rotations/west.png?t=1791397371",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2acd2ecc-22a0-4a38-97a8-7323d2b18d2b/rotations/east.png?t=1791397371",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2acd2ecc-22a0-4a38-97a8-7323d2b18d2b/rotations/north.png?t=1791397371",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2acd2ecc-22a0-4a38-97a8-7323d2b18d2b/rotations/south-east.png?t=1791397371",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2acd2ecc-22a0-4a38-97a8-7323d2b18d2b/rotations/north-east.png?t=1791397371",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2acd2ecc-22a0-4a38-97a8-7323d2b18d2b/rotations/north-west.png?t=1791397371",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2acd2ecc-22a0-4a38-97a8-7323d2b18d2b/rotations/south-west.png?t=1791397371"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "94f9cbae-c912-48d9-ab34-647a26f144b9",
+  "skeletons": null,
+  "animations": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "26aaf5b4-6103-42b5-8ba5-a9652ffe4c13",
+  "name": "a deserter angel woman with clipped short white wi...",
+  "state_name": "Idle",
+  "prompt": "a deserter angel woman with clipped short white wings, simple grey traveller's clothes over old gold armour, a scar across one eye, calm, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 68,
+    "height": 68
+  },
+  "directions": 8,
+  "created_at": "2026-10-07T18:22:58.795388+00:00",
+  "updated_at": "2026-10-07T18:23:59.578044+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/26aaf5b4-6103-42b5-8ba5-a9652ffe4c13/rotations/south.png?t=1791397439",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/26aaf5b4-6103-42b5-8ba5-a9652ffe4c13/rotations/west.png?t=1791397439",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/26aaf5b4-6103-42b5-8ba5-a9652ffe4c13/rotations/east.png?t=1791397439",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/26aaf5b4-6103-42b5-8ba5-a9652ffe4c13/rotations/north.png?t=1791397439",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/26aaf5b4-6103-42b5-8ba5-a9652ffe4c13/rotations/south-east.png?t=1791397439",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/26aaf5b4-6103-42b5-8ba5-a9652ffe4c13/rotations/north-east.png?t=1791397439",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/26aaf5b4-6103-42b5-8ba5-a9652ffe4c13/rotations/north-west.png?t=1791397439",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/26aaf5b4-6103-42b5-8ba5-a9652ffe4c13/rotations/south-west.png?t=1791397439"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "2106c986-eee4-441e-9f81-e91b91943b72",
+  "skeletons": null,
+  "animations": []
+}

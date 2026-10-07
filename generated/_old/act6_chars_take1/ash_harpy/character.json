@@ -1,0 +1,38 @@
+{
+  "id": "365b80e7-7bef-4040-905c-65e29d8d45e5",
+  "name": "a harpy with grey ash-feathered wings for arms, bi...",
+  "state_name": "Idle",
+  "prompt": "a harpy with grey ash-feathered wings for arms, bird talons for feet, a pale gaunt face and wild white hair, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 76,
+    "height": 76
+  },
+  "directions": 8,
+  "created_at": "2026-10-07T18:16:08.107309+00:00",
+  "updated_at": "2026-10-07T18:17:12.986852+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/365b80e7-7bef-4040-905c-65e29d8d45e5/rotations/south.png?t=1791397032",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/365b80e7-7bef-4040-905c-65e29d8d45e5/rotations/west.png?t=1791397032",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/365b80e7-7bef-4040-905c-65e29d8d45e5/rotations/east.png?t=1791397032",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/365b80e7-7bef-4040-905c-65e29d8d45e5/rotations/north.png?t=1791397032",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/365b80e7-7bef-4040-905c-65e29d8d45e5/rotations/south-east.png?t=1791397032",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/365b80e7-7bef-4040-905c-65e29d8d45e5/rotations/north-east.png?t=1791397032",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/365b80e7-7bef-4040-905c-65e29d8d45e5/rotations/north-west.png?t=1791397032",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/365b80e7-7bef-4040-905c-65e29d8d45e5/rotations/south-west.png?t=1791397032"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "8646efd2-e208-4e12-aa9f-c0c74aeacf65",
+  "skeletons": null,
+  "animations": []
+}

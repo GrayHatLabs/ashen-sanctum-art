@@ -1418,12 +1418,12 @@
       "name": "anglerlurk",
       "file": "anglerlurk.png",
       "cell": [
-        48,
-        58
+        46,
+        36
       ],
       "anchor": [
-        24,
-        50
+        23,
+        34
       ],
       "anims": [
         {
@@ -1431,18 +1431,6 @@
           "row": 0,
           "frames": 1,
           "fps": 1
-        },
-        {
-          "name": "walk",
-          "row": 8,
-          "frames": 6,
-          "fps": 8
-        },
-        {
-          "name": "attack",
-          "row": 16,
-          "frames": 6,
-          "fps": 13
         }
       ]
     },
@@ -1766,6 +1754,408 @@
       "anchor": [
         62,
         122
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
+      "name": "fallen_seraph",
+      "file": "fallen_seraph.png",
+      "cell": [
+        84,
+        82
+      ],
+      "anchor": [
+        30,
+        61
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 13
+        }
+      ]
+    },
+    {
+      "name": "ophanim",
+      "file": "ophanim.png",
+      "cell": [
+        34,
+        37
+      ],
+      "anchor": [
+        17,
+        35
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "storm_drake",
+      "file": "storm_drake.png",
+      "cell": [
+        68,
+        66
+      ],
+      "anchor": [
+        34,
+        47
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 11
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 11
+        }
+      ]
+    },
+    {
+      "name": "ash_harpy",
+      "file": "ash_harpy.png",
+      "cell": [
+        81,
+        77
+      ],
+      "anchor": [
+        31,
+        59
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 12
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 14
+        }
+      ]
+    },
+    {
+      "name": "gilded_sentinel",
+      "file": "gilded_sentinel.png",
+      "cell": [
+        100,
+        106
+      ],
+      "anchor": [
+        36,
+        80
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 6
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 9
+        }
+      ]
+    },
+    {
+      "name": "sun_zealot",
+      "file": "sun_zealot.png",
+      "cell": [
+        72,
+        82
+      ],
+      "anchor": [
+        27,
+        62
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
+      "name": "thunderbird",
+      "file": "thunderbird.png",
+      "cell": [
+        58,
+        59
+      ],
+      "anchor": [
+        29,
+        57
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_seraphine",
+      "file": "npc_seraphine.png",
+      "cell": [
+        28,
+        47
+      ],
+      "anchor": [
+        14,
+        42
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_bram",
+      "file": "npc_bram.png",
+      "cell": [
+        24,
+        52
+      ],
+      "anchor": [
+        12,
+        46
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_aurel",
+      "file": "npc_aurel.png",
+      "cell": [
+        20,
+        48
+      ],
+      "anchor": [
+        10,
+        42
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_deckhand",
+      "file": "npc_deckhand.png",
+      "cell": [
+        38,
+        69
+      ],
+      "anchor": [
+        12,
+        52
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        }
+      ]
+    },
+    {
+      "name": "boss_vael",
+      "file": "boss_vael.png",
+      "cell": [
+        138,
+        136
+      ],
+      "anchor": [
+        57,
+        109
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 11
+        }
+      ]
+    },
+    {
+      "name": "boss_tempest",
+      "file": "boss_tempest.png",
+      "cell": [
+        182,
+        141
+      ],
+      "anchor": [
+        72,
+        88
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 9
+        }
+      ]
+    },
+    {
+      "name": "boss_ophan",
+      "file": "boss_ophan.png",
+      "cell": [
+        92,
+        108
+      ],
+      "anchor": [
+        46,
+        106
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_solanthos",
+      "file": "boss_solanthos.png",
+      "cell": [
+        129,
+        137
+      ],
+      "anchor": [
+        45,
+        108
       ],
       "anims": [
         {
@@ -2913,6 +3303,54 @@
       ]
     },
     {
+      "name": "cloud_marble1",
+      "file": "cloud_marble1.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "cloud_marble2",
+      "file": "cloud_marble2.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "sky_grass",
+      "file": "sky_grass.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "chain_bridge",
+      "file": "chain_bridge.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "choir_floor",
+      "file": "choir_floor.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "zenith_floor",
+      "file": "zenith_floor.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
       "name": "wall",
       "file": "wall_stack.png",
       "anchor": [
@@ -2987,6 +3425,22 @@
     {
       "name": "sanctum_wall",
       "file": "sanctum_wall_stack.png",
+      "anchor": [
+        16,
+        56
+      ]
+    },
+    {
+      "name": "marble_wall",
+      "file": "marble_wall_stack.png",
+      "anchor": [
+        16,
+        56
+      ]
+    },
+    {
+      "name": "storm_wall",
+      "file": "storm_wall_stack.png",
       "anchor": [
         16,
         56
@@ -3521,6 +3975,70 @@
     {
       "name": "brk_urn_4",
       "file": "prop_brk_urn_4.png"
+    },
+    {
+      "name": "angel_statue",
+      "file": "prop_angel_statue.png"
+    },
+    {
+      "name": "halo_arch",
+      "file": "prop_halo_arch.png"
+    },
+    {
+      "name": "sky_lamp",
+      "file": "prop_sky_lamp.png"
+    },
+    {
+      "name": "cloud_tree",
+      "file": "prop_cloud_tree.png"
+    },
+    {
+      "name": "marble_ruin",
+      "file": "prop_marble_ruin.png"
+    },
+    {
+      "name": "sky_house1",
+      "file": "prop_sky_house1.png"
+    },
+    {
+      "name": "sky_house2",
+      "file": "prop_sky_house2.png"
+    },
+    {
+      "name": "airship_dock",
+      "file": "prop_airship_dock.png"
+    },
+    {
+      "name": "light_stair",
+      "file": "prop_light_stair.png"
+    },
+    {
+      "name": "ent_brokenchoir",
+      "file": "prop_ent_brokenchoir.png"
+    },
+    {
+      "name": "ent_spire",
+      "file": "prop_ent_spire.png"
+    },
+    {
+      "name": "ent_wheel",
+      "file": "prop_ent_wheel.png"
+    },
+    {
+      "name": "ent_zenith",
+      "file": "prop_ent_zenith.png"
+    },
+    {
+      "name": "brk_crate_5",
+      "file": "prop_brk_crate_5.png"
+    },
+    {
+      "name": "brk_barrel_5",
+      "file": "prop_brk_barrel_5.png"
+    },
+    {
+      "name": "brk_urn_5",
+      "file": "prop_brk_urn_5.png"
     }
   ]
 }

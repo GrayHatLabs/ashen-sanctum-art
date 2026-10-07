@@ -1,0 +1,38 @@
+{
+  "id": "4dc775aa-3eff-42f6-8f8c-497fdac05d5c",
+  "name": "a gentle healer nun woman in white and pale gold r...",
+  "state_name": "Idle",
+  "prompt": "a gentle healer nun woman in white and pale gold robes with a small sun pendant, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 68,
+    "height": 68
+  },
+  "directions": 8,
+  "created_at": "2026-10-07T18:25:32.024304+00:00",
+  "updated_at": "2026-10-07T18:26:19.972477+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4dc775aa-3eff-42f6-8f8c-497fdac05d5c/rotations/south.png?t=1791397579",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4dc775aa-3eff-42f6-8f8c-497fdac05d5c/rotations/west.png?t=1791397579",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4dc775aa-3eff-42f6-8f8c-497fdac05d5c/rotations/east.png?t=1791397579",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4dc775aa-3eff-42f6-8f8c-497fdac05d5c/rotations/north.png?t=1791397579",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4dc775aa-3eff-42f6-8f8c-497fdac05d5c/rotations/south-east.png?t=1791397579",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4dc775aa-3eff-42f6-8f8c-497fdac05d5c/rotations/north-east.png?t=1791397579",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4dc775aa-3eff-42f6-8f8c-497fdac05d5c/rotations/north-west.png?t=1791397579",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/4dc775aa-3eff-42f6-8f8c-497fdac05d5c/rotations/south-west.png?t=1791397579"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "6fdb5792-6f10-4d21-90fd-fc2455c31ca5",
+  "skeletons": null,
+  "animations": []
+}

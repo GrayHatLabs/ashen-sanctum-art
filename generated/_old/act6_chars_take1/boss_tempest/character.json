@@ -1,0 +1,38 @@
+{
+  "id": "5fe46315-08dc-4400-9ade-33f98b8cb104",
+  "name": "a great tempest dragon of storm-violet scales with...",
+  "state_name": "Idle",
+  "prompt": "a great tempest dragon of storm-violet scales with glowing blue lightning veins, huge wings and a crown of storm clouds, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 156,
+    "height": 156
+  },
+  "directions": 8,
+  "created_at": "2026-10-07T18:32:59.538540+00:00",
+  "updated_at": "2026-10-07T18:35:23.963856+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/5fe46315-08dc-4400-9ade-33f98b8cb104/rotations/south.png?t=1791398123",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/5fe46315-08dc-4400-9ade-33f98b8cb104/rotations/west.png?t=1791398123",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/5fe46315-08dc-4400-9ade-33f98b8cb104/rotations/east.png?t=1791398123",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/5fe46315-08dc-4400-9ade-33f98b8cb104/rotations/north.png?t=1791398123",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/5fe46315-08dc-4400-9ade-33f98b8cb104/rotations/south-east.png?t=1791398123",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/5fe46315-08dc-4400-9ade-33f98b8cb104/rotations/north-east.png?t=1791398123",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/5fe46315-08dc-4400-9ade-33f98b8cb104/rotations/north-west.png?t=1791398123",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/5fe46315-08dc-4400-9ade-33f98b8cb104/rotations/south-west.png?t=1791398123"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "3106b342-4059-45dc-a214-1b82828c1101",
+  "skeletons": null,
+  "animations": []
+}

@@ -1,0 +1,38 @@
+{
+  "id": "2cb0c5f6-3f2c-4660-bb61-8c32ec2ac62f",
+  "name": "a colossal floating holy wheel of many interlockin...",
+  "state_name": "Idle",
+  "prompt": "a colossal floating holy wheel of many interlocking golden rings turning at different angles, hundreds of open eyes along the rings, a blazing white core, crackling light, an abstract floating object, no body, no head, no limbs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 148,
+    "height": 148
+  },
+  "directions": 8,
+  "created_at": "2026-10-07T19:31:13.948743+00:00",
+  "updated_at": "2026-10-07T19:33:38.620441+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2cb0c5f6-3f2c-4660-bb61-8c32ec2ac62f/rotations/south.png?t=1791401618",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2cb0c5f6-3f2c-4660-bb61-8c32ec2ac62f/rotations/west.png?t=1791401618",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2cb0c5f6-3f2c-4660-bb61-8c32ec2ac62f/rotations/east.png?t=1791401618",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2cb0c5f6-3f2c-4660-bb61-8c32ec2ac62f/rotations/north.png?t=1791401618",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2cb0c5f6-3f2c-4660-bb61-8c32ec2ac62f/rotations/south-east.png?t=1791401618",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2cb0c5f6-3f2c-4660-bb61-8c32ec2ac62f/rotations/north-east.png?t=1791401618",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2cb0c5f6-3f2c-4660-bb61-8c32ec2ac62f/rotations/north-west.png?t=1791401618",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2cb0c5f6-3f2c-4660-bb61-8c32ec2ac62f/rotations/south-west.png?t=1791401618"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "e6ea582a-90f0-46bf-82e9-bfe3ea165a20",
+  "skeletons": null,
+  "animations": []
+}

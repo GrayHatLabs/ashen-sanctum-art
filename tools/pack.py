@@ -124,10 +124,10 @@ CHARS = {
                   ("attack", "dire wolf lunging forward and biting", 14)],
     # ---- the Druid (tools/druid_art.py) ----
     # The Inquisitor (tools/inquisitor_art.py); her iron halo is painted on by tools/inquisitor_halo.py.
-    "inquisitor_hero": [("idle", None, 1), ("walk", "walking forward with long clear strides, legs stepping one after the other, long coat parting around her moving legs, censer swinging at her side", 9),
-                        ("attack", "swinging the spiked censer on its long chain forward like a flail", 14),
+    "inquisitor_hero": [("idle", None, 1), ("walk", "walking forward, long gown swaying with each step, feet stepping out under the hem, censer swinging", 9),
+                        ("attack", "swinging the golden censer on its long chain forward like a flail", 14),
                         ("cast", "pointing one hand forward to burn a glowing sigil, censer hanging", 12),
-                        ("spin", "spinning in place swinging the censer on its chain around her body", 14)],
+                        ("spin", "spinning in place swinging the censer on its chain around her body, gown flaring", 14)],
     "druid": [("idle", None, 1), ("walk", "walking forward calmly with the thorn staff, skirt trailing", 9),
               ("cast", "raising the thorn staff and casting glowing green plague magic", 12),
               ("summon", "kneeling and pressing one hand to the ground to summon creatures", 10)],

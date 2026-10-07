@@ -1556,12 +1556,12 @@
       "name": "inquisitor_hero",
       "file": "inquisitor_hero.png",
       "cell": [
-        96,
-        76
+        82,
+        82
       ],
       "anchor": [
-        39,
-        62
+        36,
+        65
       ],
       "anims": [
         {

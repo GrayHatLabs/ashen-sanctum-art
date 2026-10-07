@@ -10,3 +10,10 @@ fetched berserker
 done berserker striding forward with the giant axe resting on her right shoulder held by the haft in both hands, the axe stays on her shoulder the whole time, one axe only
 walk retake done berserker
 requested valkyrie walking forward holding the long spear upright at her side, the spear point always up, the same grip in every step ['south', 'south-east', 'east', 'north-east', 'north']
+valkyrie walking forward holding the long spear upright at her side, the spear point always up, the same grip in every step now ['east', 'north-east', 'south']
+valkyrie walking forward holding the long spear upright at her side, the spear point always up, the same grip in every step now ['east', 'north-east', 'south', 'south-east']
+valkyrie walking forward holding the long spear upright at her side, the spear point always up, the same grip in every step now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched valkyrie
+done valkyrie walking forward holding the long spear upright at her side, the spear point always up, the same grip in every step
+walk retake done valkyrie
+requested druid walking forward calmly leaning on the tall twisted thorn staff held upright in one hand, the whole staff always visible from the ground to the glowing green orb at the top ['south', 'south-east', 'east', 'north-east', 'north']

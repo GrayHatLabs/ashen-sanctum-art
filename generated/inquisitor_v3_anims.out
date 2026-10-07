@@ -1,0 +1,23 @@
+requested inquisitor_hero walking forward, long gown swaying with each step, feet stepping out under the hem, censer swinging ['south', 'south-east', 'east', 'north-east', 'north']
+inquisitor_hero walking forward, long gown swaying with each step, feet stepping out under the hem, censer swinging now ['east', 'north', 'south', 'south-east']
+inquisitor_hero walking forward, long gown swaying with each step, feet stepping out under the hem, censer swinging now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched inquisitor_hero
+done inquisitor_hero walking forward, long gown swaying with each step, feet stepping out under the hem, censer swinging
+requested inquisitor_hero swinging the golden censer on its long chain forward like a flail ['south', 'south-east', 'east', 'north-east', 'north']
+inquisitor_hero swinging the golden censer on its long chain forward like a flail now ['north', 'south']
+inquisitor_hero swinging the golden censer on its long chain forward like a flail now ['north', 'south', 'south-east']
+inquisitor_hero swinging the golden censer on its long chain forward like a flail now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched inquisitor_hero
+done inquisitor_hero swinging the golden censer on its long chain forward like a flail
+requested inquisitor_hero pointing one hand forward to burn a glowing sigil, censer hanging ['south', 'south-east', 'east', 'north-east', 'north']
+inquisitor_hero pointing one hand forward to burn a glowing sigil, censer hanging now ['north-east']
+inquisitor_hero pointing one hand forward to burn a glowing sigil, censer hanging now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched inquisitor_hero
+done inquisitor_hero pointing one hand forward to burn a glowing sigil, censer hanging
+requested inquisitor_hero spinning in place swinging the censer on its chain around her body, gown flaring ['south', 'south-east', 'east', 'north-east', 'north']
+inquisitor_hero spinning in place swinging the censer on its chain around her body, gown flaring now ['north-east', 'south']
+inquisitor_hero spinning in place swinging the censer on its chain around her body, gown flaring now ['north', 'north-east', 'south', 'south-east']
+inquisitor_hero spinning in place swinging the censer on its chain around her body, gown flaring now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched inquisitor_hero
+done inquisitor_hero spinning in place swinging the censer on its chain around her body, gown flaring
+inquisitor v3 anims done

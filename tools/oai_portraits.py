@@ -51,7 +51,16 @@ HEROES = {
                 "her other hand rests on a cutlass hilt at her hip; brass lanterns and gears hang on chains from her belt; thigh-high "
                 "laced black boots with skull buckles. Colour: add a little earthy red (rust and oxblood) to warm the browns: "
                 "the coat's lining and tattered hem, a sash at her waist, the hat feathers and the trim.",
-    "valkyrie": "A dark nordic frost valkyrie warrior queen: very long ash-black hair fading to icy silver-blue at the ends with "
+    # Take 2 (the user: "more attractive, less like a zombie, sharp colours to contrast the black").
+    "valkyrie": "A beautiful, fierce nordic frost valkyrie warrior queen with a striking, attractive face: fair, healthy, glowing skin "
+                "with a hint of warmth in her cheeks and lips (NOT grey, NOT blue, NOT undead), bright piercing ice-blue eyes, "
+                "confident expression. Very long glossy black hair with vivid icy silver-blue streaks and braids, a gleaming silver "
+                "crown. A blackened-steel breastplate inlaid with bright glowing cyan runes, polished silver trim and pauldrons, a "
+                "white-and-silver fur mantle on one shoulder, a layered black battle skirt with vivid electric-blue and silver "
+                "panels, dark steel boots with silver, holding upright a long rune spear whose blade is a brilliant glowing shard of "
+                "glacier ice. Sharp, high-contrast colours against the black: bright silver, white, vivid ice-blue and cyan glow. "
+                "No wings. Absolutely no red.",
+    "valkyrie_old": "A dark nordic frost valkyrie warrior queen: very long ash-black hair fading to icy silver-blue at the ends with "
                 "braids, a silver crown, glowing glacier-blue eyes, a blackened-steel breastplate with glowing blue runes, a black fur "
                 "mantle on one shoulder, a layered black and midnight-blue battle skirt, dark steel knee-high boots, holding upright an "
                 "enormous dark iron and silver rune spear whose blade is a glowing shard of glacier ice. No wings. Absolutely no red: "
@@ -60,7 +69,15 @@ HEROES = {
                  "braided hair, an iron spike crown, a black leather and iron corset, a big wolf-fur mantle, bare muscular arms, a "
                  "leather and fur skirt, knee-high fur boots, carrying a gigantic two-handed executioner's battle axe over one "
                  "shoulder. Palette: blackened iron, dark leather, wolf-fur grey, earthy brown, muted bronze, a little dried crimson.",
-    "reaper": "A gothic reaper woman with very long flowing silver-grey hair (no hood), pale face, a black gown and long black cloak "
+    # Take 2 (the user: "more human, give her some colour, make her runes glow").
+    "reaper": "A beautiful gothic reaper woman with a human, living face: fair skin with natural warmth, soft rose lips, "
+              "striking bright pale-blue eyes, a calm, knowing expression (NOT undead, NOT grey, NOT a corpse). Very long flowing "
+              "silver-white hair, no hood. A black gown and a long black cloak lined with deep midnight-blue and violet satin, "
+              "silver clasps, and runes that GLOW brightly: luminous cyan-blue rune symbols down the front, on the sleeves and "
+              "along the hem, casting a soft blue light on her gown and face. She holds a huge black scythe whose blade carries "
+              "the same brightly glowing cyan runes. Rich, high-contrast colour against the black: glowing cyan, deep blue and "
+              "violet, silver. Absolutely no red.",
+    "reaper_old": "A gothic reaper woman with very long flowing silver-grey hair (no hood), pale face, a black gown and long black cloak "
               "decorated with bright glowing cyan rune symbols down the front, on the sleeves and along the hem, holding a huge black "
               "scythe with glowing blue runes on its blade.",
     "druid": "A gothic plague druid woman with a crown of black thorn branches like antlers, very long tangled chestnut hair with ivy, "

@@ -28,10 +28,24 @@ WALKS = {
 }
 
 
+# Take 2 (2026-10-06): PixelLab animates from the standing pose, where each weapon is held LOW. Asking for it
+# raised made the first frames lift it, so it snapped back down as the walk looped. Keep the standing grip.
+WALKS2 = {
+    "reaper": "walking forward with steady steps, holding the scythe low at her side exactly as in her standing pose, the "
+              "scythe does not move up or down, legs stepping under the gown",
+    "berserker": "walking forward with heavy strides, holding the giant axe low at her right side exactly as in her standing "
+                 "pose, the axe does not lift or swing, one axe only, legs stepping",
+    "valkyrie": "walking forward with steady strides, holding the spear low at her side exactly as in her standing pose, the "
+                "spear does not lift or turn, legs stepping",
+}
+
+
 def main(heroes):
     import world_art
-    for h in heroes or list(WALKS):
-        act2_art.safe(world_art.run_anim, h, WALKS[h], 6)
+    table = WALKS2 if heroes and heroes[0] == "take2" else WALKS
+    heroes = heroes[1:] if heroes and heroes[0] == "take2" else heroes
+    for h in heroes or list(table):
+        act2_art.safe(world_art.run_anim, h, table[h], 6)
         print("walk retake done", h, flush=True)
 
 

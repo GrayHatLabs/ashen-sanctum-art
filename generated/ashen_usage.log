@@ -526,3 +526,10 @@
 2026-10-06 19:04:49 valkyrie animate walking diagonally forward with clear long strides, holding one spear low in her right hand pointing down and forward, a single spearhead at the front end only, the spear does not cross behind her body job=0ac385d4-828c-4af1-bc7c-cf14e2262e90 status=completed {"type": "generations", "generations": 1.0}
 2026-10-06 19:08:03 valkyrie animate walking diagonally forward with clear long strides, holding one spear low in her right hand pointing down and forward, a single spearhead at the front end only, the spear does not cross behind her body job=95c0bb60-b028-41d2-b7a7-457a3bf6087f status=completed {"type": "generations", "generations": 1.0}
 2026-10-06 19:12:07 druid request walking forward with clear steps, her legs visibly stepping one after the other under the torn skirt, holding the tall twisted thorn staff upright in one hand, the whole staff always visible from the ground to the glowing green orb at the top ['south-east', 'east', 'north-east', 'north'] null
+2026-10-06 19:21:39 berserker character job=4def0049-d3e9-4a74-bd33-d1f6521574d5 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 19:21:54 berserker request walking forward with heavy strides, holding the one axe in her right hand in front of her exactly as in her standing pose, legs stepping ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 19:24:21 berserker request swinging the single axe in a wide horizontal cleave ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 19:26:53 berserker request raising the single axe high and chopping straight down ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 19:29:28 berserker request spinning around in a full circle with the single axe held out ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 19:32:08 berserker request hurling the single axe forward with both hands ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 19:35:53 berserker request throwing her head back and roaring a war cry, the single axe raised ['south', 'south-east', 'east', 'north-east', 'north'] null

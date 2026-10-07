@@ -100,6 +100,38 @@ def portrait():
             print("saved background", flush=True)
 
 
+# v2 (the user, 2026-10-06: "sometimes she has two weapons"). The long haft passed behind her on the diagonals
+# with a head showing at each end. One single-bladed axe, held in front of her, short enough to stay in view.
+SPRITE_V2 = (
+    "muscular barbarian berserker woman, long wild ash-brown braided hair, iron spike crown, black leather and iron corset, "
+    "big wolf-fur mantle, bare muscular arms, leather and fur skirt, knee-high fur boots, holding ONE big single-bladed "
+    "battle axe in her right hand in front of her body, a single axe head on top of the haft, the haft does not pass behind "
+    f"her, {PALETTE}"
+)
+ANIMS_V2 = [
+    ("berserker", "walking forward with heavy strides, holding the one axe in her right hand in front of her exactly as in "
+                  "her standing pose, legs stepping", 6),
+    ("berserker", "swinging the single axe in a wide horizontal cleave", 6),
+    ("berserker", "raising the single axe high and chopping straight down", 6),
+    ("berserker", "spinning around in a full circle with the single axe held out", 6),
+    ("berserker", "hurling the single axe forward with both hands", 6),
+    ("berserker", "throwing her head back and roaring a war cry, the single axe raised", 6),
+]
+
+
+def sprite_v2():
+    if not (gen.GEN / "berserker" / "rotation_urls_south.png").exists():
+        act2_art.safe(gen.character, "berserker", f"{SPRITE_V2}, {HEADS}", 56, "heroic", "")
+    print("sprite v2 done", flush=True)
+
+
+def anims_v2():
+    import world_art
+    for name, action, frames in ANIMS_V2:
+        act2_art.safe(world_art.run_anim, name, action, frames)
+    print("berserker v2 anims done", flush=True)
+
+
 def sprite():
     if not (gen.GEN / "berserker" / "rotation_urls_south.png").exists():
         act2_art.safe(gen.character, "berserker", f"{SPRITE}, {HEADS}", 56, "heroic", "")
@@ -132,4 +164,4 @@ def review():
 
 if __name__ == "__main__":
     {"portrait": portrait, "sprite": sprite, "anims": anims, "extras": extras, "review": review,
-     "all": lambda: (portrait(), sprite(), anims(), extras())}[sys.argv[1]]()
+     "all": lambda: (portrait(), sprite(), anims(), extras()), "sprite2": sprite_v2, "anims2": anims_v2}[sys.argv[1]]()

@@ -114,12 +114,12 @@ CHARS = {
     "einherjar": [("idle", None, 1), ("walk", "ghost warrior walking forward with shield raised", 9),
                   ("attack", "ghost warrior swinging the axe", 12)],
     # ---- the Berserker (tools/berserker_art.py) ----
-    "berserker": [("idle", None, 1), ("walk", "walking forward with heavy strides, holding the giant axe low at her right side exactly as in her standing pose, the axe does not lift or swing, one axe only, legs stepping", 9),
-                  ("attack", "swinging the giant axe in a wide horizontal cleave", 14),
-                  ("chop", "raising the giant axe high and chopping straight down", 12),
-                  ("whirl", "spinning around in a full circle with the axe held out", 14),
-                  ("throw", "hurling the giant axe forward with both hands", 14),
-                  ("cast", "throwing her head back and roaring a war cry, axe raised", 10)],
+    "berserker": [("idle", None, 1), ("walk", "walking forward with heavy strides, holding the one axe in her right hand in front of her exactly as in her standing pose, legs stepping", 9),
+                  ("attack", "swinging the single axe in a wide horizontal cleave", 14),
+                  ("chop", "raising the single axe high and chopping straight down", 12),
+                  ("whirl", "spinning around in a full circle with the single axe held out", 14),
+                  ("throw", "hurling the single axe forward with both hands", 14),
+                  ("cast", "throwing her head back and roaring a war cry, the single axe raised", 10)],
     "dire_wolf": [("idle", None, 1), ("walk", "dire wolf running fast, loping gallop", 12),
                   ("attack", "dire wolf lunging forward and biting", 14)],
     # ---- the Druid (tools/druid_art.py) ----

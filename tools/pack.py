@@ -102,7 +102,7 @@ CHARS = {
     "boss_clockmaker_engine": [("idle", None, 1), ("walk", "clockwork colossus walking forward heavily", 7),
                                ("attack", "clockwork colossus slamming its pendulum arm down", 9)],
     # ---- the Valkyrie (tools/valkyrie_art.py) ----
-    "valkyrie": [("idle", None, 1), ("walk", "walking forward with purpose, spear held upright, fur mantle swaying", 9),
+    "valkyrie": [("idle", None, 1), ("walk", "walking forward with steady strides, holding the spear low at her side exactly as in her standing pose, the spear does not lift or turn, legs stepping", 9),
                  ("attack", "thrusting the long spear forward in a fast lunge", 16),
                  ("sweep", "sweeping the long spear in a wide horizontal arc", 14),
                  ("whirl", "spinning around in a full circle whirling the spear", 14),
@@ -114,7 +114,7 @@ CHARS = {
     "einherjar": [("idle", None, 1), ("walk", "ghost warrior walking forward with shield raised", 9),
                   ("attack", "ghost warrior swinging the axe", 12)],
     # ---- the Berserker (tools/berserker_art.py) ----
-    "berserker": [("idle", None, 1), ("walk", "striding forward with the giant axe over her shoulder", 9),
+    "berserker": [("idle", None, 1), ("walk", "walking forward with heavy strides, holding the giant axe low at her right side exactly as in her standing pose, the axe does not lift or swing, one axe only, legs stepping", 9),
                   ("attack", "swinging the giant axe in a wide horizontal cleave", 14),
                   ("chop", "raising the giant axe high and chopping straight down", 12),
                   ("whirl", "spinning around in a full circle with the axe held out", 14),
@@ -135,7 +135,7 @@ CHARS = {
     "thorn_warden": [("idle", None, 1), ("walk", "tree guardian walking forward heavily", 7),
                      ("attack", "tree guardian smashing down with its root arm", 9)],
     # ---- the Reaper (tools/reaper_art.py) ----
-    "reaper": [("idle", None, 1), ("walk", "walking calmly forward with steady steps, holding the scythe still and upright at her side, no swinging", 8),
+    "reaper": [("idle", None, 1), ("walk", "walking forward with steady steps, holding the scythe low at her side exactly as in her standing pose, the scythe does not move up or down, legs stepping under the gown", 8),
                ("attack", "sweeping the great scythe in a wide horizontal arc", 14),
                ("cast", "raising one hand to cast spectral blue rune magic, scythe in the other hand", 12),
                ("spin", "spinning in a full circle with the scythe held out", 14)],
@@ -168,11 +168,47 @@ CHARS = {
     "boss_dragon": [("idle", None, 1), ("walk", "dragon prowling forward on all four legs, wings folded", 7),
                     ("attack", "dragon lowering its head and breathing a blast of frost, staying on all four legs", 9)],
 }
+# Frames to use, in order, where a few in the middle went wrong (the rest of the cycle stays).
+PICK = {
+    # The Reaper's walk (take 2): walking away she lifts the scythe for two frames; skip them.
+    ("reaper", "walk", "north"): [0, 1, 4, 5],
+}
+# Stray detached blobs to erase (smaller than this many pixels, not touching the figure).
+CLEAN = {
+    ("valkyrie", "walk", "east"): 120,
+}
+
+
+def drop_specks(im, limit):
+    """Erases small groups of opaque pixels that aren't part of the largest one (the figure)."""
+    im = im.convert("RGBA").copy()
+    px = im.load()
+    w, h = im.size
+    seen, comps = set(), []
+    for y in range(h):
+        for x in range(w):
+            if (x, y) in seen or px[x, y][3] == 0:
+                continue
+            st, comp = [(x, y)], []
+            seen.add((x, y))
+            while st:
+                a, b = st.pop()
+                comp.append((a, b))
+                for q in ((a + 1, b), (a - 1, b), (a, b + 1), (a, b - 1), (a + 1, b + 1), (a - 1, b - 1), (a + 1, b - 1), (a - 1, b + 1)):
+                    if 0 <= q[0] < w and 0 <= q[1] < h and q not in seen and px[q][3] > 0:
+                        seen.add(q)
+                        st.append(q)
+            comps.append(comp)
+    comps.sort(key=len)
+    for c in comps[:-1]:
+        if len(c) < limit:
+            for q in c:
+                px[q] = (0, 0, 0, 0)
+    return im
+
+
 # Directions where PixelLab drifted mid-animation: keep only the first N frames (then hold).
 TRIM = {
-    # The Reaper's walk: going north she lifts the scythe overhead; north-east trails a stray swing arc.
-    ("reaper", "walk", "north"): 3,
-    ("reaper", "walk", "north-east"): 1,
     # Duchess Grimhilde's glide tips into a flat dive at the end (east, and the south-east crouch).
     ("boss_grimhilde", "walk", "east"): 3,
     ("boss_grimhilde", "walk", "south-east"): 3,
@@ -313,6 +349,15 @@ def pack_char(name, spec):
     for game_name, display, fps in spec:
         per_dir = []
         have = anims.get(display, {}) if display else {}
+        # Hand-picked frames and stray-blob cleanup (applied before mirroring, so the mirrored side is fixed too).
+        for dname in list(have):
+            fr = have[dname]
+            if (name, game_name, dname) in CLEAN:
+                fr = [drop_specks(f, CLEAN[(name, game_name, dname)]) for f in fr]
+            pick = PICK.get((name, game_name, dname))
+            if pick:
+                fr = [fr[i] for i in pick if i < len(fr)]
+            have = {**have, dname: fr}
         if display and not have:
             report.append(f"{game_name}: missing")
             continue

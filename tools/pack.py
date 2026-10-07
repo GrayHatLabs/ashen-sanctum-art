@@ -128,7 +128,7 @@ CHARS = {
                         ("attack", "swinging the golden censer on its long chain forward like a flail", 14),
                         ("cast", "pointing one hand forward to burn a glowing sigil, censer hanging", 12),
                         ("spin", "spinning in place swinging the censer on its chain around her body, gown flaring", 14)],
-    "druid": [("idle", None, 1), ("walk", "walking forward calmly with the thorn staff, skirt trailing", 9),
+    "druid": [("idle", None, 1), ("walk", "walking forward with clear steps, her legs visibly stepping one after the other under the torn skirt, holding the tall twisted thorn staff upright in one hand, the whole staff always visible from the ground to the glowing green orb at the top", 9),
               ("cast", "raising the thorn staff and casting glowing green plague magic", 12),
               ("summon", "kneeling and pressing one hand to the ground to summon creatures", 10)],
     "moss_wolf": [("idle", None, 1), ("walk", "wolf running fast, loping gallop", 12), ("attack", "wolf lunging forward and biting", 14)],
@@ -170,6 +170,12 @@ CHARS = {
 }
 # Frames to use, in order, where a few in the middle went wrong (the rest of the cycle stays).
 PICK = {
+    # The Druid's walk (retake): the first frames raise the staff from her standing grip; use the upright ones.
+    ("druid", "walk", "south"): [2, 3, 4, 5],
+    ("druid", "walk", "south-east"): [2, 3, 4, 5],
+    ("druid", "walk", "east"): [2, 3, 4, 5],
+    ("druid", "walk", "north-east"): [2, 3, 4, 5],
+    ("druid", "walk", "north"): [2, 3, 4, 5],
     # The Reaper's walk (take 2): walking away she lifts the scythe for two frames; skip them.
     ("reaper", "walk", "north"): [0, 1, 4, 5],
 }
@@ -340,6 +346,17 @@ def char_frames(name):
             if frames:
                 out.setdefault(key, {})[dd["direction"]] = frames
     rot = {k: load(d / f"rotation_urls_{k}.png") for k in DIRS if (d / f"rotation_urls_{k}.png").exists()}
+    if name == "druid":
+        # Her standing pose held the staff as a short orb; stand her with it upright instead (a frame of her walk),
+        # so the staff doesn't vanish whenever she stops (the user, 2026-10-06).
+        walk = out.get(walk_fix_druid_walk())
+        if walk:
+            for k in ["south", "south-east", "east", "north-east", "north"]:
+                if k in walk:
+                    rot[k] = walk[k][4]
+            for k, src in [("north-west", "north-east"), ("west", "east"), ("south-west", "south-east")]:
+                if src in walk:
+                    rot[k] = ImageOps.mirror(walk[src][4])
     if name == "inventor":
         # The Sky Pirate's hair, matched to her portrait (tools/pirate_hair.py).
         from pirate_hair import fix_frame as hair
@@ -351,6 +368,11 @@ def char_frames(name):
         out = {k: {dd: [fix_frame(f) for f in fs] for dd, fs in v.items()} for k, v in out.items()}
         rot = {k: fix_frame(v) for k, v in rot.items()}
     return out, rot
+
+
+def walk_fix_druid_walk():
+    import walk_fix
+    return walk_fix.WALKS["druid"]
 
 
 def pack_char(name, spec):

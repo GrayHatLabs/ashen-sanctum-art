@@ -1601,7 +1601,7 @@
       "file": "druid.png",
       "cell": [
         67,
-        69
+        70
       ],
       "anchor": [
         31,
@@ -1617,7 +1617,7 @@
         {
           "name": "walk",
           "row": 8,
-          "frames": 6,
+          "frames": 4,
           "fps": 9
         },
         {

@@ -1468,12 +1468,12 @@
       "name": "berserker",
       "file": "berserker.png",
       "cell": [
-        80,
-        80
+        82,
+        86
       ],
       "anchor": [
-        28,
-        59
+        30,
+        64
       ],
       "anims": [
         {

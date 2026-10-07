@@ -533,3 +533,10 @@
 2026-10-06 19:29:28 berserker request spinning around in a full circle with the single axe held out ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-06 19:32:08 berserker request hurling the single axe forward with both hands ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-06 19:35:53 berserker request throwing her head back and roaring a war cry, the single axe raised ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 19:48:53 berserker character job=cd99bbbd-7782-4dbd-8f88-f959b6264863 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 19:49:02 berserker request walking forward with heavy strides, holding the one axe in her right hand in front of her exactly as in her standing pose, legs stepping ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 19:51:31 berserker request swinging the single axe in a wide horizontal cleave ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 19:53:34 berserker request raising the single axe high and chopping straight down ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 19:56:42 berserker request spinning around in a full circle with the single axe held out ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 19:59:21 berserker request hurling the single axe forward with both hands ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 20:01:34 berserker request throwing her head back and roaring a war cry, the single axe raised ['south', 'south-east', 'east', 'north-east', 'north'] null

@@ -102,6 +102,12 @@ def portrait():
 
 # v2 (the user, 2026-10-06: "sometimes she has two weapons"). The long haft passed behind her on the diagonals
 # with a head showing at each end. One single-bladed axe, held in front of her, short enough to stay in view.
+# v3 (the user: "bring back her fur"): v2 lost the fur mantle and crown. Feature-first: fur and crown lead.
+SPRITE_V3 = (
+    "barbarian berserker woman with a huge shaggy grey wolf-fur mantle over both shoulders and a wolf-pelt cloak, a jagged "
+    "iron spike crown, long wild ash-brown braided hair, bare muscular arms, black leather and iron corset, fur skirt, fur "
+    "boots, holding ONE single-bladed battle axe in her right hand in front of her, a single axe head on top of the haft"
+)
 SPRITE_V2 = (
     "muscular barbarian berserker woman, long wild ash-brown braided hair, iron spike crown, black leather and iron corset, "
     "big wolf-fur mantle, bare muscular arms, leather and fur skirt, knee-high fur boots, holding ONE big single-bladed "
@@ -123,6 +129,12 @@ def sprite_v2():
     if not (gen.GEN / "berserker" / "rotation_urls_south.png").exists():
         act2_art.safe(gen.character, "berserker", f"{SPRITE_V2}, {HEADS}", 56, "heroic", "")
     print("sprite v2 done", flush=True)
+
+
+def sprite_v3():
+    if not (gen.GEN / "berserker" / "rotation_urls_south.png").exists():
+        act2_art.safe(gen.character, "berserker", f"{SPRITE_V3}, {HEADS}", 56, "heroic", "")
+    print("sprite v3 done", flush=True)
 
 
 def anims_v2():
@@ -164,4 +176,4 @@ def review():
 
 if __name__ == "__main__":
     {"portrait": portrait, "sprite": sprite, "anims": anims, "extras": extras, "review": review,
-     "all": lambda: (portrait(), sprite(), anims(), extras()), "sprite2": sprite_v2, "anims2": anims_v2}[sys.argv[1]]()
+     "all": lambda: (portrait(), sprite(), anims(), extras()), "sprite2": sprite_v2, "anims2": anims_v2, "sprite3": sprite_v3}[sys.argv[1]]()

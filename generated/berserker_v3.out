@@ -1,0 +1,37 @@
+character 261ec145-8ae8-471d-af6b-39dd4e6ee032
+fetched berserker
+sprite v3 done
+saved D:\projects\AshenSanctum-art\generated\berserker_review.png
+requested berserker walking forward with heavy strides, holding the one axe in her right hand in front of her exactly as in her standing pose, legs stepping ['south', 'south-east', 'east', 'north-east', 'north']
+berserker walking forward with heavy strides, holding the one axe in her right hand in front of her exactly as in her standing pose, legs stepping now ['south']
+berserker walking forward with heavy strides, holding the one axe in her right hand in front of her exactly as in her standing pose, legs stepping now ['north', 'north-east', 'south', 'south-east']
+berserker walking forward with heavy strides, holding the one axe in her right hand in front of her exactly as in her standing pose, legs stepping now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched berserker
+done berserker walking forward with heavy strides, holding the one axe in her right hand in front of her exactly as in her standing pose, legs stepping
+requested berserker swinging the single axe in a wide horizontal cleave ['south', 'south-east', 'east', 'north-east', 'north']
+berserker swinging the single axe in a wide horizontal cleave now ['north-east', 'south-east']
+berserker swinging the single axe in a wide horizontal cleave now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched berserker
+done berserker swinging the single axe in a wide horizontal cleave
+requested berserker raising the single axe high and chopping straight down ['south', 'south-east', 'east', 'north-east', 'north']
+berserker raising the single axe high and chopping straight down now ['south', 'south-east']
+berserker raising the single axe high and chopping straight down now ['east', 'north-east', 'south', 'south-east']
+berserker raising the single axe high and chopping straight down now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched berserker
+done berserker raising the single axe high and chopping straight down
+requested berserker spinning around in a full circle with the single axe held out ['south', 'south-east', 'east', 'north-east', 'north']
+berserker spinning around in a full circle with the single axe held out now ['east', 'north-east', 'south', 'south-east']
+berserker spinning around in a full circle with the single axe held out now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched berserker
+done berserker spinning around in a full circle with the single axe held out
+requested berserker hurling the single axe forward with both hands ['south', 'south-east', 'east', 'north-east', 'north']
+berserker hurling the single axe forward with both hands now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched berserker
+done berserker hurling the single axe forward with both hands
+requested berserker throwing her head back and roaring a war cry, the single axe raised ['south', 'south-east', 'east', 'north-east', 'north']
+berserker throwing her head back and roaring a war cry, the single axe raised now ['south-east']
+berserker throwing her head back and roaring a war cry, the single axe raised now ['east', 'north', 'north-east', 'south-east']
+berserker throwing her head back and roaring a war cry, the single axe raised now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched berserker
+done berserker throwing her head back and roaring a war cry, the single axe raised
+berserker v2 anims done

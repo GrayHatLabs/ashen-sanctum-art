@@ -653,6 +653,12 @@ def pack_items():
     if p.exists():
         load(p).save(OUT / "title_bg.png")
         items.append({"name": "title_bg", "file": "title_bg.png"})
+    # The bottom HUD: the carved panel and the globe housings (tools/oai_hud.py -> tools/hud_pack.py), full size.
+    for n in ["hud_panel", "hud_orb_l", "hud_orb_r"]:
+        p = GEN / "hud" / f"{n}.png"
+        if p.exists():
+            load(p).save(OUT / f"{n}.png")
+            items.append({"name": n, "file": f"{n}.png"})
     import items_art
     for n, _ in items_art.ICONS:
         p = GEN / n / "image.png"

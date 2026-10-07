@@ -2553,6 +2553,18 @@
       "file": "title_bg.png"
     },
     {
+      "name": "hud_panel",
+      "file": "hud_panel.png"
+    },
+    {
+      "name": "hud_orb_l",
+      "file": "hud_orb_l.png"
+    },
+    {
+      "name": "hud_orb_r",
+      "file": "hud_orb_r.png"
+    },
+    {
       "name": "icon_staff_gnarled",
       "file": "icon_staff_gnarled.png"
     },

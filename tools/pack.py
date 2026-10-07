@@ -706,6 +706,12 @@ def pack_items():
     if p.exists():
         load(p).save(OUT / "title_bg.png")
         items.append({"name": "title_bg", "file": "title_bg.png"})
+    # The OpenAI title art (tools/oai_title.py -> title_pack.py, 2026-10-07): a handheld cut and the logo.
+    for n in ["title_bg_tall", "title_logo"]:
+        p = GEN / "title" / f"{n}.png"
+        if p.exists():
+            load(p).save(OUT / f"{n}.png")
+            items.append({"name": n, "file": f"{n}.png"})
     # The bottom HUD: the carved panel and the globe housings (tools/oai_hud.py -> tools/hud_pack.py), full size.
     for n in ["hud_panel", "hud_orb_l", "hud_orb_r"]:
         p = GEN / "hud" / f"{n}.png"

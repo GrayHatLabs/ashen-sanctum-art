@@ -1,0 +1,4 @@
+2026-10-07 09:27:14 bg_0 {"input_tokens": 127, "input_tokens_details": {"image_tokens": 0, "text_tokens": 127}, "output_tokens": 6208, "output_tokens_details": {"image_tokens": 6208, "text_tokens": 0}, "total_tokens": 6335}
+2026-10-07 09:27:20 logo_0 {"input_tokens": 91, "input_tokens_details": {"image_tokens": 0, "text_tokens": 91}, "output_tokens": 6208, "output_tokens_details": {"image_tokens": 6208, "text_tokens": 0}, "total_tokens": 6299}
+2026-10-07 09:28:04 bg_1 {"input_tokens": 127, "input_tokens_details": {"image_tokens": 0, "text_tokens": 127}, "output_tokens": 6208, "output_tokens_details": {"image_tokens": 6208, "text_tokens": 0}, "total_tokens": 6335}
+2026-10-07 09:28:17 logo_1 {"input_tokens": 91, "input_tokens_details": {"image_tokens": 0, "text_tokens": 91}, "output_tokens": 6208, "output_tokens_details": {"image_tokens": 6208, "text_tokens": 0}, "total_tokens": 6299}

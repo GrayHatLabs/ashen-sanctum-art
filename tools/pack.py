@@ -173,6 +173,12 @@ PICK = {
     # The Reaper's walk (take 2): walking away she lifts the scythe for two frames; skip them.
     ("reaper", "walk", "north"): [0, 1, 4, 5],
 }
+# A different animation for one direction (a one-direction retake; tools/walk_fix.py ONE_DIR).
+ALT = {
+    ("valkyrie", "walk", "south-east"): "walking diagonally forward with clear long strides, holding one spear low in her right "
+                                        "hand pointing down and forward, a single spearhead at the front end only, the spear "
+                                        "does not cross behind her body",
+}
 # Stray detached blobs to erase (smaller than this many pixels, not touching the figure).
 CLEAN = {
     ("valkyrie", "walk", "east"): 120,
@@ -334,6 +340,11 @@ def char_frames(name):
             if frames:
                 out.setdefault(key, {})[dd["direction"]] = frames
     rot = {k: load(d / f"rotation_urls_{k}.png") for k in DIRS if (d / f"rotation_urls_{k}.png").exists()}
+    if name == "inventor":
+        # The Sky Pirate's hair, matched to her portrait (tools/pirate_hair.py).
+        from pirate_hair import fix_frame as hair
+        out = {k: {dd: [hair(f) for f in fs] for dd, fs in v.items()} for k, v in out.items()}
+        rot = {k: hair(v) for k, v in rot.items()}
     if name == "inquisitor_hero":
         # The user's iron halo (spikes with an arching band) and more iron, on every frame.
         from inquisitor_halo import fix_frame
@@ -350,6 +361,9 @@ def pack_char(name, spec):
         per_dir = []
         have = anims.get(display, {}) if display else {}
         # Hand-picked frames and stray-blob cleanup (applied before mirroring, so the mirrored side is fixed too).
+        for (n_, g_, d_), alt in ALT.items():
+            if n_ == name and g_ == game_name and alt in anims and d_ in anims[alt]:
+                have = {**have, d_: anims[alt][d_]}
         for dname in list(have):
             fr = have[dname]
             if (name, game_name, dname) in CLEAN:

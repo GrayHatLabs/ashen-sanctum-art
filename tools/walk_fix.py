@@ -40,6 +40,21 @@ WALKS2 = {
 }
 
 
+# One direction only (the user, 2026-10-06: the valkyrie's diagonal walk). Walking down-right her spear passed
+# behind her with a head showing at both ends, and her legs barely strode. pack.py's ALT uses this for that direction.
+ONE_DIR = {
+    ("valkyrie", "south-east"): "walking diagonally forward with clear long strides, holding one spear low in her right hand "
+                                "pointing down and forward, a single spearhead at the front end only, the spear does not "
+                                "cross behind her body",
+}
+
+
+def one_dir(hero, direction):
+    import gen
+    act2_art.safe(gen.animate, hero, ONE_DIR[(hero, direction)], 6, direction)
+    print("one-direction retake done", hero, direction, flush=True)
+
+
 def main(heroes):
     import world_art
     table = WALKS2 if heroes and heroes[0] == "take2" else WALKS
@@ -50,4 +65,7 @@ def main(heroes):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    if sys.argv[1:2] == ["one"]:
+        one_dir(sys.argv[2], sys.argv[3])
+    else:
+        main(sys.argv[1:])

@@ -44,16 +44,21 @@ def fix_frame(im, head_rows=26):
                 # Her armor stays gold, but tarnished: less saturated, darkened (the user, 2026-10-06).
                 lum = 0.3 * p[0] + 0.59 * p[1] + 0.11 * p[2]
                 px[x, y] = tuple(int((c * 0.65 + lum * 0.35) * 0.66) for c in p[:3]) + (p[3],)
-    # Her head: the top of what's left.
-    head = None
+    # Her head: the top of what's left. Centre the halo on the middle of the head over its top ten rows
+    # (the hood's peak alone sits off to one side, so the halo looked off-centre; the user, 2026-10-06).
+    top = None
     for y in range(out.height):
+        if any(px[x, y][3] > 0 for x in range(out.width)):
+            top = y
+            break
+    if top is None:
+        return out
+    mids = []
+    for y in range(top, min(out.height, top + 10)):
         xs = [x for x in range(out.width) if px[x, y][3] > 0]
         if xs:
-            head = (sum(xs) / len(xs), y)
-            break
-    if head is None:
-        return out
-    cx, cy = head[0], head[1] + 6
+            mids.append((min(xs) + max(xs)) / 2)
+    cx, cy = sum(mids) / len(mids), top + 6
 
     def put(x, y, c, over=False):
         x, y = int(round(x)), int(round(y))

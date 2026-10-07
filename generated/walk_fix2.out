@@ -6,3 +6,9 @@ fetched reaper
 done reaper walking forward with steady steps, holding the scythe low at her side exactly as in her standing pose, the scythe does not move up or down, legs stepping under the gown
 walk retake done reaper
 requested berserker walking forward with heavy strides, holding the giant axe low at her right side exactly as in her standing pose, the axe does not lift or swing, one axe only, legs stepping ['south', 'south-east', 'east', 'north-east', 'north']
+berserker walking forward with heavy strides, holding the giant axe low at her right side exactly as in her standing pose, the axe does not lift or swing, one axe only, legs stepping now ['north-east', 'south']
+berserker walking forward with heavy strides, holding the giant axe low at her right side exactly as in her standing pose, the axe does not lift or swing, one axe only, legs stepping now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched berserker
+done berserker walking forward with heavy strides, holding the giant axe low at her right side exactly as in her standing pose, the axe does not lift or swing, one axe only, legs stepping
+walk retake done berserker
+requested valkyrie walking forward with steady strides, holding the spear low at her side exactly as in her standing pose, the spear does not lift or turn, legs stepping ['south', 'south-east', 'east', 'north-east', 'north']

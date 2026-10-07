@@ -296,7 +296,10 @@ PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "hous
          "tree_twisted", "tree_mistpine", "glow_shrooms", "gravestone", "cottage_mist", "cottage_mist2", "gallows",
          "merchant_cart", "ent_chapel", "ent_gallows", "ent_barrow", "ent_castle", "pass_mist",
          "gear_tower", "steam_pipes", "steam_vent", "gas_lamp", "cog_pile", "workshop1", "workshop2", "clock_tower",
-         "pendulum", "ent_foundry", "ent_choir", "ent_archive", "ent_clock", "gear_gate"]
+         "pendulum", "ent_foundry", "ent_choir", "ent_archive", "ent_clock", "gear_gate",
+         # Breakables (tools/breakables_art.py): brk_<crate|barrel|urn>_<act>.
+         "brk_crate_0", "brk_barrel_0", "brk_urn_0", "brk_crate_1", "brk_barrel_1", "brk_urn_1",
+         "brk_crate_2", "brk_barrel_2", "brk_urn_2", "brk_crate_3", "brk_barrel_3", "brk_urn_3"]
 ITEM_SIZE = 14
 # Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
 ICON_SIZE = 24

@@ -2891,6 +2891,54 @@
     {
       "name": "gear_gate",
       "file": "prop_gear_gate.png"
+    },
+    {
+      "name": "brk_crate_0",
+      "file": "prop_brk_crate_0.png"
+    },
+    {
+      "name": "brk_barrel_0",
+      "file": "prop_brk_barrel_0.png"
+    },
+    {
+      "name": "brk_urn_0",
+      "file": "prop_brk_urn_0.png"
+    },
+    {
+      "name": "brk_crate_1",
+      "file": "prop_brk_crate_1.png"
+    },
+    {
+      "name": "brk_barrel_1",
+      "file": "prop_brk_barrel_1.png"
+    },
+    {
+      "name": "brk_urn_1",
+      "file": "prop_brk_urn_1.png"
+    },
+    {
+      "name": "brk_crate_2",
+      "file": "prop_brk_crate_2.png"
+    },
+    {
+      "name": "brk_barrel_2",
+      "file": "prop_brk_barrel_2.png"
+    },
+    {
+      "name": "brk_urn_2",
+      "file": "prop_brk_urn_2.png"
+    },
+    {
+      "name": "brk_crate_3",
+      "file": "prop_brk_crate_3.png"
+    },
+    {
+      "name": "brk_barrel_3",
+      "file": "prop_brk_barrel_3.png"
+    },
+    {
+      "name": "brk_urn_3",
+      "file": "prop_brk_urn_3.png"
     }
   ]
 }

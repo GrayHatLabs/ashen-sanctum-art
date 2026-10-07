@@ -540,3 +540,15 @@
 2026-10-06 19:56:42 berserker request spinning around in a full circle with the single axe held out ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-06 19:59:21 berserker request hurling the single axe forward with both hands ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-06 20:01:34 berserker request throwing her head back and roaring a war cry, the single axe raised ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 20:28:07 brk_crate_0 prop {"type": "generations", "generations": 1.0}
+2026-10-06 20:28:25 brk_barrel_0 prop {"type": "generations", "generations": 1.0}
+2026-10-06 20:28:48 brk_urn_0 prop {"type": "generations", "generations": 1.0}
+2026-10-06 20:29:12 brk_crate_1 prop {"type": "generations", "generations": 1.0}
+2026-10-06 20:29:35 brk_barrel_1 prop {"type": "generations", "generations": 1.0}
+2026-10-06 20:29:56 brk_urn_1 prop {"type": "generations", "generations": 1.0}
+2026-10-06 20:30:26 brk_crate_2 prop {"type": "generations", "generations": 1.0}
+2026-10-06 20:30:37 brk_barrel_2 prop {"type": "generations", "generations": 1.0}
+2026-10-06 20:31:00 brk_urn_2 prop {"type": "generations", "generations": 1.0}
+2026-10-06 20:31:25 brk_crate_3 prop {"type": "generations", "generations": 1.0}
+2026-10-06 20:32:01 brk_barrel_3 prop {"type": "generations", "generations": 1.0}
+2026-10-06 20:32:27 brk_urn_3 prop {"type": "generations", "generations": 1.0}

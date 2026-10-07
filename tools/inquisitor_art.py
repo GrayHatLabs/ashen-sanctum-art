@@ -146,9 +146,15 @@ WHIP_ATTACK = ("inquisitor_hero", "drawing her arm back over her shoulder then l
                "fully extended, cracking the censer on its chain out ahead of her like a whip, gown flaring", 6)
 
 
+# Take 2: take 1 flung the chain behind her in some directions. Keep the censer in the hand that holds it standing.
+WHIP_ATTACK2 = ("inquisitor_hero", "whipping attack toward the direction she faces: her censer arm swings up over her head, "
+                "then lashes straight out in front of her, arm fully extended forward, the golden censer flying far ahead "
+                "on its taut chain, body leaning into the strike, nothing behind her", 6)
+
+
 def whip_attack():
     import world_art
-    act2_art.safe(world_art.run_anim, *WHIP_ATTACK)
+    act2_art.safe(world_art.run_anim, *(WHIP_ATTACK2 if sys.argv[2:] == ["2"] else WHIP_ATTACK))
 
 
 if __name__ == "__main__":

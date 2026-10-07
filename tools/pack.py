@@ -125,7 +125,10 @@ CHARS = {
     # ---- the Druid (tools/druid_art.py) ----
     # The Inquisitor (tools/inquisitor_art.py); her iron halo is painted on by tools/inquisitor_halo.py.
     "inquisitor_hero": [("idle", None, 1), ("walk", "walking forward, long gown swaying with each step, feet stepping out under the hem, censer swinging", 9),
-                        ("attack", "swinging the golden censer on its long chain forward like a flail", 14),
+                        # The whip (take 2, tools/inquisitor_art.py whip 2); east and north keep the old swing (ALT below).
+                        ("attack", "whipping attack toward the direction she faces: her censer arm swings up over her head, "
+                                   "then lashes straight out in front of her, arm fully extended forward, the golden censer flying far ahead "
+                                   "on its taut chain, body leaning into the strike, nothing behind her", 14),
                         ("cast", "pointing one hand forward to burn a glowing sigil, censer hanging", 12),
                         ("spin", "spinning in place swinging the censer on its chain around her body, gown flaring", 14)],
     "druid": [("idle", None, 1), ("walk", "walking forward with clear steps, her legs visibly stepping one after the other under the torn skirt, holding the tall twisted thorn staff upright in one hand, the whole staff always visible from the ground to the glowing green orb at the top", 9),
@@ -181,6 +184,9 @@ PICK = {
 }
 # A different animation for one direction (a one-direction retake; tools/walk_fix.py ONE_DIR).
 ALT = {
+    # The Inquisitor's whip take 2 lost her halo sideways and turned back to face us walking away: the old swing there.
+    ("inquisitor_hero", "attack", "east"): "swinging the golden censer on its long chain forward like a flail",
+    ("inquisitor_hero", "attack", "north"): "swinging the golden censer on its long chain forward like a flail",
     ("valkyrie", "walk", "south"): "walking straight toward the viewer with clear strides, holding one short spear low in her right "
                            "hand with the spearhead pointing down at the ground, a single spearhead at the bottom end only, "
                            "the top end of the shaft is a plain wooden butt, the spear does not rise above her waist",

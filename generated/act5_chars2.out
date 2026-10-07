@@ -1,0 +1,123 @@
+have drowned_sailor
+have merrow
+have anglerlurk
+have jelly_drift
+have shellguard
+have siren
+have ink_horror
+have npc_ysolde
+have npc_nessa
+have npc_coral
+have npc_diver
+have boss_dregmoor
+have boss_nacre
+have boss_angler
+have boss_leviathan
+requested drowned_sailor drowned zombie shambling forward ['south', 'south-east', 'east', 'north-east', 'north']
+drowned_sailor drowned zombie shambling forward now ['east', 'north', 'north-east', 'south-east']
+drowned_sailor drowned zombie shambling forward now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched drowned_sailor
+done drowned_sailor drowned zombie shambling forward
+requested drowned_sailor drowned zombie slashing with its cutlass ['south', 'south-east', 'east', 'north-east', 'north']
+drowned_sailor drowned zombie slashing with its cutlass now ['east', 'north-east']
+drowned_sailor drowned zombie slashing with its cutlass now ['east', 'north', 'north-east', 'south']
+drowned_sailor drowned zombie slashing with its cutlass now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched drowned_sailor
+done drowned_sailor drowned zombie slashing with its cutlass
+fetched merrow
+done merrow fish-folk warrior running forward hunched
+fetched merrow
+done merrow fish-folk warrior lunging forward with the spear
+requested anglerlurk anglerfish monster crawling forward ['south', 'south-east', 'east', 'north-east', 'north']
+anglerlurk anglerfish monster crawling forward now ['north', 'south']
+anglerlurk anglerfish monster crawling forward now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched anglerlurk
+done anglerlurk anglerfish monster crawling forward
+requested anglerlurk anglerfish monster lunging and snapping its jaws ['south', 'south-east', 'east', 'north-east', 'north']
+anglerlurk anglerfish monster lunging and snapping its jaws now ['east', 'north', 'south']
+anglerlurk anglerfish monster lunging and snapping its jaws now ['east', 'north', 'south', 'south-east']
+anglerlurk anglerfish monster lunging and snapping its jaws now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched anglerlurk
+done anglerlurk anglerfish monster lunging and snapping its jaws
+fetched jelly_drift
+done jelly_drift jellyfish floating forward, tentacles trailing
+fetched jelly_drift
+done jelly_drift jellyfish crackling with electricity
+fetched shellguard
+done shellguard crab knight scuttling sideways forward
+fetched shellguard
+done shellguard crab knight smashing down with its big claw
+requested siren siren walking forward gracefully ['south', 'south-east', 'east', 'north-east', 'north']
+siren siren walking forward gracefully now ['south', 'south-east']
+siren siren walking forward gracefully now ['east', 'south', 'south-east']
+siren siren walking forward gracefully now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched siren
+done siren siren walking forward gracefully
+requested siren siren singing with arms spread, magic notes ['south', 'south-east', 'east', 'north-east', 'north']
+siren siren singing with arms spread, magic notes now ['east', 'south']
+siren siren singing with arms spread, magic notes now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched siren
+done siren siren singing with arms spread, magic notes
+requested ink_horror octopus horror crawling forward on its tentacles ['south', 'south-east', 'east', 'north-east', 'north']
+ink_horror octopus horror crawling forward on its tentacles now ['east', 'south']
+ink_horror octopus horror crawling forward on its tentacles now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched ink_horror
+done ink_horror octopus horror crawling forward on its tentacles
+requested ink_horror octopus horror spraying a cloud of black ink ['south', 'south-east', 'east', 'north-east', 'north']
+ink_horror octopus horror spraying a cloud of black ink now ['east', 'north', 'north-east']
+ink_horror octopus horror spraying a cloud of black ink now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched ink_horror
+done ink_horror octopus horror spraying a cloud of black ink
+requested boss_dregmoor drowned admiral striding forward heavily ['south', 'south-east', 'east', 'north-east', 'north']
+boss_dregmoor drowned admiral striding forward heavily now ['east', 'south-east']
+boss_dregmoor drowned admiral striding forward heavily now ['east', 'north', 'south-east']
+boss_dregmoor drowned admiral striding forward heavily now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_dregmoor
+done boss_dregmoor drowned admiral striding forward heavily
+requested boss_dregmoor drowned admiral swinging the anchor on its chain ['south', 'south-east', 'east', 'north-east', 'north']
+boss_dregmoor drowned admiral swinging the anchor on its chain now ['north-east', 'south-east']
+boss_dregmoor drowned admiral swinging the anchor on its chain now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_dregmoor
+done boss_dregmoor drowned admiral swinging the anchor on its chain
+requested boss_nacre siren queen gliding forward ['south', 'south-east', 'east', 'north-east', 'north']
+boss_nacre siren queen gliding forward now ['north', 'north-east', 'south', 'south-east']
+boss_nacre siren queen gliding forward now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_nacre
+done boss_nacre siren queen gliding forward
+requested boss_nacre siren queen singing a spell, arms raised ['south', 'south-east', 'east', 'north-east', 'north']
+boss_nacre siren queen singing a spell, arms raised now ['north', 'south']
+boss_nacre siren queen singing a spell, arms raised now ['north', 'south', 'south-east']
+boss_nacre siren queen singing a spell, arms raised now ['east', 'north', 'south', 'south-east']
+boss_nacre siren queen singing a spell, arms raised now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_nacre
+done boss_nacre siren queen singing a spell, arms raised
+requested boss_angler giant anglerfish crawling forward ['south', 'south-east', 'east', 'north-east', 'north']
+boss_angler giant anglerfish crawling forward now ['south']
+boss_angler giant anglerfish crawling forward now ['east', 'north', 'south', 'south-east']
+boss_angler giant anglerfish crawling forward now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_angler
+done boss_angler giant anglerfish crawling forward
+requested boss_angler giant anglerfish lunging with jaws wide ['south', 'south-east', 'east', 'north-east', 'north']
+boss_angler giant anglerfish lunging with jaws wide now ['east', 'south-east']
+boss_angler giant anglerfish lunging with jaws wide now ['east', 'south', 'south-east']
+boss_angler giant anglerfish lunging with jaws wide now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_angler
+done boss_angler giant anglerfish lunging with jaws wide
+requested boss_leviathan sea serpent rearing and swaying ['south', 'south-east', 'east', 'north-east', 'north']
+boss_leviathan sea serpent rearing and swaying now ['north-east', 'south']
+boss_leviathan sea serpent rearing and swaying now ['east', 'north-east', 'south', 'south-east']
+boss_leviathan sea serpent rearing and swaying now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_leviathan
+done boss_leviathan sea serpent rearing and swaying
+requested boss_leviathan sea serpent striking down with open jaws ['south', 'south-east', 'east', 'north-east', 'north']
+boss_leviathan sea serpent striking down with open jaws now ['east', 'north-east', 'south']
+boss_leviathan sea serpent striking down with open jaws now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_leviathan
+done boss_leviathan sea serpent striking down with open jaws
+requested npc_diver diver walking slowly in weighted boots ['south', 'south-east', 'east', 'north-east', 'north']
+npc_diver diver walking slowly in weighted boots now ['east', 'north-east', 'south-east']
+npc_diver diver walking slowly in weighted boots now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched npc_diver
+done npc_diver diver walking slowly in weighted boots
+act5 chars done
+CHARS_DONE

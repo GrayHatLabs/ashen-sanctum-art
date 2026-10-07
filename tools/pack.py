@@ -101,6 +101,22 @@ CHARS = {
                         ("attack", "clockmaker slashing with the clock-hand blade", 12)],
     "boss_clockmaker_engine": [("idle", None, 1), ("walk", "clockwork colossus walking forward heavily", 7),
                                ("attack", "clockwork colossus slamming its pendulum arm down", 9)],
+    # ---- Act 5: the Drowned Deep (tools/act5_art.py) ----
+    "drowned_sailor": [("idle", None, 1), ("walk", "drowned zombie shambling forward", 7), ("attack", "drowned zombie slashing with its cutlass", 11)],
+    "merrow": [("idle", None, 1), ("walk", "fish-folk warrior running forward hunched", 11), ("attack", "fish-folk warrior lunging forward with the spear", 13)],
+    "anglerlurk": [("idle", None, 1), ("walk", "anglerfish monster crawling forward", 8), ("attack", "anglerfish monster lunging and snapping its jaws", 13)],
+    "jelly_drift": [("idle", None, 1), ("walk", "jellyfish floating forward, tentacles trailing", 7), ("attack", "jellyfish crackling with electricity", 12)],
+    "shellguard": [("idle", None, 1), ("walk", "crab knight scuttling sideways forward", 9), ("attack", "crab knight smashing down with its big claw", 11)],
+    "siren": [("idle", None, 1), ("walk", "siren walking forward gracefully", 8), ("attack", "siren singing with arms spread, magic notes", 10)],
+    "ink_horror": [("idle", None, 1), ("walk", "octopus horror crawling forward on its tentacles", 8), ("attack", "octopus horror spraying a cloud of black ink", 11)],
+    "npc_ysolde": [("idle", None, 1)],
+    "npc_nessa": [("idle", None, 1)],
+    "npc_coral": [("idle", None, 1)],
+    "npc_diver": [("idle", None, 1), ("walk", "diver walking slowly in weighted boots", 7)],
+    "boss_dregmoor": [("idle", None, 1), ("walk", "drowned admiral striding forward heavily", 8), ("attack", "drowned admiral swinging the anchor on its chain", 10)],
+    "boss_nacre": [("idle", None, 1), ("walk", "siren queen gliding forward", 8), ("attack", "siren queen singing a spell, arms raised", 10)],
+    "boss_angler": [("idle", None, 1), ("walk", "giant anglerfish crawling forward", 7), ("attack", "giant anglerfish lunging with jaws wide", 11)],
+    "boss_leviathan": [("idle", None, 1), ("walk", "sea serpent rearing and swaying", 7), ("attack", "sea serpent striking down with open jaws", 10)],
     # ---- the Valkyrie (tools/valkyrie_art.py) ----
     "valkyrie": [("idle", None, 1), ("walk", "walking forward with steady strides, holding the spear low at her side exactly as in her standing pose, the spear does not lift or turn, legs stepping", 9),
                  ("attack", "thrusting the long spear forward in a fast lunge", 16),
@@ -293,7 +309,8 @@ def apply_fix(fix, frames, rows_by_name):
 FLOORS = ["floor_stone1", "floor_stone2", "grass1", "grass2", "dirt1", "road1",
           "snow1", "snow2", "snow_road", "lake_ice", "ice_floor1", "ice_floor2",
           "mist_earth1", "mist_earth2", "mist_moss", "mist_road", "castle_floor",
-          "brass_plate1", "brass_plate2", "grate_glow", "conveyor_road", "verdigris_floor", "clock_floor"]
+          "brass_plate1", "brass_plate2", "grate_glow", "conveyor_road", "verdigris_floor", "clock_floor",
+          "sea_sand1", "sea_sand2", "coral_floor", "wreck_deck", "sanctum_floor"]
 WALL = "wall_stone"
 ITEMS = ["food_apple", "food_bread", "food_roast", "seal"]
 # Overworld and dungeon props (full size, anchored at the bottom centre).
@@ -308,7 +325,11 @@ PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "hous
          "pendulum", "ent_foundry", "ent_choir", "ent_archive", "ent_clock", "gear_gate",
          # Breakables (tools/breakables_art.py): brk_<crate|barrel|urn>_<act>.
          "brk_crate_0", "brk_barrel_0", "brk_urn_0", "brk_crate_1", "brk_barrel_1", "brk_urn_1",
-         "brk_crate_2", "brk_barrel_2", "brk_urn_2", "brk_crate_3", "brk_barrel_3", "brk_urn_3"]
+         "brk_crate_2", "brk_barrel_2", "brk_urn_2", "brk_crate_3", "brk_barrel_3", "brk_urn_3",
+         # Act 5 (tools/act5_art.py); the anchor never came out right, so the game doesn't use it.
+         "kelp1", "coral1", "coral2", "wreck_hull", "whale_bones", "stilt_house1", "stilt_house2", "shell_lamp",
+         "diving_bell", "ent_wreck", "ent_cathedral", "ent_trench", "ent_drowned", "leviathan_coil",
+         "brk_crate_4", "brk_barrel_4", "brk_urn_4"]
 ITEM_SIZE = 14
 # Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
 ICON_SIZE = 24
@@ -486,7 +507,11 @@ TONE_TILES = {"mist_earth1": ((58, 68, 78), 0.55, 0.45), "mist_earth2": ((54, 64
               # Act 4: quiet sooty brass and iron, so monsters and effects read on top.
               "brass_plate1": ((78, 62, 40), 0.6, 0.3), "brass_plate2": ((70, 58, 42), 0.6, 0.3),
               "verdigris_floor": ((52, 80, 70), 0.6, 0.3), "conveyor_road": ((44, 42, 44), 0.55, 0.4),
-              "clock_floor": ((34, 32, 38), 0.55, 0.35), "grate_glow": ((70, 40, 24), 0.55, 0.35)}
+              "clock_floor": ((34, 32, 38), 0.55, 0.35), "grate_glow": ((70, 40, 24), 0.55, 0.35),
+              # Act 5: dim blue-grey sea floor, so the glow of the sea life and the flood read on top.
+              "sea_sand1": ((40, 62, 70), 0.55, 0.4), "sea_sand2": ((36, 58, 66), 0.55, 0.4),
+              "coral_floor": ((54, 56, 66), 0.45, 0.45), "wreck_deck": ((62, 46, 36), 0.5, 0.4),
+              "sanctum_floor": ((70, 90, 92), 0.55, 0.4)}
 
 
 def tone(im, target, pull, contrast):
@@ -559,7 +584,8 @@ def pack_tiles():
         tiles.append({"name": n, "file": f"{n}.png", "anchor": [16 - b[0], mid]})
     for wall_name, src, stack in [("wall", WALL, WALL_STACK), ("palisade", "palisade", 2), ("ice_wall", "ice_wall", WALL_STACK), ("palisade_snow", "palisade_snow", 2),
                                   ("palisade_mist", "palisade_mist", 2), ("castle_wall", "castle_wall", WALL_STACK),
-                                  ("fence_iron", "fence_iron", 2), ("brass_wall", "brass_wall", WALL_STACK)]:
+                                  ("fence_iron", "fence_iron", 2), ("brass_wall", "brass_wall", WALL_STACK),
+                                  ("coral_wall", "coral_wall", WALL_STACK), ("sanctum_wall", "sanctum_wall", WALL_STACK)]:
         p = GEN / src / "image.png"
         if not p.exists():
             continue

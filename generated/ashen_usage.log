@@ -555,3 +555,90 @@
 2026-10-06 21:12:03 valkyrie animate walking straight toward the viewer with clear strides, holding one short spear low in her right hand with the spearhead pointing down at the ground, a single spearhead at the bottom end only, the top end of the shaft is a plain wooden butt, the spear does not rise above her waist job=b6ccf785-98f9-443c-b9c5-50e48eb8af7d status=completed {"type": "generations", "generations": 1.0}
 2026-10-06 21:26:46 inquisitor_hero request drawing her arm back over her shoulder then lashing it far forward with the whole arm fully extended, cracking the censer on its chain out ahead of her like a whip, gown flaring ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-06 21:46:28 inquisitor_hero request whipping attack toward the direction she faces: her censer arm swings up over her head, then lashes straight out in front of her, arm fully extended forward, the golden censer flying far ahead on its taut chain, body leaning into the strike, nothing behind her ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 21:52:28 sea_sand1 isotile job=6df19db1-a933-4a08-8b36-986445645746 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 21:53:05 sea_sand2 isotile job=6d7e1d97-033c-4cb2-a1c2-f338d6ed1171 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 21:53:36 coral_floor isotile job=7e7c6902-6a2b-4813-a6b5-b2fbead6562d status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 21:54:18 flood_water isotile job=0c32b01e-32a2-4b19-a421-109fd8147eec status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 21:54:19 drowned_sailor character job=2c1b8ad4-882b-412c-b580-55f5f9acc2e9 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 21:54:42 wreck_deck isotile job=378dc609-dbe8-4e90-ab04-477474fdd098 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 21:55:12 sanctum_floor isotile job=5c0d074d-d112-41a2-a6b3-f0d7b77e39e6 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 21:55:29 merrow character job=3ddd3f6b-ddc4-4183-8268-246736f34f03 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 21:55:43 sanctum_wall isotile job=0edbacec-0a5e-442e-b8c1-b2ed70c21e77 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 21:56:03 coral_wall isotile job=fdf19f0b-688b-4ddf-bab5-026f7ea3dd9b status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 21:57:08 anglerlurk character job=7279ff6f-c004-4dfa-bab2-ea3fbed9631c status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 21:57:26 kelp1 prop {"type": "generations", "generations": 1.0}
+2026-10-06 21:57:56 coral1 prop {"type": "generations", "generations": 1.0}
+2026-10-06 21:58:06 jelly_drift character job=b4f19410-bab7-4332-9e30-51c057d09deb status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 21:58:10 coral2 prop {"type": "generations", "generations": 1.0}
+2026-10-06 21:58:32 wreck_hull prop {"type": "generations", "generations": 1.0}
+2026-10-06 21:58:55 whale_bones prop {"type": "generations", "generations": 1.0}
+2026-10-06 21:59:20 shellguard character job=994c77e4-327c-4796-9aaf-0cb8a6a79f11 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 21:59:41 stilt_house1 prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:00:04 stilt_house2 prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:00:41 siren character job=5ac15485-c1dc-4e4a-98b4-6fa72d8cf03c status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 22:01:56 ink_horror character job=23d99fc0-548b-44b3-8352-f2d7948dd3ad status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 22:03:28 npc_ysolde character job=d5920dcd-f458-4874-9997-17fc27f0adbf status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 22:04:02 shell_lamp prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:04:32 anchor_rock prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:04:38 npc_nessa character job=7ff60979-b912-44e0-b833-711b0071fa3e status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 22:05:00 diving_bell prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:05:25 ent_wreck prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:05:52 ent_cathedral prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:06:16 npc_coral character job=01f4b068-7617-4b0c-a424-effd985cde89 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 22:06:31 ent_trench prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:07:12 leviathan_coil prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:07:30 brk_crate_4 prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:07:34 npc_diver character job=011f99a3-2e86-4af7-a859-27caac52c4c5 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 22:08:02 brk_barrel_4 prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:08:25 brk_urn_4 prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:09:35 boss_dregmoor character job=4c2e0fbe-349c-4873-8e81-5be687f484cc status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 22:12:27 boss_nacre character job=b927ad1e-4c5d-43ea-9bba-3d882a2d8112 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 22:12:51 ent_drowned prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:14:04 coral_floor isotile job=1a3978ca-c289-48f4-819a-72e7acf1fb86 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 22:14:31 boss_angler character job=9d4ff5af-6346-4da0-867e-6f36750e4330 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 22:14:50 kelp1 prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:15:17 coral2 prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:16:01 wreck_hull prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:16:33 whale_bones prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:17:01 anchor_rock prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:17:16 boss_leviathan character job=200a86ad-ca57-4285-b4bb-550327dcbb97 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 22:17:26 drowned_sailor request drowned zombie shambling forward ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 22:17:28 diving_bell prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:18:01 ent_wreck prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:18:31 brk_barrel_4 prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:18:59 brk_urn_4 prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:19:50 wreck_hull prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:19:54 drowned_sailor request drowned zombie slashing with its cutlass ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 22:20:32 anchor_rock prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:21:01 ent_wreck prop {"type": "generations", "generations": 1.0}
+2026-10-06 22:23:23 merrow request fish-folk warrior running forward hunched ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 22:25:51 merrow request fish-folk warrior lunging forward with the spear ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 22:28:49 anglerlurk request anglerfish monster crawling forward ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 22:32:49 anglerlurk request anglerfish monster lunging and snapping its jaws ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 22:35:22 jelly_drift request jellyfish floating forward, tentacles trailing ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 22:38:51 jelly_drift request jellyfish crackling with electricity ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 22:41:54 shellguard request crab knight scuttling sideways forward ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 22:44:51 shellguard request crab knight smashing down with its big claw ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 22:47:58 siren request siren walking forward gracefully ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 22:50:57 siren request siren singing with arms spread, magic notes ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 23:17:51 drowned_sailor character job=ce2b75bb-4fae-43a2-9238-e059f0e17ac8 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 23:19:01 anglerlurk character job=ba93aef5-b889-4936-ad5c-33f917e2c07a status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 23:20:16 siren character job=7c44ef73-2304-41ad-8e7c-6901597d0535 status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 23:22:31 boss_angler character job=4b29355e-a9e3-41b8-a66e-b92b7c53e25a status=completed {"type": "generations", "generations": 1.0}
+2026-10-06 23:22:56 drowned_sailor request drowned zombie shambling forward ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 23:25:19 drowned_sailor request drowned zombie slashing with its cutlass ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 23:28:32 anglerlurk request anglerfish monster crawling forward ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 23:30:56 anglerlurk request anglerfish monster lunging and snapping its jaws ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 23:34:19 siren request siren walking forward gracefully ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 23:37:13 siren request siren singing with arms spread, magic notes ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 23:39:39 ink_horror request octopus horror crawling forward on its tentacles ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 23:42:05 ink_horror request octopus horror spraying a cloud of black ink ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 23:44:30 boss_dregmoor request drowned admiral striding forward heavily ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 23:47:33 boss_dregmoor request drowned admiral swinging the anchor on its chain ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 23:50:02 boss_nacre request siren queen gliding forward ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 23:52:27 boss_nacre request siren queen singing a spell, arms raised ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 23:56:00 boss_angler request giant anglerfish crawling forward ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-06 23:58:56 boss_angler request giant anglerfish lunging with jaws wide ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-07 00:01:54 boss_leviathan request sea serpent rearing and swaying ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-07 00:05:22 boss_leviathan request sea serpent striking down with open jaws ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-07 00:07:49 npc_diver request diver walking slowly in weighted boots ['south', 'south-east', 'east', 'north-east', 'north'] null

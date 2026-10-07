@@ -22,12 +22,12 @@ MOOD = "dark sunken sea floor, abyssal teal and black, glowing cyan and violet s
 
 CHARS = [
     # monsters
-    ("drowned_sailor", f"a drowned waterlogged sailor zombie with bloated grey-green skin, torn striped shirt, seaweed and barnacles, holding a rusty cutlass, {HEADS}", 52, "heroic", ""),
+    ("drowned_sailor", f"a drowned undead sailor, bloated pale grey-green waterlogged skin, empty white eyes, tattered dark grey rags of a sailor's coat dripping water, seaweed tangled in its hair, barnacles on its shoulders, a rusty cutlass, hunched, {HEADS}", 52, "heroic", ""),
     ("merrow", f"a fish-folk merrow warrior with dark teal scales, fin crest, webbed hands and a coral-tipped spear, hunched, {HEADS}", 52, "heroic", ""),
-    ("anglerlurk", "a lurking deep-sea anglerfish monster crawling on stubby fin-legs, huge jaw of needle teeth, a glowing cyan lure on a stalk above its head", 52, "none", ""),
+    ("anglerlurk", "a deep-sea anglerfish monster seen from above at an angle, a big round dark fish body low to the ground pulling itself along on two stubby front fins, an enormous gaping jaw of needle teeth, a glowing cyan lure dangling on a stalk from its forehead, no arms, no legs, not humanoid", 52, "none", ""),
     ("jelly_drift", "a floating glowing violet jellyfish with long crackling electric tentacles, translucent bell", 44, "none", ""),
     ("shellguard", "a large armoured crab knight with a huge barnacled shell and one giant shield-like claw raised in front", 52, "none", ""),
-    ("siren", f"a pale siren woman with long dark wet hair, fish-scale lower body on two legs, seaweed dress and glowing teal eyes, singing, {HEADS}", 52, "realistic_female", ""),
+    ("siren", f"a siren sea witch woman with pale blue-green skin, shimmering teal fish scales on her arms and legs, fins on her forearms and ears, long dark wet hair tangled with seaweed, a torn dress of kelp, webbed hands, glowing teal eyes, {HEADS}", 52, "realistic_female", ""),
     ("ink_horror", "a squat dark octopus horror walking on its tentacles, many glowing violet eyes, dripping black ink", 52, "none", ""),
     # townsfolk of Brinehollow
     ("npc_ysolde", f"a one-eyed salvage captain woman with an eyepatch, a long weathered sea coat, a brass diving knife and a tricorn hat, {HEADS}", 48, "realistic_female", ""),
@@ -37,7 +37,7 @@ CHARS = [
     # heralds and the Leviathan
     ("boss_dregmoor", f"a drowned admiral, a towering undead naval commander in a rotting admiral's coat and bicorne hat, barnacles and kelp, holding a huge anchor on a chain, {HEADS}", 84, "heroic", ""),
     ("boss_nacre", f"Mother Nacre, a tall siren queen with a crown of pearls, pale nacre skin, a long flowing dress of kelp and shells, glowing teal eyes, {HEADS}", 84, "realistic_female", ""),
-    ("boss_angler", "a colossal anglerfish matriarch crawling on finned legs, gaping jaws of glassy needle teeth, a huge glowing cyan lure dangling above her head", 96, "none", ""),
+    ("boss_angler", "a colossal deep-sea anglerfish monster, a huge round black and dark blue fish body resting low on the ground on fins, an enormous gaping jaw with rows of glassy needle teeth, small white eyes, a large glowing cyan lure on a long stalk arching over its head, not humanoid, no arms, no legs", 96, "none", ""),
     ("boss_leviathan", "the head and neck of an enormous sea serpent leviathan rising from the water, dark teal scales, glowing cyan eyes, fins like sails, huge jaws", 120, "none", ""),
 ]
 
@@ -82,14 +82,14 @@ PROPS = [
     ("kelp1", "a clump of tall dark olive-green kelp seaweed, several long wavy ribbon fronds rising from a rock, a plant", 32, 64),
     ("coral1", "a branching pale pink and white coral tree", 40, 44),
     ("coral2", "a low mound of brain coral and sea anemones with glowing violet tentacles on a rock", 36, 32),
-    ("wreck_hull", "the broken bow of an old wooden sailing ship half buried in sand, dark wet planks, ribs showing, a snapped mast leaning, isometric ruin", 96, 80),
+    ("wreck_hull", "a small old wooden rowing boat lying broken and tilted on the sand, cracked dark planks, a hole in its side, seaweed, a single object", 72, 56),
     ("whale_bones", "a giant whale skull and a row of curved white rib bones sticking up out of the sand like arches", 96, 72),
     ("stilt_house1", "a small fishing shack on wooden stilts built from ship timbers with a round porthole window glowing warm", 96, 104),
     ("stilt_house2", "a tall narrow house made from an upturned ship's hull on stilts, with nets and lanterns", 96, 112),
     ("shell_lamp", "a lamp post made of driftwood topped with a giant glowing cyan shell", 24, 64),
-    ("anchor_rock", "a big rusty iron ship anchor standing upright, its flukes buried in a rock, a broken chain hanging from it", 44, 52),
+    ("anchor_rock", "a classic ship anchor shape, dark rusty iron, a straight vertical shaft with a ring on top and two curved arms at the bottom, standing upright, a single object", 40, 52),
     ("diving_bell", "a large round brass diving bell with riveted plates, a round glass porthole and an open hatch, hanging from heavy chains from a wooden gantry frame", 80, 96),
-    ("ent_wreck", "the side of a huge sunken wooden warship lying on the sea floor, cannon ports, a jagged dark hole torn in the barnacled hull as a doorway", 96, 96),
+    ("ent_wreck", "the curved wooden hull of a giant sunken galleon tilted on the sea floor, rows of small cannon ports, a large dark broken opening in the hull used as a cave entrance, barnacles and seaweed", 96, 96),
     ("ent_cathedral", "the entrance of a sunken cathedral made of coral and mother-of-pearl, pale arches and glowing windows", 96, 104),
     ("ent_trench", "a dark cave mouth plunging down into a deep trench, ringed by glowing anglerfish lures and bones", 96, 96),
     ("ent_drowned", "the colossal drowned gate of an ancient temple of pale stone, carved sea serpents coiling around it, glowing cyan", 128, 128),

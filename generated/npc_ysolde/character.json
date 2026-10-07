@@ -1,0 +1,38 @@
+{
+  "id": "e3a7875d-f8f4-4c88-ad1f-6277fa24184b",
+  "name": "a one-eyed salvage captain woman with an eyepatch,...",
+  "state_name": "Idle",
+  "prompt": "a one-eyed salvage captain woman with an eyepatch, a long weathered sea coat, a brass diving knife and a tricorn hat, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 68,
+    "height": 68
+  },
+  "directions": 8,
+  "created_at": "2026-10-07T04:02:03.227823+00:00",
+  "updated_at": "2026-10-07T04:03:25.383201+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/e3a7875d-f8f4-4c88-ad1f-6277fa24184b/rotations/south.png?t=1791345805",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/e3a7875d-f8f4-4c88-ad1f-6277fa24184b/rotations/west.png?t=1791345805",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/e3a7875d-f8f4-4c88-ad1f-6277fa24184b/rotations/east.png?t=1791345805",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/e3a7875d-f8f4-4c88-ad1f-6277fa24184b/rotations/north.png?t=1791345805",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/e3a7875d-f8f4-4c88-ad1f-6277fa24184b/rotations/south-east.png?t=1791345805",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/e3a7875d-f8f4-4c88-ad1f-6277fa24184b/rotations/north-east.png?t=1791345805",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/e3a7875d-f8f4-4c88-ad1f-6277fa24184b/rotations/north-west.png?t=1791345805",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/e3a7875d-f8f4-4c88-ad1f-6277fa24184b/rotations/south-west.png?t=1791345805"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "117eb9f7-977f-439d-9985-5e9b56b7d3c0",
+  "skeletons": null,
+  "animations": []
+}

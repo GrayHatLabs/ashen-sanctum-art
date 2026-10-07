@@ -1,0 +1,114 @@
+character 8bc6976c-89a7-479e-84f9-f93fe1f3efc7
+fetched drowned_sailor
+made drowned_sailor
+character 1b7559bc-fa5e-463c-9934-c0dc0338e7b9
+fetched merrow
+made merrow
+character b6e1019d-a213-47ea-a904-cf86db18f752
+fetched anglerlurk
+made anglerlurk
+character 3333b550-4054-40f1-9337-a3962bc7b514
+fetched jelly_drift
+made jelly_drift
+character 3ae8268f-ae33-4653-a8cc-b271075828c9
+fetched shellguard
+made shellguard
+character 56564e0f-4de1-445b-90f6-41fcb063d82d
+fetched siren
+made siren
+character 291e51e8-649d-47b8-819e-df9a5c45c415
+fetched ink_horror
+made ink_horror
+character e3a7875d-f8f4-4c88-ad1f-6277fa24184b
+fetched npc_ysolde
+made npc_ysolde
+character 1beafcfc-1d1f-43b7-8cb6-46030e28594a
+fetched npc_nessa
+made npc_nessa
+character 6daeb37b-74ad-45d3-a6b0-04f27dac998c
+fetched npc_coral
+made npc_coral
+character d66664a9-4eec-4bbe-9e94-9c5855e3b0d3
+fetched npc_diver
+made npc_diver
+character ca08f98c-a7db-4a6d-a18c-9567e6f5e7d8
+fetched boss_dregmoor
+made boss_dregmoor
+character 624b821e-8b78-4321-916b-d00ded931203
+fetched boss_nacre
+made boss_nacre
+character 2d759f7f-7ae3-4ab1-98ec-7ee450855008
+fetched boss_angler
+made boss_angler
+character 9b21b0b6-f66f-4dbf-b2df-dfb8279fe53d
+fetched boss_leviathan
+made boss_leviathan
+requested drowned_sailor drowned zombie shambling forward ['south', 'south-east', 'east', 'north-east', 'north']
+drowned_sailor drowned zombie shambling forward now ['south']
+drowned_sailor drowned zombie shambling forward now ['east', 'north', 'south']
+drowned_sailor drowned zombie shambling forward now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched drowned_sailor
+done drowned_sailor drowned zombie shambling forward
+requested drowned_sailor drowned zombie slashing with its cutlass ['south', 'south-east', 'east', 'north-east', 'north']
+drowned_sailor drowned zombie slashing with its cutlass now ['north', 'south']
+drowned_sailor drowned zombie slashing with its cutlass now ['east', 'north', 'north-east', 'south']
+drowned_sailor drowned zombie slashing with its cutlass now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched drowned_sailor
+done drowned_sailor drowned zombie slashing with its cutlass
+requested merrow fish-folk warrior running forward hunched ['south', 'south-east', 'east', 'north-east', 'north']
+merrow fish-folk warrior running forward hunched now ['north-east']
+merrow fish-folk warrior running forward hunched now ['east', 'north', 'north-east', 'south-east']
+merrow fish-folk warrior running forward hunched now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched merrow
+done merrow fish-folk warrior running forward hunched
+requested merrow fish-folk warrior lunging forward with the spear ['south', 'south-east', 'east', 'north-east', 'north']
+merrow fish-folk warrior lunging forward with the spear now ['north']
+merrow fish-folk warrior lunging forward with the spear now ['east', 'north']
+merrow fish-folk warrior lunging forward with the spear now ['east', 'north', 'north-east', 'south-east']
+merrow fish-folk warrior lunging forward with the spear now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched merrow
+done merrow fish-folk warrior lunging forward with the spear
+requested anglerlurk anglerfish monster crawling forward ['south', 'south-east', 'east', 'north-east', 'north']
+anglerlurk anglerfish monster crawling forward now ['east', 'north']
+anglerlurk anglerfish monster crawling forward now ['east', 'north', 'south']
+anglerlurk anglerfish monster crawling forward now ['east', 'north', 'south', 'south-east']
+anglerlurk anglerfish monster crawling forward now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched anglerlurk
+done anglerlurk anglerfish monster crawling forward
+requested anglerlurk anglerfish monster lunging and snapping its jaws ['south', 'south-east', 'east', 'north-east', 'north']
+anglerlurk anglerfish monster lunging and snapping its jaws now ['east']
+anglerlurk anglerfish monster lunging and snapping its jaws now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched anglerlurk
+done anglerlurk anglerfish monster lunging and snapping its jaws
+requested jelly_drift jellyfish floating forward, tentacles trailing ['south', 'south-east', 'east', 'north-east', 'north']
+jelly_drift jellyfish floating forward, tentacles trailing now ['east', 'south']
+jelly_drift jellyfish floating forward, tentacles trailing now ['east', 'north-east', 'south', 'south-east']
+jelly_drift jellyfish floating forward, tentacles trailing now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched jelly_drift
+done jelly_drift jellyfish floating forward, tentacles trailing
+requested jelly_drift jellyfish crackling with electricity ['south', 'south-east', 'east', 'north-east', 'north']
+jelly_drift jellyfish crackling with electricity now ['east', 'north-east']
+jelly_drift jellyfish crackling with electricity now ['east', 'north-east', 'south']
+jelly_drift jellyfish crackling with electricity now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched jelly_drift
+done jelly_drift jellyfish crackling with electricity
+requested shellguard crab knight scuttling sideways forward ['south', 'south-east', 'east', 'north-east', 'north']
+shellguard crab knight scuttling sideways forward now ['south']
+shellguard crab knight scuttling sideways forward now ['east', 'north-east', 'south']
+shellguard crab knight scuttling sideways forward now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched shellguard
+done shellguard crab knight scuttling sideways forward
+requested shellguard crab knight smashing down with its big claw ['south', 'south-east', 'east', 'north-east', 'north']
+shellguard crab knight smashing down with its big claw now ['east', 'south']
+shellguard crab knight smashing down with its big claw now ['east', 'north-east', 'south', 'south-east']
+shellguard crab knight smashing down with its big claw now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched shellguard
+done shellguard crab knight smashing down with its big claw
+requested siren siren walking forward gracefully ['south', 'south-east', 'east', 'north-east', 'north']
+siren siren walking forward gracefully now ['north', 'north-east', 'south-east']
+siren siren walking forward gracefully now ['north', 'north-east', 'south', 'south-east']
+siren siren walking forward gracefully now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched siren
+done siren siren walking forward gracefully
+requested siren siren singing with arms spread, magic notes ['south', 'south-east', 'east', 'north-east', 'north']
+siren siren singing with arms spread, magic notes now ['east', 'north', 'north-east', 'south']

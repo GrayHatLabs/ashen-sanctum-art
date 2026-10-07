@@ -1351,6 +1351,444 @@
       ]
     },
     {
+      "name": "drowned_sailor",
+      "file": "drowned_sailor.png",
+      "cell": [
+        74,
+        73
+      ],
+      "anchor": [
+        26,
+        59
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 11
+        }
+      ]
+    },
+    {
+      "name": "merrow",
+      "file": "merrow.png",
+      "cell": [
+        80,
+        78
+      ],
+      "anchor": [
+        28,
+        60
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 11
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 13
+        }
+      ]
+    },
+    {
+      "name": "anglerlurk",
+      "file": "anglerlurk.png",
+      "cell": [
+        48,
+        58
+      ],
+      "anchor": [
+        24,
+        50
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 13
+        }
+      ]
+    },
+    {
+      "name": "jelly_drift",
+      "file": "jelly_drift.png",
+      "cell": [
+        38,
+        50
+      ],
+      "anchor": [
+        17,
+        41
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 12
+        }
+      ]
+    },
+    {
+      "name": "shellguard",
+      "file": "shellguard.png",
+      "cell": [
+        68,
+        65
+      ],
+      "anchor": [
+        32,
+        51
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 9
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 11
+        }
+      ]
+    },
+    {
+      "name": "siren",
+      "file": "siren.png",
+      "cell": [
+        55,
+        65
+      ],
+      "anchor": [
+        22,
+        55
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
+      "name": "ink_horror",
+      "file": "ink_horror.png",
+      "cell": [
+        60,
+        53
+      ],
+      "anchor": [
+        30,
+        47
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 11
+        }
+      ]
+    },
+    {
+      "name": "npc_ysolde",
+      "file": "npc_ysolde.png",
+      "cell": [
+        26,
+        51
+      ],
+      "anchor": [
+        13,
+        46
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_nessa",
+      "file": "npc_nessa.png",
+      "cell": [
+        22,
+        46
+      ],
+      "anchor": [
+        11,
+        41
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_coral",
+      "file": "npc_coral.png",
+      "cell": [
+        24,
+        51
+      ],
+      "anchor": [
+        12,
+        45
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "npc_diver",
+      "file": "npc_diver.png",
+      "cell": [
+        38,
+        68
+      ],
+      "anchor": [
+        13,
+        51
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        }
+      ]
+    },
+    {
+      "name": "boss_dregmoor",
+      "file": "boss_dregmoor.png",
+      "cell": [
+        98,
+        116
+      ],
+      "anchor": [
+        36,
+        88
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
+      "name": "boss_nacre",
+      "file": "boss_nacre.png",
+      "cell": [
+        88,
+        106
+      ],
+      "anchor": [
+        34,
+        90
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
+      "name": "boss_angler",
+      "file": "boss_angler.png",
+      "cell": [
+        90,
+        126
+      ],
+      "anchor": [
+        41,
+        98
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 11
+        }
+      ]
+    },
+    {
+      "name": "boss_leviathan",
+      "file": "boss_leviathan.png",
+      "cell": [
+        124,
+        142
+      ],
+      "anchor": [
+        62,
+        122
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
       "name": "valkyrie",
       "file": "valkyrie.png",
       "cell": [
@@ -2435,6 +2873,46 @@
       ]
     },
     {
+      "name": "sea_sand1",
+      "file": "sea_sand1.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "sea_sand2",
+      "file": "sea_sand2.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "coral_floor",
+      "file": "coral_floor.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "wreck_deck",
+      "file": "wreck_deck.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
+      "name": "sanctum_floor",
+      "file": "sanctum_floor.png",
+      "anchor": [
+        16,
+        8
+      ]
+    },
+    {
       "name": "wall",
       "file": "wall_stack.png",
       "anchor": [
@@ -2496,6 +2974,22 @@
       "anchor": [
         16,
         53
+      ]
+    },
+    {
+      "name": "coral_wall",
+      "file": "coral_wall_stack.png",
+      "anchor": [
+        16,
+        56
+      ]
+    },
+    {
+      "name": "sanctum_wall",
+      "file": "sanctum_wall_stack.png",
+      "anchor": [
+        16,
+        56
       ]
     }
   ],
@@ -2951,6 +3445,74 @@
     {
       "name": "brk_urn_3",
       "file": "prop_brk_urn_3.png"
+    },
+    {
+      "name": "kelp1",
+      "file": "prop_kelp1.png"
+    },
+    {
+      "name": "coral1",
+      "file": "prop_coral1.png"
+    },
+    {
+      "name": "coral2",
+      "file": "prop_coral2.png"
+    },
+    {
+      "name": "wreck_hull",
+      "file": "prop_wreck_hull.png"
+    },
+    {
+      "name": "whale_bones",
+      "file": "prop_whale_bones.png"
+    },
+    {
+      "name": "stilt_house1",
+      "file": "prop_stilt_house1.png"
+    },
+    {
+      "name": "stilt_house2",
+      "file": "prop_stilt_house2.png"
+    },
+    {
+      "name": "shell_lamp",
+      "file": "prop_shell_lamp.png"
+    },
+    {
+      "name": "diving_bell",
+      "file": "prop_diving_bell.png"
+    },
+    {
+      "name": "ent_wreck",
+      "file": "prop_ent_wreck.png"
+    },
+    {
+      "name": "ent_cathedral",
+      "file": "prop_ent_cathedral.png"
+    },
+    {
+      "name": "ent_trench",
+      "file": "prop_ent_trench.png"
+    },
+    {
+      "name": "ent_drowned",
+      "file": "prop_ent_drowned.png"
+    },
+    {
+      "name": "leviathan_coil",
+      "file": "prop_leviathan_coil.png"
+    },
+    {
+      "name": "brk_crate_4",
+      "file": "prop_brk_crate_4.png"
+    },
+    {
+      "name": "brk_barrel_4",
+      "file": "prop_brk_barrel_4.png"
+    },
+    {
+      "name": "brk_urn_4",
+      "file": "prop_brk_urn_4.png"
     }
   ]
 }

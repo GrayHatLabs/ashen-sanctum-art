@@ -1,0 +1,173 @@
+{
+  "id": "1c2578e8-b4b9-4678-a393-76445ecd5764",
+  "name": "a siren sea witch woman with pale blue-green skin,...",
+  "state_name": "Idle",
+  "prompt": "a siren sea witch woman with pale blue-green skin, shimmering teal fish scales on her arms and legs, fins on her forearms and ears, long dark wet hair tangled with seaweed, a torn dress of kelp, webbed hands, glowing teal eyes, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 76,
+    "height": 76
+  },
+  "directions": 8,
+  "created_at": "2026-10-07T05:19:06.675254+00:00",
+  "updated_at": "2026-10-07T05:20:10.657399+00:00",
+  "animation_count": 10,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/rotations/south.png?t=1791350410",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/rotations/west.png?t=1791350410",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/rotations/east.png?t=1791350410",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/rotations/north.png?t=1791350410",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/rotations/south-east.png?t=1791350410",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/rotations/north-east.png?t=1791350410",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/rotations/north-west.png?t=1791350410",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/rotations/south-west.png?t=1791350410"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "7e15b60c-b508-4267-b77d-8ce93df0b448",
+  "skeletons": null,
+  "animations": [
+    {
+      "animation_type": "custom-siren singing with arms spread",
+      "display_name": "siren singing with arms spread, magic notes",
+      "animation_group_id": "8f75b36c-6e19-4b27-b410-fea1c3042b2e",
+      "directions": [
+        {
+          "direction": "south-east",
+          "frame_count": 6,
+          "frames": [
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/6793e5e4-b8f6-427f-b1ca-b853cb80a221/south-east/0.png?t=1791351534",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/6793e5e4-b8f6-427f-b1ca-b853cb80a221/south-east/1.png?t=1791351534",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/6793e5e4-b8f6-427f-b1ca-b853cb80a221/south-east/2.png?t=1791351534",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/6793e5e4-b8f6-427f-b1ca-b853cb80a221/south-east/3.png?t=1791351534",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/6793e5e4-b8f6-427f-b1ca-b853cb80a221/south-east/4.png?t=1791351534",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/6793e5e4-b8f6-427f-b1ca-b853cb80a221/south-east/5.png?t=1791351534"
+          ]
+        },
+        {
+          "direction": "east",
+          "frame_count": 6,
+          "frames": [
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f92e2a09-93aa-4cff-be87-35272a69ff5f/east/0.png?t=1791351516",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f92e2a09-93aa-4cff-be87-35272a69ff5f/east/1.png?t=1791351516",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f92e2a09-93aa-4cff-be87-35272a69ff5f/east/2.png?t=1791351516",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f92e2a09-93aa-4cff-be87-35272a69ff5f/east/3.png?t=1791351516",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f92e2a09-93aa-4cff-be87-35272a69ff5f/east/4.png?t=1791351516",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f92e2a09-93aa-4cff-be87-35272a69ff5f/east/5.png?t=1791351516"
+          ]
+        },
+        {
+          "direction": "south",
+          "frame_count": 6,
+          "frames": [
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/3e719a1e-205d-41b0-b707-242f2ee0b77c/south/0.png?t=1791351517",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/3e719a1e-205d-41b0-b707-242f2ee0b77c/south/1.png?t=1791351517",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/3e719a1e-205d-41b0-b707-242f2ee0b77c/south/2.png?t=1791351517",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/3e719a1e-205d-41b0-b707-242f2ee0b77c/south/3.png?t=1791351517",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/3e719a1e-205d-41b0-b707-242f2ee0b77c/south/4.png?t=1791351517",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/3e719a1e-205d-41b0-b707-242f2ee0b77c/south/5.png?t=1791351517"
+          ]
+        },
+        {
+          "direction": "north",
+          "frame_count": 6,
+          "frames": [
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/eded073c-601f-4aac-b2af-530b61497021/north/0.png?t=1791351555",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/eded073c-601f-4aac-b2af-530b61497021/north/1.png?t=1791351555",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/eded073c-601f-4aac-b2af-530b61497021/north/2.png?t=1791351555",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/eded073c-601f-4aac-b2af-530b61497021/north/3.png?t=1791351555",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/eded073c-601f-4aac-b2af-530b61497021/north/4.png?t=1791351555",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/eded073c-601f-4aac-b2af-530b61497021/north/5.png?t=1791351555"
+          ]
+        },
+        {
+          "direction": "north-east",
+          "frame_count": 6,
+          "frames": [
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f40d3e45-be11-46b9-bb13-86313dc29c64/north-east/0.png?t=1791351543",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f40d3e45-be11-46b9-bb13-86313dc29c64/north-east/1.png?t=1791351543",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f40d3e45-be11-46b9-bb13-86313dc29c64/north-east/2.png?t=1791351543",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f40d3e45-be11-46b9-bb13-86313dc29c64/north-east/3.png?t=1791351543",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f40d3e45-be11-46b9-bb13-86313dc29c64/north-east/4.png?t=1791351543",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f40d3e45-be11-46b9-bb13-86313dc29c64/north-east/5.png?t=1791351543"
+          ]
+        }
+      ]
+    },
+    {
+      "animation_type": "custom-siren walking forward graceful",
+      "display_name": "siren walking forward gracefully",
+      "animation_group_id": "9c62ac8a-9cd6-4049-81d8-112ebe79be03",
+      "directions": [
+        {
+          "direction": "south-east",
+          "frame_count": 6,
+          "frames": [
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/3ef16ad1-b5eb-4ec4-a4ba-d8799b9c4582/south-east/0.png?t=1791351348",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/3ef16ad1-b5eb-4ec4-a4ba-d8799b9c4582/south-east/1.png?t=1791351348",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/3ef16ad1-b5eb-4ec4-a4ba-d8799b9c4582/south-east/2.png?t=1791351348",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/3ef16ad1-b5eb-4ec4-a4ba-d8799b9c4582/south-east/3.png?t=1791351348",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/3ef16ad1-b5eb-4ec4-a4ba-d8799b9c4582/south-east/4.png?t=1791351348",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/3ef16ad1-b5eb-4ec4-a4ba-d8799b9c4582/south-east/5.png?t=1791351348"
+          ]
+        },
+        {
+          "direction": "south",
+          "frame_count": 6,
+          "frames": [
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f40a3468-b8ed-4a31-8d91-8c00f9d5d934/south/0.png?t=1791351330",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f40a3468-b8ed-4a31-8d91-8c00f9d5d934/south/1.png?t=1791351330",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f40a3468-b8ed-4a31-8d91-8c00f9d5d934/south/2.png?t=1791351330",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f40a3468-b8ed-4a31-8d91-8c00f9d5d934/south/3.png?t=1791351330",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f40a3468-b8ed-4a31-8d91-8c00f9d5d934/south/4.png?t=1791351330",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/f40a3468-b8ed-4a31-8d91-8c00f9d5d934/south/5.png?t=1791351330"
+          ]
+        },
+        {
+          "direction": "east",
+          "frame_count": 6,
+          "frames": [
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/94edee54-5e87-4c09-868f-b780c27cecf3/east/0.png?t=1791351358",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/94edee54-5e87-4c09-868f-b780c27cecf3/east/1.png?t=1791351358",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/94edee54-5e87-4c09-868f-b780c27cecf3/east/2.png?t=1791351358",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/94edee54-5e87-4c09-868f-b780c27cecf3/east/3.png?t=1791351358",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/94edee54-5e87-4c09-868f-b780c27cecf3/east/4.png?t=1791351358",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/94edee54-5e87-4c09-868f-b780c27cecf3/east/5.png?t=1791351358"
+          ]
+        },
+        {
+          "direction": "north",
+          "frame_count": 6,
+          "frames": [
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/07379b0f-b4ef-47a4-8d8e-95ed28345f8b/north/0.png?t=1791351398",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/07379b0f-b4ef-47a4-8d8e-95ed28345f8b/north/1.png?t=1791351398",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/07379b0f-b4ef-47a4-8d8e-95ed28345f8b/north/2.png?t=1791351398",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/07379b0f-b4ef-47a4-8d8e-95ed28345f8b/north/3.png?t=1791351398",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/07379b0f-b4ef-47a4-8d8e-95ed28345f8b/north/4.png?t=1791351398",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/07379b0f-b4ef-47a4-8d8e-95ed28345f8b/north/5.png?t=1791351398"
+          ]
+        },
+        {
+          "direction": "north-east",
+          "frame_count": 6,
+          "frames": [
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/9b9a7750-ea81-4964-adb5-e9fbf35f9478/north-east/0.png?t=1791351396",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/9b9a7750-ea81-4964-adb5-e9fbf35f9478/north-east/1.png?t=1791351396",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/9b9a7750-ea81-4964-adb5-e9fbf35f9478/north-east/2.png?t=1791351396",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/9b9a7750-ea81-4964-adb5-e9fbf35f9478/north-east/3.png?t=1791351396",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/9b9a7750-ea81-4964-adb5-e9fbf35f9478/north-east/4.png?t=1791351396",
+            "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/1c2578e8-b4b9-4678-a393-76445ecd5764/animations/9b9a7750-ea81-4964-adb5-e9fbf35f9478/north-east/5.png?t=1791351396"
+          ]
+        }
+      ]
+    }
+  ]
+}

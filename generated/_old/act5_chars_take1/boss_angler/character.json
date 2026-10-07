@@ -1,0 +1,38 @@
+{
+  "id": "2d759f7f-7ae3-4ab1-98ec-7ee450855008",
+  "name": "a colossal anglerfish matriarch crawling on finned...",
+  "state_name": "Idle",
+  "prompt": "a colossal anglerfish matriarch crawling on finned legs, gaping jaws of glassy needle teeth, a huge glowing cyan lure dangling above her head, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 136,
+    "height": 136
+  },
+  "directions": 8,
+  "created_at": "2026-10-07T04:12:33.900876+00:00",
+  "updated_at": "2026-10-07T04:14:30.033588+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2d759f7f-7ae3-4ab1-98ec-7ee450855008/rotations/south.png?t=1791346470",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2d759f7f-7ae3-4ab1-98ec-7ee450855008/rotations/west.png?t=1791346470",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2d759f7f-7ae3-4ab1-98ec-7ee450855008/rotations/east.png?t=1791346470",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2d759f7f-7ae3-4ab1-98ec-7ee450855008/rotations/north.png?t=1791346470",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2d759f7f-7ae3-4ab1-98ec-7ee450855008/rotations/south-east.png?t=1791346470",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2d759f7f-7ae3-4ab1-98ec-7ee450855008/rotations/north-east.png?t=1791346470",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2d759f7f-7ae3-4ab1-98ec-7ee450855008/rotations/north-west.png?t=1791346470",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/2d759f7f-7ae3-4ab1-98ec-7ee450855008/rotations/south-west.png?t=1791346470"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "7ba8a1bf-1224-4ac6-8cec-615d25b08d4b",
+  "skeletons": null,
+  "animations": []
+}

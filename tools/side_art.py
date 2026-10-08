@@ -19,6 +19,9 @@ GEN = gen.GEN
 HEADS = "small head, realistic adult body proportions, long legs"
 
 PROPS = [
+    # Act 5: the Drowned Deep
+    ("shrine_coral", "a small undersea shrine: a pale coral and mother-of-pearl altar shaped like a giant scallop shell, a glowing cyan pearl in its middle, kelp at its base, a single isometric object", 40, 56),
+    ("ent_grotto", "a sea cave mouth in a mound of dark rock crusted with barnacles and pale coral, glowing pearls and shells around the opening, wet sand and seaweed, a single isometric object", 104, 96),
     # Act 4: Mechanus
     ("shrine_gear", "a small brass shrine: a polished brass pillar with a big glowing golden clock face and turning gears on its sides, steam hissing from a pipe, a single isometric object", 40, 56),
     ("ent_scrapheap", "a huge heap of rusted scrap metal, broken gears, pipes and dead automaton parts piled into a hill, with a dark tunnel opening into it held up by a bent iron girder, a single isometric object", 104, 96),

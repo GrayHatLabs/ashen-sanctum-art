@@ -782,3 +782,6 @@
 2026-10-08 12:45:57 boss_junkgolem2 character job=e1054c17-beca-4692-b084-6cfbd8fb381f status=completed {"type": "generations", "generations": 1.0}
 2026-10-08 12:46:06 boss_junkgolem2 request scrap golem stomping forward heavily ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-08 12:48:37 boss_junkgolem2 request scrap golem smashing both iron fists down ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-08 13:02:40 shrine_coral prop {"type": "generations", "generations": 1.0}
+2026-10-08 13:03:27 ent_grotto prop {"type": "generations", "generations": 1.0}
+2026-10-08 13:04:11 boss_junkgolem {"type": "generations", "generations": 1.0}

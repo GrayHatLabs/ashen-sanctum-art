@@ -2332,12 +2332,12 @@
       "name": "boss_junkgolem",
       "file": "boss_junkgolem.png",
       "cell": [
-        134,
-        132
+        81,
+        103
       ],
       "anchor": [
-        51,
-        105
+        41,
+        101
       ],
       "anims": [
         {
@@ -2345,18 +2345,6 @@
           "row": 0,
           "frames": 1,
           "fps": 1
-        },
-        {
-          "name": "walk",
-          "row": 8,
-          "frames": 6,
-          "fps": 7
-        },
-        {
-          "name": "attack",
-          "row": 16,
-          "frames": 6,
-          "fps": 10
         }
       ]
     },

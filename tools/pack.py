@@ -145,7 +145,8 @@ CHARS = {
     "npc_bogwitch": [("idle", None, 1)],
     "npc_magistrate": [("idle", None, 1)],
     "automaton": [("idle", None, 1), ("walk", "clockwork knight marching forward stiffly", 8), ("attack", "clockwork knight slashing with its gear blade", 12)],
-    "boss_junkgolem": [("idle", None, 1), ("walk", "scrap golem stomping forward heavily", 7), ("attack", "scrap golem smashing both iron fists down", 10)],
+    # OpenAI turnaround, sliced (tools/junkgolem_oai.py; the user's pick 2026-10-08): idle only, the game bobs it.
+    "boss_junkgolem": [("idle", None, 1)],
     "boss_gravedigger": [("idle", None, 1), ("walk", "giant ghoul lumbering forward dragging a shovel", 7),
                          ("attack", "giant ghoul slamming the shovel down onto the ground", 10)],
     "boss_wellwitch": [("idle", None, 1), ("walk", "hag witch hobbling forward leaning on her staff", 7),

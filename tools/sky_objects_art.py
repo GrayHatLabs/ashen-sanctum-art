@@ -74,7 +74,18 @@ LURKER = ("anglerlurk", "a deep-sea anglerfish monster seen from the side facing
           "lure dangling on a stalk in front of its face, clearly a fish", 80, 46, "side")
 
 
+# Act 4's Junk Golem (user's choice, 2026-10-08): the character generator made a sleek robot twice
+# (kept in _old/junkgolem_take1 and generated/boss_junkgolem2).
+GOLEM = ("boss_junkgolem", "a hulking golem built from a heap of rusty scrap metal seen from the side facing right: a dented old "
+         "boiler for a chest glowing orange through cracks, bent pipes and chains for arms, two huge mismatched iron fists, "
+         "cog wheels and broken gears stuck all over its shoulders and back, rivets and rust, crooked and lopsided, standing "
+         "hunched on two stumpy legs made of piled scrap", 128, 92, "side")
+
+
 if __name__ == "__main__":
+    if sys.argv[1:] == ["junkgolem"]:
+        make(*GOLEM, old_dir="junkgolem_take1")
+        sys.exit()
     if sys.argv[1:] == ["anglerlurk"]:
         make(*LURKER, old_dir="act5_chars_take2")
         sys.exit()

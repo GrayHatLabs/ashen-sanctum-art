@@ -2277,6 +2277,90 @@
       ]
     },
     {
+      "name": "npc_magistrate",
+      "file": "npc_magistrate.png",
+      "cell": [
+        32,
+        58
+      ],
+      "anchor": [
+        16,
+        52
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "automaton",
+      "file": "automaton.png",
+      "cell": [
+        71,
+        80
+      ],
+      "anchor": [
+        28,
+        61
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 12
+        }
+      ]
+    },
+    {
+      "name": "boss_junkgolem",
+      "file": "boss_junkgolem.png",
+      "cell": [
+        134,
+        132
+      ],
+      "anchor": [
+        51,
+        105
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
       "name": "boss_gravedigger",
       "file": "boss_gravedigger.png",
       "cell": [
@@ -4245,6 +4329,14 @@
     {
       "name": "tomb_shade",
       "file": "prop_tomb_shade.png"
+    },
+    {
+      "name": "shrine_gear",
+      "file": "prop_shrine_gear.png"
+    },
+    {
+      "name": "ent_scrapheap",
+      "file": "prop_ent_scrapheap.png"
     }
   ]
 }

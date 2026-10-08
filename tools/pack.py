@@ -143,6 +143,9 @@ CHARS = {
                       ("attack", "dragon lowering its head and breathing a torrent of fire, staying on all four legs", 10),
                       ("sleep", "dragon lying down curled up asleep on the ground, breathing slowly, eyes closed", 4)],
     "npc_bogwitch": [("idle", None, 1)],
+    "npc_magistrate": [("idle", None, 1)],
+    "automaton": [("idle", None, 1), ("walk", "clockwork knight marching forward stiffly", 8), ("attack", "clockwork knight slashing with its gear blade", 12)],
+    "boss_junkgolem": [("idle", None, 1), ("walk", "scrap golem stomping forward heavily", 7), ("attack", "scrap golem smashing both iron fists down", 10)],
     "boss_gravedigger": [("idle", None, 1), ("walk", "giant ghoul lumbering forward dragging a shovel", 7),
                          ("attack", "giant ghoul slamming the shovel down onto the ground", 10)],
     "boss_wellwitch": [("idle", None, 1), ("walk", "hag witch hobbling forward leaning on her staff", 7),
@@ -366,7 +369,8 @@ PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "hous
          "light_stair", "ent_brokenchoir", "ent_spire", "ent_wheel", "ent_zenith", "brk_crate_5", "brk_barrel_5", "brk_urn_5",
          # Side content (tools/side_art.py).
          "shrine_ash", "ent_charnel", "ent_wyrm", "hoard_gold",
-         "shrine_frost", "ent_longship", "shrine_mist", "ent_cellar", "ent_manor", "bell_shrine", "tomb_shade"]
+         "shrine_frost", "ent_longship", "shrine_mist", "ent_cellar", "ent_manor", "bell_shrine", "tomb_shade",
+         "shrine_gear", "ent_scrapheap"]
 ITEM_SIZE = 14
 # Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
 ICON_SIZE = 24

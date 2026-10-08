@@ -1,0 +1,38 @@
+{
+  "id": "aa01b2c6-0c1a-4983-9db4-72a568da1cc9",
+  "name": "a stern clockwork magistrate judge, tall powdered ...",
+  "state_name": "Idle",
+  "prompt": "a stern clockwork magistrate judge, tall powdered white wig over a brass mask face, long black judge's robe with brass gears and a golden scale emblem, holding a gavel, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 76,
+    "height": 76
+  },
+  "directions": 8,
+  "created_at": "2026-10-08T18:21:15.687294+00:00",
+  "updated_at": "2026-10-08T18:23:11.644868+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/aa01b2c6-0c1a-4983-9db4-72a568da1cc9/rotations/south.png?t=1791483791",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/aa01b2c6-0c1a-4983-9db4-72a568da1cc9/rotations/west.png?t=1791483791",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/aa01b2c6-0c1a-4983-9db4-72a568da1cc9/rotations/east.png?t=1791483791",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/aa01b2c6-0c1a-4983-9db4-72a568da1cc9/rotations/north.png?t=1791483791",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/aa01b2c6-0c1a-4983-9db4-72a568da1cc9/rotations/south-east.png?t=1791483791",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/aa01b2c6-0c1a-4983-9db4-72a568da1cc9/rotations/north-east.png?t=1791483791",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/aa01b2c6-0c1a-4983-9db4-72a568da1cc9/rotations/north-west.png?t=1791483791",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/aa01b2c6-0c1a-4983-9db4-72a568da1cc9/rotations/south-west.png?t=1791483791"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "3e80fc8a-f6a7-41fe-b2bc-4eafea3dc126",
+  "skeletons": null,
+  "animations": []
+}

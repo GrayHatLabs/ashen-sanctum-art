@@ -19,6 +19,9 @@ GEN = gen.GEN
 HEADS = "small head, realistic adult body proportions, long legs"
 
 PROPS = [
+    # Act 4: Mechanus
+    ("shrine_gear", "a small brass shrine: a polished brass pillar with a big glowing golden clock face and turning gears on its sides, steam hissing from a pipe, a single isometric object", 40, 56),
+    ("ent_scrapheap", "a huge heap of rusted scrap metal, broken gears, pipes and dead automaton parts piled into a hill, with a dark tunnel opening into it held up by a bent iron girder, a single isometric object", 104, 96),
     # Act 3: the Mistwood
     ("shrine_mist", "a small ancient shrine: a mossy weathered stone grave-altar with a carved weeping angel, pale green ghost-light candles burning on it, a single isometric object", 40, 56),
     ("ent_cellar", "a slanted wooden cellar door set into an old earth mound in a graveyard, chains and a broken padlock, a dark stair going down, a rusty shovel leaning against it, a single isometric object", 96, 88),
@@ -36,6 +39,9 @@ PROPS = [
 ]
 
 CHARS = [
+    ("npc_magistrate", f"a stern clockwork magistrate judge, tall powdered white wig over a brass mask face, long black judge's robe with brass gears and a golden scale emblem, holding a gavel, {HEADS}", 52, "heroic", ""),
+    ("automaton", f"a brass clockwork automaton knight, riveted polished brass armor plates, a glowing blue eye slit, a big wind-up key in its back, a sword arm made of a gear blade, {HEADS}", 52, "heroic", ""),
+    ("boss_junkgolem", "a hulking golem made of rusted scrap metal, broken gears, pipes and a cracked boiler for a chest glowing orange, mismatched huge iron fists, hunched and massive", 96, "heroic", ""),
     ("npc_bogwitch", f"an old bog witch woman with a wide-brimmed tattered black hat, a cloak of moss and reeds, frog and bone charms on strings, a crooked walking stick, sly smile, {HEADS}", 48, "realistic_female", ""),
     ("boss_gravedigger", f"a huge hunched ghoul gravedigger, grey rotting skin, a filthy leather apron, a big iron shovel held in both hands, a lantern on his belt, long claws, {HEADS}", 84, "heroic", ""),
     ("boss_firewyrm", "a colossal ancient red fire dragon on four thick clawed legs, huge tattered bat wings half spread above its back, crimson and black scales glowing orange between the plates like embers, smoke from its nostrils, horned head, thick long spiked tail, quadruped beast", 128, "none", "bear"),
@@ -43,6 +49,10 @@ CHARS = [
 ]
 
 ANIMS = [
+    ("automaton", "clockwork knight marching forward stiffly", 6),
+    ("automaton", "clockwork knight slashing with its gear blade", 6),
+    ("boss_junkgolem", "scrap golem stomping forward heavily", 6),
+    ("boss_junkgolem", "scrap golem smashing both iron fists down", 6),
     ("boss_gravedigger", "giant ghoul lumbering forward dragging a shovel", 6),
     ("boss_gravedigger", "giant ghoul slamming the shovel down onto the ground", 6),
     ("boss_firewyrm", "dragon prowling forward on all four legs, wings folded", 6),

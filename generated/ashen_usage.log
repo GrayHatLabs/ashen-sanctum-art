@@ -770,3 +770,15 @@
 2026-10-08 12:03:59 boss_gravedigger request giant ghoul slamming the shovel down onto the ground ['south', 'south-east', 'east', 'north-east', 'north'] null
 2026-10-08 12:09:15 ent_manor prop {"type": "generations", "generations": 1.0}
 2026-10-08 12:09:54 bell_shrine prop {"type": "generations", "generations": 1.0}
+2026-10-08 12:20:42 shrine_gear prop {"type": "generations", "generations": 1.0}
+2026-10-08 12:21:14 ent_scrapheap prop {"type": "generations", "generations": 1.0}
+2026-10-08 12:23:17 npc_magistrate character job=107539f3-c8f0-45e9-88db-4cc0fb3456e2 status=completed {"type": "generations", "generations": 1.0}
+2026-10-08 12:24:39 automaton character job=53a9c7f6-a860-4983-9fcb-1f0e1a018f58 status=completed {"type": "generations", "generations": 1.0}
+2026-10-08 12:28:05 boss_junkgolem character job=7bed1e3b-88ca-4908-b04a-a08034b556ec status=completed {"type": "generations", "generations": 1.0}
+2026-10-08 12:28:15 automaton request clockwork knight marching forward stiffly ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-08 12:30:42 automaton request clockwork knight slashing with its gear blade ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-08 12:33:47 boss_junkgolem request scrap golem stomping forward heavily ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-08 12:36:47 boss_junkgolem request scrap golem smashing both iron fists down ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-08 12:45:57 boss_junkgolem2 character job=e1054c17-beca-4692-b084-6cfbd8fb381f status=completed {"type": "generations", "generations": 1.0}
+2026-10-08 12:46:06 boss_junkgolem2 request scrap golem stomping forward heavily ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-08 12:48:37 boss_junkgolem2 request scrap golem smashing both iron fists down ['south', 'south-east', 'east', 'north-east', 'north'] null

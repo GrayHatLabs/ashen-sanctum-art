@@ -1,0 +1,14 @@
+character 7b99c60b-0e52-4656-9588-6ef32c5ee7cf
+fetched boss_junkgolem2
+requested boss_junkgolem2 scrap golem stomping forward heavily ['south', 'south-east', 'east', 'north-east', 'north']
+boss_junkgolem2 scrap golem stomping forward heavily now ['north-east']
+boss_junkgolem2 scrap golem stomping forward heavily now ['north-east', 'south']
+boss_junkgolem2 scrap golem stomping forward heavily now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_junkgolem2
+done boss_junkgolem2 scrap golem stomping forward heavily
+requested boss_junkgolem2 scrap golem smashing both iron fists down ['south', 'south-east', 'east', 'north-east', 'north']
+boss_junkgolem2 scrap golem smashing both iron fists down now ['north', 'north-east', 'south', 'south-east']
+boss_junkgolem2 scrap golem smashing both iron fists down now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_junkgolem2
+done boss_junkgolem2 scrap golem smashing both iron fists down
+golem2 done

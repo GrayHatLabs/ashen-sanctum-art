@@ -139,6 +139,9 @@ CHARS = {
     "brazier_rekindle": [("idle", None, 1)],
     "npc_riftwarden": [("idle", None, 1)],
     # ---- side content (tools/side_art.py) ----
+    "boss_firewyrm": [("idle", None, 1), ("walk", "dragon prowling forward on all four legs, wings folded", 7),
+                      ("attack", "dragon lowering its head and breathing a torrent of fire, staying on all four legs", 10),
+                      ("sleep", "dragon lying down curled up asleep on the ground, breathing slowly, eyes closed", 4)],
     "boss_wellwitch": [("idle", None, 1), ("walk", "hag witch hobbling forward leaning on her staff", 7),
                        ("attack", "hag witch thrusting her skull staff forward to cast a green curse", 10)],
     # ---- the Valkyrie (tools/valkyrie_art.py) ----
@@ -359,7 +362,7 @@ PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "hous
          "angel_statue", "halo_arch", "sky_lamp", "cloud_tree", "marble_ruin", "sky_house1", "sky_house2", "airship_dock",
          "light_stair", "ent_brokenchoir", "ent_spire", "ent_wheel", "ent_zenith", "brk_crate_5", "brk_barrel_5", "brk_urn_5",
          # Side content (tools/side_art.py).
-         "shrine_ash", "ent_charnel"]
+         "shrine_ash", "ent_charnel", "ent_wyrm", "hoard_gold"]
 ITEM_SIZE = 14
 # Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
 ICON_SIZE = 24

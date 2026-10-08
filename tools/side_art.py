@@ -19,6 +19,12 @@ GEN = gen.GEN
 HEADS = "small head, realistic adult body proportions, long legs"
 
 PROPS = [
+    # Act 3: the Mistwood
+    ("shrine_mist", "a small ancient shrine: a mossy weathered stone grave-altar with a carved weeping angel, pale green ghost-light candles burning on it, a single isometric object", 40, 56),
+    ("ent_cellar", "a slanted wooden cellar door set into an old earth mound in a graveyard, chains and a broken padlock, a dark stair going down, a rusty shovel leaning against it, a single isometric object", 96, 88),
+    ("ent_manor", "a creepy abandoned gothic manor house, dark charcoal grey stone walls, black slate roof with a crooked chimney and a broken tower, boarded black windows, one window glowing ghostly pale green, dead black vines, gloomy and sinister, a single isometric object", 104, 112),
+    ("bell_shrine", "a big dark bronze church bell hanging from a simple wooden A-frame gallows-like beam on the ground, a rope dangling from it, moss and candles at its foot, a single isometric object", 40, 72),
+    ("tomb_shade", "an old stone crypt tomb with a cracked lid, a carved skull and a faint pale blue glow leaking from the crack, a single isometric object", 56, 48),
     # Act 2: the Frostmarch
     ("shrine_frost", "a small ancient shrine: a frosted grey-blue standing stone carved with a glowing pale blue rune, icicles hanging from it, a bowl of blue cold fire in front, snow at its base, a single isometric object", 40, 56),
     ("ent_longship", "the bow of a big viking longship frozen into thick blue ice, a carved dragon head on the prow, broken oars, a dark hole cut into its side as a doorway, snow on the deck, a single isometric object", 104, 96),
@@ -30,11 +36,15 @@ PROPS = [
 ]
 
 CHARS = [
+    ("npc_bogwitch", f"an old bog witch woman with a wide-brimmed tattered black hat, a cloak of moss and reeds, frog and bone charms on strings, a crooked walking stick, sly smile, {HEADS}", 48, "realistic_female", ""),
+    ("boss_gravedigger", f"a huge hunched ghoul gravedigger, grey rotting skin, a filthy leather apron, a big iron shovel held in both hands, a lantern on his belt, long claws, {HEADS}", 84, "heroic", ""),
     ("boss_firewyrm", "a colossal ancient red fire dragon on four thick clawed legs, huge tattered bat wings half spread above its back, crimson and black scales glowing orange between the plates like embers, smoke from its nostrils, horned head, thick long spiked tail, quadruped beast", 128, "none", "bear"),
     ("boss_wellwitch", f"a hunched old swamp hag witch, grey-green warty skin, long stringy wet black hair, ragged dark brown robes dripping water, a necklace of small bones, a crooked wooden staff topped with a skull, glowing sickly green eyes, {HEADS}", 84, "realistic_female", ""),
 ]
 
 ANIMS = [
+    ("boss_gravedigger", "giant ghoul lumbering forward dragging a shovel", 6),
+    ("boss_gravedigger", "giant ghoul slamming the shovel down onto the ground", 6),
     ("boss_firewyrm", "dragon prowling forward on all four legs, wings folded", 6),
     ("boss_firewyrm", "dragon lowering its head and breathing a torrent of fire, staying on all four legs", 6),
     ("boss_firewyrm", "dragon lying down curled up asleep on the ground, breathing slowly, eyes closed", 6),

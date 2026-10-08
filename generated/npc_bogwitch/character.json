@@ -1,0 +1,38 @@
+{
+  "id": "48449d98-251b-4235-8b67-11adfabec341",
+  "name": "an old bog witch woman with a wide-brimmed tattere...",
+  "state_name": "Idle",
+  "prompt": "an old bog witch woman with a wide-brimmed tattered black hat, a cloak of moss and reeds, frog and bone charms on strings, a crooked walking stick, sly smile, small head, realistic adult body proportions, long legs, dark gothic fantasy, Diablo 2 style, gritty muted colors",
+  "size": {
+    "width": 68,
+    "height": 68
+  },
+  "directions": 8,
+  "created_at": "2026-10-08T17:57:39.320227+00:00",
+  "updated_at": "2026-10-08T17:58:33.243139+00:00",
+  "animation_count": 0,
+  "template_id": "mannequin",
+  "view": "high top-down",
+  "status": "completed",
+  "rotation_urls": {
+    "south": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/48449d98-251b-4235-8b67-11adfabec341/rotations/south.png?t=1791482313",
+    "west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/48449d98-251b-4235-8b67-11adfabec341/rotations/west.png?t=1791482313",
+    "east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/48449d98-251b-4235-8b67-11adfabec341/rotations/east.png?t=1791482313",
+    "north": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/48449d98-251b-4235-8b67-11adfabec341/rotations/north.png?t=1791482313",
+    "south-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/48449d98-251b-4235-8b67-11adfabec341/rotations/south-east.png?t=1791482313",
+    "north-east": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/48449d98-251b-4235-8b67-11adfabec341/rotations/north-east.png?t=1791482313",
+    "north-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/48449d98-251b-4235-8b67-11adfabec341/rotations/north-west.png?t=1791482313",
+    "south-west": "https://backblaze.pixellab.ai/file/pixellab-characters/08e291be-b181-49b6-b5e5-65cf391b3a73/48449d98-251b-4235-8b67-11adfabec341/rotations/south-west.png?t=1791482313"
+  },
+  "style_settings": {
+    "detail": "medium detail",
+    "outline": "single color black outline",
+    "shading": "medium shading"
+  },
+  "guidance": null,
+  "ai_freedom": null,
+  "tags": [],
+  "group_id": "4bace02e-05e1-43c0-b515-fef5ef610c51",
+  "skeletons": null,
+  "animations": []
+}

@@ -138,6 +138,9 @@ CHARS = {
     # ---- the endgame (tools/endgame_art.py): the Rekindling brazier (a single image) and the Riftwarden ----
     "brazier_rekindle": [("idle", None, 1)],
     "npc_riftwarden": [("idle", None, 1)],
+    # ---- side content (tools/side_art.py) ----
+    "boss_wellwitch": [("idle", None, 1), ("walk", "hag witch hobbling forward leaning on her staff", 7),
+                       ("attack", "hag witch thrusting her skull staff forward to cast a green curse", 10)],
     # ---- the Valkyrie (tools/valkyrie_art.py) ----
     "valkyrie": [("idle", None, 1), ("walk", "walking forward with steady strides, holding the spear low at her side exactly as in her standing pose, the spear does not lift or turn, legs stepping", 9),
                  ("attack", "thrusting the long spear forward in a fast lunge", 16),
@@ -354,7 +357,9 @@ PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "hous
          "brk_crate_4", "brk_barrel_4", "brk_urn_4",
          # Act 6 (tools/act6_art.py).
          "angel_statue", "halo_arch", "sky_lamp", "cloud_tree", "marble_ruin", "sky_house1", "sky_house2", "airship_dock",
-         "light_stair", "ent_brokenchoir", "ent_spire", "ent_wheel", "ent_zenith", "brk_crate_5", "brk_barrel_5", "brk_urn_5"]
+         "light_stair", "ent_brokenchoir", "ent_spire", "ent_wheel", "ent_zenith", "brk_crate_5", "brk_barrel_5", "brk_urn_5",
+         # Side content (tools/side_art.py).
+         "shrine_ash", "ent_charnel"]
 ITEM_SIZE = 14
 # Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
 ICON_SIZE = 24

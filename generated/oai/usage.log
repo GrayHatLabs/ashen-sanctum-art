@@ -29,3 +29,5 @@
 2026-10-08 13:26:25 sprite_barnacle_0 {"input_tokens": 278, "input_tokens_details": {"image_tokens": 0, "text_tokens": 278}, "output_tokens": 6208, "output_tokens_details": {"image_tokens": 6208, "text_tokens": 0}, "total_tokens": 6486}
 2026-10-08 13:28:28 kraken_arm_0 {"input_tokens": 144, "input_tokens_details": {"image_tokens": 0, "text_tokens": 144}, "output_tokens": 6240, "output_tokens_details": {"image_tokens": 6240, "text_tokens": 0}, "total_tokens": 6384}
 2026-10-08 14:21:08 sprite_astronomer_0 {"input_tokens": 265, "input_tokens_details": {"image_tokens": 0, "text_tokens": 265}, "output_tokens": 6208, "output_tokens_details": {"image_tokens": 6208, "text_tokens": 0}, "total_tokens": 6473}
+2026-10-08 14:59:03 ent_observatory_0 {"input_tokens": 143, "input_tokens_details": {"image_tokens": 0, "text_tokens": 143}, "output_tokens": 4160, "output_tokens_details": {"image_tokens": 4160, "text_tokens": 0}, "total_tokens": 4303}
+2026-10-08 14:59:15 shrine_sky_0 {"input_tokens": 126, "input_tokens_details": {"image_tokens": 0, "text_tokens": 126}, "output_tokens": 6240, "output_tokens_details": {"image_tokens": 6240, "text_tokens": 0}, "total_tokens": 6366}

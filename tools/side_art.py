@@ -19,6 +19,9 @@ GEN = gen.GEN
 HEADS = "small head, realistic adult body proportions, long legs"
 
 PROPS = [
+    # Act 2: the Frostmarch
+    ("shrine_frost", "a small ancient shrine: a frosted grey-blue standing stone carved with a glowing pale blue rune, icicles hanging from it, a bowl of blue cold fire in front, snow at its base, a single isometric object", 40, 56),
+    ("ent_longship", "the bow of a big viking longship frozen into thick blue ice, a carved dragon head on the prow, broken oars, a dark hole cut into its side as a doorway, snow on the deck, a single isometric object", 104, 96),
     # Act 1: the Ashlands
     ("shrine_ash", "a small ancient shrine: a weathered grey stone altar with a carved hooded figure on top, a bowl of glowing orange embers and a rune carved on its front, a single isometric object", 40, 56),
     ("ent_wyrm", "a dark cave mouth in a jagged red-brown mountain rock face, scorched black around the opening, smoke curling out, a few gold coins and a broken shield scattered on the ground in front, glowing orange light deep inside, a single isometric object", 104, 96),

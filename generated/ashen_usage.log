@@ -745,3 +745,28 @@
 2026-10-07 16:06:41 brazier_rekindle prop {"type": "generations", "generations": 1.0}
 2026-10-07 16:07:29 rift_portal prop {"type": "generations", "generations": 1.0}
 2026-10-07 16:08:51 npc_riftwarden character job=0840c251-7034-4d61-95be-db27588997b9 status=completed {"type": "generations", "generations": 1.0}
+2026-10-08 00:20:53 shrine_ash prop {"type": "generations", "generations": 1.0}
+2026-10-08 00:21:22 ent_charnel prop {"type": "generations", "generations": 1.0}
+2026-10-08 00:22:02 ent_charnel prop {"type": "generations", "generations": 1.0}
+2026-10-08 00:24:03 boss_wellwitch character job=2108b4f1-f3de-4844-9ce0-1f89ccd491e3 status=completed {"type": "generations", "generations": 1.0}
+2026-10-08 00:24:13 boss_wellwitch request hag witch hobbling forward leaning on her staff ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-08 00:26:38 boss_wellwitch request hag witch thrusting her skull staff forward to cast a green curse ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-08 10:10:28 ent_wyrm prop {"type": "generations", "generations": 1.0}
+2026-10-08 10:10:57 hoard_gold prop {"type": "generations", "generations": 1.0}
+2026-10-08 10:18:13 boss_firewyrm character job=098d044f-27c4-4017-9768-bc5a01e38ee6 status=completed {"type": "generations", "generations": 1.0}
+2026-10-08 10:18:46 boss_firewyrm request dragon prowling forward on all four legs, wings folded ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-08 10:21:55 boss_firewyrm request dragon lowering its head and breathing a torrent of fire, staying on all four legs ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-08 10:27:45 boss_firewyrm request dragon lying down curled up asleep on the ground, breathing slowly, eyes closed ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-08 11:24:40 shrine_frost prop {"type": "generations", "generations": 1.0}
+2026-10-08 11:25:28 ent_longship prop {"type": "generations", "generations": 1.0}
+2026-10-08 11:55:44 shrine_mist prop {"type": "generations", "generations": 1.0}
+2026-10-08 11:56:09 ent_cellar prop {"type": "generations", "generations": 1.0}
+2026-10-08 11:56:48 ent_manor prop {"type": "generations", "generations": 1.0}
+2026-10-08 11:57:12 bell_shrine prop {"type": "generations", "generations": 1.0}
+2026-10-08 11:57:38 tomb_shade prop {"type": "generations", "generations": 1.0}
+2026-10-08 11:58:36 npc_bogwitch character job=cbb3d1b2-3c39-466e-8d21-01d490c1abc8 status=completed {"type": "generations", "generations": 1.0}
+2026-10-08 12:01:13 boss_gravedigger character job=d492a093-980b-414f-8acc-a68b145081da status=completed {"type": "generations", "generations": 1.0}
+2026-10-08 12:01:27 boss_gravedigger request giant ghoul lumbering forward dragging a shovel ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-08 12:03:59 boss_gravedigger request giant ghoul slamming the shovel down onto the ground ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-08 12:09:15 ent_manor prop {"type": "generations", "generations": 1.0}
+2026-10-08 12:09:54 bell_shrine prop {"type": "generations", "generations": 1.0}

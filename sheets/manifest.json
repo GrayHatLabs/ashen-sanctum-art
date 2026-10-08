@@ -2219,6 +2219,128 @@
       ]
     },
     {
+      "name": "boss_firewyrm",
+      "file": "boss_firewyrm.png",
+      "cell": [
+        171,
+        157
+      ],
+      "anchor": [
+        74,
+        114
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
+        },
+        {
+          "name": "sleep",
+          "row": 24,
+          "frames": 6,
+          "fps": 4
+        }
+      ]
+    },
+    {
+      "name": "npc_bogwitch",
+      "file": "npc_bogwitch.png",
+      "cell": [
+        31,
+        54
+      ],
+      "anchor": [
+        14,
+        48
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_gravedigger",
+      "file": "boss_gravedigger.png",
+      "cell": [
+        126,
+        121
+      ],
+      "anchor": [
+        46,
+        95
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
+      "name": "boss_wellwitch",
+      "file": "boss_wellwitch.png",
+      "cell": [
+        109,
+        103
+      ],
+      "anchor": [
+        47,
+        86
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 7
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 10
+        }
+      ]
+    },
+    {
       "name": "valkyrie",
       "file": "valkyrie.png",
       "cell": [
@@ -4079,6 +4201,50 @@
     {
       "name": "brk_urn_5",
       "file": "prop_brk_urn_5.png"
+    },
+    {
+      "name": "shrine_ash",
+      "file": "prop_shrine_ash.png"
+    },
+    {
+      "name": "ent_charnel",
+      "file": "prop_ent_charnel.png"
+    },
+    {
+      "name": "ent_wyrm",
+      "file": "prop_ent_wyrm.png"
+    },
+    {
+      "name": "hoard_gold",
+      "file": "prop_hoard_gold.png"
+    },
+    {
+      "name": "shrine_frost",
+      "file": "prop_shrine_frost.png"
+    },
+    {
+      "name": "ent_longship",
+      "file": "prop_ent_longship.png"
+    },
+    {
+      "name": "shrine_mist",
+      "file": "prop_shrine_mist.png"
+    },
+    {
+      "name": "ent_cellar",
+      "file": "prop_ent_cellar.png"
+    },
+    {
+      "name": "ent_manor",
+      "file": "prop_ent_manor.png"
+    },
+    {
+      "name": "bell_shrine",
+      "file": "prop_bell_shrine.png"
+    },
+    {
+      "name": "tomb_shade",
+      "file": "prop_tomb_shade.png"
     }
   ]
 }

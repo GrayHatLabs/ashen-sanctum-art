@@ -1,0 +1,30 @@
+character 48449d98-251b-4235-8b67-11adfabec341
+fetched npc_bogwitch
+made npc_bogwitch
+character 5b8b3801-4c8e-44e2-81bd-a15656462d55
+fetched boss_gravedigger
+made boss_gravedigger
+have boss_firewyrm
+have boss_wellwitch
+requested boss_gravedigger giant ghoul lumbering forward dragging a shovel ['south', 'south-east', 'east', 'north-east', 'north']
+boss_gravedigger giant ghoul lumbering forward dragging a shovel now ['east', 'north', 'north-east', 'south']
+boss_gravedigger giant ghoul lumbering forward dragging a shovel now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_gravedigger
+done boss_gravedigger giant ghoul lumbering forward dragging a shovel
+requested boss_gravedigger giant ghoul slamming the shovel down onto the ground ['south', 'south-east', 'east', 'north-east', 'north']
+boss_gravedigger giant ghoul slamming the shovel down onto the ground now ['east', 'south-east']
+boss_gravedigger giant ghoul slamming the shovel down onto the ground now ['east', 'north', 'south-east']
+boss_gravedigger giant ghoul slamming the shovel down onto the ground now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_gravedigger
+done boss_gravedigger giant ghoul slamming the shovel down onto the ground
+fetched boss_firewyrm
+done boss_firewyrm dragon prowling forward on all four legs, wings folded
+fetched boss_firewyrm
+done boss_firewyrm dragon lowering its head and breathing a torrent of fire, staying on all four legs
+fetched boss_firewyrm
+done boss_firewyrm dragon lying down curled up asleep on the ground, breathing slowly, eyes closed
+fetched boss_wellwitch
+done boss_wellwitch hag witch hobbling forward leaning on her staff
+fetched boss_wellwitch
+done boss_wellwitch hag witch thrusting her skull staff forward to cast a green curse
+side chars done

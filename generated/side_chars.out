@@ -1,0 +1,16 @@
+character c8a8cfbc-6ea8-459d-8728-dd6de12e98df
+fetched boss_wellwitch
+made boss_wellwitch
+requested boss_wellwitch hag witch hobbling forward leaning on her staff ['south', 'south-east', 'east', 'north-east', 'north']
+boss_wellwitch hag witch hobbling forward leaning on her staff now ['east']
+boss_wellwitch hag witch hobbling forward leaning on her staff now ['east', 'north-east', 'south']
+boss_wellwitch hag witch hobbling forward leaning on her staff now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_wellwitch
+done boss_wellwitch hag witch hobbling forward leaning on her staff
+requested boss_wellwitch hag witch thrusting her skull staff forward to cast a green curse ['south', 'south-east', 'east', 'north-east', 'north']
+boss_wellwitch hag witch thrusting her skull staff forward to cast a green curse now ['south-east']
+boss_wellwitch hag witch thrusting her skull staff forward to cast a green curse now ['north-east', 'south-east']
+boss_wellwitch hag witch thrusting her skull staff forward to cast a green curse now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_wellwitch
+done boss_wellwitch hag witch thrusting her skull staff forward to cast a green curse
+side chars done

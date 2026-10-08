@@ -1,0 +1,27 @@
+character f05013d5-e344-4e72-8a97-0cacc5a08a39
+fetched boss_firewyrm
+made boss_firewyrm
+have boss_wellwitch
+requested boss_firewyrm dragon prowling forward on all four legs, wings folded ['south', 'south-east', 'east', 'north-east', 'north']
+boss_firewyrm dragon prowling forward on all four legs, wings folded now ['east', 'north', 'north-east']
+boss_firewyrm dragon prowling forward on all four legs, wings folded now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_firewyrm
+done boss_firewyrm dragon prowling forward on all four legs, wings folded
+requested boss_firewyrm dragon lowering its head and breathing a torrent of fire, staying on all four legs ['south', 'south-east', 'east', 'north-east', 'north']
+boss_firewyrm dragon lowering its head and breathing a torrent of fire, staying on all four legs now ['south']
+boss_firewyrm dragon lowering its head and breathing a torrent of fire, staying on all four legs now ['north', 'south']
+boss_firewyrm dragon lowering its head and breathing a torrent of fire, staying on all four legs now ['east', 'north', 'south']
+boss_firewyrm dragon lowering its head and breathing a torrent of fire, staying on all four legs now ['east', 'north', 'north-east', 'south']
+boss_firewyrm dragon lowering its head and breathing a torrent of fire, staying on all four legs now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_firewyrm
+done boss_firewyrm dragon lowering its head and breathing a torrent of fire, staying on all four legs
+requested boss_firewyrm dragon lying down curled up asleep on the ground, breathing slowly, eyes closed ['south', 'south-east', 'east', 'north-east', 'north']
+boss_firewyrm dragon lying down curled up asleep on the ground, breathing slowly, eyes closed now ['north-east']
+boss_firewyrm dragon lying down curled up asleep on the ground, breathing slowly, eyes closed now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_firewyrm
+done boss_firewyrm dragon lying down curled up asleep on the ground, breathing slowly, eyes closed
+fetched boss_wellwitch
+done boss_wellwitch hag witch hobbling forward leaning on her staff
+fetched boss_wellwitch
+done boss_wellwitch hag witch thrusting her skull staff forward to cast a green curse
+side chars done

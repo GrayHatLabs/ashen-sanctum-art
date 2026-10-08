@@ -20,6 +20,7 @@ HEADS = "small head, realistic adult body proportions, long legs"
 
 PROPS = [
     # Act 5: the Drowned Deep
+    ("kraken_arm", "one long thick octopus tentacle arm alone, no head, no eyes, no body, rising straight up from the ground and curling over at the tip like a shepherd's crook, dark murky purple-grey skin, two rows of round pale suckers on the inner side, a few barnacles, realistic muted dark colours, a single isometric object", 64, 104),
     ("shrine_coral", "a small undersea shrine: a pale coral and mother-of-pearl altar shaped like a giant scallop shell, a glowing cyan pearl in its middle, kelp at its base, a single isometric object", 40, 56),
     ("ent_grotto", "a sea cave mouth in a mound of dark rock crusted with barnacles and pale coral, glowing pearls and shells around the opening, wet sand and seaweed, a single isometric object", 104, 96),
     # Act 4: Mechanus
@@ -69,7 +70,7 @@ ANIMS = [
 def props():
     for name, desc, w, h in PROPS:
         if not (GEN / name / "image.png").exists():
-            act2_art.safe(gen.prop, name, desc, w, h, "text, character, person, background, floor tiles, platform")
+            act2_art.safe(gen.prop, name, desc, w, h, "text, character, person, background, floor tiles, platform" + (", eyes, face, head, octopus body, cartoon, bright green" if name == "kraken_arm" else ""))
     print("side props done", flush=True)
 
 

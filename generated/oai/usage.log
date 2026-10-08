@@ -26,3 +26,5 @@
 2026-10-06 18:51:14 reaper_3 {"input_tokens": 288, "input_tokens_details": {"image_tokens": 0, "text_tokens": 288}, "output_tokens": 6240, "output_tokens_details": {"image_tokens": 6240, "text_tokens": 0}, "total_tokens": 6528}
 2026-10-06 18:52:13 reaper_4 {"input_tokens": 288, "input_tokens_details": {"image_tokens": 0, "text_tokens": 288}, "output_tokens": 6240, "output_tokens_details": {"image_tokens": 6240, "text_tokens": 0}, "total_tokens": 6528}
 2026-10-08 13:05:47 sprite_junkgolem_0 {"input_tokens": 280, "input_tokens_details": {"image_tokens": 0, "text_tokens": 280}, "output_tokens": 6208, "output_tokens_details": {"image_tokens": 6208, "text_tokens": 0}, "total_tokens": 6488}
+2026-10-08 13:26:25 sprite_barnacle_0 {"input_tokens": 278, "input_tokens_details": {"image_tokens": 0, "text_tokens": 278}, "output_tokens": 6208, "output_tokens_details": {"image_tokens": 6208, "text_tokens": 0}, "total_tokens": 6486}
+2026-10-08 13:28:28 kraken_arm_0 {"input_tokens": 144, "input_tokens_details": {"image_tokens": 0, "text_tokens": 144}, "output_tokens": 6240, "output_tokens_details": {"image_tokens": 6240, "text_tokens": 0}, "total_tokens": 6384}

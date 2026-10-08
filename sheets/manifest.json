@@ -2349,6 +2349,26 @@
       ]
     },
     {
+      "name": "boss_barnacle",
+      "file": "boss_barnacle.png",
+      "cell": [
+        61,
+        84
+      ],
+      "anchor": [
+        31,
+        82
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
       "name": "boss_gravedigger",
       "file": "boss_gravedigger.png",
       "cell": [
@@ -4333,6 +4353,10 @@
     {
       "name": "ent_grotto",
       "file": "prop_ent_grotto.png"
+    },
+    {
+      "name": "kraken_arm",
+      "file": "prop_kraken_arm.png"
     }
   ]
 }

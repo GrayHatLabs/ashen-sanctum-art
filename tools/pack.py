@@ -149,6 +149,8 @@ CHARS = {
     "boss_junkgolem": [("idle", None, 1)],
     # OpenAI turnaround (tools/barnacle_oai.py, 2026-10-08): idle only, the game bobs it.
     "boss_barnacle": [("idle", None, 1)],
+    # OpenAI turnaround (tools/astronomer_oai.py, 2026-10-08): idle only.
+    "boss_astronomer": [("idle", None, 1)],
     "boss_gravedigger": [("idle", None, 1), ("walk", "giant ghoul lumbering forward dragging a shovel", 7),
                          ("attack", "giant ghoul slamming the shovel down onto the ground", 10)],
     "boss_wellwitch": [("idle", None, 1), ("walk", "hag witch hobbling forward leaning on her staff", 7),
@@ -373,7 +375,8 @@ PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "hous
          # Side content (tools/side_art.py).
          "shrine_ash", "ent_charnel", "ent_wyrm", "hoard_gold",
          "shrine_frost", "ent_longship", "shrine_mist", "ent_cellar", "ent_manor", "bell_shrine", "tomb_shade",
-         "shrine_gear", "ent_scrapheap", "shrine_coral", "ent_grotto", "kraken_arm"]
+         "shrine_gear", "ent_scrapheap", "shrine_coral", "ent_grotto", "kraken_arm",
+         "shrine_sky", "ent_observatory", "star_metal"]
 ITEM_SIZE = 14
 # Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
 ICON_SIZE = 24

@@ -19,6 +19,10 @@ GEN = gen.GEN
 HEADS = "small head, realistic adult body proportions, long legs"
 
 PROPS = [
+    # Act 6: the Shattered Heavens
+    ("shrine_sky", "a small sky shrine: a white marble pedestal with a pair of small carved golden wings, a floating glowing golden sun-disc above it, a few white feathers at its base, a single isometric object", 40, 56),
+    ("ent_observatory", "a ruined white marble observatory tower on a rock, its dome cracked open, a big brass telescope poking out, golden star-charts and constellations glowing on its walls, a dark arched doorway, a single isometric object", 104, 112),
+    ("star_metal", "a jagged chunk of fallen meteorite rock, dark iron-black with glowing violet and pale blue crystal veins, faint sparkles, smoking slightly, a single isometric object", 40, 40),
     # Act 5: the Drowned Deep
     ("kraken_arm", "one long thick octopus tentacle arm alone, no head, no eyes, no body, rising straight up from the ground and curling over at the tip like a shepherd's crook, dark murky purple-grey skin, two rows of round pale suckers on the inner side, a few barnacles, realistic muted dark colours, a single isometric object", 64, 104),
     ("shrine_coral", "a small undersea shrine: a pale coral and mother-of-pearl altar shaped like a giant scallop shell, a glowing cyan pearl in its middle, kelp at its base, a single isometric object", 40, 56),

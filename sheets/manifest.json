@@ -2369,6 +2369,26 @@
       ]
     },
     {
+      "name": "boss_astronomer",
+      "file": "boss_astronomer.png",
+      "cell": [
+        64,
+        96
+      ],
+      "anchor": [
+        31,
+        94
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
       "name": "boss_gravedigger",
       "file": "boss_gravedigger.png",
       "cell": [
@@ -4357,6 +4377,18 @@
     {
       "name": "kraken_arm",
       "file": "prop_kraken_arm.png"
+    },
+    {
+      "name": "shrine_sky",
+      "file": "prop_shrine_sky.png"
+    },
+    {
+      "name": "ent_observatory",
+      "file": "prop_ent_observatory.png"
+    },
+    {
+      "name": "star_metal",
+      "file": "prop_star_metal.png"
     }
   ]
 }

@@ -1,0 +1,51 @@
+character aa01b2c6-0c1a-4983-9db4-72a568da1cc9
+fetched npc_magistrate
+made npc_magistrate
+character 15aa9264-b833-4336-b51e-af20485698c6
+fetched automaton
+made automaton
+character 3559ffa8-6bd5-477f-9125-9c0544e1e893
+fetched boss_junkgolem
+made boss_junkgolem
+have npc_bogwitch
+have boss_gravedigger
+have boss_firewyrm
+have boss_wellwitch
+requested automaton clockwork knight marching forward stiffly ['south', 'south-east', 'east', 'north-east', 'north']
+automaton clockwork knight marching forward stiffly now ['east', 'north', 'south']
+automaton clockwork knight marching forward stiffly now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched automaton
+done automaton clockwork knight marching forward stiffly
+requested automaton clockwork knight slashing with its gear blade ['south', 'south-east', 'east', 'north-east', 'north']
+automaton clockwork knight slashing with its gear blade now ['north', 'south']
+automaton clockwork knight slashing with its gear blade now ['north', 'south', 'south-east']
+automaton clockwork knight slashing with its gear blade now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched automaton
+done automaton clockwork knight slashing with its gear blade
+requested boss_junkgolem scrap golem stomping forward heavily ['south', 'south-east', 'east', 'north-east', 'north']
+boss_junkgolem scrap golem stomping forward heavily now ['east', 'north', 'north-east', 'south']
+boss_junkgolem scrap golem stomping forward heavily now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_junkgolem
+done boss_junkgolem scrap golem stomping forward heavily
+requested boss_junkgolem scrap golem smashing both iron fists down ['south', 'south-east', 'east', 'north-east', 'north']
+boss_junkgolem scrap golem smashing both iron fists down now ['north']
+boss_junkgolem scrap golem smashing both iron fists down now ['north', 'north-east', 'south-east']
+boss_junkgolem scrap golem smashing both iron fists down now ['north', 'north-east', 'south', 'south-east']
+boss_junkgolem scrap golem smashing both iron fists down now ['east', 'north', 'north-east', 'south', 'south-east']
+fetched boss_junkgolem
+done boss_junkgolem scrap golem smashing both iron fists down
+fetched boss_gravedigger
+done boss_gravedigger giant ghoul lumbering forward dragging a shovel
+fetched boss_gravedigger
+done boss_gravedigger giant ghoul slamming the shovel down onto the ground
+fetched boss_firewyrm
+done boss_firewyrm dragon prowling forward on all four legs, wings folded
+fetched boss_firewyrm
+done boss_firewyrm dragon lowering its head and breathing a torrent of fire, staying on all four legs
+fetched boss_firewyrm
+done boss_firewyrm dragon lying down curled up asleep on the ground, breathing slowly, eyes closed
+fetched boss_wellwitch
+done boss_wellwitch hag witch hobbling forward leaning on her staff
+fetched boss_wellwitch
+done boss_wellwitch hag witch thrusting her skull staff forward to cast a green curse
+side chars done

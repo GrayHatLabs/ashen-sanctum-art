@@ -371,7 +371,7 @@ PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "hous
          # Side content (tools/side_art.py).
          "shrine_ash", "ent_charnel", "ent_wyrm", "hoard_gold",
          "shrine_frost", "ent_longship", "shrine_mist", "ent_cellar", "ent_manor", "bell_shrine", "tomb_shade",
-         "shrine_gear", "ent_scrapheap"]
+         "shrine_gear", "ent_scrapheap", "shrine_coral", "ent_grotto"]
 ITEM_SIZE = 14
 # Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
 ICON_SIZE = 24

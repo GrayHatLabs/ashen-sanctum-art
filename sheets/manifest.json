@@ -4325,6 +4325,14 @@
     {
       "name": "ent_scrapheap",
       "file": "prop_ent_scrapheap.png"
+    },
+    {
+      "name": "shrine_coral",
+      "file": "prop_shrine_coral.png"
+    },
+    {
+      "name": "ent_grotto",
+      "file": "prop_ent_grotto.png"
     }
   ]
 }

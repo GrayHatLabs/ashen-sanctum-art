@@ -790,3 +790,6 @@
 2026-10-08 14:22:05 shrine_sky prop {"type": "generations", "generations": 1.0}
 2026-10-08 14:22:25 ent_observatory prop {"type": "generations", "generations": 1.0}
 2026-10-08 14:22:55 star_metal prop {"type": "generations", "generations": 1.0}
+2026-10-08 17:40:15 chaos_knight character job=fe256d28-5e0a-4867-92f8-b3f99b6d3795 status=completed {"type": "generations", "generations": 1.0}
+2026-10-08 17:40:24 chaos_knight request armoured knight marching forward heavily ['south', 'south-east', 'east', 'north-east', 'north'] null
+2026-10-08 17:42:47 chaos_knight request armoured knight swinging a great two-handed sword overhead ['south', 'south-east', 'east', 'north-east', 'north'] null

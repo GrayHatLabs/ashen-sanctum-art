@@ -47,6 +47,7 @@ PROPS = [
 ]
 
 CHARS = [
+    ("chaos_knight", f"a mad knight in heavy blackened plate armour covered in carved rules and laws, the plates riveted together crookedly, a tall great helm with a slit visor glowing violet, a torn grey-violet tabard, a huge two-handed sword, {HEADS}", 52, "heroic", ""),
     ("npc_magistrate", f"a stern clockwork magistrate judge, tall powdered white wig over a brass mask face, long black judge's robe with brass gears and a golden scale emblem, holding a gavel, {HEADS}", 52, "heroic", ""),
     ("automaton", f"a brass clockwork automaton knight, riveted polished brass armor plates, a glowing blue eye slit, a big wind-up key in its back, a sword arm made of a gear blade, {HEADS}", 52, "heroic", ""),
     ("boss_junkgolem", "a hulking golem made of rusted scrap metal, broken gears, pipes and a cracked boiler for a chest glowing orange, mismatched huge iron fists, hunched and massive", 96, "heroic", ""),
@@ -57,6 +58,8 @@ CHARS = [
 ]
 
 ANIMS = [
+    ("chaos_knight", "armoured knight marching forward heavily", 6),
+    ("chaos_knight", "armoured knight swinging a great two-handed sword overhead", 6),
     ("automaton", "clockwork knight marching forward stiffly", 6),
     ("automaton", "clockwork knight slashing with its gear blade", 6),
     ("boss_junkgolem", "scrap golem stomping forward heavily", 6),

@@ -147,6 +147,12 @@ CHARS = {
     "automaton": [("idle", None, 1), ("walk", "clockwork knight marching forward stiffly", 8), ("attack", "clockwork knight slashing with its gear blade", 12)],
     # OpenAI turnaround, sliced (tools/junkgolem_oai.py; the user's pick 2026-10-08): idle only, the game bobs it.
     "boss_junkgolem": [("idle", None, 1)],
+    # Act 7 (churnfolk.rs): OpenAI singles and turnarounds (idle only, the game bobs them), and the chaos knight.
+    "chaos_toad": [("idle", None, 1)],
+    "chaos_blob": [("idle", None, 1)],
+    "boss_architect": [("idle", None, 1)],
+    "boss_mirrorabbot": [("idle", None, 1)],
+    "chaos_knight": [("idle", None, 1), ("walk", "armoured knight marching forward heavily", 8), ("attack", "armoured knight swinging a great two-handed sword overhead", 12)],
     # OpenAI turnaround (tools/barnacle_oai.py, 2026-10-08): idle only, the game bobs it.
     "boss_barnacle": [("idle", None, 1)],
     # OpenAI turnaround (tools/astronomer_oai.py, 2026-10-08): idle only.
@@ -376,7 +382,8 @@ PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "hous
          "shrine_ash", "ent_charnel", "ent_wyrm", "hoard_gold",
          "shrine_frost", "ent_longship", "shrine_mist", "ent_cellar", "ent_manor", "bell_shrine", "tomb_shade",
          "shrine_gear", "ent_scrapheap", "shrine_coral", "ent_grotto", "kraken_arm",
-         "shrine_sky", "ent_observatory", "star_metal"]
+         "shrine_sky", "ent_observatory", "star_metal",
+         "ent_cathedral", "ent_warren", "ent_mirrors"]
 ITEM_SIZE = 14
 # Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
 ICON_SIZE = 24

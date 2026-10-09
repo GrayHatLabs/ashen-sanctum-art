@@ -2349,6 +2349,118 @@
       ]
     },
     {
+      "name": "chaos_toad",
+      "file": "chaos_toad.png",
+      "cell": [
+        46,
+        56
+      ],
+      "anchor": [
+        23,
+        54
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "chaos_blob",
+      "file": "chaos_blob.png",
+      "cell": [
+        36,
+        30
+      ],
+      "anchor": [
+        18,
+        28
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_architect",
+      "file": "boss_architect.png",
+      "cell": [
+        32,
+        96
+      ],
+      "anchor": [
+        15,
+        83
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "boss_mirrorabbot",
+      "file": "boss_mirrorabbot.png",
+      "cell": [
+        30,
+        87
+      ],
+      "anchor": [
+        15,
+        79
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "chaos_knight",
+      "file": "chaos_knight.png",
+      "cell": [
+        68,
+        72
+      ],
+      "anchor": [
+        23,
+        56
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        },
+        {
+          "name": "walk",
+          "row": 8,
+          "frames": 6,
+          "fps": 8
+        },
+        {
+          "name": "attack",
+          "row": 16,
+          "frames": 6,
+          "fps": 12
+        }
+      ]
+    },
+    {
       "name": "boss_barnacle",
       "file": "boss_barnacle.png",
       "cell": [
@@ -4389,6 +4501,18 @@
     {
       "name": "star_metal",
       "file": "prop_star_metal.png"
+    },
+    {
+      "name": "ent_cathedral",
+      "file": "prop_ent_cathedral.png"
+    },
+    {
+      "name": "ent_warren",
+      "file": "prop_ent_warren.png"
+    },
+    {
+      "name": "ent_mirrors",
+      "file": "prop_ent_mirrors.png"
     }
   ]
 }

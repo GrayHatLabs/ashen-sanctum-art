@@ -25,6 +25,13 @@ STYLE = (
 )
 # name -> (description, max width, max height, OpenAI canvas)
 PROPS = {
+    "ent_cathedral": ("The entrance to a half-built gothic cathedral that is building and unbuilding itself: dark grey stone "
+                      "walls and a pointed arch doorway, but the upper half is floating loose blocks, broken scaffolding "
+                      "and bricks hanging in the air, faint violet light in the dark doorway, rubble at its base.", 104, 112, "1024x1024"),
+    "ent_warren": ("A big muddy burrow mouth in a mound of wet dark earth and violet slime, ringed with huge toad bones, "
+                   "crude totems and bubbling pools, a dark tunnel going down, dripping roots.", 104, 96, "1024x1024"),
+    "ent_mirrors": ("The ruined gate of a monastery hall: two cracked stone pillars and a broken arch, tall shards of mirror "
+                    "glass standing in the rubble reflecting violet light, a dark doorway between them.", 104, 112, "1024x1024"),
     "shrine_sky": ("A small ancient sky shrine: a weathered, cracked white marble pedestal with a pair of carved stone angel "
                    "wings folded on its sides, a small floating sun-disc of tarnished gold glowing softly above it, a few "
                    "fallen feathers and moss at its base.", 40, 56, "1024x1536"),

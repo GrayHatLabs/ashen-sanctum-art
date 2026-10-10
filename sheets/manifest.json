@@ -2449,6 +2449,46 @@
       ]
     },
     {
+      "name": "boss_dicesaint",
+      "file": "boss_dicesaint.png",
+      "cell": [
+        52,
+        73
+      ],
+      "anchor": [
+        26,
+        71
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
+      "name": "vault_coffer",
+      "file": "vault_coffer.png",
+      "cell": [
+        30,
+        28
+      ],
+      "anchor": [
+        15,
+        26
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
       "name": "chaos_knight",
       "file": "chaos_knight.png",
       "cell": [
@@ -4541,6 +4581,14 @@
     {
       "name": "stillpoint",
       "file": "prop_stillpoint.png"
+    },
+    {
+      "name": "ent_vault",
+      "file": "prop_ent_vault.png"
+    },
+    {
+      "name": "shrine_chaos",
+      "file": "prop_shrine_chaos.png"
     }
   ]
 }

@@ -25,6 +25,13 @@ STYLE = (
 )
 # name -> (description, max width, max height, OpenAI canvas)
 PROPS = {
+    "ent_vault": ("The way into the Probability Vault: a squat round stone vault door set into a mound of floating rock, the "
+                  "huge circular door carved like a roulette wheel with numbered segments, two giant stone dice flanking it, "
+                  "violet light leaking around the door's rim.", 96, 92, "1024x1024"),
+    "shrine_chaos": ("The Chaos Roulette shrine, well lit: a waist-high pillar of pale grey weathered stone topped by a "
+                     "big wheel of fortune with six vivid, brightly painted segments (bright red, bright blue, bright green, "
+                     "bright gold, white and violet), each with a black rune, a crooked iron pointer above it, a few violet "
+                     "sparks around it. Clear, high-contrast colours.", 40, 58, "1024x1024"),
     "stillpoint": ("The Stillpoint: a small perfect sphere of pale silver-blue light held motionless inside a delicate brass "
                    "clockwork cage of concentric rings, resting on a short fluted bronze pedestal with gear engravings; the "
                    "air around it is utterly calm, faint frozen dust motes hang in place around the sphere.", 40, 56, "1024x1024"),

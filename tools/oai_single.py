@@ -26,6 +26,13 @@ STYLE = (
 )
 # name -> (description, width in game pixels)
 MONSTERS = {
+    "boss_dicesaint": ("The Dice-Saint, a tall gaunt robed saint of chance: tattered violet and gold vestments embroidered with "
+                       "dice pips, a halo made of six floating ivory dice, a face hidden behind a smooth white porcelain mask "
+                       "with a single painted eye, long fingers holding a pair of huge bone dice, more dice on chains hanging "
+                       "from the belt. Holy and sinister at once. A humanoid figure, standing.", 52),
+    "vault_coffer": ("A heavy ornate treasure coffer from a gambler's vault: dark wood bound in tarnished brass, its lid "
+                     "carved with dice pips, a big brass lock shaped like a die, a faint violet glow leaking from the seam "
+                     "of the lid. Closed. Just the chest.", 30),
     "boss_ylgrath": ("Ylgrath the Unshaped, a towering being of raw chaos given a will: a storm of every element at once, "
                      "a churning column of violet and gold smoke with fire, ice shards, lightning and seawater swirling "
                      "through it, dozens of mismatched eyes and half-formed mouths opening and closing in the storm, "

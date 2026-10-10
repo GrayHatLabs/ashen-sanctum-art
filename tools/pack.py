@@ -152,6 +152,7 @@ CHARS = {
     "chaos_blob": [("idle", None, 1)],
     "boss_architect": [("idle", None, 1)],
     "boss_mirrorabbot": [("idle", None, 1)],
+    "boss_ylgrath": [("idle", None, 1)],
     "chaos_knight": [("idle", None, 1), ("walk", "armoured knight marching forward heavily", 8), ("attack", "armoured knight swinging a great two-handed sword overhead", 12)],
     # OpenAI turnaround (tools/barnacle_oai.py, 2026-10-08): idle only, the game bobs it.
     "boss_barnacle": [("idle", None, 1)],
@@ -383,7 +384,7 @@ PROPS = ["tree_oak", "tree_pine", "tree_dead", "rock1", "bush1", "house1", "hous
          "shrine_frost", "ent_longship", "shrine_mist", "ent_cellar", "ent_manor", "bell_shrine", "tomb_shade",
          "shrine_gear", "ent_scrapheap", "shrine_coral", "ent_grotto", "kraken_arm",
          "shrine_sky", "ent_observatory", "star_metal",
-         "ent_cathedral", "ent_warren", "ent_mirrors"]
+         "ent_cathedral", "ent_warren", "ent_mirrors", "ent_eye", "stillpoint"]
 ITEM_SIZE = 14
 # Equipment icons (tools/items_art.py): longest side ICON_SIZE px in the inventory.
 ICON_SIZE = 24

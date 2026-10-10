@@ -2429,6 +2429,26 @@
       ]
     },
     {
+      "name": "boss_ylgrath",
+      "file": "boss_ylgrath.png",
+      "cell": [
+        120,
+        132
+      ],
+      "anchor": [
+        60,
+        130
+      ],
+      "anims": [
+        {
+          "name": "idle",
+          "row": 0,
+          "frames": 1,
+          "fps": 1
+        }
+      ]
+    },
+    {
       "name": "chaos_knight",
       "file": "chaos_knight.png",
       "cell": [
@@ -4513,6 +4533,14 @@
     {
       "name": "ent_mirrors",
       "file": "prop_ent_mirrors.png"
+    },
+    {
+      "name": "ent_eye",
+      "file": "prop_ent_eye.png"
+    },
+    {
+      "name": "stillpoint",
+      "file": "prop_stillpoint.png"
     }
   ]
 }

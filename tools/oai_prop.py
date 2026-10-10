@@ -25,6 +25,12 @@ STYLE = (
 )
 # name -> (description, max width, max height, OpenAI canvas)
 PROPS = {
+    "stillpoint": ("The Stillpoint: a small perfect sphere of pale silver-blue light held motionless inside a delicate brass "
+                   "clockwork cage of concentric rings, resting on a short fluted bronze pedestal with gear engravings; the "
+                   "air around it is utterly calm, faint frozen dust motes hang in place around the sphere.", 40, 56, "1024x1024"),
+    "ent_eye": ("The way into the Eye of the Churn: a huge round vortex opening in the ground ringed by broken stone and "
+                "floating debris, swirling violet and gold light spiralling down into darkness at its centre, shards of "
+                "rock hanging in the air around it.", 104, 96, "1024x1024"),
     "ent_cathedral": ("The entrance to a half-built gothic cathedral that is building and unbuilding itself: dark grey stone "
                       "walls and a pointed arch doorway, but the upper half is floating loose blocks, broken scaffolding "
                       "and bricks hanging in the air, faint violet light in the dark doorway, rubble at its base.", 104, 112, "1024x1024"),

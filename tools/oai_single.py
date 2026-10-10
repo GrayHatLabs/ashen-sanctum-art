@@ -26,6 +26,11 @@ STYLE = (
 )
 # name -> (description, width in game pixels)
 MONSTERS = {
+    "boss_ylgrath": ("Ylgrath the Unshaped, a towering being of raw chaos given a will: a storm of every element at once, "
+                     "a churning column of violet and gold smoke with fire, ice shards, lightning and seawater swirling "
+                     "through it, dozens of mismatched eyes and half-formed mouths opening and closing in the storm, "
+                     "broken pieces of other monsters (a crown, a dragon's horn, gears, a tentacle, a halo) caught and "
+                     "turning inside it. Huge, terrifying, not a person.", 120),
     "chaos_toad": ("A huge muscular toad-like brute standing on its hind legs, as tall as a man, warty grey-white "
                    "skin with no colour of its own (it will be tinted), a wide frog mouth full of jagged teeth, "
                    "long clawed arms, small cunning eyes, crude bone bracelets. A monster, not a cartoon frog.", 46),
